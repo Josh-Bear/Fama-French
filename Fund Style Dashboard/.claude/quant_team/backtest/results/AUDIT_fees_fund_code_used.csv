@@ -1,0 +1,221 @@
+﻿fund,code,n_use,values_used,sources
+ABIG,BF,6,0,snapshot เก่าสุด
+ABIG,FF,3,1.5,snapshot เก่าสุด
+ABIG,SI,3,0,snapshot เก่าสุด
+ABIG,SO,6,0,snapshot เก่าสุด
+ASP-IHEALTH,BF,2,0,median: ค่าใช้ไม่ได้
+ASP-IHEALTH,FF,2,1.25,snapshot เก่าสุด
+ASP-IHEALTH,SI,2,1.25,snapshot เก่าสุด
+ASP-IHEALTH,SO,2,0,median: ค่าใช้ไม่ได้
+ASP-NGF,BF,6,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+ASP-NGF,FF,15,1.5,snapshot เก่าสุด
+ASP-NGF,SI,15,1.5,snapshot เก่าสุด
+ASP-NGF,SO,6,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+ASP-VIET,BF,2,0,snapshot เก่าสุด
+ASP-VIET,FF,2,1.25,snapshot เก่าสุด
+ASP-VIET,SI,2,1.25,snapshot เก่าสุด
+ASP-VIET,SO,2,0,snapshot เก่าสุด
+B-BHARATA,BF,7,0,snapshot เก่าสุด
+B-BHARATA,FF,4,1,snapshot เก่าสุด
+B-BHARATA,SI,4,0,snapshot เก่าสุด
+B-BHARATA,SO,7,0,snapshot เก่าสุด
+DAOL-GOLD,FF,5,1.605,snapshot เก่าสุด
+DAOL-GOLD,SI,5,1.605,snapshot เก่าสุด
+DAOL-PLAY,BF,1,0,snapshot เก่าสุด
+DAOL-PLAY,FF,4,1.605,snapshot เก่าสุด
+DAOL-PLAY,SI,4,1.605,snapshot เก่าสุด
+DAOL-PLAY,SO,1,0,snapshot เก่าสุด
+EHD,BF,3,0,snapshot เก่าสุด
+EHD,FF,6,1.5,snapshot เก่าสุด
+EHD,SI,6,0,snapshot เก่าสุด
+EHD,SO,3,0,snapshot เก่าสุด
+ES-GINFRA-A,BF,2,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+ES-GINFRA-A,FF,2,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+ES-GINFRA-A,SI,2,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+ES-GINFRA-A,SO,2,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+ES-USTECH,BF,1,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+ES-USTECH,FF,1,1,snapshot เก่าสุด
+ES-USTECH,SI,1,1,snapshot เก่าสุด
+ES-USTECH,SO,1,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+FCSCBSETE,BF,2,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+FCSCBSETE,FF,6,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+FCSCBSETE,SI,6,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+FCSCBSETE,SO,2,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+JSM,BF,2,0,snapshot เก่าสุด
+JSM,FF,2,1.5,snapshot เก่าสุด
+JSM,SI,2,1.5,snapshot เก่าสุด
+JSM,SO,2,0,snapshot เก่าสุด
+K-AEC,BF,2,0,snapshot เก่าสุด
+K-AEC,FF,4,1.5,snapshot เก่าสุด
+K-AEC,SI,4,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-AEC,SO,2,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-EUX,BF,3,0.15,snapshot เก่าสุด
+K-EUX,FF,5,0,snapshot เก่าสุด
+K-EUX,SI,5,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-EUX,SO,3,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-INDX,BF,1,0.15,snapshot เก่าสุด
+K-INDX,FF,1,0,snapshot เก่าสุด
+K-INDX,SI,1,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-INDX,SO,1,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-JPX-A(A),BF,1,0.15,snapshot เก่าสุด
+K-JPX-A(A),FF,2,0,snapshot เก่าสุด
+K-JPX-A(A),SI,2,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-JPX-A(A),SO,1,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-US500X-A(A),BF,1,0.15,snapshot เก่าสุด
+K-US500X-A(A),FF,2,0,snapshot เก่าสุด
+K-US500X-A(A),SI,2,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-US500X-A(A),SO,1,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-USXNDQ-A(A),BF,3,0.15,ค่าจริง
+K-USXNDQ-A(A),FF,3,0,ค่าจริง
+K-USXNDQ-A(A),SI,3,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-USXNDQ-A(A),SO,3,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-VIETNAM,BF,2,0,snapshot เก่าสุด
+K-VIETNAM,FF,2,1.5,snapshot เก่าสุด
+K-VIETNAM,SI,2,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+K-VIETNAM,SO,2,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+KKP GINFRAEQ-H-F,BF,9,0,snapshot เก่าสุด
+KKP GINFRAEQ-H-F,FF,5,0,snapshot เก่าสุด
+KKP GINFRAEQ-H-F,SI,5,0,snapshot เก่าสุด
+KKP GINFRAEQ-H-F,SO,9,0,snapshot เก่าสุด
+KKP NDQ100-H-F,BF,2,0,snapshot เก่าสุด
+KKP NDQ100-H-F,FF,1,0,snapshot เก่าสุด
+KKP NDQ100-H-F,SI,1,0,snapshot เก่าสุด
+KKP NDQ100-H-F,SO,2,0,snapshot เก่าสุด
+KKP SEMICON-H,BF,2,0,snapshot เก่าสุด
+KKP SEMICON-H,FF,3,0,snapshot เก่าสุด
+KKP SEMICON-H,SI,3,0,snapshot เก่าสุด
+KKP SEMICON-H,SO,2,0,snapshot เก่าสุด
+KKP TECH-H,BF,6,0,snapshot เก่าสุด
+KKP TECH-H,FF,3,0,snapshot เก่าสุด
+KKP TECH-H,SI,3,0,snapshot เก่าสุด
+KKP TECH-H,SO,6,0,snapshot เก่าสุด
+KT-FINANCE-A,BF,4,0,snapshot เก่าสุด
+KT-FINANCE-A,FF,2,1.5,snapshot เก่าสุด
+KT-FINANCE-A,SI,2,1.5,snapshot เก่าสุด
+KT-FINANCE-A,SO,4,0,snapshot เก่าสุด
+KT-INDIA-A,BF,6,0,ค่าจริง
+KT-INDIA-A,FF,4,0,ค่าจริง
+KT-INDIA-A,SI,4,0,ค่าจริง
+KT-INDIA-A,SO,6,0,ค่าจริง
+KT-MINING,BF,3,0,snapshot เก่าสุด
+KT-MINING,FF,5,1.5,snapshot เก่าสุด
+KT-MINING,SI,5,1.5,snapshot เก่าสุด
+KT-MINING,SO,3,0,snapshot เก่าสุด
+LHESPORT-A,BF,3,0,snapshot เก่าสุด
+LHESPORT-A,FF,5,1.25,snapshot เก่าสุด
+LHESPORT-A,SI,5,1.25,snapshot เก่าสุด
+LHESPORT-A,SO,3,0,snapshot เก่าสุด
+LHINDIAE-A,BF,1,0,ค่าจริง
+LHINDIAE-A,FF,1,1,ค่าจริง
+LHINDIAE-A,SI,1,1,ค่าจริง
+LHINDIAE-A,SO,1,0,ค่าจริง
+LHUSFIN-A,BF,3,0,snapshot เก่าสุด
+LHUSFIN-A,FF,3,1.5,snapshot เก่าสุด
+LHUSFIN-A,SI,3,1.5,snapshot เก่าสุด
+LHUSFIN-A,SO,3,0,snapshot เก่าสุด
+M-EUBANK,BF,3,0,snapshot เก่าสุด
+M-EUBANK,FF,5,1.5,snapshot เก่าสุด
+M-EUBANK,SI,5,0,snapshot เก่าสุด
+M-EUBANK,SO,3,0,snapshot เก่าสุด
+MEURO,BF,2,0,snapshot เก่าสุด
+MEURO,FF,3,1.5,snapshot เก่าสุด
+MEURO,SI,3,0,snapshot เก่าสุด
+MEURO,SO,2,0,snapshot เก่าสุด
+ONE-EUROEQ,BF,2,0,snapshot เก่าสุด
+ONE-EUROEQ,FF,3,1.5,snapshot เก่าสุด
+ONE-EUROEQ,SI,3,1.5,snapshot เก่าสุด
+ONE-EUROEQ,SO,2,0,snapshot เก่าสุด
+ONE-GLOBFIN-IA,BF,3,0,ค่าจริง
+ONE-GLOBFIN-IA,FF,2,1.07,ค่าจริง
+ONE-GLOBFIN-IA,SI,2,1.07,ค่าจริง
+ONE-GLOBFIN-IA,SO,3,0,ค่าจริง
+ONE-GLOBFIN-RA,FF,2,1.5,ค่าจริง
+ONE-GLOBFIN-RA,SI,2,1.5,ค่าจริง
+ONE-INDIAOPP-IA,BF,4,0,ค่าจริง
+ONE-INDIAOPP-IA,FF,2,1.07,ค่าจริง
+ONE-INDIAOPP-IA,SI,2,1.07,ค่าจริง
+ONE-INDIAOPP-IA,SO,4,0,ค่าจริง
+ONE-UJE-RA,BF,2,0,snapshot เก่าสุด
+ONE-UJE-RA,FF,2,1.5,snapshot เก่าสุด
+ONE-UJE-RA,SI,2,1.5,snapshot เก่าสุด
+ONE-UJE-RA,SO,2,0,snapshot เก่าสุด
+ONE-VIETNAM-RA,BF,2,0,snapshot เก่าสุด
+ONE-VIETNAM-RA,FF,2,1.5,snapshot เก่าสุด
+ONE-VIETNAM-RA,SI,2,1.5,snapshot เก่าสุด
+ONE-VIETNAM-RA,SO,2,0,snapshot เก่าสุด
+PRINCIPAL GCLEAN-A,BF,1,0,snapshot เก่าสุด
+PRINCIPAL GCLEAN-A,FF,1,1.5,snapshot เก่าสุด
+PRINCIPAL GCLEAN-A,SI,1,1.5,snapshot เก่าสุด
+PRINCIPAL GCLEAN-A,SO,1,0,snapshot เก่าสุด
+PRINCIPAL GIF,BF,8,0,snapshot เก่าสุด
+PRINCIPAL GIF,FF,6,1.5,snapshot เก่าสุด
+PRINCIPAL GIF,SI,6,1.5,snapshot เก่าสุด
+PRINCIPAL GIF,SO,8,0,snapshot เก่าสุด
+PRINCIPAL GOPP-X,BF,1,0,ค่าจริง
+PRINCIPAL GOPP-X,FF,1,0,ค่าจริง
+PRINCIPAL GOPP-X,SI,1,0,ค่าจริง
+PRINCIPAL GOPP-X,SO,1,0,ค่าจริง
+PRINCIPAL VNEQ-A,BF,2,0,snapshot เก่าสุด
+PRINCIPAL VNEQ-A,FF,2,1.5,snapshot เก่าสุด
+PRINCIPAL VNEQ-A,SI,2,1.5,snapshot เก่าสุด
+PRINCIPAL VNEQ-A,SO,2,0,snapshot เก่าสุด
+TCHT5M4,BF,1,0,ค่าจริง
+TCHT5M4,FF,2,1,ค่าจริง
+TCHT5M4,SI,2,0,ค่าจริง
+TCHT5M4,SO,1,0,ค่าจริง
+TISCOC21,BF,1,0,snapshot เก่าสุด
+TISCOC21,FF,2,1,snapshot เก่าสุด
+TISCOC21,SI,2,0,snapshot เก่าสุด
+TISCOC21,SO,1,0,snapshot เก่าสุด
+TISCOCH,BF,1,0,snapshot เก่าสุด
+TISCOCH,FF,2,1,snapshot เก่าสุด
+TISCOCH,SI,2,0,snapshot เก่าสุด
+TISCOCH,SO,1,0,snapshot เก่าสุด
+TISCOEU-A,BF,3,0,ค่าจริง
+TISCOEU-A,FF,5,0,snapshot เก่าสุด; ค่าจริง
+TISCOEU-A,SI,5,0,snapshot เก่าสุด; ค่าจริง
+TISCOEU-A,SO,3,1,ค่าจริง
+TISCOGIF-R,BF,2,0,snapshot เก่าสุด
+TISCOGIF-R,FF,1,1.25,snapshot เก่าสุด
+TISCOGIF-R,SI,1,0,snapshot เก่าสุด
+TISCOGIF-R,SO,2,0,snapshot เก่าสุด
+TISCOIN,BF,3,0,snapshot เก่าสุด
+TISCOIN,FF,2,1,snapshot เก่าสุด
+TISCOIN,SI,2,0,snapshot เก่าสุด
+TISCOIN,SO,3,0,snapshot เก่าสุด
+TISCOINA-A,BF,6,0,snapshot เก่าสุด
+TISCOINA-A,FF,4,1.25,snapshot เก่าสุด
+TISCOINA-A,SI,4,0,snapshot เก่าสุด
+TISCOINA-A,SO,6,0,snapshot เก่าสุด
+TISCOJP,BF,6,0,ค่าจริง
+TISCOJP,FF,4,1,ค่าจริง
+TISCOJP,SI,4,0,ค่าจริง
+TISCOJP,SO,6,0,ค่าจริง
+TISTECH-A,BF,2,0,snapshot เก่าสุด
+TISTECH-A,FF,2,1.25,snapshot เก่าสุด
+TISTECH-A,SI,2,0,snapshot เก่าสุด
+TISTECH-A,SO,2,0,snapshot เก่าสุด
+TMBGINFRA,BF,7,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+TMBGINFRA,FF,3,1.5,snapshot เก่าสุด
+TMBGINFRA,SI,3,1.5,snapshot เก่าสุด
+TMBGINFRA,SO,7,0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้
+TNEXTGEN-A,FF,2,1.25,snapshot เก่าสุด
+TNEXTGEN-A,SI,2,0,snapshot เก่าสุด
+TUSFIN-A,BF,4,0,snapshot เก่าสุด
+TUSFIN-A,FF,5,1,snapshot เก่าสุด
+TUSFIN-A,SI,5,0,snapshot เก่าสุด
+TUSFIN-A,SO,4,0,snapshot เก่าสุด
+TUSTECH-A,BF,1,0,snapshot เก่าสุด
+TUSTECH-A,FF,1,1,snapshot เก่าสุด
+TUSTECH-A,SI,1,0,snapshot เก่าสุด
+TUSTECH-A,SO,1,0,snapshot เก่าสุด
+UCI,FF,2,1.5,snapshot เก่าสุด
+UCI,SI,2,1.5,snapshot เก่าสุด
+UOBSJSM,BF,2,0,snapshot เก่าสุด
+UOBSJSM,FF,2,1.5,snapshot เก่าสุด
+UOBSJSM,SI,2,1.5,snapshot เก่าสุด
+UOBSJSM,SO,2,0,snapshot เก่าสุด
+UVO,BF,2,0,snapshot เก่าสุด
+UVO,FF,2,1.5,snapshot เก่าสุด
+UVO,SI,2,1.5,snapshot เก่าสุด
+UVO,SO,2,0,snapshot เก่าสุด

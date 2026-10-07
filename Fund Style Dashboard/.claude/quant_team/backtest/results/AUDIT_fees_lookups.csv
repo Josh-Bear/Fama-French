@@ -1,0 +1,1329 @@
+﻿model,k,e,fund,amc,code,used_in_entry,side,value_pct,source,snapshot
+M004-TF-FX,0,2022-04-04,ASP-VIET,ASSETFUND,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M004-TF-FX,0,2022-04-04,ASP-VIET,ASSETFUND,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M004-TF-FX,0,2022-04-04,ASP-VIET,ASSETFUND,SI,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M004-TF-FX,0,2022-04-04,ASP-VIET,ASSETFUND,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M004-TF-FX,0,2022-04-04,K-VIETNAM,KASSET,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-13
+M004-TF-FX,0,2022-04-04,K-VIETNAM,KASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-13
+M004-TF-FX,0,2022-04-04,K-VIETNAM,KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,0,2022-04-04,K-VIETNAM,KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,0,2022-04-04,KKP GINFRAEQ-H-F,KKPAM,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,KKP GINFRAEQ-H-F,KKPAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,KKP GINFRAEQ-H-F,KKPAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,KKP GINFRAEQ-H-F,KKPAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,ONE-VIETNAM-RA,ONEAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,ONE-VIETNAM-RA,ONEAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,ONE-VIETNAM-RA,ONEAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,ONE-VIETNAM-RA,ONEAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,PRINCIPAL GIF,PRINCIPAL,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,0,2022-04-04,PRINCIPAL GIF,PRINCIPAL,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,0,2022-04-04,PRINCIPAL GIF,PRINCIPAL,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,0,2022-04-04,PRINCIPAL GIF,PRINCIPAL,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,0,2022-04-04,PRINCIPAL VNEQ-A,PRINCIPAL,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,PRINCIPAL VNEQ-A,PRINCIPAL,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,PRINCIPAL VNEQ-A,PRINCIPAL,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,PRINCIPAL VNEQ-A,PRINCIPAL,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,TMBGINFRA,EASTSPRING,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M004-TF-FX,0,2022-04-04,TMBGINFRA,EASTSPRING,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,0,2022-04-04,TMBGINFRA,EASTSPRING,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M004-TF-FX,0,2022-04-04,TMBGINFRA,EASTSPRING,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,0,2022-04-04,UVO,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,UVO,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,UVO,UOBAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,0,2022-04-04,UVO,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,1,2022-07-04,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,1,2022-07-04,ASP-VIET,ASSETFUND,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M004-TF-FX,1,2022-07-04,ASP-VIET,ASSETFUND,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M004-TF-FX,1,2022-07-04,ASP-VIET,ASSETFUND,SI,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M004-TF-FX,1,2022-07-04,ASP-VIET,ASSETFUND,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M004-TF-FX,1,2022-07-04,FCSCBSETE,SCBAM,FF,True,buy,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,1,2022-07-04,FCSCBSETE,SCBAM,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,1,2022-07-04,FCSCBSETE,SCBAM,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,1,2022-07-04,FCSCBSETE,SCBAM,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,1,2022-07-04,K-AEC,KASSET,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,1,2022-07-04,K-AEC,KASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,1,2022-07-04,K-AEC,KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,1,2022-07-04,K-AEC,KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,1,2022-07-04,K-VIETNAM,KASSET,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-13
+M004-TF-FX,1,2022-07-04,K-VIETNAM,KASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-13
+M004-TF-FX,1,2022-07-04,K-VIETNAM,KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,1,2022-07-04,K-VIETNAM,KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,1,2022-07-04,KKP GINFRAEQ-H-F,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,KKP GINFRAEQ-H-F,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,KKP GINFRAEQ-H-F,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,KKP GINFRAEQ-H-F,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,KT-MINING,KTAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,KT-MINING,KTAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,KT-MINING,KTAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,KT-MINING,KTAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,ONE-VIETNAM-RA,ONEAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,ONE-VIETNAM-RA,ONEAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,ONE-VIETNAM-RA,ONEAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,ONE-VIETNAM-RA,ONEAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,PRINCIPAL GIF,PRINCIPAL,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,1,2022-07-04,PRINCIPAL GIF,PRINCIPAL,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,1,2022-07-04,PRINCIPAL GIF,PRINCIPAL,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,1,2022-07-04,PRINCIPAL GIF,PRINCIPAL,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,1,2022-07-04,PRINCIPAL VNEQ-A,PRINCIPAL,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,PRINCIPAL VNEQ-A,PRINCIPAL,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,PRINCIPAL VNEQ-A,PRINCIPAL,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,PRINCIPAL VNEQ-A,PRINCIPAL,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,TISCOGIF-R,TISCOASSET,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,1,2022-07-04,TISCOGIF-R,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,1,2022-07-04,TISCOGIF-R,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,1,2022-07-04,TISCOGIF-R,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,1,2022-07-04,TMBGINFRA,EASTSPRING,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M004-TF-FX,1,2022-07-04,TMBGINFRA,EASTSPRING,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,1,2022-07-04,TMBGINFRA,EASTSPRING,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M004-TF-FX,1,2022-07-04,TMBGINFRA,EASTSPRING,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,1,2022-07-04,UVO,UOBAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,UVO,UOBAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,UVO,UOBAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,1,2022-07-04,UVO,UOBAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,2,2022-10-04,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,2,2022-10-04,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,2,2022-10-04,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,2,2022-10-04,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,2,2022-10-04,FCSCBSETE,SCBAM,FF,True,buy,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,2,2022-10-04,FCSCBSETE,SCBAM,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,2,2022-10-04,FCSCBSETE,SCBAM,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,2,2022-10-04,FCSCBSETE,SCBAM,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,2,2022-10-04,K-AEC,KASSET,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,2,2022-10-04,K-AEC,KASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,2,2022-10-04,K-AEC,KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,2,2022-10-04,K-AEC,KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,2,2022-10-04,KKP GINFRAEQ-H-F,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,2,2022-10-04,KKP GINFRAEQ-H-F,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,2,2022-10-04,KKP GINFRAEQ-H-F,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,2,2022-10-04,KKP GINFRAEQ-H-F,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,2,2022-10-04,KT-MINING,KTAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,2,2022-10-04,KT-MINING,KTAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,2,2022-10-04,KT-MINING,KTAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,2,2022-10-04,KT-MINING,KTAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,2,2022-10-04,PRINCIPAL GIF,PRINCIPAL,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,2,2022-10-04,PRINCIPAL GIF,PRINCIPAL,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,2,2022-10-04,PRINCIPAL GIF,PRINCIPAL,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,2,2022-10-04,PRINCIPAL GIF,PRINCIPAL,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,2,2022-10-04,TISCOGIF-R,TISCOASSET,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,2,2022-10-04,TISCOGIF-R,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,2,2022-10-04,TISCOGIF-R,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,2,2022-10-04,TISCOGIF-R,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,2,2022-10-04,TMBGINFRA,EASTSPRING,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M004-TF-FX,2,2022-10-04,TMBGINFRA,EASTSPRING,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,2,2022-10-04,TMBGINFRA,EASTSPRING,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M004-TF-FX,2,2022-10-04,TMBGINFRA,EASTSPRING,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,3,2023-01-03,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,3,2023-01-03,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,3,2023-01-03,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,3,2023-01-03,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,3,2023-01-03,FCSCBSETE,SCBAM,FF,True,buy,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,3,2023-01-03,FCSCBSETE,SCBAM,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,3,2023-01-03,FCSCBSETE,SCBAM,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,3,2023-01-03,FCSCBSETE,SCBAM,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,3,2023-01-03,K-AEC,KASSET,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,K-AEC,KASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,K-AEC,KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,3,2023-01-03,K-AEC,KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,3,2023-01-03,KKP GINFRAEQ-H-F,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,3,2023-01-03,KKP GINFRAEQ-H-F,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,3,2023-01-03,KKP GINFRAEQ-H-F,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,3,2023-01-03,KKP GINFRAEQ-H-F,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,3,2023-01-03,KT-MINING,KTAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,3,2023-01-03,KT-MINING,KTAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,3,2023-01-03,KT-MINING,KTAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,3,2023-01-03,KT-MINING,KTAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,3,2023-01-03,PRINCIPAL GCLEAN-A,PRINCIPAL,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,PRINCIPAL GCLEAN-A,PRINCIPAL,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,PRINCIPAL GCLEAN-A,PRINCIPAL,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,PRINCIPAL GCLEAN-A,PRINCIPAL,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,PRINCIPAL GIF,PRINCIPAL,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,PRINCIPAL GIF,PRINCIPAL,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,PRINCIPAL GIF,PRINCIPAL,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,PRINCIPAL GIF,PRINCIPAL,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,TISCOGIF-R,TISCOASSET,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,TISCOGIF-R,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,TISCOGIF-R,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,TISCOGIF-R,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,TISCOIN,TISCOASSET,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,TISCOIN,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,TISCOIN,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,TISCOIN,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,3,2023-01-03,TMBGINFRA,EASTSPRING,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M004-TF-FX,3,2023-01-03,TMBGINFRA,EASTSPRING,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,3,2023-01-03,TMBGINFRA,EASTSPRING,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M004-TF-FX,3,2023-01-03,TMBGINFRA,EASTSPRING,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,4,2023-04-04,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,4,2023-04-04,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,4,2023-04-04,EHD,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,EHD,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,EHD,UOBAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,EHD,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,FCSCBSETE,SCBAM,FF,False,sell,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,4,2023-04-04,FCSCBSETE,SCBAM,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,4,2023-04-04,FCSCBSETE,SCBAM,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,4,2023-04-04,FCSCBSETE,SCBAM,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,4,2023-04-04,JSM,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,JSM,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,JSM,UOBAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,JSM,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,K-EUX,KASSET,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,K-EUX,KASSET,BF,False,buy,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,K-EUX,KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,4,2023-04-04,K-EUX,KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,4,2023-04-04,KKP GINFRAEQ-H-F,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,KKP GINFRAEQ-H-F,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,KKP GINFRAEQ-H-F,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,KKP GINFRAEQ-H-F,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,KT-MINING,KTAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,KT-MINING,KTAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,KT-MINING,KTAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,KT-MINING,KTAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,M-EUBANK,MFC,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,M-EUBANK,MFC,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,M-EUBANK,MFC,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,M-EUBANK,MFC,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,ONE-EUROEQ,ONEAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,ONE-EUROEQ,ONEAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,ONE-EUROEQ,ONEAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,ONE-EUROEQ,ONEAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,PRINCIPAL GCLEAN-A,PRINCIPAL,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,PRINCIPAL GCLEAN-A,PRINCIPAL,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,PRINCIPAL GCLEAN-A,PRINCIPAL,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,PRINCIPAL GCLEAN-A,PRINCIPAL,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,PRINCIPAL GIF,PRINCIPAL,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,PRINCIPAL GIF,PRINCIPAL,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,PRINCIPAL GIF,PRINCIPAL,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,PRINCIPAL GIF,PRINCIPAL,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,TISCOEU-A,TISCOASSET,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-05-10
+M004-TF-FX,4,2023-04-04,TISCOEU-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-05-10
+M004-TF-FX,4,2023-04-04,TISCOEU-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-05-10
+M004-TF-FX,4,2023-04-04,TISCOEU-A,TISCOASSET,SO,False,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-05-10
+M004-TF-FX,4,2023-04-04,TISCOIN,TISCOASSET,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,TISCOIN,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,TISCOIN,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,TISCOIN,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,4,2023-04-04,TMBGINFRA,EASTSPRING,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M004-TF-FX,4,2023-04-04,TMBGINFRA,EASTSPRING,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,4,2023-04-04,TMBGINFRA,EASTSPRING,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M004-TF-FX,4,2023-04-04,TMBGINFRA,EASTSPRING,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,4,2023-04-04,UOBSJSM,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,UOBSJSM,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,UOBSJSM,UOBAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,4,2023-04-04,UOBSJSM,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,ASP-IHEALTH,ASSETFUND,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M004-TF-FX,5,2023-07-04,ASP-IHEALTH,ASSETFUND,BF,False,buy,0.0,median: ค่าใช้ไม่ได้ (ว่าง/ข้อความ/ติดลบ/>10),2023-05-10
+M004-TF-FX,5,2023-07-04,ASP-IHEALTH,ASSETFUND,SI,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M004-TF-FX,5,2023-07-04,ASP-IHEALTH,ASSETFUND,SO,False,buy,0.0,median: ค่าใช้ไม่ได้ (ว่าง/ข้อความ/ติดลบ/>10),2023-05-10
+M004-TF-FX,5,2023-07-04,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,5,2023-07-04,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,5,2023-07-04,EHD,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,EHD,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,EHD,UOBAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,EHD,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,JSM,UOBAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,JSM,UOBAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,JSM,UOBAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,JSM,UOBAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,K-EUX,KASSET,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,K-EUX,KASSET,BF,False,buy,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,K-EUX,KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,5,2023-07-04,K-EUX,KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,5,2023-07-04,M-EUBANK,MFC,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,5,2023-07-04,M-EUBANK,MFC,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,5,2023-07-04,M-EUBANK,MFC,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,5,2023-07-04,M-EUBANK,MFC,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,5,2023-07-04,MEURO,MFC,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M004-TF-FX,5,2023-07-04,MEURO,MFC,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M004-TF-FX,5,2023-07-04,MEURO,MFC,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M004-TF-FX,5,2023-07-04,MEURO,MFC,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M004-TF-FX,5,2023-07-04,ONE-EUROEQ,ONEAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,ONE-EUROEQ,ONEAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,ONE-EUROEQ,ONEAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,ONE-EUROEQ,ONEAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,TISCOEU-A,TISCOASSET,FF,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,5,2023-07-04,TISCOEU-A,TISCOASSET,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,5,2023-07-04,TISCOEU-A,TISCOASSET,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,5,2023-07-04,TISCOEU-A,TISCOASSET,SO,False,buy,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,5,2023-07-04,TISCOJP,TISCOASSET,FF,True,buy,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,5,2023-07-04,TISCOJP,TISCOASSET,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,5,2023-07-04,TISCOJP,TISCOASSET,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,5,2023-07-04,TISCOJP,TISCOASSET,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,5,2023-07-04,UOBSJSM,UOBAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,UOBSJSM,UOBAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,UOBSJSM,UOBAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,5,2023-07-04,UOBSJSM,UOBAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,ASP-IHEALTH,ASSETFUND,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M004-TF-FX,6,2023-10-03,ASP-IHEALTH,ASSETFUND,BF,True,sell,0.0,median: ค่าใช้ไม่ได้ (ว่าง/ข้อความ/ติดลบ/>10),2023-05-10
+M004-TF-FX,6,2023-10-03,ASP-IHEALTH,ASSETFUND,SI,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M004-TF-FX,6,2023-10-03,ASP-IHEALTH,ASSETFUND,SO,True,sell,0.0,median: ค่าใช้ไม่ได้ (ว่าง/ข้อความ/ติดลบ/>10),2023-05-10
+M004-TF-FX,6,2023-10-03,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,6,2023-10-03,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,6,2023-10-03,EHD,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,EHD,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,EHD,UOBAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,EHD,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,K-EUX,KASSET,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,K-EUX,KASSET,BF,False,buy,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,K-EUX,KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,6,2023-10-03,K-EUX,KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,6,2023-10-03,K-USXNDQ-A(A),KASSET,FF,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,6,2023-10-03,K-USXNDQ-A(A),KASSET,BF,False,buy,0.15,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,6,2023-10-03,K-USXNDQ-A(A),KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,6,2023-10-03,K-USXNDQ-A(A),KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,6,2023-10-03,KKP NDQ100-H-F,KKPAM,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,KKP NDQ100-H-F,KKPAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,KKP NDQ100-H-F,KKPAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,KKP NDQ100-H-F,KKPAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,KKP SEMICON-H,KKPAM,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,KKP SEMICON-H,KKPAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,KKP SEMICON-H,KKPAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,KKP SEMICON-H,KKPAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,MEURO,MFC,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M004-TF-FX,6,2023-10-03,MEURO,MFC,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M004-TF-FX,6,2023-10-03,MEURO,MFC,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M004-TF-FX,6,2023-10-03,MEURO,MFC,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M004-TF-FX,6,2023-10-03,ONE-EUROEQ,ONEAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,ONE-EUROEQ,ONEAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,ONE-EUROEQ,ONEAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,ONE-EUROEQ,ONEAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,6,2023-10-03,TISCOEU-A,TISCOASSET,FF,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,6,2023-10-03,TISCOEU-A,TISCOASSET,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,6,2023-10-03,TISCOEU-A,TISCOASSET,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,6,2023-10-03,TISCOEU-A,TISCOASSET,SO,False,buy,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,6,2023-10-03,TISCOJP,TISCOASSET,FF,False,sell,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,6,2023-10-03,TISCOJP,TISCOASSET,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,6,2023-10-03,TISCOJP,TISCOASSET,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,6,2023-10-03,TISCOJP,TISCOASSET,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,7,2024-01-02,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,7,2024-01-02,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,7,2024-01-02,EHD,UOBAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,EHD,UOBAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,EHD,UOBAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,EHD,UOBAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,ES-USTECH,EASTSPRING,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,7,2024-01-02,ES-USTECH,EASTSPRING,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,7,2024-01-02,ES-USTECH,EASTSPRING,SI,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,7,2024-01-02,ES-USTECH,EASTSPRING,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,7,2024-01-02,K-EUX,KASSET,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,K-EUX,KASSET,BF,True,sell,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,K-EUX,KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,7,2024-01-02,K-EUX,KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,7,2024-01-02,K-USXNDQ-A(A),KASSET,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,7,2024-01-02,K-USXNDQ-A(A),KASSET,BF,True,sell,0.15,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,7,2024-01-02,K-USXNDQ-A(A),KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,7,2024-01-02,K-USXNDQ-A(A),KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,7,2024-01-02,KKP NDQ100-H-F,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,KKP NDQ100-H-F,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,KKP NDQ100-H-F,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,KKP NDQ100-H-F,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,KKP SEMICON-H,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,KKP SEMICON-H,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,KKP SEMICON-H,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,KKP SEMICON-H,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,KKP TECH-H,KKPAM,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,KKP TECH-H,KKPAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,KKP TECH-H,KKPAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,KKP TECH-H,KKPAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,7,2024-01-02,TISCOEU-A,TISCOASSET,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,7,2024-01-02,TISCOEU-A,TISCOASSET,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,7,2024-01-02,TISCOEU-A,TISCOASSET,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,7,2024-01-02,TISCOEU-A,TISCOASSET,SO,True,sell,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,7,2024-01-02,TISCOJP,TISCOASSET,FF,True,buy,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M004-TF-FX,7,2024-01-02,TISCOJP,TISCOASSET,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M004-TF-FX,7,2024-01-02,TISCOJP,TISCOASSET,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M004-TF-FX,7,2024-01-02,TISCOJP,TISCOASSET,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M004-TF-FX,7,2024-01-02,TISTECH-A,TISCOASSET,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,7,2024-01-02,TISTECH-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,7,2024-01-02,TISTECH-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,7,2024-01-02,TISTECH-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,7,2024-01-02,TUSTECH-A,TISCOASSET,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,7,2024-01-02,TUSTECH-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,7,2024-01-02,TUSTECH-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,7,2024-01-02,TUSTECH-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,ABIG,ABERDEEN,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,ABIG,ABERDEEN,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,ABIG,ABERDEEN,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,ABIG,ABERDEEN,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,ASP-NGF,ASSETFUND,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,8,2024-04-02,ASP-NGF,ASSETFUND,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,8,2024-04-02,ASP-NGF,ASSETFUND,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,8,2024-04-02,ASP-NGF,ASSETFUND,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,8,2024-04-02,B-BHARATA,BBLAM,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,B-BHARATA,BBLAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,B-BHARATA,BBLAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,B-BHARATA,BBLAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,ES-USTECH,EASTSPRING,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,ES-USTECH,EASTSPRING,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,8,2024-04-02,ES-USTECH,EASTSPRING,SI,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,ES-USTECH,EASTSPRING,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,8,2024-04-02,K-USXNDQ-A(A),KASSET,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,8,2024-04-02,K-USXNDQ-A(A),KASSET,BF,True,sell,0.15,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,8,2024-04-02,K-USXNDQ-A(A),KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,8,2024-04-02,K-USXNDQ-A(A),KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,8,2024-04-02,KKP NDQ100-H-F,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,8,2024-04-02,KKP NDQ100-H-F,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,8,2024-04-02,KKP NDQ100-H-F,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,8,2024-04-02,KKP NDQ100-H-F,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,8,2024-04-02,KKP TECH-H,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,8,2024-04-02,KKP TECH-H,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,8,2024-04-02,KKP TECH-H,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,8,2024-04-02,KKP TECH-H,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,8,2024-04-02,KT-INDIA-A,KTAM,FF,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,8,2024-04-02,KT-INDIA-A,KTAM,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,8,2024-04-02,KT-INDIA-A,KTAM,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,8,2024-04-02,KT-INDIA-A,KTAM,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,8,2024-04-02,TISCOIN,TISCOASSET,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TISCOIN,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TISCOIN,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TISCOIN,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TISCOINA-A,TISCOASSET,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TISCOINA-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TISCOINA-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TISCOINA-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TISCOJP,TISCOASSET,FF,False,sell,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M004-TF-FX,8,2024-04-02,TISCOJP,TISCOASSET,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M004-TF-FX,8,2024-04-02,TISCOJP,TISCOASSET,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M004-TF-FX,8,2024-04-02,TISCOJP,TISCOASSET,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M004-TF-FX,8,2024-04-02,TISTECH-A,TISCOASSET,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TISTECH-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TISTECH-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TISTECH-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TUSTECH-A,TISCOASSET,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TUSTECH-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TUSTECH-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,8,2024-04-02,TUSTECH-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,ABIG,ABERDEEN,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,ABIG,ABERDEEN,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,ABIG,ABERDEEN,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,ABIG,ABERDEEN,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,ASP-NGF,ASSETFUND,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,9,2024-07-02,ASP-NGF,ASSETFUND,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,9,2024-07-02,ASP-NGF,ASSETFUND,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,9,2024-07-02,ASP-NGF,ASSETFUND,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,9,2024-07-02,B-BHARATA,BBLAM,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,B-BHARATA,BBLAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,B-BHARATA,BBLAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,B-BHARATA,BBLAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,KKP TECH-H,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,9,2024-07-02,KKP TECH-H,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,9,2024-07-02,KKP TECH-H,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,9,2024-07-02,KKP TECH-H,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,9,2024-07-02,KT-INDIA-A,KTAM,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,9,2024-07-02,KT-INDIA-A,KTAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,9,2024-07-02,KT-INDIA-A,KTAM,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,9,2024-07-02,KT-INDIA-A,KTAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,9,2024-07-02,M-EUBANK,MFC,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,M-EUBANK,MFC,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,M-EUBANK,MFC,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,M-EUBANK,MFC,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,ONE-INDIAOPP-IA,ONEAM,FF,True,buy,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,9,2024-07-02,ONE-INDIAOPP-IA,ONEAM,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,9,2024-07-02,ONE-INDIAOPP-IA,ONEAM,SI,True,buy,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,9,2024-07-02,ONE-INDIAOPP-IA,ONEAM,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,9,2024-07-02,TISCOIN,TISCOASSET,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,TISCOIN,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,TISCOIN,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,TISCOIN,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,TISCOINA-A,TISCOASSET,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,TISCOINA-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,TISCOINA-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,TISCOINA-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,9,2024-07-02,TISCOJP,TISCOASSET,FF,False,sell,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M004-TF-FX,9,2024-07-02,TISCOJP,TISCOASSET,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M004-TF-FX,9,2024-07-02,TISCOJP,TISCOASSET,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M004-TF-FX,9,2024-07-02,TISCOJP,TISCOASSET,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M004-TF-FX,10,2024-10-02,ABIG,ABERDEEN,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,ABIG,ABERDEEN,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,ABIG,ABERDEEN,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,ABIG,ABERDEEN,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,ASP-NGF,ASSETFUND,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,10,2024-10-02,ASP-NGF,ASSETFUND,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,10,2024-10-02,ASP-NGF,ASSETFUND,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,10,2024-10-02,ASP-NGF,ASSETFUND,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,10,2024-10-02,B-BHARATA,BBLAM,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,B-BHARATA,BBLAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,B-BHARATA,BBLAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,B-BHARATA,BBLAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,KT-INDIA-A,KTAM,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,10,2024-10-02,KT-INDIA-A,KTAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,10,2024-10-02,KT-INDIA-A,KTAM,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,10,2024-10-02,KT-INDIA-A,KTAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,10,2024-10-02,LHINDIAE-A,LHFUND,FF,True,buy,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,10,2024-10-02,LHINDIAE-A,LHFUND,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,10,2024-10-02,LHINDIAE-A,LHFUND,SI,True,buy,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,10,2024-10-02,LHINDIAE-A,LHFUND,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,10,2024-10-02,LHUSFIN-A,LHFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,LHUSFIN-A,LHFUND,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,LHUSFIN-A,LHFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,LHUSFIN-A,LHFUND,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,M-EUBANK,MFC,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,M-EUBANK,MFC,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,M-EUBANK,MFC,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,M-EUBANK,MFC,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,ONE-INDIAOPP-IA,ONEAM,FF,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,10,2024-10-02,ONE-INDIAOPP-IA,ONEAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,10,2024-10-02,ONE-INDIAOPP-IA,ONEAM,SI,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,10,2024-10-02,ONE-INDIAOPP-IA,ONEAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,10,2024-10-02,TISCOIN,TISCOASSET,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,TISCOIN,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,TISCOIN,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,TISCOIN,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,TISCOINA-A,TISCOASSET,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,TISCOINA-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,TISCOINA-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,TISCOINA-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,TUSFIN-A,TISCOASSET,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,TUSFIN-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,TUSFIN-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,10,2024-10-02,TUSFIN-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,ABIG,ABERDEEN,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,ABIG,ABERDEEN,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,ABIG,ABERDEEN,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,ABIG,ABERDEEN,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,B-BHARATA,BBLAM,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,B-BHARATA,BBLAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,B-BHARATA,BBLAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,B-BHARATA,BBLAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,DAOL-PLAY,DAOLINV,FF,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,11,2025-01-02,DAOL-PLAY,DAOLINV,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,11,2025-01-02,DAOL-PLAY,DAOLINV,SI,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,11,2025-01-02,DAOL-PLAY,DAOLINV,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,11,2025-01-02,KT-FINANCE-A,KTAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,11,2025-01-02,KT-FINANCE-A,KTAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,11,2025-01-02,KT-FINANCE-A,KTAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,11,2025-01-02,KT-FINANCE-A,KTAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,11,2025-01-02,KT-INDIA-A,KTAM,FF,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,KT-INDIA-A,KTAM,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,KT-INDIA-A,KTAM,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,KT-INDIA-A,KTAM,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,LHESPORT-A,LHFUND,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,LHESPORT-A,LHFUND,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,LHESPORT-A,LHFUND,SI,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,LHESPORT-A,LHFUND,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,LHINDIAE-A,LHFUND,FF,False,sell,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,LHINDIAE-A,LHFUND,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,LHINDIAE-A,LHFUND,SI,False,sell,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,LHINDIAE-A,LHFUND,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,LHUSFIN-A,LHFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,LHUSFIN-A,LHFUND,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,LHUSFIN-A,LHFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,LHUSFIN-A,LHFUND,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,ONE-GLOBFIN-IA,ONEAM,FF,True,buy,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,ONE-GLOBFIN-IA,ONEAM,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,ONE-GLOBFIN-IA,ONEAM,SI,True,buy,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,ONE-GLOBFIN-IA,ONEAM,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,ONE-INDIAOPP-IA,ONEAM,FF,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,ONE-INDIAOPP-IA,ONEAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,ONE-INDIAOPP-IA,ONEAM,SI,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,ONE-INDIAOPP-IA,ONEAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,11,2025-01-02,TISCOINA-A,TISCOASSET,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,TISCOINA-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,TISCOINA-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,TISCOINA-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,TUSFIN-A,TISCOASSET,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,TUSFIN-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,TUSFIN-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,11,2025-01-02,TUSFIN-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,DAOL-PLAY,DAOLINV,FF,False,sell,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,12,2025-04-02,DAOL-PLAY,DAOLINV,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,12,2025-04-02,DAOL-PLAY,DAOLINV,SI,False,sell,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,12,2025-04-02,DAOL-PLAY,DAOLINV,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,12,2025-04-02,KT-FINANCE-A,KTAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,12,2025-04-02,KT-FINANCE-A,KTAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,12,2025-04-02,KT-FINANCE-A,KTAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,12,2025-04-02,KT-FINANCE-A,KTAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,12,2025-04-02,KT-INDIA-A,KTAM,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,12,2025-04-02,KT-INDIA-A,KTAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,12,2025-04-02,KT-INDIA-A,KTAM,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,12,2025-04-02,KT-INDIA-A,KTAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,12,2025-04-02,LHESPORT-A,LHFUND,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,LHESPORT-A,LHFUND,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,LHESPORT-A,LHFUND,SI,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,LHESPORT-A,LHFUND,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,LHUSFIN-A,LHFUND,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,LHUSFIN-A,LHFUND,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,LHUSFIN-A,LHFUND,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,LHUSFIN-A,LHFUND,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,M-EUBANK,MFC,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,M-EUBANK,MFC,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,M-EUBANK,MFC,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,M-EUBANK,MFC,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,ONE-GLOBFIN-IA,ONEAM,FF,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,12,2025-04-02,ONE-GLOBFIN-IA,ONEAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,12,2025-04-02,ONE-GLOBFIN-IA,ONEAM,SI,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,12,2025-04-02,ONE-GLOBFIN-IA,ONEAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,12,2025-04-02,TISCOC21,TISCOASSET,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,TISCOC21,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,TISCOC21,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,TISCOC21,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,TISCOINA-A,TISCOASSET,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,TISCOINA-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,TISCOINA-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,TISCOINA-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,TUSFIN-A,TISCOASSET,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,TUSFIN-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,TUSFIN-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,12,2025-04-02,TUSFIN-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,DAOL-GOLD,DAOLINV,FF,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,DAOL-GOLD,DAOLINV,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,DAOL-GOLD,DAOLINV,SI,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,DAOL-GOLD,DAOLINV,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,DAOL-PLAY,DAOLINV,FF,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,DAOL-PLAY,DAOLINV,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,DAOL-PLAY,DAOLINV,SI,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,DAOL-PLAY,DAOLINV,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,ES-GINFRA-A,EASTSPRING,FF,True,buy,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,13,2025-07-02,ES-GINFRA-A,EASTSPRING,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,13,2025-07-02,ES-GINFRA-A,EASTSPRING,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,13,2025-07-02,ES-GINFRA-A,EASTSPRING,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,13,2025-07-02,KKP GINFRAEQ-H-F,KKPAM,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,KKP GINFRAEQ-H-F,KKPAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,KKP GINFRAEQ-H-F,KKPAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,KKP GINFRAEQ-H-F,KKPAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,KT-FINANCE-A,KTAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,KT-FINANCE-A,KTAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,KT-FINANCE-A,KTAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,KT-FINANCE-A,KTAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,13,2025-07-02,LHESPORT-A,LHFUND,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,LHESPORT-A,LHFUND,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,LHESPORT-A,LHFUND,SI,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,LHESPORT-A,LHFUND,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,LHUSFIN-A,LHFUND,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,LHUSFIN-A,LHFUND,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,LHUSFIN-A,LHFUND,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,LHUSFIN-A,LHFUND,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,M-EUBANK,MFC,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,M-EUBANK,MFC,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,M-EUBANK,MFC,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,M-EUBANK,MFC,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,ONE-GLOBFIN-IA,ONEAM,FF,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,13,2025-07-02,ONE-GLOBFIN-IA,ONEAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,13,2025-07-02,ONE-GLOBFIN-IA,ONEAM,SI,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,13,2025-07-02,ONE-GLOBFIN-IA,ONEAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,13,2025-07-02,PRINCIPAL GIF,PRINCIPAL,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,PRINCIPAL GIF,PRINCIPAL,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,PRINCIPAL GIF,PRINCIPAL,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,PRINCIPAL GIF,PRINCIPAL,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,TISCOC21,TISCOASSET,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,TISCOC21,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,TISCOC21,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,TISCOC21,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,TUSFIN-A,TISCOASSET,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,TUSFIN-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,TUSFIN-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,13,2025-07-02,TUSFIN-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,14,2025-10-02,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,14,2025-10-02,DAOL-GOLD,DAOLINV,FF,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,DAOL-GOLD,DAOLINV,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,DAOL-GOLD,DAOLINV,SI,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,DAOL-GOLD,DAOLINV,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,DAOL-PLAY,DAOLINV,FF,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,DAOL-PLAY,DAOLINV,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,DAOL-PLAY,DAOLINV,SI,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,DAOL-PLAY,DAOLINV,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,ES-GINFRA-A,EASTSPRING,FF,False,sell,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,14,2025-10-02,ES-GINFRA-A,EASTSPRING,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,14,2025-10-02,ES-GINFRA-A,EASTSPRING,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,14,2025-10-02,ES-GINFRA-A,EASTSPRING,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M004-TF-FX,14,2025-10-02,KKP GINFRAEQ-H-F,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,KKP GINFRAEQ-H-F,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,KKP GINFRAEQ-H-F,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,KKP GINFRAEQ-H-F,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,LHESPORT-A,LHFUND,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,LHESPORT-A,LHFUND,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,LHESPORT-A,LHFUND,SI,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,LHESPORT-A,LHFUND,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,M-EUBANK,MFC,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,M-EUBANK,MFC,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,M-EUBANK,MFC,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,M-EUBANK,MFC,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,ONE-GLOBFIN-RA,ONEAM,FF,True,buy,1.5,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,14,2025-10-02,ONE-GLOBFIN-RA,ONEAM,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,14,2025-10-02,ONE-GLOBFIN-RA,ONEAM,SI,True,buy,1.5,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,14,2025-10-02,ONE-GLOBFIN-RA,ONEAM,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M004-TF-FX,14,2025-10-02,PRINCIPAL GIF,PRINCIPAL,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,PRINCIPAL GIF,PRINCIPAL,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,PRINCIPAL GIF,PRINCIPAL,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,PRINCIPAL GIF,PRINCIPAL,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,TISCOC21,TISCOASSET,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,TISCOC21,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,TISCOC21,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,TISCOC21,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,TNEXTGEN-A,TISCOASSET,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,TNEXTGEN-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,TNEXTGEN-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,TNEXTGEN-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M004-TF-FX,14,2025-10-02,UCI,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,UCI,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,UCI,UOBAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M004-TF-FX,14,2025-10-02,UCI,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,ASP-VIET,ASSETFUND,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M013-GC75,0,2022-04-04,ASP-VIET,ASSETFUND,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M013-GC75,0,2022-04-04,ASP-VIET,ASSETFUND,SI,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M013-GC75,0,2022-04-04,ASP-VIET,ASSETFUND,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M013-GC75,0,2022-04-04,K-VIETNAM,KASSET,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-13
+M013-GC75,0,2022-04-04,K-VIETNAM,KASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-13
+M013-GC75,0,2022-04-04,K-VIETNAM,KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,0,2022-04-04,K-VIETNAM,KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,0,2022-04-04,KKP GINFRAEQ-H-F,KKPAM,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,KKP GINFRAEQ-H-F,KKPAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,KKP GINFRAEQ-H-F,KKPAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,KKP GINFRAEQ-H-F,KKPAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,ONE-VIETNAM-RA,ONEAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,ONE-VIETNAM-RA,ONEAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,ONE-VIETNAM-RA,ONEAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,ONE-VIETNAM-RA,ONEAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,PRINCIPAL GIF,PRINCIPAL,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,0,2022-04-04,PRINCIPAL GIF,PRINCIPAL,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,0,2022-04-04,PRINCIPAL GIF,PRINCIPAL,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,0,2022-04-04,PRINCIPAL GIF,PRINCIPAL,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,0,2022-04-04,PRINCIPAL VNEQ-A,PRINCIPAL,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,PRINCIPAL VNEQ-A,PRINCIPAL,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,PRINCIPAL VNEQ-A,PRINCIPAL,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,PRINCIPAL VNEQ-A,PRINCIPAL,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,TMBGINFRA,EASTSPRING,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M013-GC75,0,2022-04-04,TMBGINFRA,EASTSPRING,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,0,2022-04-04,TMBGINFRA,EASTSPRING,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M013-GC75,0,2022-04-04,TMBGINFRA,EASTSPRING,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,0,2022-04-04,UVO,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,UVO,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,UVO,UOBAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,0,2022-04-04,UVO,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,1,2022-07-04,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,1,2022-07-04,ASP-VIET,ASSETFUND,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M013-GC75,1,2022-07-04,ASP-VIET,ASSETFUND,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M013-GC75,1,2022-07-04,ASP-VIET,ASSETFUND,SI,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M013-GC75,1,2022-07-04,ASP-VIET,ASSETFUND,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2024-02-29
+M013-GC75,1,2022-07-04,B-BHARATA,BBLAM,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,1,2022-07-04,B-BHARATA,BBLAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,1,2022-07-04,B-BHARATA,BBLAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,1,2022-07-04,B-BHARATA,BBLAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,1,2022-07-04,FCSCBSETE,SCBAM,FF,True,buy,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,1,2022-07-04,FCSCBSETE,SCBAM,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,1,2022-07-04,FCSCBSETE,SCBAM,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,1,2022-07-04,FCSCBSETE,SCBAM,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,1,2022-07-04,K-AEC,KASSET,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,1,2022-07-04,K-AEC,KASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,1,2022-07-04,K-AEC,KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,1,2022-07-04,K-AEC,KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,1,2022-07-04,K-VIETNAM,KASSET,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-13
+M013-GC75,1,2022-07-04,K-VIETNAM,KASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-13
+M013-GC75,1,2022-07-04,K-VIETNAM,KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,1,2022-07-04,K-VIETNAM,KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,1,2022-07-04,KKP GINFRAEQ-H-F,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,KKP GINFRAEQ-H-F,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,KKP GINFRAEQ-H-F,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,KKP GINFRAEQ-H-F,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,KT-MINING,KTAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,KT-MINING,KTAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,KT-MINING,KTAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,KT-MINING,KTAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,ONE-VIETNAM-RA,ONEAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,ONE-VIETNAM-RA,ONEAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,ONE-VIETNAM-RA,ONEAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,ONE-VIETNAM-RA,ONEAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,PRINCIPAL GIF,PRINCIPAL,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,1,2022-07-04,PRINCIPAL GIF,PRINCIPAL,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,1,2022-07-04,PRINCIPAL GIF,PRINCIPAL,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,1,2022-07-04,PRINCIPAL GIF,PRINCIPAL,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,1,2022-07-04,PRINCIPAL VNEQ-A,PRINCIPAL,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,PRINCIPAL VNEQ-A,PRINCIPAL,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,PRINCIPAL VNEQ-A,PRINCIPAL,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,PRINCIPAL VNEQ-A,PRINCIPAL,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,TMBGINFRA,EASTSPRING,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M013-GC75,1,2022-07-04,TMBGINFRA,EASTSPRING,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,1,2022-07-04,TMBGINFRA,EASTSPRING,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M013-GC75,1,2022-07-04,TMBGINFRA,EASTSPRING,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,1,2022-07-04,UVO,UOBAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,UVO,UOBAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,UVO,UOBAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,1,2022-07-04,UVO,UOBAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,2,2022-10-04,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,2,2022-10-04,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,2,2022-10-04,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,2,2022-10-04,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,2,2022-10-04,B-BHARATA,BBLAM,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,2,2022-10-04,B-BHARATA,BBLAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,2,2022-10-04,B-BHARATA,BBLAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,2,2022-10-04,B-BHARATA,BBLAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,2,2022-10-04,FCSCBSETE,SCBAM,FF,True,buy,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,2,2022-10-04,FCSCBSETE,SCBAM,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,2,2022-10-04,FCSCBSETE,SCBAM,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,2,2022-10-04,FCSCBSETE,SCBAM,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,2,2022-10-04,K-AEC,KASSET,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,2,2022-10-04,K-AEC,KASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,2,2022-10-04,K-AEC,KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,2,2022-10-04,K-AEC,KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,2,2022-10-04,KKP GINFRAEQ-H-F,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,2,2022-10-04,KKP GINFRAEQ-H-F,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,2,2022-10-04,KKP GINFRAEQ-H-F,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,2,2022-10-04,KKP GINFRAEQ-H-F,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,2,2022-10-04,KT-MINING,KTAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,2,2022-10-04,KT-MINING,KTAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,2,2022-10-04,KT-MINING,KTAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,2,2022-10-04,KT-MINING,KTAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,2,2022-10-04,PRINCIPAL GIF,PRINCIPAL,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,2,2022-10-04,PRINCIPAL GIF,PRINCIPAL,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,2,2022-10-04,PRINCIPAL GIF,PRINCIPAL,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,2,2022-10-04,PRINCIPAL GIF,PRINCIPAL,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,2,2022-10-04,TMBGINFRA,EASTSPRING,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M013-GC75,2,2022-10-04,TMBGINFRA,EASTSPRING,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,2,2022-10-04,TMBGINFRA,EASTSPRING,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M013-GC75,2,2022-10-04,TMBGINFRA,EASTSPRING,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,3,2023-01-03,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,3,2023-01-03,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,3,2023-01-03,B-BHARATA,BBLAM,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,3,2023-01-03,B-BHARATA,BBLAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,3,2023-01-03,B-BHARATA,BBLAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,3,2023-01-03,B-BHARATA,BBLAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,3,2023-01-03,EHD,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,EHD,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,EHD,UOBAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,EHD,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,FCSCBSETE,SCBAM,FF,True,buy,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,3,2023-01-03,FCSCBSETE,SCBAM,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,3,2023-01-03,FCSCBSETE,SCBAM,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,3,2023-01-03,FCSCBSETE,SCBAM,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,3,2023-01-03,K-AEC,KASSET,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,3,2023-01-03,K-AEC,KASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,3,2023-01-03,K-AEC,KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,3,2023-01-03,K-AEC,KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,3,2023-01-03,K-INDX,KASSET,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,3,2023-01-03,K-INDX,KASSET,BF,False,buy,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,3,2023-01-03,K-INDX,KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,3,2023-01-03,K-INDX,KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,3,2023-01-03,KKP GINFRAEQ-H-F,KKPAM,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,KKP GINFRAEQ-H-F,KKPAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,KKP GINFRAEQ-H-F,KKPAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,KKP GINFRAEQ-H-F,KKPAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,KT-MINING,KTAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,KT-MINING,KTAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,KT-MINING,KTAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,KT-MINING,KTAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,3,2023-01-03,PRINCIPAL GIF,PRINCIPAL,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,3,2023-01-03,PRINCIPAL GIF,PRINCIPAL,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,3,2023-01-03,PRINCIPAL GIF,PRINCIPAL,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,3,2023-01-03,PRINCIPAL GIF,PRINCIPAL,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,3,2023-01-03,TMBGINFRA,EASTSPRING,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M013-GC75,3,2023-01-03,TMBGINFRA,EASTSPRING,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,3,2023-01-03,TMBGINFRA,EASTSPRING,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M013-GC75,3,2023-01-03,TMBGINFRA,EASTSPRING,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,EHD,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,EHD,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,EHD,UOBAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,EHD,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,FCSCBSETE,SCBAM,FF,False,sell,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,FCSCBSETE,SCBAM,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,FCSCBSETE,SCBAM,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,FCSCBSETE,SCBAM,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,JSM,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,JSM,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,JSM,UOBAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,JSM,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,K-EUX,KASSET,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,K-EUX,KASSET,BF,False,buy,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,K-EUX,KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,K-EUX,KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,K-INDX,KASSET,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,4,2023-04-04,K-INDX,KASSET,BF,True,sell,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,4,2023-04-04,K-INDX,KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,K-INDX,KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,KKP GINFRAEQ-H-F,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,KKP GINFRAEQ-H-F,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,KKP GINFRAEQ-H-F,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,KKP GINFRAEQ-H-F,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,KT-MINING,KTAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,KT-MINING,KTAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,KT-MINING,KTAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,KT-MINING,KTAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,MEURO,MFC,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,4,2023-04-04,MEURO,MFC,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,4,2023-04-04,MEURO,MFC,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,4,2023-04-04,MEURO,MFC,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,4,2023-04-04,ONE-EUROEQ,ONEAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,ONE-EUROEQ,ONEAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,ONE-EUROEQ,ONEAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,ONE-EUROEQ,ONEAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,PRINCIPAL GIF,PRINCIPAL,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,4,2023-04-04,PRINCIPAL GIF,PRINCIPAL,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,4,2023-04-04,PRINCIPAL GIF,PRINCIPAL,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,4,2023-04-04,PRINCIPAL GIF,PRINCIPAL,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,4,2023-04-04,TISCOEU-A,TISCOASSET,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-05-10
+M013-GC75,4,2023-04-04,TISCOEU-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-05-10
+M013-GC75,4,2023-04-04,TISCOEU-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-05-10
+M013-GC75,4,2023-04-04,TISCOEU-A,TISCOASSET,SO,False,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-05-10
+M013-GC75,4,2023-04-04,TMBGINFRA,EASTSPRING,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M013-GC75,4,2023-04-04,TMBGINFRA,EASTSPRING,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,TMBGINFRA,EASTSPRING,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-11-14
+M013-GC75,4,2023-04-04,TMBGINFRA,EASTSPRING,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,4,2023-04-04,UOBSJSM,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,UOBSJSM,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,UOBSJSM,UOBAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,4,2023-04-04,UOBSJSM,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,ASP-IHEALTH,ASSETFUND,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,5,2023-07-04,ASP-IHEALTH,ASSETFUND,BF,False,buy,0.0,median: ค่าใช้ไม่ได้ (ว่าง/ข้อความ/ติดลบ/>10),2023-05-10
+M013-GC75,5,2023-07-04,ASP-IHEALTH,ASSETFUND,SI,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,5,2023-07-04,ASP-IHEALTH,ASSETFUND,SO,False,buy,0.0,median: ค่าใช้ไม่ได้ (ว่าง/ข้อความ/ติดลบ/>10),2023-05-10
+M013-GC75,5,2023-07-04,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,5,2023-07-04,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,5,2023-07-04,EHD,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,EHD,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,EHD,UOBAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,EHD,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,JSM,UOBAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,JSM,UOBAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,JSM,UOBAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,JSM,UOBAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,K-EUX,KASSET,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,K-EUX,KASSET,BF,False,buy,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,K-EUX,KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,5,2023-07-04,K-EUX,KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,5,2023-07-04,MEURO,MFC,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,5,2023-07-04,MEURO,MFC,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,5,2023-07-04,MEURO,MFC,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,5,2023-07-04,MEURO,MFC,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,5,2023-07-04,ONE-EUROEQ,ONEAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,ONE-EUROEQ,ONEAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,ONE-EUROEQ,ONEAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,ONE-EUROEQ,ONEAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,ONE-UJE-RA,ONEAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,ONE-UJE-RA,ONEAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,ONE-UJE-RA,ONEAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,ONE-UJE-RA,ONEAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,TISCOEU-A,TISCOASSET,FF,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,5,2023-07-04,TISCOEU-A,TISCOASSET,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,5,2023-07-04,TISCOEU-A,TISCOASSET,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,5,2023-07-04,TISCOEU-A,TISCOASSET,SO,False,buy,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,5,2023-07-04,TISCOJP,TISCOASSET,FF,True,buy,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,5,2023-07-04,TISCOJP,TISCOASSET,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,5,2023-07-04,TISCOJP,TISCOASSET,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,5,2023-07-04,TISCOJP,TISCOASSET,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,5,2023-07-04,UOBSJSM,UOBAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,UOBSJSM,UOBAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,UOBSJSM,UOBAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,5,2023-07-04,UOBSJSM,UOBAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,ASP-IHEALTH,ASSETFUND,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,6,2023-10-03,ASP-IHEALTH,ASSETFUND,BF,True,sell,0.0,median: ค่าใช้ไม่ได้ (ว่าง/ข้อความ/ติดลบ/>10),2023-05-10
+M013-GC75,6,2023-10-03,ASP-IHEALTH,ASSETFUND,SI,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,6,2023-10-03,ASP-IHEALTH,ASSETFUND,SO,True,sell,0.0,median: ค่าใช้ไม่ได้ (ว่าง/ข้อความ/ติดลบ/>10),2023-05-10
+M013-GC75,6,2023-10-03,ASP-NGF,ASSETFUND,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,ASP-NGF,ASSETFUND,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,6,2023-10-03,ASP-NGF,ASSETFUND,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,ASP-NGF,ASSETFUND,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,6,2023-10-03,EHD,UOBAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,EHD,UOBAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,EHD,UOBAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,EHD,UOBAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,K-EUX,KASSET,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,K-EUX,KASSET,BF,True,sell,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,K-EUX,KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,6,2023-10-03,K-EUX,KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,6,2023-10-03,K-USXNDQ-A(A),KASSET,FF,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,6,2023-10-03,K-USXNDQ-A(A),KASSET,BF,False,buy,0.15,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,6,2023-10-03,K-USXNDQ-A(A),KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,6,2023-10-03,K-USXNDQ-A(A),KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,6,2023-10-03,KKP SEMICON-H,KKPAM,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,KKP SEMICON-H,KKPAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,KKP SEMICON-H,KKPAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,KKP SEMICON-H,KKPAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,MEURO,MFC,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,6,2023-10-03,MEURO,MFC,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,6,2023-10-03,MEURO,MFC,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,6,2023-10-03,MEURO,MFC,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2023-10-31
+M013-GC75,6,2023-10-03,ONE-UJE-RA,ONEAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,ONE-UJE-RA,ONEAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,ONE-UJE-RA,ONEAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,ONE-UJE-RA,ONEAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,6,2023-10-03,TISCOEU-A,TISCOASSET,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,6,2023-10-03,TISCOEU-A,TISCOASSET,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,6,2023-10-03,TISCOEU-A,TISCOASSET,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,6,2023-10-03,TISCOEU-A,TISCOASSET,SO,True,sell,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,6,2023-10-03,TISCOJP,TISCOASSET,FF,False,sell,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,6,2023-10-03,TISCOJP,TISCOASSET,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,6,2023-10-03,TISCOJP,TISCOASSET,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,6,2023-10-03,TISCOJP,TISCOASSET,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,7,2024-01-02,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,7,2024-01-02,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,7,2024-01-02,EHD,UOBAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,EHD,UOBAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,EHD,UOBAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,EHD,UOBAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,K-EUX,KASSET,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,K-EUX,KASSET,BF,True,sell,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,K-EUX,KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,7,2024-01-02,K-EUX,KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,7,2024-01-02,K-USXNDQ-A(A),KASSET,FF,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,7,2024-01-02,K-USXNDQ-A(A),KASSET,BF,False,buy,0.15,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,7,2024-01-02,K-USXNDQ-A(A),KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,7,2024-01-02,K-USXNDQ-A(A),KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,7,2024-01-02,KKP SEMICON-H,KKPAM,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,KKP SEMICON-H,KKPAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,KKP SEMICON-H,KKPAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,KKP SEMICON-H,KKPAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,KKP TECH-H,KKPAM,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,KKP TECH-H,KKPAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,KKP TECH-H,KKPAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,KKP TECH-H,KKPAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,ONE-UJE-RA,ONEAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,ONE-UJE-RA,ONEAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,ONE-UJE-RA,ONEAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,ONE-UJE-RA,ONEAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,7,2024-01-02,PRINCIPAL GOPP-X,PRINCIPAL,FF,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,7,2024-01-02,PRINCIPAL GOPP-X,PRINCIPAL,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,7,2024-01-02,PRINCIPAL GOPP-X,PRINCIPAL,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,7,2024-01-02,PRINCIPAL GOPP-X,PRINCIPAL,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,7,2024-01-02,TISCOEU-A,TISCOASSET,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,7,2024-01-02,TISCOEU-A,TISCOASSET,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,7,2024-01-02,TISCOEU-A,TISCOASSET,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,7,2024-01-02,TISCOEU-A,TISCOASSET,SO,True,sell,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,7,2024-01-02,TISCOJP,TISCOASSET,FF,True,buy,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,7,2024-01-02,TISCOJP,TISCOASSET,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,7,2024-01-02,TISCOJP,TISCOASSET,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,7,2024-01-02,TISCOJP,TISCOASSET,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,7,2024-01-02,TISTECH-A,TISCOASSET,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,7,2024-01-02,TISTECH-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,7,2024-01-02,TISTECH-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,7,2024-01-02,TISTECH-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,ABIG,ABERDEEN,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,ABIG,ABERDEEN,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,ABIG,ABERDEEN,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,ABIG,ABERDEEN,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,ASP-NGF,ASSETFUND,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,ASP-NGF,ASSETFUND,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,8,2024-04-02,ASP-NGF,ASSETFUND,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,ASP-NGF,ASSETFUND,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,8,2024-04-02,B-BHARATA,BBLAM,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,B-BHARATA,BBLAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,B-BHARATA,BBLAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,B-BHARATA,BBLAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,K-JPX-A(A),KASSET,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,K-JPX-A(A),KASSET,BF,False,buy,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,K-JPX-A(A),KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,8,2024-04-02,K-JPX-A(A),KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,8,2024-04-02,K-USXNDQ-A(A),KASSET,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,8,2024-04-02,K-USXNDQ-A(A),KASSET,BF,True,sell,0.15,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,8,2024-04-02,K-USXNDQ-A(A),KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,8,2024-04-02,K-USXNDQ-A(A),KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,8,2024-04-02,KKP SEMICON-H,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,KKP SEMICON-H,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,KKP SEMICON-H,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,KKP SEMICON-H,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,KKP TECH-H,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,KKP TECH-H,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,KKP TECH-H,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,KKP TECH-H,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,KT-INDIA-A,KTAM,FF,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,8,2024-04-02,KT-INDIA-A,KTAM,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,8,2024-04-02,KT-INDIA-A,KTAM,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,8,2024-04-02,KT-INDIA-A,KTAM,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,8,2024-04-02,ONE-UJE-RA,ONEAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,ONE-UJE-RA,ONEAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,ONE-UJE-RA,ONEAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,ONE-UJE-RA,ONEAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,8,2024-04-02,PRINCIPAL GOPP-X,PRINCIPAL,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,8,2024-04-02,PRINCIPAL GOPP-X,PRINCIPAL,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,8,2024-04-02,PRINCIPAL GOPP-X,PRINCIPAL,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,8,2024-04-02,PRINCIPAL GOPP-X,PRINCIPAL,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,8,2024-04-02,TISCOINA-A,TISCOASSET,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,TISCOINA-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,TISCOINA-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,TISCOINA-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,TISCOJP,TISCOASSET,FF,False,sell,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,8,2024-04-02,TISCOJP,TISCOASSET,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,8,2024-04-02,TISCOJP,TISCOASSET,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,8,2024-04-02,TISCOJP,TISCOASSET,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,8,2024-04-02,TISTECH-A,TISCOASSET,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,TISTECH-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,TISTECH-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,8,2024-04-02,TISTECH-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,ABIG,ABERDEEN,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,ABIG,ABERDEEN,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,ABIG,ABERDEEN,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,ABIG,ABERDEEN,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,ASP-NGF,ASSETFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,9,2024-07-02,ASP-NGF,ASSETFUND,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,9,2024-07-02,ASP-NGF,ASSETFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,9,2024-07-02,ASP-NGF,ASSETFUND,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,9,2024-07-02,B-BHARATA,BBLAM,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,B-BHARATA,BBLAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,B-BHARATA,BBLAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,B-BHARATA,BBLAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,K-JPX-A(A),KASSET,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,9,2024-07-02,K-JPX-A(A),KASSET,BF,False,buy,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,9,2024-07-02,K-JPX-A(A),KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,9,2024-07-02,K-JPX-A(A),KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,9,2024-07-02,KKP TECH-H,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,9,2024-07-02,KKP TECH-H,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,9,2024-07-02,KKP TECH-H,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,9,2024-07-02,KKP TECH-H,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,9,2024-07-02,KT-INDIA-A,KTAM,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,9,2024-07-02,KT-INDIA-A,KTAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,9,2024-07-02,KT-INDIA-A,KTAM,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,9,2024-07-02,KT-INDIA-A,KTAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,9,2024-07-02,ONE-INDIAOPP-IA,ONEAM,FF,True,buy,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,9,2024-07-02,ONE-INDIAOPP-IA,ONEAM,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,9,2024-07-02,ONE-INDIAOPP-IA,ONEAM,SI,True,buy,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,9,2024-07-02,ONE-INDIAOPP-IA,ONEAM,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,9,2024-07-02,TISCOINA-A,TISCOASSET,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,TISCOINA-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,TISCOINA-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,TISCOINA-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,9,2024-07-02,TISCOJP,TISCOASSET,FF,False,sell,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,9,2024-07-02,TISCOJP,TISCOASSET,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,9,2024-07-02,TISCOJP,TISCOASSET,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,9,2024-07-02,TISCOJP,TISCOASSET,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,10,2024-10-02,ABIG,ABERDEEN,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,ABIG,ABERDEEN,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,ABIG,ABERDEEN,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,ABIG,ABERDEEN,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,ASP-NGF,ASSETFUND,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,10,2024-10-02,ASP-NGF,ASSETFUND,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,10,2024-10-02,ASP-NGF,ASSETFUND,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,10,2024-10-02,ASP-NGF,ASSETFUND,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,10,2024-10-02,B-BHARATA,BBLAM,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,B-BHARATA,BBLAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,B-BHARATA,BBLAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,B-BHARATA,BBLAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,K-JPX-A(A),KASSET,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,10,2024-10-02,K-JPX-A(A),KASSET,BF,True,sell,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,10,2024-10-02,K-JPX-A(A),KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,10,2024-10-02,K-JPX-A(A),KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,10,2024-10-02,K-US500X-A(A),KASSET,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,K-US500X-A(A),KASSET,BF,False,buy,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,K-US500X-A(A),KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,10,2024-10-02,K-US500X-A(A),KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,10,2024-10-02,KKP TECH-H,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,10,2024-10-02,KKP TECH-H,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,10,2024-10-02,KKP TECH-H,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,10,2024-10-02,KKP TECH-H,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,10,2024-10-02,KT-INDIA-A,KTAM,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,10,2024-10-02,KT-INDIA-A,KTAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,10,2024-10-02,KT-INDIA-A,KTAM,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,10,2024-10-02,KT-INDIA-A,KTAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,10,2024-10-02,ONE-INDIAOPP-IA,ONEAM,FF,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,10,2024-10-02,ONE-INDIAOPP-IA,ONEAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,10,2024-10-02,ONE-INDIAOPP-IA,ONEAM,SI,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,10,2024-10-02,ONE-INDIAOPP-IA,ONEAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,10,2024-10-02,TISCOINA-A,TISCOASSET,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,TISCOINA-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,TISCOINA-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,TISCOINA-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,TUSFIN-A,TISCOASSET,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,TUSFIN-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,TUSFIN-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,10,2024-10-02,TUSFIN-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,ABIG,ABERDEEN,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,ABIG,ABERDEEN,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,ABIG,ABERDEEN,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,ABIG,ABERDEEN,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,B-BHARATA,BBLAM,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,B-BHARATA,BBLAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,B-BHARATA,BBLAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,B-BHARATA,BBLAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,K-US500X-A(A),KASSET,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,K-US500X-A(A),KASSET,BF,False,buy,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,K-US500X-A(A),KASSET,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,11,2025-01-02,K-US500X-A(A),KASSET,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,11,2025-01-02,KKP TECH-H,KKPAM,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,11,2025-01-02,KKP TECH-H,KKPAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,11,2025-01-02,KKP TECH-H,KKPAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,11,2025-01-02,KKP TECH-H,KKPAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,11,2025-01-02,KT-FINANCE-A,KTAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,11,2025-01-02,KT-FINANCE-A,KTAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,11,2025-01-02,KT-FINANCE-A,KTAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,11,2025-01-02,KT-FINANCE-A,KTAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,11,2025-01-02,KT-INDIA-A,KTAM,FF,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,11,2025-01-02,KT-INDIA-A,KTAM,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,11,2025-01-02,KT-INDIA-A,KTAM,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,11,2025-01-02,KT-INDIA-A,KTAM,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,11,2025-01-02,LHESPORT-A,LHFUND,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,LHESPORT-A,LHFUND,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,LHESPORT-A,LHFUND,SI,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,LHESPORT-A,LHFUND,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,ONE-INDIAOPP-IA,ONEAM,FF,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,11,2025-01-02,ONE-INDIAOPP-IA,ONEAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,11,2025-01-02,ONE-INDIAOPP-IA,ONEAM,SI,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,11,2025-01-02,ONE-INDIAOPP-IA,ONEAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,11,2025-01-02,TISCOINA-A,TISCOASSET,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,TISCOINA-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,TISCOINA-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,TISCOINA-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,TUSFIN-A,TISCOASSET,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,TUSFIN-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,TUSFIN-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,11,2025-01-02,TUSFIN-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,ABIG,ABERDEEN,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,ABIG,ABERDEEN,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,ABIG,ABERDEEN,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,ABIG,ABERDEEN,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,DAOL-GOLD,DAOLINV,FF,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,12,2025-04-02,DAOL-GOLD,DAOLINV,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,12,2025-04-02,DAOL-GOLD,DAOLINV,SI,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,12,2025-04-02,DAOL-GOLD,DAOLINV,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,12,2025-04-02,K-US500X-A(A),KASSET,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,K-US500X-A(A),KASSET,BF,True,sell,0.15,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,K-US500X-A(A),KASSET,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,12,2025-04-02,K-US500X-A(A),KASSET,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,12,2025-04-02,KKP TECH-H,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,12,2025-04-02,KKP TECH-H,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,12,2025-04-02,KKP TECH-H,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,12,2025-04-02,KKP TECH-H,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,12,2025-04-02,KT-FINANCE-A,KTAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,12,2025-04-02,KT-FINANCE-A,KTAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,12,2025-04-02,KT-FINANCE-A,KTAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,12,2025-04-02,KT-FINANCE-A,KTAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,12,2025-04-02,KT-INDIA-A,KTAM,FF,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,12,2025-04-02,KT-INDIA-A,KTAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,12,2025-04-02,KT-INDIA-A,KTAM,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,12,2025-04-02,KT-INDIA-A,KTAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,12,2025-04-02,LHESPORT-A,LHFUND,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,LHESPORT-A,LHFUND,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,LHESPORT-A,LHFUND,SI,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,LHESPORT-A,LHFUND,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,LHUSFIN-A,LHFUND,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,LHUSFIN-A,LHFUND,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,LHUSFIN-A,LHFUND,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,LHUSFIN-A,LHFUND,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,ONE-GLOBFIN-IA,ONEAM,FF,True,buy,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,12,2025-04-02,ONE-GLOBFIN-IA,ONEAM,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,12,2025-04-02,ONE-GLOBFIN-IA,ONEAM,SI,True,buy,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,12,2025-04-02,ONE-GLOBFIN-IA,ONEAM,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,12,2025-04-02,TCHT5M4,TISCOASSET,FF,True,buy,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,12,2025-04-02,TCHT5M4,TISCOASSET,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,12,2025-04-02,TCHT5M4,TISCOASSET,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,12,2025-04-02,TCHT5M4,TISCOASSET,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,12,2025-04-02,TISCOCH,TISCOASSET,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,TISCOCH,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,TISCOCH,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,TISCOCH,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,TISCOINA-A,TISCOASSET,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,TISCOINA-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,TISCOINA-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,TISCOINA-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,TUSFIN-A,TISCOASSET,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,TUSFIN-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,TUSFIN-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,12,2025-04-02,TUSFIN-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,DAOL-GOLD,DAOLINV,FF,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,13,2025-07-02,DAOL-GOLD,DAOLINV,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,13,2025-07-02,DAOL-GOLD,DAOLINV,SI,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,13,2025-07-02,DAOL-GOLD,DAOLINV,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,13,2025-07-02,ES-GINFRA-A,EASTSPRING,FF,True,buy,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,13,2025-07-02,ES-GINFRA-A,EASTSPRING,BF,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,13,2025-07-02,ES-GINFRA-A,EASTSPRING,SI,True,buy,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,13,2025-07-02,ES-GINFRA-A,EASTSPRING,SO,False,buy,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,13,2025-07-02,KKP GINFRAEQ-H-F,KKPAM,FF,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,13,2025-07-02,KKP GINFRAEQ-H-F,KKPAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,13,2025-07-02,KKP GINFRAEQ-H-F,KKPAM,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,13,2025-07-02,KKP GINFRAEQ-H-F,KKPAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,13,2025-07-02,KT-FINANCE-A,KTAM,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,13,2025-07-02,KT-FINANCE-A,KTAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,13,2025-07-02,KT-FINANCE-A,KTAM,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,13,2025-07-02,KT-FINANCE-A,KTAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,13,2025-07-02,LHESPORT-A,LHFUND,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,LHESPORT-A,LHFUND,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,LHESPORT-A,LHFUND,SI,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,LHESPORT-A,LHFUND,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,LHUSFIN-A,LHFUND,FF,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,LHUSFIN-A,LHFUND,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,LHUSFIN-A,LHFUND,SI,False,sell,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,LHUSFIN-A,LHFUND,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,ONE-GLOBFIN-IA,ONEAM,FF,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,13,2025-07-02,ONE-GLOBFIN-IA,ONEAM,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,13,2025-07-02,ONE-GLOBFIN-IA,ONEAM,SI,False,sell,1.07,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,13,2025-07-02,ONE-GLOBFIN-IA,ONEAM,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,13,2025-07-02,PRINCIPAL GIF,PRINCIPAL,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,PRINCIPAL GIF,PRINCIPAL,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,PRINCIPAL GIF,PRINCIPAL,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,PRINCIPAL GIF,PRINCIPAL,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,TCHT5M4,TISCOASSET,FF,True,buy,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,13,2025-07-02,TCHT5M4,TISCOASSET,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,13,2025-07-02,TCHT5M4,TISCOASSET,SI,True,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,13,2025-07-02,TCHT5M4,TISCOASSET,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,13,2025-07-02,TISCOCH,TISCOASSET,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,TISCOCH,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,TISCOCH,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,TISCOCH,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,TUSFIN-A,TISCOASSET,FF,True,buy,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,TUSFIN-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,TUSFIN-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,13,2025-07-02,TUSFIN-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,DAOL-GOLD,DAOLINV,FF,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,DAOL-GOLD,DAOLINV,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,DAOL-GOLD,DAOLINV,SI,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,DAOL-GOLD,DAOLINV,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,DAOL-PLAY,DAOLINV,FF,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,DAOL-PLAY,DAOLINV,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,DAOL-PLAY,DAOLINV,SI,True,buy,1.605,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,DAOL-PLAY,DAOLINV,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,ES-GINFRA-A,EASTSPRING,FF,False,sell,1.5,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,14,2025-10-02,ES-GINFRA-A,EASTSPRING,BF,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,14,2025-10-02,ES-GINFRA-A,EASTSPRING,SI,False,sell,1.07,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,14,2025-10-02,ES-GINFRA-A,EASTSPRING,SO,True,sell,0.0,median: ไม่มีแถว FEEUH ของกอง/รหัสนี้,
+M013-GC75,14,2025-10-02,KKP GINFRAEQ-H-F,KKPAM,FF,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,KKP GINFRAEQ-H-F,KKPAM,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,KKP GINFRAEQ-H-F,KKPAM,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,KKP GINFRAEQ-H-F,KKPAM,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,LHESPORT-A,LHFUND,FF,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,LHESPORT-A,LHFUND,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,LHESPORT-A,LHFUND,SI,False,sell,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,LHESPORT-A,LHFUND,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,M-EUBANK,MFC,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,M-EUBANK,MFC,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,M-EUBANK,MFC,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,M-EUBANK,MFC,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,ONE-GLOBFIN-RA,ONEAM,FF,True,buy,1.5,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,14,2025-10-02,ONE-GLOBFIN-RA,ONEAM,BF,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,14,2025-10-02,ONE-GLOBFIN-RA,ONEAM,SI,True,buy,1.5,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,14,2025-10-02,ONE-GLOBFIN-RA,ONEAM,SO,False,buy,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-05-10
+M013-GC75,14,2025-10-02,PRINCIPAL GIF,PRINCIPAL,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,PRINCIPAL GIF,PRINCIPAL,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,PRINCIPAL GIF,PRINCIPAL,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,PRINCIPAL GIF,PRINCIPAL,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,TCHT5M4,TISCOASSET,FF,False,sell,1.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,14,2025-10-02,TCHT5M4,TISCOASSET,BF,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,14,2025-10-02,TCHT5M4,TISCOASSET,SI,False,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,14,2025-10-02,TCHT5M4,TISCOASSET,SO,True,sell,0.0,ค่าจริง (snapshot ≤ วันซื้อขาย),2023-10-31
+M013-GC75,14,2025-10-02,TISCOCH,TISCOASSET,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,TISCOCH,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,TISCOCH,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,TISCOCH,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,TNEXTGEN-A,TISCOASSET,FF,True,buy,1.25,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,TNEXTGEN-A,TISCOASSET,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,TNEXTGEN-A,TISCOASSET,SI,True,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,TNEXTGEN-A,TISCOASSET,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,TUSFIN-A,TISCOASSET,FF,False,sell,1.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,TUSFIN-A,TISCOASSET,BF,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,TUSFIN-A,TISCOASSET,SI,False,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,TUSFIN-A,TISCOASSET,SO,True,sell,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-07-31
+M013-GC75,14,2025-10-02,UCI,UOBAM,FF,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,UCI,UOBAM,BF,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,UCI,UOBAM,SI,True,buy,1.5,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30
+M013-GC75,14,2025-10-02,UCI,UOBAM,SO,False,buy,0.0,snapshot เก่าสุด (ก่อน snapshot แรก),2026-06-30

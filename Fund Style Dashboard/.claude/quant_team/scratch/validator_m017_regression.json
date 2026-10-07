@@ -1,0 +1,1 @@
+{"M012S_full": 0.6596476637525112, "M012S_ref": 0.6596476637525112, "Trend25_full": 0.7193133322202644, "Trend25_ref": 0.7193133322202644, "spot_refit_ok": true, "spot_refit_n": 72, "leak_asserts": "index levels<=t, weekly<=t, exposure fit<=t (cache key=t + refit), quality<=t", "ok": true}

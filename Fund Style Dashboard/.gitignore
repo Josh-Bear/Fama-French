@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+*.log
+
+# --- Derived cache (regenerate ได้) ---
+cache/
+
+# --- OS ---
+.DS_Store
+
+# หมายเหตุ: base_data/ (raw MSCI csv/pdf) ไม่ ignore — เป็น input ของโปรเจกต์
+#           ยกเว้น nav_history_db.csv (~321MB เกินเพดาน 100MB ของ GitHub) เก็บไว้ในเครื่องเท่านั้น
+#           → cloud session รัน backtest/แอปที่ต้องใช้ NAV ไม่ได้ (แก้โค้ด/เอกสารได้ แล้วรันในเครื่อง)
+base_data/nav_history_db.csv
+
+# --- Claude Code: ค่าส่วนตัวของเครื่อง ---
+.claude/settings.local.json
+
+# artifact ของสคริปต์ exploratory ใน docs/archive (ไม่ใช่ source)
+macro_factor_test.csv
+
+# --- quant team: artifact ที่สร้างใหม่ได้ (pickle/parquet ของ scratch/validator) ---
+.claude/quant_team/**/*.pkl
+.claude/quant_team/**/*.parquet

@@ -1,0 +1,47 @@
+# ผลลัพธ์ทุกรอบ (อัปเดต 2026-10-02)
+
+ข้อมูลตัวเลข: `ALL_RESULTS.csv` (ไฟล์นี้คือคำอธิบาย) · หน้าสรุป: https://claude.ai/artifact/2AARm8rpFfVvPdojGKGb8q
+
+## เงื่อนไขการวัด
+- walk-forward นอกตัวอย่าง เม.ย. 2022 – ธ.ค. 2025 · rebalance รายไตรมาส (ยกเว้น M007) · rf คงที่ 2% · Sharpe ที่ต้นทุน 0% / 0.5% / 1% ต่อข้าง
+- CAGR / vol / max DD / DSR คิดที่ต้นทุน 0.5% · DSR = deflated Sharpe หักผลการลอง 18 trials (หน่วยรายเดือน แก้แล้ว)
+- `measurement=old` = ไม่นับเดือนแรก (เม.ย. 2022 ≈ −2.6%) · M002–M004 แบบ old ยังมีบั๊กถือหลาย share class (-F/-U) → สูงกว่าจริงราว 0.05–0.1
+- `post_hoc=yes` = เลือกหลังเห็นผล ห้ามอ้างเป็นผลหลัก
+- ช่วง 2026 ใช้ไม่ได้ (NAV ม.ค.–มี.ค. 2026 ขาดหลายร้อยกอง) → ไม่มี holdout
+- ตัวเสนอ: **M004-TF-FX** (Sharpe 0.72 · CI95% [−0.37, 1.86] · ตัดไตรมาสดีสุดเหลือ 0.41 · DSR@18 0.25) — model-reviewer: ผ่านแบบมีเงื่อนไข
+- **M008** (รันแล้ว · base M004-TF-FX · วัดใหม่ · รายละเอียด `M008_results.md`): **GC** (cluster cap 35% ≤3 กอง/กลุ่ม) Sharpe 0.551 · CAGR 7.3% · maxDD −10.2% · CI95% [−0.54, 1.66] · paired Δ −0.170 [−0.369, 0.048] · concentration ลดจริง (max cluster เฉลี่ย 0.49→0.34) แต่ name-theme สูงสุด 0.546 (เกณฑ์ ≤ 0.40) → **ไม่ผ่านเกณฑ์** · **SQ** (SR12 + Quality/LowVol tilt) Sharpe 0.283 · maxDD −13.5% · ปี 2022 แย่ลง (−8.9% vs −6.4%) · paired Δ −0.437 [−0.724, −0.073] → **ไม่ผ่านเกณฑ์** · ไม่มีตัวไหนเข้าใกล้ 0.95 · หมายเหตุ: คอลัมน์ `dsr_n18` ของแถว M008 ใน CSV = **DSR ที่ n=20** (GC n=19 = 0.167, SQ n=20 = 0.081) ส่วนแถวเก่าคือ n=18
+- **M009-NC** (รันแล้ว 2026-10-03 · trial ที่ 21 · base M004-TF-FX · วัดใหม่ · รายละเอียด `M009_results.md`): SR12 หักค่าปรับต้นทุน (FF+BF) · regression pen≡0 ตรง M004-TF-FX (max|Δw| ~1e-16, Sharpe 0.706119/0.720494/0.893296) · **Sharpe full 0.502** (M004-TF-FX 0.706) · paired Δ −0.204 CI95% [−0.358, −0.058] · cost 174 vs 185 bp/ปี · turnover 1.60 vs 1.62 · ชุดกองต่างกัน 1 กอง/ไตรมาสเป็นส่วนใหญ่ (14/15 ไตรมาส) · DSR@21 0.133 → **ไม่ผ่านเกณฑ์** (Δ < 0) · หมายเหตุ: คอลัมน์ `dsr_n18` ของแถว M009 = DSR@21 ที่ต้นทุน 0.5% คงที่ (0.137) · DSR@21 ที่ค่าธรรมเนียมจริง = 0.133
+
+## dry run สูตรคะแนนหน้า 8 (ไม่ใช่ backtest พอร์ต · มี look-ahead ของ exposure + survivorship)
+§12.13 ระดับดัชนี 28 ตัว (55 รอบ, IC ต่อ return 63 วัน): momentum 252d +0.099 (t 2.53, ปรับ overlap 1.46) · vol ล้วน −0.067 · คะแนนโซนเดิม +0.016 · ข้ามเดือนล่าสุด +0.036
+
+§12.14 สูตรคะแนนโซน (IC country / sector / เซลล์):
+| สูตร | country | sector | เซลล์ |
+|---|---|---|---|
+| A3 return 12-1 ÷ realized vol (ใช้อยู่) | 0.087 | 0.097 | 0.085 (t 1.55) |
+| A2 return ÷ GARCH 63d | 0.080 | 0.088 | 0.079 |
+| A1 return 12-1 ล้วน | 0.074 | 0.088 | 0.077 |
+| C1 z(ret) − 0.25·z(vol) | 0.050 | 0.059 | 0.047 |
+| A4 สูตรเดิม + GARCH 63d | 0.002 | 0.030 | −0.005 |
+| A5 สูตรเดิม | −0.031 | 0.030 | −0.014 |
+| B1 ตัด vol สูงสุด 25% | −0.012 | 0.029 | −0.029 |
+
+§12.14 กับ return กองจริง (209 กอง): IC สูตรใหม่ 0.132 (t 4.05) · เดิม 0.104 (t 2.87) · return 12-1 ล้วน 0.132 ·
+Top 5 ชนะค่าเฉลี่ยกอง: เกณฑ์ 0.7 +2.42%/63 วัน (t 5.6) · เกณฑ์ 2.75 +1.89% (t 3.9) · สูตรเดิม +1.13% (t 2.8)
+
+## รายละเอียดต่อรอบ
+spec: `specs/` · ผล: `backtest/results/M001_baseline.md`, `M002-M005_results.md`, `M006-M007_results.md` · รีวิว: `reviews/` · log: `trials.csv`
+
+
+## เพิ่ม 2026-10-02: ค่าธรรมเนียมจริง (COST_real_fees)
+คอลัมน์ใหม่ใน `ALL_RESULTS.csv`: `sharpe_fee_full`, `sharpe_fee_nofront`, `cagr_fee_full`, `cost_bp_yr_fee_full` — คำนวณใหม่ทุกแถวด้วย **วิธีวัดใหม่ (นับเดือนแรก) + family map ใหม่ (M002+)** จึงต่างจากคอลัมน์ `sharpe_cost05` เดิมของแถว `measurement=old` ด้วย (เดิม: ไม่นับเดือนแรก/บั๊ก share class) · เทียบกับ 0.5%/ข้างแบบวัดใหม่ให้ดู `COST_real_fees_summary.csv` (`sharpe_c50`) · รายละเอียด/ข้อจำกัด: `COST_real_fees_results.md` · M001 ใช้น้ำหนักจาก `M001_quarterly_weights.csv` (ไม่ refit)
+
+## เพิ่ม 2026-10-03: M009-NC
+แถว `M009-NC` ใน `ALL_RESULTS.csv`: คอลัมน์ Sharpe/CAGR/vol/maxDD/dsr ที่ต้นทุน 0.5%/ข้าง คงที่ (เหมือนแถวอื่น) + คอลัมน์ `*_fee_*` = ค่าธรรมเนียมจริง (full/nofront) · ก่อน 2023-05 ใช้ snapshot ค่าธรรมเนียมเก่าสุด (สมมติฐานตามผู้ใช้) · ตัวชี้วัดรายงานคู่ทั้งหมด (FF=0, turnover, pen, ธีม) ดู `M009_results.md`
+
+## เพิ่ม 2026-10-06: M010-LLD
+แถว `M010-LLD` ใน `ALL_RESULTS.csv` (trial ที่ 22 · base M004-TF-FX · วัดใหม่ · รายละเอียด `M010_results.md`): ตัดกองซ้ำด้วย ρ_adj > 0.85 · Sharpe full 0.600 (M004-TF-FX 0.706) · paired Δ -0.106 CI95% [-0.308, +0.187] · skip 106 ครั้ง ใน 14 ไตรมาส · กลไกทำงาน · DSR@22 0.153 · **ไม่ผ่าน** Δ Sharpe full < 0 (เกณฑ์ผู้ใช้ 2026-10-06) (เกณฑ์ผู้ใช้ 2026-10-06: Δ ≥ 0 เท่านั้น) · คอลัมน์ `dsr_n18` ของแถวนี้ = DSR@22 ที่ต้นทุน 0.5% คงที่
+
+
+## เพิ่ม 2026-10-06: rf ไทยจริง (REAL_RF_remeasure — เปลี่ยนวิธีวัด ไม่ใช่ trial)
+คอลัมน์ใหม่ใน `ALL_RESULTS.csv` (ท้ายตาราง, ลงท้าย `_realrf`): `sharpe_fee_full_realrf`, `sharpe_fee_nofront_realrf`, `sharpe_flat05_realrf`, `sharpe_cost0_realrf`, `cagr_fee_full_realrf`, `maxdd_fee_full_realrf`, `sharpe_2022_fee_full_realrf`, `dsr_n22_fee_full_realrf` — ใช้ rf = อัตรานโยบาย กนง. รายวัน (step, มีผลวันถัดจากประกาศ) ทั้งดอกเบี้ยเงินสดและ rf ใน Sharpe/DSR · plan/กองที่คัดเหมือนเดิม · เทียบกับคอลัมน์ `sharpe_fee_full` (rf 2%, วัดใหม่) · แถว M004-TF-NEWMEAS เว้นว่าง · รายละเอียด `REAL_RF_remeasure.md`

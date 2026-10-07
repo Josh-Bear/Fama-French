@@ -1,0 +1,126 @@
+{
+  "checks": {
+    "date_parsing": {
+      "status": "PASS",
+      "note": "All 72 dates parsed successfully"
+    },
+    "date_sort": {
+      "status": "PASS",
+      "note": "Dates in ascending order"
+    },
+    "date_unique": {
+      "status": "PASS",
+      "note": "No duplicate dates"
+    },
+    "rate_numeric": {
+      "status": "PASS",
+      "note": "All rates numeric, range [0.5, 2.5]%"
+    },
+    "rate_range": {
+      "status": "PASS",
+      "note": "All rates in [0%, 5%]"
+    },
+    "no_nulls": {
+      "status": "PASS",
+      "note": "No null values"
+    },
+    "decision_consistency": {
+      "status": "PASS",
+      "note": "All decisions match rate changes"
+    },
+    "meeting_interval": {
+      "status": "WARN",
+      "note": "Large gaps detected: 2018-09-19: 637 days and 0 more"
+    },
+    "coverage_start": {
+      "status": "WARN",
+      "note": "Coverage starts 2021-02-03, after 2021-01-01"
+    },
+    "coverage_end": {
+      "status": "WARN",
+      "note": "Coverage ends 2026-08-26, before 2026-08-31"
+    },
+    "coverage_gaps": {
+      "status": "PASS",
+      "note": "No large gaps in period"
+    },
+    "annual_avg_2022": {
+      "status": "PASS",
+      "note": "Calculated 0.6836% vs expected 0.6800% (diff +0.52%)"
+    },
+    "annual_avg_2023": {
+      "status": "PASS",
+      "note": "Calculated 1.9877% vs expected 1.9900% (diff -0.12%)"
+    },
+    "annual_avg_2024": {
+      "status": "PASS",
+      "note": "Calculated 2.4481% vs expected 2.4500% (diff -0.08%)"
+    },
+    "annual_avg_2025": {
+      "status": "PASS",
+      "note": "Calculated 1.7658% vs expected 1.7700% (diff -0.24%)"
+    }
+  },
+  "annual_averages": {
+    "2022": 0.6835616438356165,
+    "2023": 1.9876712328767123,
+    "2024": 2.448087431693989,
+    "2025": 1.7657534246575342
+  },
+  "rate_changes_backtest": {
+    "announce_date": {
+      "47": "2022-08-10",
+      "48": "2022-09-28",
+      "49": "2022-11-30",
+      "50": "2023-01-25",
+      "51": "2023-03-29",
+      "52": "2023-05-31",
+      "53": "2023-08-02",
+      "54": "2023-09-27",
+      "60": "2024-10-16",
+      "62": "2025-02-26",
+      "63": "2025-04-30",
+      "65": "2025-08-13",
+      "67": "2025-12-17",
+      "68": "2026-02-25"
+    },
+    "rate_pct": {
+      "47": 0.75,
+      "48": 1.0,
+      "49": 1.25,
+      "50": 1.5,
+      "51": 1.75,
+      "52": 2.0,
+      "53": 2.25,
+      "54": 2.5,
+      "60": 2.25,
+      "62": 2.0,
+      "63": 1.75,
+      "65": 1.5,
+      "67": 1.25,
+      "68": 1.0
+    },
+    "decision": {
+      "47": "Raise 25 bps",
+      "48": "Raise 25 bps",
+      "49": "Raise 25 bps",
+      "50": "Raise 25 bps",
+      "51": "Raise 25 bps",
+      "52": "Raise 25 bps",
+      "53": "Raise 25 bps",
+      "54": "Raise 25 bps",
+      "60": "Cut 25 bps",
+      "62": "Cut 25 bps",
+      "63": "Cut 25 bps",
+      "65": "Cut 25 bps",
+      "67": "Cut 25 bps",
+      "68": "Cut 25 bps"
+    }
+  },
+  "date_range": {
+    "start": "2015-01-28",
+    "end": "2026-08-26",
+    "backtest_start": "2021-02-03",
+    "backtest_end": "2026-08-26"
+  }
+}

@@ -1,0 +1,25 @@
+model,leg,code,mean_actual_pct,mean_rate_pct,n_pairs
+A,หุ้น,FF,1.041,2.247416666666667,120
+A,หุ้น,BF,0.011250000000000001,1.7978333333333334,120
+A,หุ้น,SI,0.7393333333333333,1.7224166666666667,120
+A,หุ้น,SO,0.025,1.4645000000000001,120
+A,F,FF,0.0,0.2222222222222222,9
+A,F,BF,0.0,0.2222222222222222,9
+A,F,SI,0.0,0.2222222222222222,9
+A,F,SO,0.0,0.05555555555555555,9
+B,หุ้น,FF,1.0897916666666667,2.2277500000000003,120
+B,หุ้น,BF,0.008749999999999999,1.86875,120
+B,หุ้น,SI,0.7333750000000001,1.6194166666666667,120
+B,หุ้น,SO,0.025,1.3979166666666667,120
+-,FeeData หุ้น Actual,n_rows/n_invalid,2212.0,0.0,0
+-,FeeData หุ้น Rate,n_rows/n_invalid,2212.0,0.0,0
+-,FeeData F Actual,n_rows/n_invalid,2028.0,96.0,0
+-,FeeData F Rate,n_rows/n_invalid,2028.0,81.0,0
+-,median fallback,FF,1.5,2.0,0
+-,median fallback F,FF,0.0,1.0,0
+-,median fallback,BF,0.0,2.0,0
+-,median fallback F,BF,0.0,1.0,0
+-,median fallback,SI,1.07,2.0,0
+-,median fallback F,SI,0.0,1.0,0
+-,median fallback,SO,0.0,2.0,0
+-,median fallback F,SO,0.0,0.25,0

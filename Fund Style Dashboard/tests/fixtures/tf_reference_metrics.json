@@ -1,0 +1,14 @@
+{
+ "_source": "backtest-validator ของทีม quant 2026-10-02 (COST_real_fees_summary.csv · rf 2% · 2022-04-04..2025-12-31)",
+ "M004-TF-FX": {
+  "flat": 0.720494,
+  "full": 0.706119,
+  "nofront": 0.893296
+ },
+ "B0": {
+  "flat": 0.070709,
+  "full": 0.059449,
+  "nofront": 0.099914
+ },
+ "_note_2026-10-06": "B0 full 0.059569 -> 0.059449 หลังแก้ fund_fees: 'ไม่มี/ยกเว้น/ไม่เรียกเก็บ' = 0 และแถวซ้ำเลือกค่าสูงกว่า (audit AUDIT_fees.md) · M004-TF-FX ไม่เปลี่ยน"
+}

@@ -1,0 +1,24 @@
+round,trial,idea,measurement,post_hoc,sharpe_cost0,sharpe_cost05,sharpe_cost1,cagr,vol,max_dd,dsr_n18
+baseline,B0,equal weight all eligible funds,old,no,0.303,0.282,0.261,0.048,0.121,-0.132,
+M001,M001-MS,page8 zone score x R2 -> greedy -> max Sharpe,old,no,0.495,0.251,0.002,0.042,0.107,-0.097,0.088
+M001,M001-EW,page8 selection equal weight,old,no,0.383,0.134,-0.115,0.029,0.107,-0.098,0.058
+M002,M002-SR,8 funds by SR12 equal weight,old,no,0.775,0.636,0.495,0.097,0.128,-0.162,0.266
+M002,M002-MOM,8 funds by return 12-1,old,no,0.303,0.219,0.135,0.044,0.173,-0.207,0.078
+M002,M002-NOH,SR12 without hysteresis,old,no,0.627,0.445,0.262,0.071,0.129,-0.162,0.161
+M003,M003-ERC,+ ERC weights,old,no,0.802,0.649,0.496,0.097,0.124,-0.146,0.275
+M003,M003-HRP,+ HRP weights,old,no,0.765,0.603,0.439,0.090,0.124,-0.148,0.237
+M004,M004-VT,+ vol target 10%,old,no,0.653,0.500,0.346,0.071,0.109,-0.146,0.195
+M004,M004-TF,+ trend filter 25% cash,old,no,0.902,0.738,0.573,0.099,0.109,-0.108,0.305
+M005,M005,composite (dedup + max(VT;TF)) headline,old,no,0.632,0.455,0.278,0.062,0.101,-0.119,0.133
+M005,M005-N5,M005 with 5 funds,old,yes,0.995,0.845,0.693,0.109,0.106,-0.090,0.389
+M005,M005-N10,M005 with 10 funds,old,no,0.686,0.514,0.343,0.067,0.096,-0.104,0.163
+M005,M005-NODD,M005 without dedup,old,no,0.804,0.642,0.478,0.082,0.099,-0.108,0.270
+bugfix,M004-TF-NEWMEAS,M004-TF counting first month,new,no,0.823,0.653,0.483,0.089,0.109,-0.131,0.245
+bugfix,M004-TF-FX,M004-TF + share-class fix (HEADLINE),new,no,0.894,0.720,0.546,0.093,0.103,-0.104,0.251
+M006,M006-TC,graded cash 0-100% monthly,new,no,0.906,0.671,0.439,0.075,0.082,-0.102,0.171
+M006,M006-TCA,+ per-fund absolute momentum,new,no,0.873,0.646,0.423,0.072,0.081,-0.102,0.157
+M006,M006-TCQ,graded cash 0-100% quarterly,new,yes,1.109,0.920,0.728,0.094,0.079,-0.076,0.309
+M007,M007-6M,reselect every 6m + cash <=30%,new,no,0.586,0.429,0.273,0.058,0.096,-0.122,0.118
+M007,M007-12M,reselect every 12m + cash <=30%,new,no,0.288,0.165,0.045,0.031,0.089,-0.136,0.060
+M008,M008-GC,cluster cap 35% + <=3 funds/cluster on M004-TF-FX,new,no,0.727,0.551,0.373,0.073,0.101,-0.102,0.161
+M008,M008-SQ,SR12 + Quality/LowVol beta tilt on M004-TF-FX,new,no,0.453,0.283,0.114,0.044,0.097,-0.135,0.081
