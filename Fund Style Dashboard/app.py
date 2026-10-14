@@ -29,7 +29,7 @@ st.info(f"วิเคราะห์ **{len(results)} กองหุ้น (po
         f"เพราะ 28 ดัชนีที่ใช้เป็นดัชนีหุ้นล้วน อธิบายกองพวกนั้นไม่ได้ (R² เฉลี่ย 0.15-0.17) · "
         f"นับเฉพาะกองที่มีจุดข้อมูล NAV > {config.MIN_DATA_POINTS} จุด · ใช้เมนูซ้าย: "
         "**🌍 Country Match** · **🏭 Sector Match** · **📊 Match Strength** · **🔮 Vol Forecast** · "
-        "**📉 Filtered Scatter** · **🎯 Style Match** · **🌐 Macro Chain** · **🧭 Score Screen** · **📈 TF Portfolio**")
+        "**📉 Filtered Scatter** · **🎯 Style Match** · **🌐 Macro Chain** · **🧭 Score Screen** · **📈 TF Portfolio** · **🗺 M019 Frontier**")
 
 st.markdown(
     """

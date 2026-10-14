@@ -156,6 +156,30 @@ def weight_grid(n: int, min_w: float | None = None, max_w: float | None = None,
     return np.column_stack([grid[ok], last[ok]]) / unit
 
 
+def composition_grid(n: int, step: float, max_w: float = 1.0) -> np.ndarray:
+    """ทุกชุดน้ำหนัก 0–max_w ทีละ step ที่รวมได้ 100% พอดี -> array (combinations × n).
+
+    ต่างจาก weight_grid ที่สร้าง meshgrid ทุกค่าก่อนกรอง — ที่นี่ต่อทีละกองและตัดกิ่งที่เกินเพดาน/เติมไม่ถึง 100% ทันที
+    จึงใช้กับกองจำนวนมากได้ (หน้า 10: หุ้น 8 กอง ทีละ 5% เพดาน 40% = 634,446 ชุด · weight_grid ต้องสร้าง 9⁷ ≈ 4.8 ล้านจุดก่อนกรอง)
+    max_w ที่ไม่ลงตัวกับ step ปัดลง (ไม่มีน้ำหนักเกินเพดาน) · เงื่อนไขเป็นไปไม่ได้ (max_w × n < 100%) -> array ว่าง
+    """
+    unit_f = 1.0 / step
+    units = int(round(unit_f))
+    if units <= 0 or abs(unit_f - units) > 1e-9:
+        raise ValueError(f"step {step:.2%} หาร 100% ไม่ลงตัว")
+    cap = min(int(np.floor(max_w * units + 1e-9)), units)
+    if n <= 0 or cap * n < units:
+        return np.empty((0, max(n, 0)), dtype=float)
+    parts = np.zeros((1, 0), dtype=np.int16)
+    for i in range(n - 1):                                   # กองที่ i: ใส่ได้ 0..cap หน่วย โดยกองที่เหลือยังเติมถึง 100% ได้
+        v = np.arange(cap + 1, dtype=np.int16)
+        parts = np.column_stack([np.repeat(parts, len(v), axis=0), np.tile(v, len(parts))])
+        left = units - parts.sum(axis=1)
+        parts = parts[(left >= 0) & (left <= cap * (n - 1 - i))]
+    last = units - parts.sum(axis=1)                         # กองสุดท้าย = ส่วนที่เหลือ (อยู่ใน 0..cap แล้วจากเงื่อนไขข้างบน)
+    return np.column_stack([parts, last]).astype(float) / units
+
+
 def portfolio_points(weights: np.ndarray, mu: pd.Series, sigma: pd.DataFrame) -> pd.DataFrame:
     """risk (annualized vol) กับ return ของทุกชุดน้ำหนัก -> DataFrame[risk, ret]."""
     s, m = sigma.to_numpy(), mu.reindex(sigma.index).to_numpy()

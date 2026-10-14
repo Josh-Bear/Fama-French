@@ -23,7 +23,7 @@
 
 ## สารบัญ
 
-### หน้าเว็บ (9 หน้า)
+### หน้าเว็บ (10 หน้า)
 | เอกสาร | หน้า | สรุป |
 |---|---|---|
 | [1-country-match](pages/1-country-match.md) | 🌍 Country Match | scatter กองทุน × exposure **ประเทศ** (18 ดัชนี) |
@@ -35,6 +35,7 @@
 | [7-macro-chain](pages/7-macro-chain.md) | 🌐 Macro Chain | เจาะรายกอง E — ความไวต่อ **macro 7 ตัว** (% ต่อ 1 SD) · implied (chain ผ่าน country/sector) คู่ direct (regress NAV ตรง) |
 | [8-score-screen](pages/8-score-screen.md) | 🧭 Score Screen | คะแนนโซน country × sector → คัดกองที่ผ่านเกณฑ์ไม่ซ้ำการเดิมพัน (สูงสุด 5 · โหมดเริ่มต้นได้ 4) → efficient frontier ของกองชุดนั้น |
 | [9-tf-portfolio](pages/9-tf-portfolio.md) | 📈 TF Portfolio | โมเดล M004-TF-FX ที่ผ่าน walk-forward backtest — พอร์ตแนะนำ ณ วันที่เลือก (8 กอง SR12 + ERC + เงินสดตาม trend) + ผลย้อนหลังด้วยค่าธรรมเนียมจริง |
+| [10-gc75-frontier](pages/10-gc75-frontier.md) | 🗺 M019 Frontier | efficient frontier ของกองที่ M019 (หุ้น 3 กอง + ขาทอง) ถือจริง 4 ไตรมาส + จุด MVP / max Sharpe / ERC · เทียบ max Sharpe กับ ERC |
 
 ### ภาคผนวก
 | เอกสาร | เนื้อหา |

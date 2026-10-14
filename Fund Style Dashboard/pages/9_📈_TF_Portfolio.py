@@ -12,6 +12,7 @@ import config
 import data_access
 import page_common
 import viz
+from analysis import gc75_frontier as gf
 from analysis import fund_backtest, tf_model
 
 st.set_page_config(page_title="TF Portfolio", page_icon="📈", layout="wide")
@@ -128,12 +129,51 @@ with st.expander("🔁 ไตรมาสที่ไล่ rebalance มา (�
                  column_config={"coverage": st.column_config.NumberColumn("กองสด (เทียบ ธ.ค. 2025)", format="percent"),
                                 "cash": st.column_config.NumberColumn("เงินสด", format="percent")})
 
+# ---------- ส่วนที่ 1b — พอร์ต M019 (จากไฟล์อ้างอิงของทีม quant) ----------
+st.markdown("#### ★ พอร์ต M019 (หุ้น 3 กอง + ทอง) — จาก backtest ของทีม quant")
+try:
+    m019 = data_access.get_gc75_frontier()["holdings"]
+except Exception as e:  # noqa: BLE001
+    st.error(f"โหลดไฟล์พอร์ต M019 ไม่สำเร็จ: {type(e).__name__}: {e}\n\n"
+             "สร้างด้วย `PYTHONPATH=. ./.venv/bin/python .claude/quant_team/backtest/export_gc75_frontier.py`")
+    m019 = None
+if m019 is not None:
+    m_q = sorted(m019["t"].unique())
+    usable = [t for t in m_q if t <= as_of]
+    if not usable:
+        st.info(f"M019 เริ่มถือ {pd.Timestamp(m_q[0]):%Y-%m-%d} — ยังไม่มีพอร์ต ณ วันที่เลือก")
+    else:
+        t_m = pd.Timestamp(usable[-1])
+        h_m = m019[m019["t"] == t_m].copy()
+        eq_m = h_m.loc[h_m["kind"] == "E", "weight"].sum()
+        if as_of > pd.Timestamp(m_q[-1]):
+            st.warning(f"พอร์ต M019 ล่าสุดในไฟล์คือไตรมาส {pd.Timestamp(m_q[-1]):%Y-%m-%d} (ไม่ได้คำนวณสดในแอป) — "
+                       "หลังจากนั้นทีม quant ยังไม่ได้ export · ใช้ดูโครงพอร์ตเท่านั้น")
+        a1, a2, a3 = st.columns(3)
+        a1.metric("ไตรมาส (ตัดสินใจ)", f"{t_m:%Y-%m-%d}", f"ซื้อขาย {pd.Timestamp(h_m['e'].iloc[0]):%Y-%m-%d}", delta_color="off")
+        a2.metric("สัดส่วนหุ้น (GC75)", f"{eq_m:.0%}")
+        d_m = h_m[h_m["kind"] != "E"]
+        a3.metric("ขาตั้งรับ", f"{d_m['weight'].sum():.0%}",
+                  (f"{gf.KIND_LABEL[d_m['kind'].iloc[0]]} {d_m['FundCode'].iloc[0]}" if len(d_m) else "ไม่มี (หุ้น 100%)"), delta_color="off")
+        h_m["ชนิด"] = h_m["kind"].map(gf.KIND_LABEL)
+        st.dataframe(h_m.sort_values(["kind", "weight"], ascending=[True, False])[["ชนิด", "FundCode", "family", "weight", "sr12p", "rank"]],
+                     hide_index=True, **page_common.TABLE_WIDTH,
+                     column_config={"weight": st.column_config.NumberColumn("น้ำหนัก", format="percent"),
+                                    "sr12p": st.column_config.NumberColumn("SR12′", format="%.2f",
+                                                                           help="(R12-1 − ดอกเบี้ยนโยบายจริงทบต้น 11 เดือน) ÷ vol52"),
+                                    "rank": st.column_config.NumberColumn("อันดับ", format="%d"), "family": "family"})
+        st.caption("M019: หุ้น 3 กอง = อันดับ 1 ตาม SR12′ (เกณฑ์คุณภาพ AUM ≥ 100 ล้าน · อายุ ≥ 2 ปี) + เติมกองที่ correlation กับกองที่เลือกแล้ว"
+                   "ต่ำสุดจากอันดับ ≤ 9 · ERC เพดาน 40% · สัดส่วนหุ้นตาม GC75 · ส่วนที่เหลือ = กองทอง AUM ใหญ่สุด · "
+                   "efficient frontier ของพอร์ตนี้ดูที่หน้า 🗺 M019 Frontier")
+
 # ---------- ส่วนที่ 2 — ผลย้อนหลัง TOP3 ----------
 st.subheader(f"2 · ผล backtest walk-forward — TOP3 (ถึง {pd.Timestamp(config.TF_EVAL_END):%Y-%m-%d})")
 st.caption("① **GC75 + กองตลาดเงิน** — กองชุดเดียวกับ ③ แต่สัดส่วนหุ้นไล่ระดับ 100/75/50/25% ตามผลตอบแทน MSCI ACWI "
            "3/6/12 เดือนเทียบดอกเบี้ย (ปรับทุกไตรมาส) · ส่วนที่ไม่ถือหุ้นพักในกองตลาดเงิน AUM ใหญ่สุด ⚠️ เลือกหลังเห็นผลบางส่วน  \n"
            "② **Trend 25** — โมเดลของหน้านี้ (ส่วนที่ 1): 8 กอง SR12 + ERC + เงินสด 25% เมื่อ ACWI < SMA200  \n"
-           "③ **M012-QF-S** — Trend 25 + ดอกเบี้ยจริงใน SR12 + เกณฑ์คุณภาพ (AUM ≥ 100 ล้าน · อายุกอง ≥ 2 ปี)")
+           "③ **M012-QF-S** — Trend 25 + ดอกเบี้ยจริงใน SR12 + เกณฑ์คุณภาพ (AUM ≥ 100 ล้าน · อายุกอง ≥ 2 ปี)  \n"
+           "★ **M019** — หุ้น 3 กอง (อันดับ 1 + correlation ต่ำ) · ERC เพดาน 40% · สัดส่วนหุ้น GC75 · ส่วนที่เหลือถือกองทอง AUM ใหญ่สุด "
+           "⚠️ เลือกหลังเห็นผลหลายรอบ (ทีมลอง 88 แบบ) · ระดับที่ไม่ขึ้นกับเดือน rebalance ราว Sharpe 0.6–1.5 ตาม offset")
 case_labels = {"full": "ค่าธรรมเนียมจริง (จ่ายเต็ม)", "nofront": "ยกเว้นค่าธรรมเนียมขาย (front-end)",
                "flat": f"ต้นทุนคงที่ {config.TF_COST_FLAT:.1%} ต่อข้าง"}
 case = st.radio("ต้นทุนซื้อขาย", list(case_labels), format_func=case_labels.get, horizontal=True,

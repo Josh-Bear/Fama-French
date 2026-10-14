@@ -331,5 +331,21 @@ TF_M001_REFERENCE_CSV = os.path.join(BASE_DATA_DIR, "reference", "m001_backtest_
 # หน้า 9 ส่วนที่ 2: ผล backtest TOP3 + B0 (ไฟล์อ้างอิงคงที่จาก backtest-validator · universe เต็ม · rf จริง ธปท. · ค่าธรรมเนียมจริงแก้แล้ว)
 TF_TOP3_CURVES_CSV = os.path.join(BASE_DATA_DIR, "reference", "tf_top3_curves.csv")
 TF_TOP3_METRICS_CSV = os.path.join(BASE_DATA_DIR, "reference", "tf_top3_metrics.csv")
-TF_TOP3_SERIES = ("GC75_MMF", "TREND25", "M012_QFS", "B0")   # ลำดับแสดงผล
-TF_TOP3_N_TRIALS = 32              # จำนวนแบบที่ทีมลองแล้ว ณ ตอน export (ใช้ใน DSR ของไฟล์อ้างอิง)
+TF_TOP3_SERIES = ("M019", "GC75_MMF", "TREND25", "M012_QFS", "B0")   # ลำดับแสดงผล (M019 เพิ่ม 2026-10-14)
+TF_TOP3_N_TRIALS = 88              # จำนวนแบบที่ทีมลองแล้ว ณ ตอน export (DSR ของไฟล์อ้างอิง · = n_trials_cumulative สูงสุดใน trials.csv ตอน export)
+
+# --- GC75 Frontier (หน้า 10) — efficient frontier ของกองที่ M019-LC3-GCGOLD ถือจริง (ดู docs/pages/10-gc75-frontier.md) ---
+# (เดิม = GC75 + กองตลาดเงิน / M015-FAUM · ผู้ใช้เปลี่ยนเป็น M019 2026-10-13 · ชื่อ GC75_FRONTIER_* คงไว้ เพราะ M019 ใช้ GC75 กำหนดสัดส่วนหุ้น)
+# prefix GC75_ (ไม่ใช่ TF_) โดยตั้งใจ — ค่าเหล่านี้ไม่เกี่ยวกับ cache หน้า 9 จึงต้องไม่อยู่ใน _tf_config_fingerprint
+# input = ไฟล์อ้างอิงคงที่จาก .claude/quant_team/backtest/export_gc75_frontier.py (กองที่ถือ/น้ำหนัก/SR12′/rf + weekly return 52 สัปดาห์ ≤ t)
+GC75_FRONTIER_HOLDINGS_CSV = os.path.join(BASE_DATA_DIR, "reference", "gc75_frontier_holdings.csv")
+GC75_FRONTIER_WEEKLY_CSV = os.path.join(BASE_DATA_DIR, "reference", "gc75_frontier_weekly.csv")
+# ผลที่เกิดขึ้นจริงของ MVP / max Sharpe / ERC (ค่าธรรมเนียมจริง · buy-and-hold · ไตรมาสที่ถือ และ 1 ปี) — export สคริปต์เดียวกัน
+GC75_FRONTIER_REALIZED_CSV = os.path.join(BASE_DATA_DIR, "reference", "gc75_frontier_realized.csv")
+# กริดเฉพาะส่วนหุ้น: ขาตั้งรับ (ทอง/ตลาดเงิน) ล็อกตามน้ำหนักจริงของไตรมาส · หุ้น 3 กอง กองละ 0–40% ของส่วนหุ้น
+# ทีละ 1% → 231 ชุด (ผู้ใช้กำหนด 2026-10-13 เพดาน 40% · 2026-10-14 เปลี่ยนจาก 5% เป็น 1%)
+GC75_FRONTIER_STEP = 0.01
+GC75_FRONTIER_MAX_W = 0.40           # เพดานของกริด (สำรวจ) — แก้ได้โดยไม่กระทบจุด ERC
+GC75_FRONTIER_MODEL_CAP = 0.40       # เพดาน ERC ของโมเดล M019 (run_m019.CAP) — จุด ERC ต้องตรงพอร์ตที่ถือจริง ห้ามเปลี่ยนตามกริด
+GC75_FRONTIER_N_QUARTERS = 4         # สุ่มไตรมาสแบบคงที่ เปลี่ยนในหน้าเว็บไม่ได้ (ผู้ใช้กำหนด)
+GC75_FRONTIER_SEED = 20261007

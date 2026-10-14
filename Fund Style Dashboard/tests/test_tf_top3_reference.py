@@ -1,5 +1,8 @@
 """test_tf_top3_reference.py — ไฟล์อ้างอิง TOP3 ของหน้า 9 ครบและสอดคล้องกับตัวเลขที่ validator ตรวจแล้ว."""
 
+import os
+
+import pandas as pd
 import pytest
 
 import config
@@ -24,8 +27,19 @@ def test_every_series_has_every_case(top3):
 
 def test_headline_sharpe_matches_validated_export(top3):
     m = top3["metrics"].set_index(["series", "case"])["sharpe"]
-    for s, v in {"GC75_MMF": 0.751, "TREND25": 0.719, "M012_QFS": 0.660, "B0": 0.076}.items():
+    for s, v in {"GC75_MMF": 0.751, "TREND25": 0.719, "M012_QFS": 0.660, "B0": 0.076, "M019": 1.098}.items():
         assert m[(s, "full")] == pytest.approx(v, abs=5e-4)
+    assert m[("M019", "nofront")] == pytest.approx(1.219, abs=5e-4)                   # = results/M019_results.csv
+
+
+def test_dsr_uses_the_current_trial_count(top3):
+    """DSR ในไฟล์อ้างอิงต้องคิดที่จำนวน trials ปัจจุบันใน ledger ของทีม = config.TF_TOP3_N_TRIALS (แอปแสดงค่านี้)."""
+    ledger = os.path.join(config.BASE_DIR, ".claude", "quant_team", "trials.csv")
+    if os.path.exists(ledger):
+        assert config.TF_TOP3_N_TRIALS == int(pd.read_csv(ledger)["n_trials_cumulative"].max()), "trials เพิ่ม → รัน export_top3.py ใหม่"
+    d = top3["metrics"].set_index(["series", "case"])["dsr"]
+    for s, v in {"GC75_MMF": 0.0705, "TREND25": 0.0903, "M012_QFS": 0.0692, "B0": 0.0107, "M019": 0.1615}.items():
+        assert d[(s, "full")] == pytest.approx(v, abs=5e-5)
 
 
 def test_cagr_matches_curve_endpoints(top3):

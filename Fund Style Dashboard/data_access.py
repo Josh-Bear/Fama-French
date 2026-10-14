@@ -542,23 +542,39 @@ TF_HOLDINGS_CSV = os.path.join(config.CACHE_DIR, f"{config.TF_CACHE_PREFIX}_hold
 TF_QUARTERS_CSV = os.path.join(config.CACHE_DIR, f"{config.TF_CACHE_PREFIX}_quarters.csv")
 TF_META_JSON = os.path.join(config.CACHE_DIR, f"{config.TF_CACHE_PREFIX}_meta.json")
 TF_CACHE_FILES = (TF_CURVES_CSV, TF_METRICS_CSV, TF_HOLDINGS_CSV, TF_QUARTERS_CSV, TF_META_JSON)
-# ไฟล์ข้อมูลทุกไฟล์ที่ผล TF ขึ้นอยู่ด้วย — เก็บ mtime ไว้ใน meta (ตรวจความเก่า) และใช้เป็น stamp ของ st.cache_data
+# ไฟล์ข้อมูลทุกไฟล์ที่ผล TF ขึ้นอยู่ด้วย — เก็บ sha1 ของเนื้อหาไว้ใน meta (ตรวจความเก่า) · mtime ใช้เป็น stamp ของ st.cache_data
 TF_INPUT_FILES = (config.NAV_CLEAN_PARQUET, config.MSCI_COUNTRY_CSV, config.MSCI_SECTOR_CSV, config.SHARE_CLASS_CSV,
                   config.SEC_FUND_FEE_CSV, config.FUND_PROFILE_CSV, config.TF_M001_REFERENCE_CSV)
 TF_MODEL_CONFIG_EXTRA = ("NAV_STALE_MAX_DAYS",)   # ค่า config นอกบล็อก TF_* ที่โมเดลใช้ (universe_at)
+# ค่า TF_* ที่ใช้แสดงผลส่วนที่ 2 (ไฟล์อ้างอิงคงที่) ไม่ได้ไหลเข้า cache — แก้แล้วต้องไม่ทำให้ cache ดูเก่า
+TF_DISPLAY_CONFIG_PREFIX = "TF_TOP3_"
 
 
 def _tf_config_fingerprint() -> str:
-    """hash ของค่า config ที่โมเดลหน้า 9 ใช้ (TF_* + TF_MODEL_CONFIG_EXTRA) — ไม่รวมค่าที่เป็น path
-    (ย้าย/clone โฟลเดอร์โปรเจกต์ต้องไม่ทำให้ cache ดูเก่า · เนื้อหาไฟล์ตรวจด้วย mtime ใน TF_INPUT_FILES แทน)."""
+    """hash ของค่า config ที่โมเดลหน้า 9 ใช้ (TF_* + TF_MODEL_CONFIG_EXTRA) — ไม่รวมค่าที่เป็น path และค่าแสดงผล TF_TOP3_*
+    (ย้าย/clone โฟลเดอร์โปรเจกต์ต้องไม่ทำให้ cache ดูเก่า · เนื้อหาไฟล์ตรวจด้วย sha1 ของ TF_INPUT_FILES แทน)."""
     import hashlib
-    keys = [k for k in dir(config) if k.startswith("TF_") and not k.endswith("_CSV")] + list(TF_MODEL_CONFIG_EXTRA)
+    keys = [k for k in dir(config) if k.startswith("TF_") and not k.endswith("_CSV")
+            and not k.startswith(TF_DISPLAY_CONFIG_PREFIX)] + list(TF_MODEL_CONFIG_EXTRA)
     items = sorted((k, repr(getattr(config, k))) for k in keys)
     return hashlib.sha1(repr(items).encode()).hexdigest()[:12]
 
 
-def _tf_input_mtimes() -> dict[str, float | None]:
-    return {os.path.basename(p): (os.path.getmtime(p) if os.path.exists(p) else None) for p in TF_INPUT_FILES}
+def _tf_input_hashes() -> dict[str, str | None]:
+    """sha1 ของเนื้อหาไฟล์ข้อมูลแต่ละไฟล์ (ไม่มีไฟล์ = None) — ไม่ใช้ mtime เพราะ git checkout/clone/copy เปลี่ยน mtime
+    ทั้งที่เนื้อหาเท่าเดิม (เคยทำให้หน้า 9 เตือนว่า cache เก่าทุกไฟล์ 2026-10-07)."""
+    import hashlib
+    out = {}
+    for p in TF_INPUT_FILES:
+        if not os.path.exists(p):
+            out[os.path.basename(p)] = None
+            continue
+        h = hashlib.sha1()
+        with open(p, "rb") as f:
+            for block in iter(lambda: f.read(1 << 20), b""):
+                h.update(block)
+        out[os.path.basename(p)] = h.hexdigest()
+    return out
 
 
 def _tf_inputs() -> tf_model.ModelInputs:
@@ -638,7 +654,7 @@ def build_tf_cache(verbose: bool = True) -> dict:
         _atomic_csv(df, path)
     meta = {"built_at": pd.Timestamp.now().isoformat(timespec="seconds"),
             "nav_max_date": str(inp.nav["NAVDate"].max().date()), "msci_last": str(cal.max().date()),
-            "inputs": _tf_input_mtimes(), "coverage_ref": coverage_ref,
+            "input_sha1": _tf_input_hashes(), "coverage_ref": coverage_ref,
             "config": _tf_config_fingerprint(), "fee_median": fee_data.median,
             "fee_median_fallback": fee_data.median_fallback,
             # เหตุการณ์ระหว่างจำลอง (ค่าธรรมเนียมจริง): กองที่ซื้อไม่ได้ (ส่วนนั้นถือเงินสด) / ถือกองที่ NAV ค้างนาน
@@ -665,13 +681,11 @@ def load_tf_cache() -> dict:
     stale = []
     if meta.get("config") != _tf_config_fingerprint():
         stale.append("ค่า config ของโมเดล (TF_* / NAV_STALE_MAX_DAYS) เปลี่ยนหลังสร้าง cache")
-    recorded = meta.get("inputs")
-    if recorded is None:
+    recorded = meta.get("input_sha1")
+    if recorded is None:   # ไม่มีเลย หรือรุ่นที่บันทึกแค่ mtime ("inputs")
         stale.append("cache รุ่นเก่าที่ไม่ได้บันทึกที่มาของข้อมูล")
     else:
-        now = _tf_input_mtimes()
-        changed = [name for name, m in now.items()
-                   if (m is None) != (recorded.get(name) is None) or (m is not None and abs(m - recorded[name]) > 1)]
+        changed = [name for name, h in _tf_input_hashes().items() if h != recorded.get(name)]
         if changed:
             stale.append("ไฟล์ข้อมูลเปลี่ยนหลังสร้าง cache: " + ", ".join(changed))
     return {"curves": pd.read_csv(TF_CURVES_CSV, parse_dates=["date"]),
@@ -696,6 +710,23 @@ def load_tf_top3() -> dict:
     curves = curves[curves["series"].isin(order)].assign(_o=lambda d: d["series"].map(order))
     curves = curves.sort_values(["_o", "case", "date"]).drop(columns="_o").reset_index(drop=True)
     return {"curves": curves, "metrics": metrics[metrics["series"].isin(order)].reset_index(drop=True)}
+
+
+GC75_FRONTIER_FILES = (config.GC75_FRONTIER_HOLDINGS_CSV, config.GC75_FRONTIER_WEEKLY_CSV, config.GC75_FRONTIER_REALIZED_CSV)
+
+
+def load_gc75_frontier() -> dict:
+    """พอร์ต M019-LC3-GCGOLD ทุกไตรมาส (หน้า 10 frontier + หน้า 9 ส่วนที่ 1) — ไฟล์อ้างอิงคงที่จากทีม quant (ไม่ได้คำนวณในแอป).
+
+    holdings: t, e, FundCode, kind (E = หุ้น · G = ทอง · F = ตลาดเงิน), weight, family, sr12p, rank, rf
+    · weekly: t, FundCode, week, ret (52 สัปดาห์ ≤ t · กองทองบางไตรมาสมี NaN)
+    · realized (ไม่มีไฟล์ = None): t, portfolio, horizon (Q/1Y), cost, ret, ret_ann, vol_ann, sharpe, exp_*, weights (JSON) ...
+    """
+    holdings = pd.read_csv(config.GC75_FRONTIER_HOLDINGS_CSV, comment="#", parse_dates=["t", "e"])
+    weekly = pd.read_csv(config.GC75_FRONTIER_WEEKLY_CSV, comment="#", parse_dates=["t", "week"])
+    realized = (pd.read_csv(config.GC75_FRONTIER_REALIZED_CSV, comment="#", parse_dates=["t", "e", "end"])
+                if os.path.exists(config.GC75_FRONTIER_REALIZED_CSV) else None)
+    return {"holdings": holdings, "weekly": weekly, "realized": realized}
 
 
 def tf_cache_ready() -> bool:
@@ -854,6 +885,7 @@ try:
     get_tf_cache = _versioned(load_tf_cache, st.cache_data, *TF_CACHE_FILES, *TF_INPUT_FILES)
     get_tf_live = _versioned(tf_live, st.cache_data, *TF_CACHE_FILES, *TF_INPUT_FILES)
     get_tf_top3 = _versioned(load_tf_top3, st.cache_data, *TF_TOP3_FILES)
+    get_gc75_frontier = _versioned(load_gc75_frontier, st.cache_data, *GC75_FRONTIER_FILES)
 
     def rebuild() -> None:
         try:
@@ -883,6 +915,7 @@ except ModuleNotFoundError:  # รันนอก streamlit (เช่น pytest
     get_tf_cache = load_tf_cache
     get_tf_live = tf_live
     get_tf_top3 = load_tf_top3
+    get_gc75_frontier = load_gc75_frontier
 
 
 if __name__ == "__main__":

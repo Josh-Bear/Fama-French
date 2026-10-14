@@ -31,7 +31,7 @@
 ## ส่วนที่ 2 ของหน้า — ผล backtest TOP3 (อัปเดต 2026-10-07)
 แสดง TOP3 + B0 จาก**ไฟล์อ้างอิงคงที่** `base_data/reference/tf_top3_curves.csv` / `tf_top3_metrics.csv` (export จาก
 `.claude/quant_team/backtest/export_top3.py` · ไม่คำนวณในแอป) · ฐาน: universe เต็ม · rf = ดอกเบี้ยนโยบาย ธปท. จริง · ค่าธรรมเนียมจริงแก้แล้ว ·
-rebalance สิ้น มี.ค./มิ.ย./ก.ย./ธ.ค. · DSR หลังลอง 32 แบบ (`config.TF_TOP3_N_TRIALS`) · loader `data_access.load_tf_top3` · test `tests/test_tf_top3_reference.py`
+rebalance สิ้น มี.ค./มิ.ย./ก.ย./ธ.ค. · DSR หลังลอง 35 แบบ (`config.TF_TOP3_N_TRIALS` · คำนวณใหม่ 2026-10-07 จากเดิม 32 — ตัวเลขอื่นเท่าเดิม) · loader `data_access.load_tf_top3` · test `tests/test_tf_top3_reference.py`
 
 | series | Sharpe จริง | ยกเว้น front-end | 0.5%/ข้าง | หมายเหตุ |
 |---|---|---|---|---|
@@ -77,7 +77,7 @@ DSR (20 trials) 0.22 · CI95% Sharpe [−0.39, 1.87]
 | `cache/tf_portfolio_metrics.csv` | Sharpe/CAGR/vol/maxDD/DSR/CI/ต้นทุนต่อปี |
 | `cache/tf_portfolio_holdings.csv` | น้ำหนักทุกไตรมาส (backtest + replay) · family · ถือต่อ/เพิ่มใหม่ |
 | `cache/tf_portfolio_quarters.csv` | สรุปต่อไตรมาส: universe, กองสด, ข้ามไหม, เงินสด |
-| `cache/tf_portfolio_meta.json` | วันข้อมูล · mtime ของไฟล์ข้อมูลทุกไฟล์ที่โมเดลใช้ (`data_access.TF_INPUT_FILES`: nav_clean, MSCI 2 ไฟล์, share_class_groups, SecFundFee, FundProfile, เส้น M001) · hash ค่า config ของโมเดล (`TF_*` ที่ไม่ใช่ path + `NAV_STALE_MAX_DAYS`) — ไม่ตรง = หน้าเตือนให้ rebuild พร้อมบอกไฟล์ที่เปลี่ยน |
+| `cache/tf_portfolio_meta.json` | วันข้อมูล · **sha1 ของเนื้อหา**ไฟล์ข้อมูลทุกไฟล์ที่โมเดลใช้ (`input_sha1` · `data_access.TF_INPUT_FILES`: nav_clean, MSCI 2 ไฟล์, share_class_groups, SecFundFee, FundProfile, เส้น M001 — ไม่ใช้ mtime เพราะ git checkout/clone เปลี่ยน mtime ทั้งที่เนื้อหาเท่าเดิม) · hash ค่า config ของโมเดล (`TF_*` ที่ไม่ใช่ path และไม่ใช่ค่าแสดงผล `TF_TOP3_*` + `NAV_STALE_MAX_DAYS`) — ไม่ตรง = หน้าเตือนให้ rebuild พร้อมบอกไฟล์ที่เปลี่ยน |
 | `base_data/reference/m001_backtest_curves.csv` | เส้น M001 (ไฟล์คงที่จากทีม quant — ไม่คำนวณในแอป เพราะต้อง ElasticNet แบบ rolling) |
 
 ```bash

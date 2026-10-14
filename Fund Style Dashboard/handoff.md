@@ -1,6 +1,6 @@
 # Handoff — MSCI Fund Style Dashboard · TF Portfolio (quant modeling)
 
-อัปเดตล่าสุด: 2026-10-07 · ภาษาที่ใช้คุยกับผู้ใช้: **ไทยเสมอ** (ดู `~/.claude/CLAUDE.md`)
+อัปเดตล่าสุด: 2026-10-14 · ภาษาที่ใช้คุยกับผู้ใช้: **ไทยเสมอ** (ดู `~/.claude/CLAUDE.md`)
 
 ---
 
@@ -15,18 +15,23 @@
 
 **TOP3 ที่ใช้จริง** (universe = ทุก class ซื้อได้ · rf จริง ธปท. · ค่าธรรมเนียมจริง FEEUH Actual Value · เม.ย. 2022–ธ.ค. 2025 · 45 เดือน)
 
-| โมเดล | Sharpe | Return/ปี | MaxDD | ต้นทุน/ปี | DSR |
+| โมเดล | Sharpe | Return/ปี | MaxDD | ต้นทุน/ปี | DSR@88 |
 |---|---|---|---|---|---|
-| ① GC75 + กองตลาดเงิน (M015-FAUM) ⚠️ | 0.751 | 8.07% | −7.59% | 1.50% | 0.14 |
-| ② Trend 25 (M004-TF-FX) | 0.719 | 9.09% | −11.16% | 1.85% | 0.17 |
-| ③ M012-QF-S (Trend 25 + rf จริง + เกณฑ์คุณภาพ) | 0.660 | 8.33% | −10.22% | 1.69% | 0.14 |
+| ★ M019 (หุ้น 3 กอง LC + ERC 40% + GC75 + ขาทอง) ⚠️ post-hoc | 1.098 | 14.59% | −12.91% | 1.38% | 0.16 |
+| ① GC75 + กองตลาดเงิน (M015-FAUM) ⚠️ | 0.751 | 8.07% | −7.59% | 1.50% | 0.07 |
+| ② Trend 25 (M004-TF-FX) | 0.719 | 9.09% | −11.16% | 1.85% | 0.09 |
+| ③ M012-QF-S (Trend 25 + rf จริง + เกณฑ์คุณภาพ) | 0.660 | 8.33% | −10.22% | 1.69% | 0.07 |
 | B0 (benchmark) | 0.076 | 1.96% | −21.4% | — | — |
 
 - ยกเว้น front-end fee: 0.94 / 0.91 / 0.84 · flat 0.5%/ข้าง: 0.68 / 0.73 / 0.67
 - offset sensitivity: ① 0.35–0.98 · ② 0.41–1.00 · CI ของ Sharpe ทุกตัวคร่อม 0
 - **ยังไม่มีโมเดลใดถึง 0.95 หรือ return ≥ 10% หลังหักค่าธรรมเนียม (แบบไม่ post-hoc)**
-- `trials.csv` = **35 trials** (ล่าสุด M016-CW #33, M017-IDX #34, M017-CC #35 — ไม่ผ่านทั้งหมด)
-- หน้า 9 section 2 แสดง TOP3 แล้ว (verify ใน browser port 8502) · pytest 179 ผ่าน
+- `trials.csv` = **88 trials** (#36–#48 M018–M022 · #49–#88 debate researcher vs modeler 5 รอบ · #65–#72 ถูกแทนด้วย #73–#80 หลังแก้ข้อมูลทอง)
+- **debate 5 รอบ (2026-10-12/13)**: สรุป `.claude/quant_team/debate/DEBATE_SUMMARY.md` · ตัวที่เก็บไว้ `debate/TOP5.md`
+  (M046 1.587 · M042 1.547 · M041 1.532 · M036 1.495 · M033 1.204 — ทั้งหมด post-hoc · ระดับที่ทนต่อเดือน rebalance ≈ 1.1–1.3)
+- **หน้า 9**: ส่วนที่ 1 = Trend 25 สด + **พอร์ต M019 จากไฟล์อ้างอิง** (ไตรมาสล่าสุด ≤ วันที่เลือก · ล่าสุดในไฟล์ 2025-09-30) · ส่วนที่ 2 = M019 + TOP3 + B0 (DSR@88)
+- **หน้า 10 = 🗺 M019 Frontier** (เดิม GC75+MMF): หุ้น 3 กอง 0–40% ทีละ 1% (231 พอร์ต) ขาทองล็อก · 4 ไตรมาสสุ่มคงที่ · ตัวเลขตรวจอิสระแล้ว (≤ 2e-15)
+- pytest ผ่านทั้งชุด
 - รายงาน `reports/TOP3_portfolio_logic.{md,pdf,docx}` อัปเดตตรงกับหน้า 9 แล้ว (ส่งผู้ใช้แล้ว)
 - **รอข้อมูล**: ผู้ใช้กำลังขอ NAV ปี 2026 (ม.ค.–ส.ค. รวมต้น ก.ค.) มาทำ holdout — ตอนนี้ NAV 2026 มีรูใหญ่ (กองสด 395 → 66 ใน มี.ค. 2026) จึงยังทำ holdout ไม่ได้
 
@@ -60,7 +65,8 @@
 **แอป**
 - `pages/9_📈_TF_Portfolio.py` — หน้า 9 (section 2 = TOP3)
 - `data_access.py` — `load_tf_top3()` / `get_tf_top3`
-- `config.py` — `TF_TOP3_CURVES_CSV`, `TF_TOP3_METRICS_CSV`, `TF_TOP3_SERIES`, `TF_TOP3_N_TRIALS=32`
+- `config.py` — `TF_TOP3_CURVES_CSV`, `TF_TOP3_METRICS_CSV`, `TF_TOP3_SERIES` (+M019), `TF_TOP3_N_TRIALS=88` · `GC75_FRONTIER_*` (หน้า 10 · `GC75_FRONTIER_MODEL_CAP` = เพดาน ERC ของ M019 แยกจากเพดานกริด)
+- `pages/10_🗺_M019_Frontier.py` · `analysis/gc75_frontier.py` · `base_data/reference/gc75_frontier_{holdings,weekly}.csv` (พอร์ต M019 ทุกไตรมาส · ใช้ทั้งหน้า 9 และ 10) — ชื่อ gc75 คงไว้ (M019 ใช้ GC75)
 - `viz.py` — สี/label TOP3, `TF_SERIES_BOLD`
 - `page_common.py` — `TABLE_WIDTH` / `CHART_WIDTH` (compat Streamlit ทุกเวอร์ชัน)
 - `analysis/fund_fees.py` — `FeeData`, `FeeModel`, `parse_fee_value`
@@ -74,7 +80,9 @@
 - `BRIEF.md` — กติกาทีม/การตัดสินใจ
 - `trials.csv` (+ `trials.backup_*.csv`)
 - `specs/` — M001–M017, `M017CC_country_cap.md`, `COST_real_fees.md`
-- `backtest/` — `run_m0xx.py`, `common.py`, `selection.py`, `weighting.py`, `simulate.py`, `fees.py`, `exposure.py`, `export_top3.py`
+- `backtest/` — `run_m0xx.py`, `run_r1.py`–`run_r5.py` (debate), `common.py`, `selection.py`, `weighting.py`, `simulate.py`, `fees.py`, `exposure.py`,
+  `export_top3.py` (TOP3 + M019 · อ่าน N_TRIALS จาก ledger · เขียน `base_data/reference/tf_top3_*` เอง ×100 + header), `export_gc75_frontier.py` (M019 · regression = `M019_weights.csv`)
+- `debate/` — `DEBATE_BRIEF.md`, `R{1..5}_{researcher,modeler,results}.md`, `DEBATE_SUMMARY.md`, `TOP5.md`
 - `backtest/results/` — `EXPORT_top3_*`, `FULLUNIV_*`, `ROBUST_*`, `AUDIT_fees`, `M016_*`, `M017_*`, `M017CC_*`
 - `research/` — R001–R005 + INDEX
 - `scratch/validator_m01x_*.json|log` — regression checks
@@ -118,7 +126,9 @@
 3. (ข้อเสนอ) ตารางฉากทัศน์ "ถ้าต่อรอง front-end fee ได้" ของ TOP3 → Trend 25 ≈ 11%/ปี — ไม่ใช่ trial ใหม่
 4. (ทางเลือก, trial #36) fit exposure กับ MSCI ครบ 18 index ให้ index รวม (ACWI/World/EM) มีกองตามได้ — ต้องล็อก spec ก่อน
 5. (ทางเลือก) 0% cash sensitivity · port GC75/M012 เข้า live portfolio ของแอป (ต้องผ่าน fullstack-planner)
-6. ถ้าเพิ่ม trial ใหม่ ต้องอัปเดต DSR ของ TOP3 (`TF_TOP3_N_TRIALS` ยังเป็น 32 · trials จริง 35) — **ถามผู้ใช้ก่อนแก้หน้า 9/รายงาน**
+6. ถ้าเพิ่ม trial ใหม่ ต้องอัปเดต DSR: รัน `export_top3.py` (อ่าน n จาก trials.csv · เขียนไฟล์อ้างอิงเอง) → แก้ `TF_TOP3_N_TRIALS` (test เทียบ ledger) + ค่า DSR ใน test + รายงาน — **ถามผู้ใช้ก่อนแก้หน้า 9/รายงาน** · ตอนนี้ตรงที่ 88 (รายงาน TOP3 MD = 35 · PDF/DOCX = 32 ยังไม่อัปเดต)
+7. **ข้อมูลทอง**: NAV `K-GOLD-C(A)` ผิดตั้งแต่ 2024-04-23 (class กำลังปิด) → ใช้ `run_r5.clean_gold_v2` (ผู้ใช้อนุมัติ: ต่อราคาด้วย K-GOLD-A(A)) ในทุก backtest ที่ถือทอง · M019 offset 0 ไม่เคยถือ class นี้ (assert ใน export)
+8. ขั้นที่ให้หลักฐานจริงของ M019/TOP5: ล็อกกติกาแล้ว forward test กับ NAV 2026 เมื่อครบ — ไม่ปรับบนข้อมูล 2022–2025 อีก
 
 ## 8. Lessons learned
 
@@ -128,7 +138,7 @@
 - **ERC แบ่งความเสี่ยงต่อกอง ไม่ใช่ต่อธีม** — กองซ้ำกัน 3 กองยังได้ risk 3/N · ต้องคุมที่ขั้นคัดกอง (dedupe/1 index ต่อกอง/cap ประเทศ)
 - **ประเทศของกอง = ElasticNet country_primary** (11 index VIF-clean) ไม่ใช่ prospectus · ไม่มี index ไทย (ใช้ ASEAN) · กองโลกมักออก USA · ต้องดู R²
 - **ผลไวต่อวัน rebalance (offset) มาก** — ตัวเลข offset 0 อย่างเดียวหลอกได้ ต้องรายงานช่วง 0/1/2 เสมอ
-- **35 trials บนข้อมูลเดียว ไม่มี holdout** → DSR ต่ำ (~0.1–0.17) · ยิ่งลองยิ่งเสี่ยง overfit → holdout ปี 2026 สำคัญที่สุด
+- **35 trials บนข้อมูลเดียว ไม่มี holdout** → DSR ต่ำ (~0.13–0.16) · ยิ่งลองยิ่งเสี่ยง overfit → holdout ปี 2026 สำคัญที่สุด
 - อย่าเดาจากชื่อกอง — ตรวจจากข้อมูล (เคยพลาดนับกองเวียดนาม 3 แทน 4)
 - ข้อผิดพลาดที่เคยสื่อสารผิดแล้วแก้: rf เฉลี่ยที่ใช้ใน Sharpe = 1.79% (1.30% คือ yield เงินสดที่ได้จริง) · tranche ไม่ได้ทำให้ต้นทุน ×3 · NAV ใช้ได้จริงเริ่มปลาย 2020 / MSCI เริ่ม 2021-01
 - กองตลาดเงินได้ ~1.2%/ปี ต่ำกว่า policy rate 1.59% (หลังค่าธรรมเนียม)

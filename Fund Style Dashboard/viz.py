@@ -5,6 +5,7 @@
 
 from __future__ import annotations
 
+import numpy as np
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -212,12 +213,16 @@ def _ref_point(fig: go.Figure, point: pd.Series, name: str, color: str, symbol: 
         hovertemplate=f"{name}<br>risk %{{x:.1%}}<br>return %{{y:.1%}}<extra></extra>"))
 
 
-def frontier_chart(cloud: pd.DataFrame, frontier: pd.DataFrame, singles: pd.DataFrame,
+def frontier_chart(cloud: pd.DataFrame, frontier: pd.DataFrame, singles: pd.DataFrame | None,
                    equal_weight: pd.Series | None = None,
-                   max_sharpe: pd.Series | None = None) -> go.Figure:
-    """หน้า 8 ส่วนที่ 3: เมฆของทุกพอร์ตที่เป็นไปได้ + เส้น efficient frontier + จุดอ้างอิง.
+                   max_sharpe: pd.Series | None = None,
+                   extra_points: list[tuple[str, pd.Series, str, str]] | None = None,
+                   axis_titles: tuple[str, str] | None = None) -> go.Figure:
+    """หน้า 8 ส่วนที่ 3 (และหน้า 10): เมฆของทุกพอร์ตที่เป็นไปได้ + เส้น efficient frontier + จุดอ้างอิง.
 
     cloud/frontier : DataFrame[risk, ret] · singles : DataFrame[risk, ret] index=FundCode (ถือกองเดียว 100%)
+    extra_points   : จุดอ้างอิงเพิ่ม [(ชื่อ, Series[risk, ret], สี, symbol)] (หน้า 10: MVP / ERC)
+    axis_titles    : (แกน x, แกน y) — None = ชื่อแกนของหน้า 8 (Σ / Π)
     ทุก trace ใช้ Scattergl (WebGL) — จุดเป็นแสน SVG วาดไม่ไหว และถ้าผสม SVG กับ WebGL
     จุดอ้างอิงที่อยู่ "ในกลุ่มเมฆ" จะถูก canvas ทับหายไป (เจอกับ equal weight มาแล้ว)
     กลุ่มเมฆสุ่มแสดงไม่เกิน PORTFOLIO_CLOUD_MAX_POINTS (seed คงที่) — frontier วาดครบทุกจุดเสมอ
@@ -235,19 +240,38 @@ def frontier_chart(cloud: pd.DataFrame, frontier: pd.DataFrame, singles: pd.Data
         x=frontier["risk"], y=frontier["ret"], mode="markers", name=f"efficient frontier ({len(frontier):,})",
         marker=dict(size=5, color="#1f77b4"),
         hovertemplate="frontier<br>risk %{x:.1%}<br>return %{y:.1%}<extra></extra>"))
-    fig.add_trace(go.Scattergl(
-        x=singles["risk"], y=singles["ret"], mode="markers+text", name="ถือกองเดียว 100%",
-        text=[str(i) for i in singles.index], textposition="top center", textfont=dict(size=9),
-        marker=dict(size=10, color="#d62728", symbol="diamond", line=dict(width=1, color="white")),
-        hovertemplate="%{text}<br>risk %{x:.1%}<br>return %{y:.1%}<extra></extra>"))
+    if singles is not None:   # None = ไม่แสดง (หน้า 10: ถือกองเดียว 100% อยู่นอกกรอบเพดาน/สัดส่วนหุ้นที่ล็อก)
+        fig.add_trace(go.Scattergl(
+            x=singles["risk"], y=singles["ret"], mode="markers+text", name="ถือกองเดียว 100%",
+            text=[str(i) for i in singles.index], textposition="top center", textfont=dict(size=9),
+            marker=dict(size=10, color="#d62728", symbol="diamond", line=dict(width=1, color="white")),
+            hovertemplate="%{text}<br>risk %{x:.1%}<br>return %{y:.1%}<extra></extra>"))
     if max_sharpe is not None:
         _ref_point(fig, max_sharpe, "max Sharpe", "#ff7f0e", "star")
     if equal_weight is not None:
         _ref_point(fig, equal_weight, "equal weight", "#2ca02c", "star")
-    fig.update_layout(xaxis_title="ความเสี่ยง — annualized volatility ของพอร์ต (จาก Σ)",
-                      yaxis_title="ผลตอบแทนคาดหวัง — Black-Litterman implied (Π)",
+    for name, point, color, symbol in extra_points or []:
+        _ref_point(fig, point, name, color, symbol)
+    x_title, y_title = axis_titles or ("ความเสี่ยง — annualized volatility ของพอร์ต (จาก Σ)",
+                                       "ผลตอบแทนคาดหวัง — Black-Litterman implied (Π)")
+    fig.update_layout(xaxis_title=x_title, yaxis_title=y_title,
                       xaxis_tickformat=".1%", yaxis_tickformat=".1%",
                       legend=dict(orientation="h", y=1.12), margin=dict(t=40, b=10), height=480)
+    return fig
+
+
+def weights_compare_bar(weights: pd.DataFrame, colors: dict[str, str] | None = None) -> go.Figure:
+    """แท่งน้ำหนักแนวนอนของหลายพอร์ตคู่กัน (index = กอง · columns = ชื่อพอร์ต) — หน้า 10: max Sharpe vs ERC."""
+    fig = go.Figure()
+    for name in weights.columns:
+        fig.add_bar(y=list(weights.index), x=weights[name], name=name, orientation="h",
+                    marker_color=(colors or {}).get(name), text=["" if pd.isna(v) else f"{v:.1%}" for v in weights[name]],
+                    textposition="outside", cliponaxis=False,
+                    hovertemplate="%{y}: %{x:.1%}<extra>" + name + "</extra>")
+    top = float(np.nanmax(weights.to_numpy())) if weights.notna().any().any() else 0.0
+    fig.update_layout(barmode="group", height=60 + 44 * len(weights), margin=dict(l=10, r=10, t=10, b=10),
+                      xaxis=dict(tickformat=".0%", range=[0, max(top, 1e-9) * 1.3]),   # เผื่อที่ให้ป้ายท้ายแท่ง
+                      yaxis=dict(autorange="reversed"), legend=dict(orientation="h", y=1.08))
     return fig
 
 
@@ -291,12 +315,13 @@ def vol_return_scatter(df: pd.DataFrame, scope: str) -> go.Figure:
 
 # --- TF Portfolio (หน้า 9) ---
 TF_SERIES_COLORS = {config.TF_MODEL_ID: "#1f77b4", "M001": "#ff7f0e", "B0": "#7f7f7f",
-                    "GC75_MMF": "#2ca02c", "TREND25": "#1f77b4", "M012_QFS": "#9467bd"}
+                    "GC75_MMF": "#2ca02c", "TREND25": "#1f77b4", "M012_QFS": "#9467bd", "M019": "#d62728"}
 TF_SERIES_LABELS = {config.TF_MODEL_ID: f"{config.TF_MODEL_ID} (หน้านี้)", "M001": "M001 (หน้า 8)",
                     "B0": "B0 ถือทุกกองเท่ากัน",
                     "GC75_MMF": "① GC75 + กองตลาดเงิน ⚠️", "TREND25": "② Trend 25 (M004-TF-FX · หน้านี้)",
-                    "M012_QFS": "③ M012-QF-S (Trend 25 + เกณฑ์คุณภาพ)"}
-TF_SERIES_BOLD = {config.TF_MODEL_ID, "GC75_MMF", "TREND25", "M012_QFS"}   # เส้นหลัก (หนา) · อื่น = เส้นอ้างอิง
+                    "M012_QFS": "③ M012-QF-S (Trend 25 + เกณฑ์คุณภาพ)",
+                    "M019": "★ M019 (หุ้น 3 กอง + ทอง) ⚠️"}
+TF_SERIES_BOLD = {config.TF_MODEL_ID, "GC75_MMF", "TREND25", "M012_QFS", "M019"}   # เส้นหลัก (หนา) · อื่น = เส้นอ้างอิง
 
 
 def tf_equity_chart(curves: pd.DataFrame, case: str) -> go.Figure:

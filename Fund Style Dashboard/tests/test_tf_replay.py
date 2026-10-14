@@ -1,5 +1,7 @@
 """test_tf_replay.py — กติกาไตรมาส/เหตุผลการขายออก/ตัวเช็ค cache เก่าของหน้า 9 (ไม่ต้องใช้ข้อมูลจริง)."""
 
+import os
+
 import pandas as pd
 
 import config
@@ -36,8 +38,22 @@ def test_tf_fingerprint_ignores_paths_but_tracks_model_config(monkeypatch):
     base = data_access._tf_config_fingerprint()
     monkeypatch.setattr(config, "TF_M001_REFERENCE_CSV", "/somewhere/else/m001.csv")
     assert data_access._tf_config_fingerprint() == base                                # ย้ายโฟลเดอร์ไม่ทำให้ดูเก่า
+    monkeypatch.setattr(config, "TF_TOP3_N_TRIALS", config.TF_TOP3_N_TRIALS + 1)
+    assert data_access._tf_config_fingerprint() == base                                # ค่าแสดงผลส่วนที่ 2 ไม่เกี่ยวกับ cache
     monkeypatch.setattr(config, "NAV_STALE_MAX_DAYS", config.NAV_STALE_MAX_DAYS + 1)
     assert data_access._tf_config_fingerprint() != base
+
+
+def test_tf_input_hashes_follow_content_not_mtime(tmp_path, monkeypatch):
+    f = tmp_path / "a.csv"
+    f.write_text("x\n1\n")
+    monkeypatch.setattr(data_access, "TF_INPUT_FILES", (str(f), str(tmp_path / "missing.csv")))
+    base = data_access._tf_input_hashes()
+    assert base["missing.csv"] is None
+    os.utime(f, (1, 1))                                                                # checkout/clone เปลี่ยนแค่ mtime
+    assert data_access._tf_input_hashes() == base
+    f.write_text("x\n2\n")
+    assert data_access._tf_input_hashes()["a.csv"] != base["a.csv"]
 
 
 def test_tf_inputs_cover_every_file_the_model_reads():
