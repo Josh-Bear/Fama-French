@@ -1,6 +1,6 @@
 # Handoff — MSCI Fund Style Dashboard · TF Portfolio (quant modeling)
 
-อัปเดตล่าสุด: 2026-10-14 · ภาษาที่ใช้คุยกับผู้ใช้: **ไทยเสมอ** (ดู `~/.claude/CLAUDE.md`)
+อัปเดตล่าสุด: 2026-10-14 (บ่าย) · ภาษาที่ใช้คุยกับผู้ใช้: **ไทยเสมอ** (ดู `~/.claude/CLAUDE.md`)
 
 ---
 
@@ -15,9 +15,10 @@
 
 **TOP3 ที่ใช้จริง** (universe = ทุก class ซื้อได้ · rf จริง ธปท. · ค่าธรรมเนียมจริง FEEUH Actual Value · เม.ย. 2022–ธ.ค. 2025 · 45 เดือน)
 
-| โมเดล | Sharpe | Return/ปี | MaxDD | ต้นทุน/ปี | DSR@88 |
+| โมเดล | Sharpe | Return/ปี | MaxDD | ต้นทุน/ปี | DSR@102 |
 |---|---|---|---|---|---|
-| ★ M019 (หุ้น 3 กอง LC + ERC 40% + GC75 + ขาทอง) ⚠️ post-hoc | 1.098 | 14.59% | −12.91% | 1.38% | 0.16 |
+| ★ M052 (M019 + ลดค่าธรรมเนียม + CANARY บอนด์ AGG + VSL) ⚠️ post-hoc | 1.532 | 19.77% | −11.35% | 0.92% | 0.41 |
+| M019 (หุ้น 3 กอง LC + ERC 40% + GC75 + ขาทอง) ⚠️ post-hoc | 1.098 | 14.59% | −12.91% | 1.38% | 0.15 |
 | ① GC75 + กองตลาดเงิน (M015-FAUM) ⚠️ | 0.751 | 8.07% | −7.59% | 1.50% | 0.07 |
 | ② Trend 25 (M004-TF-FX) | 0.719 | 9.09% | −11.16% | 1.85% | 0.09 |
 | ③ M012-QF-S (Trend 25 + rf จริง + เกณฑ์คุณภาพ) | 0.660 | 8.33% | −10.22% | 1.69% | 0.07 |
@@ -26,10 +27,13 @@
 - ยกเว้น front-end fee: 0.94 / 0.91 / 0.84 · flat 0.5%/ข้าง: 0.68 / 0.73 / 0.67
 - offset sensitivity: ① 0.35–0.98 · ② 0.41–1.00 · CI ของ Sharpe ทุกตัวคร่อม 0
 - **ยังไม่มีโมเดลใดถึง 0.95 หรือ return ≥ 10% หลังหักค่าธรรมเนียม (แบบไม่ post-hoc)**
-- `trials.csv` = **88 trials** (#36–#48 M018–M022 · #49–#88 debate researcher vs modeler 5 รอบ · #65–#72 ถูกแทนด้วย #73–#80 หลังแก้ข้อมูลทอง)
+- `trials.csv` = **102 trials** (#89–#96 = CANARY บอนด์จริง AGG/IEF · #97–#102 = what-if ตาราง GC บน M052/M019) (#36–#48 M018–M022 · #49–#88 debate researcher vs modeler 5 รอบ · #65–#72 ถูกแทนด้วย #73–#80 หลังแก้ข้อมูลทอง)
 - **debate 5 รอบ (2026-10-12/13)**: สรุป `.claude/quant_team/debate/DEBATE_SUMMARY.md` · ตัวที่เก็บไว้ `debate/TOP5.md`
   (M046 1.587 · M042 1.547 · M041 1.532 · M036 1.495 · M033 1.204 — ทั้งหมด post-hoc · ระดับที่ทนต่อเดือน rebalance ≈ 1.1–1.3)
-- **หน้า 9**: ส่วนที่ 1 = Trend 25 สด + **พอร์ต M019 จากไฟล์อ้างอิง** (ไตรมาสล่าสุด ≤ วันที่เลือก · ล่าสุดในไฟล์ 2025-09-30) · ส่วนที่ 2 = M019 + TOP3 + B0 (DSR@88)
+- **หน้า 9**: ส่วนที่ 1 = Trend 25 สด + **พอร์ต M052 และ M019 จากไฟล์อ้างอิง** (ไตรมาสล่าสุด ≤ วันที่เลือก · ล่าสุดในไฟล์ 2025-09-30) · ส่วนที่ 2 = M052 + M019 + TOP3 + B0 (DSR@102)
+- **ตัวดีสุดตอนนี้ = M052** (M041 + CANARY ใช้บอนด์จริง AGG · Sharpe 1.532 · offset 1.92/1.01/1.50) — ทดสอบบอนด์จริงแล้ว ENS พึ่งบอนด์จำลอง (`specs/M051_canary_real_bond.md`) · TOP5 อัปเดตเป็นเวอร์ชันบอนด์จริง · trials = 102
+- **benchmark หุ้น 57% + ทอง 43% คงที่** (หุ้นแบบ M033) ได้ Sharpe 1.41 · เฉลี่ย offset 1.61 (ทนกว่า M052) → ผลส่วนใหญ่ของ M052 มาจากถือทองมาก การจับจังหวะเพิ่ม ~+0.12 (`run_r6.py bench` · `reports/M052_portfolio_logic.md` §4.7)
+- **หน้า 11 = 🧭 M052 Frontier** (ส่วนแสดงผลร่วมกับหน้า 10 ใน `page_frontier.py`) · หน้า 9 มี M052 ทั้งส่วนที่ 1 และ 2
 - **หน้า 10 = 🗺 M019 Frontier** (เดิม GC75+MMF): หุ้น 3 กอง 0–40% ทีละ 1% (231 พอร์ต) ขาทองล็อก · 4 ไตรมาสสุ่มคงที่ · ตัวเลขตรวจอิสระแล้ว (≤ 2e-15)
 - pytest ผ่านทั้งชุด
 - รายงาน `reports/TOP3_portfolio_logic.{md,pdf,docx}` อัปเดตตรงกับหน้า 9 แล้ว (ส่งผู้ใช้แล้ว)
@@ -38,7 +42,7 @@
 ## 3. Key decisions & constraints
 
 **กติกาโมเดล (ตกลงกับผู้ใช้แล้ว)**
-- Universe = **ทุก class ซื้อได้** (ลูกค้าซื้อ class สถาบันได้) · 1 class ต่อ family
+- Universe = **ทุก class ที่ขายรายย่อย (Project Retail Type = R) โดยไม่ตัด class ขั้นต่ำซื้อสูง** (`fst_lowbuy_val` > 100,000 ยังอยู่) · class สถาบันที่ไม่ใช่ R ไม่อยู่ใน universe · 1 class ต่อ family · FIF Flag = Y มีกองหุ้นไทยปน (เช่น FCSCBSETE)
 - **Rebalance รายไตรมาสตามปฏิทิน** (วันทำการสุดท้าย มี.ค./มิ.ย./ก.ย./ธ.ค.) · execution = NAV วันทำการที่ 2 หลัง t (`TF_EXEC_LAG=2`)
 - **ไม่แบ่งลงเงิน 3 รอบ (tranche)** — ผู้ใช้ปฏิเสธ (คำนวณ/รายงานยาก)
 - rf = ดอกเบี้ยนโยบาย ธปท. จริง (`base_data/TH_POLICY_RATE.csv`, daily step, มีผลวันถัดจากประกาศ)
@@ -65,7 +69,7 @@
 **แอป**
 - `pages/9_📈_TF_Portfolio.py` — หน้า 9 (section 2 = TOP3)
 - `data_access.py` — `load_tf_top3()` / `get_tf_top3`
-- `config.py` — `TF_TOP3_CURVES_CSV`, `TF_TOP3_METRICS_CSV`, `TF_TOP3_SERIES` (+M019), `TF_TOP3_N_TRIALS=88` · `GC75_FRONTIER_*` (หน้า 10 · `GC75_FRONTIER_MODEL_CAP` = เพดาน ERC ของ M019 แยกจากเพดานกริด)
+- `config.py` — `TF_TOP3_CURVES_CSV`, `TF_TOP3_METRICS_CSV`, `TF_TOP3_SERIES` (+M052, M019), `TF_TOP3_N_TRIALS=102` · `M052_FRONTIER_*` (หน้า 11) · `GC75_FRONTIER_*` (หน้า 10 · `GC75_FRONTIER_MODEL_CAP` = เพดาน ERC ของ M019 แยกจากเพดานกริด)
 - `pages/10_🗺_M019_Frontier.py` · `analysis/gc75_frontier.py` · `base_data/reference/gc75_frontier_{holdings,weekly}.csv` (พอร์ต M019 ทุกไตรมาส · ใช้ทั้งหน้า 9 และ 10) — ชื่อ gc75 คงไว้ (M019 ใช้ GC75)
 - `viz.py` — สี/label TOP3, `TF_SERIES_BOLD`
 - `page_common.py` — `TABLE_WIDTH` / `CHART_WIDTH` (compat Streamlit ทุกเวอร์ชัน)
@@ -126,7 +130,7 @@
 3. (ข้อเสนอ) ตารางฉากทัศน์ "ถ้าต่อรอง front-end fee ได้" ของ TOP3 → Trend 25 ≈ 11%/ปี — ไม่ใช่ trial ใหม่
 4. (ทางเลือก, trial #36) fit exposure กับ MSCI ครบ 18 index ให้ index รวม (ACWI/World/EM) มีกองตามได้ — ต้องล็อก spec ก่อน
 5. (ทางเลือก) 0% cash sensitivity · port GC75/M012 เข้า live portfolio ของแอป (ต้องผ่าน fullstack-planner)
-6. ถ้าเพิ่ม trial ใหม่ ต้องอัปเดต DSR: รัน `export_top3.py` (อ่าน n จาก trials.csv · เขียนไฟล์อ้างอิงเอง) → แก้ `TF_TOP3_N_TRIALS` (test เทียบ ledger) + ค่า DSR ใน test + รายงาน — **ถามผู้ใช้ก่อนแก้หน้า 9/รายงาน** · ตอนนี้ตรงที่ 88 (รายงาน TOP3 MD = 35 · PDF/DOCX = 32 ยังไม่อัปเดต)
+6. ถ้าเพิ่ม trial ใหม่ ต้องอัปเดต DSR: รัน `export_top3.py` (อ่าน n จาก trials.csv · เขียนไฟล์อ้างอิงเอง) → แก้ `TF_TOP3_N_TRIALS` (test เทียบ ledger) + ค่า DSR ใน test + รายงาน — **ถามผู้ใช้ก่อนแก้หน้า 9/รายงาน** · ตอนนี้ตรงที่ 102 · M052 ต้องรัน `run_r6.py export52` ก่อน `export_top3.py` (รายงาน TOP3 MD = 35 · PDF/DOCX = 32 ยังไม่อัปเดต)
 7. **ข้อมูลทอง**: NAV `K-GOLD-C(A)` ผิดตั้งแต่ 2024-04-23 (class กำลังปิด) → ใช้ `run_r5.clean_gold_v2` (ผู้ใช้อนุมัติ: ต่อราคาด้วย K-GOLD-A(A)) ในทุก backtest ที่ถือทอง · M019 offset 0 ไม่เคยถือ class นี้ (assert ใน export)
 8. ขั้นที่ให้หลักฐานจริงของ M019/TOP5: ล็อกกติกาแล้ว forward test กับ NAV 2026 เมื่อครบ — ไม่ปรับบนข้อมูล 2022–2025 อีก
 

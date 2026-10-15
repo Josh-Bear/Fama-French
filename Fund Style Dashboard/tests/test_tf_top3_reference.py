@@ -27,7 +27,7 @@ def test_every_series_has_every_case(top3):
 
 def test_headline_sharpe_matches_validated_export(top3):
     m = top3["metrics"].set_index(["series", "case"])["sharpe"]
-    for s, v in {"GC75_MMF": 0.751, "TREND25": 0.719, "M012_QFS": 0.660, "B0": 0.076, "M019": 1.098}.items():
+    for s, v in {"GC75_MMF": 0.751, "TREND25": 0.719, "M012_QFS": 0.660, "B0": 0.076, "M019": 1.098, "M052": 1.5325}.items():
         assert m[(s, "full")] == pytest.approx(v, abs=5e-4)
     assert m[("M019", "nofront")] == pytest.approx(1.219, abs=5e-4)                   # = results/M019_results.csv
 
@@ -38,7 +38,7 @@ def test_dsr_uses_the_current_trial_count(top3):
     if os.path.exists(ledger):
         assert config.TF_TOP3_N_TRIALS == int(pd.read_csv(ledger)["n_trials_cumulative"].max()), "trials เพิ่ม → รัน export_top3.py ใหม่"
     d = top3["metrics"].set_index(["series", "case"])["dsr"]
-    for s, v in {"GC75_MMF": 0.0705, "TREND25": 0.0903, "M012_QFS": 0.0692, "B0": 0.0107, "M019": 0.1615}.items():
+    for s, v in {"GC75_MMF": 0.0633, "TREND25": 0.0819, "M012_QFS": 0.0624, "B0": 0.0093, "M019": 0.1478, "M052": 0.4043}.items():
         assert d[(s, "full")] == pytest.approx(v, abs=5e-5)
 
 

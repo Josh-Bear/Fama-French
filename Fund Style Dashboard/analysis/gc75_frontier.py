@@ -111,7 +111,7 @@ def model_erc(funds_df: pd.DataFrame, weekly_t: pd.DataFrame) -> pd.Series:
 
 
 def frontier_case(holdings_t: pd.DataFrame, weekly_t: pd.DataFrame, step: float | None = None,
-                  max_w: float | None = None) -> dict:
+                  max_w: float | None = None, model_weights: pd.Series | None = None) -> dict:
     """frontier ของกองชุดหนึ่ง ณ ไตรมาสหนึ่ง -> dict ของกริด / frontier / จุดอ้างอิง (MVP, max Sharpe, ERC) + น้ำหนักทั้งพอร์ต."""
     step = config.GC75_FRONTIER_STEP if step is None else step
     max_w = config.GC75_FRONTIER_MAX_W if max_w is None else max_w
@@ -135,7 +135,9 @@ def frontier_case(holdings_t: pd.DataFrame, weekly_t: pd.DataFrame, step: float 
     front_w = grid[mask][order]
     i_ms = portfolio.max_sharpe_index(frontier, risk_free=rf)
 
-    erc_w = model_erc(funds_df, weekly_t)
+    # จุดโมเดล: None = ERC ตามกติกา M019 (หน้า 10 · = ที่ถือจริง) · Series = น้ำหนักที่ถือจริง (หน้า 11 M052 มี BAND5 จึงไม่ใช่ ERC ล้วน)
+    erc_w = model_erc(funds_df, weekly_t) if model_weights is None else model_weights.reindex(funds).fillna(0.0).astype(float)
+    assert abs(float(erc_w.sum()) - 1.0) < 1e-9
     erc = portfolio.portfolio_points(erc_w.to_numpy()[None, :], mu, sigma).iloc[0]
 
     weights = pd.DataFrame({"MVP": front_w[0], "max Sharpe": front_w[i_ms], "ERC (กติกาโมเดล)": erc_w.to_numpy()},

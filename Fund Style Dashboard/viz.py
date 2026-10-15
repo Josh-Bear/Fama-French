@@ -315,13 +315,13 @@ def vol_return_scatter(df: pd.DataFrame, scope: str) -> go.Figure:
 
 # --- TF Portfolio (หน้า 9) ---
 TF_SERIES_COLORS = {config.TF_MODEL_ID: "#1f77b4", "M001": "#ff7f0e", "B0": "#7f7f7f",
-                    "GC75_MMF": "#2ca02c", "TREND25": "#1f77b4", "M012_QFS": "#9467bd", "M019": "#d62728"}
+                    "GC75_MMF": "#2ca02c", "TREND25": "#1f77b4", "M012_QFS": "#9467bd", "M019": "#d62728", "M052": "#8c564b"}
 TF_SERIES_LABELS = {config.TF_MODEL_ID: f"{config.TF_MODEL_ID} (หน้านี้)", "M001": "M001 (หน้า 8)",
                     "B0": "B0 ถือทุกกองเท่ากัน",
                     "GC75_MMF": "① GC75 + กองตลาดเงิน ⚠️", "TREND25": "② Trend 25 (M004-TF-FX · หน้านี้)",
                     "M012_QFS": "③ M012-QF-S (Trend 25 + เกณฑ์คุณภาพ)",
-                    "M019": "★ M019 (หุ้น 3 กอง + ทอง) ⚠️"}
-TF_SERIES_BOLD = {config.TF_MODEL_ID, "GC75_MMF", "TREND25", "M012_QFS", "M019"}   # เส้นหลัก (หนา) · อื่น = เส้นอ้างอิง
+                    "M019": "M019 (หุ้น 3 กอง + ทอง) ⚠️", "M052": "★ M052 (M019 + CANARY + VSL) ⚠️"}
+TF_SERIES_BOLD = {config.TF_MODEL_ID, "GC75_MMF", "TREND25", "M012_QFS", "M019", "M052"}   # เส้นหลัก (หนา) · อื่น = เส้นอ้างอิง
 
 
 def tf_equity_chart(curves: pd.DataFrame, case: str) -> go.Figure:

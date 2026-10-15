@@ -29,8 +29,8 @@ def _metrics_table(at):
 def test_page_renders_both_sections(app):
     assert [s.value for s in app.subheader][:2] == ["1 · พอร์ตแนะนำ ณ วันที่เลือก",
                                                     f"2 · ผล backtest walk-forward — TOP3 (ถึง {config.TF_EVAL_END})"]
-    assert [m.label for m in app.metric] == ["ACWI vs SMA200", "เงินสด", "กองสด / universe", "คัดได้ (I_t)",
-                                             "ไตรมาส (ตัดสินใจ)", "สัดส่วนหุ้น (GC75)", "ขาตั้งรับ"]   # Trend 25 สด + M019 (ไฟล์อ้างอิง)
+    model = ["ไตรมาส (ตัดสินใจ)", "สัดส่วนหุ้น", "ขาตั้งรับ"]
+    assert [m.label for m in app.metric] == ["ACWI vs SMA200", "เงินสด", "กองสด / universe", "คัดได้ (I_t)"] + model * 2   # Trend 25 สด + M052 + M019
     assert len(app.selectbox) == 1 and len(app.radio) == 1
 
 
@@ -39,13 +39,14 @@ def test_every_as_of_date_renders(app):
     options = data_access.tf_asof_options(cache)
     assert len(app.selectbox[0].options) == len(options)
     m019_q = sorted(data_access.load_gc75_frontier()["holdings"]["t"].unique())
+    assert m019_q == sorted(data_access.load_m052_frontier()["holdings"]["t"].unique())
     for i in range(len(options)):
         app.selectbox[0].select_index(i).run()
         assert not app.exception, (options[i], [e.value for e in app.exception])
         usable = [q for q in m019_q if q <= options[i]]
-        assert len(app.metric) == 4 + (3 if usable else 0)
-        if usable:                                                                        # M019 = ไตรมาสล่าสุด ≤ วันที่เลือก
-            assert app.metric[4].value == f"{usable[-1]:%Y-%m-%d}"
+        assert len(app.metric) == 4 + (6 if usable else 0)
+        if usable:                                                                        # M052 / M019 = ไตรมาสล่าสุด ≤ วันที่เลือก
+            assert app.metric[4].value == app.metric[7].value == f"{usable[-1]:%Y-%m-%d}"
         live = data_access.tf_live(str(options[i].date()))
         thin = any("ข้อมูล NAV ณ วันนี้บางมาก" in e.value for e in app.error)
         assert thin == (live["coverage"] < config.TF_COVERAGE_MIN), options[i]

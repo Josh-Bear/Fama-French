@@ -83,11 +83,18 @@ for s, c, g, rf_, cg, cr in reg:
 if not ok:
     print("REGRESSION FAIL"); sys.exit(2)
 cdf = pd.DataFrame(curves, columns=["series", "case", "date", "value"])
+# M052 (M041 + บอนด์ AGG · run_r6.py export52 สร้างไว้ · env ของ run_r6 = clean_gold_v2) — รวมเข้าไฟล์อ้างอิงหน้า 9
+m52c, m52m = os.path.join(RES, "EXPORT_m052_curves.csv"), os.path.join(RES, "EXPORT_m052_metrics.csv")
+assert os.path.exists(m52c) and os.path.exists(m52m), "รัน run_r6.py export52 ก่อน"
+c52, k52 = pd.read_csv(m52c), pd.read_csv(m52m)
+assert set(c52["date"]) == set(cdf["date"]), "ปฏิทินเดือนของ M052 ไม่ตรง"
+assert (k52["n_trials"] == N_TRIALS).all(), f"DSR ของ M052 คิดที่ n = {k52['n_trials'].unique()} ≠ {N_TRIALS} — รัน run_r6.py export52 ใหม่"
+cdf = pd.concat([cdf, c52], ignore_index=True)
 cdf.to_csv(os.path.join(RES, "EXPORT_top3_curves.csv"), index=False)
-M = pd.DataFrame(mets)
+M = pd.concat([pd.DataFrame(mets), k52.drop(columns=["n_trials"]).assign(sharpe_recomputed=k52["sharpe"])], ignore_index=True)
 M.drop(columns=["sharpe_recomputed"]).to_csv(os.path.join(RES, "EXPORT_top3_metrics.csv"), index=False)
 rfm_out.rename("rf").rename_axis("date").to_csv(os.path.join(RES, "EXPORT_top3_rf_month.csv"))
-HDR = ("# ผล backtest walk-forward TOP3 + M019 + B0 สำหรับแอปหน้า 9 ส่วนที่ 2 — ไฟล์อ้างอิงคงที่ (ห้ามแก้มือ)\n"
+HDR = ("# ผล backtest walk-forward TOP3 + M019 + M052 + B0 สำหรับแอปหน้า 9 ส่วนที่ 2 — ไฟล์อ้างอิงคงที่ (ห้ามแก้มือ)\n"
        "# ที่มา: .claude/quant_team/backtest/export_top3.py · universe เต็ม · rf = ดอกเบี้ยนโยบาย ธปท. จริง · FeeData(legacy=False)\n"
        "# rebalance ตัดสินใจสิ้น มี.ค./มิ.ย./ก.ย./ธ.ค. ซื้อขายวันทำการที่ 2 · 2022-04-04 → 2025-12-31 (45 เดือน) · case: full / nofront / flat (0.5%/ข้าง)\n"
        f"# export {pd.Timestamp.now():%Y-%m-%d} · dsr ที่ n_trials = {N_TRIALS} (trials.csv) · M019 = หุ้น 3 กอง LC + ERC 40% + GC75 + ขาทอง\n")

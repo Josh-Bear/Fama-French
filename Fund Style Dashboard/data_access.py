@@ -715,6 +715,13 @@ def load_tf_top3() -> dict:
 GC75_FRONTIER_FILES = (config.GC75_FRONTIER_HOLDINGS_CSV, config.GC75_FRONTIER_WEEKLY_CSV, config.GC75_FRONTIER_REALIZED_CSV)
 
 
+def _load_frontier(holdings_csv: str, weekly_csv: str, realized_csv: str) -> dict:
+    holdings = pd.read_csv(holdings_csv, comment="#", parse_dates=["t", "e"])
+    weekly = pd.read_csv(weekly_csv, comment="#", parse_dates=["t", "week"])
+    realized = (pd.read_csv(realized_csv, comment="#", parse_dates=["t", "e", "end"]) if os.path.exists(realized_csv) else None)
+    return {"holdings": holdings, "weekly": weekly, "realized": realized}
+
+
 def load_gc75_frontier() -> dict:
     """พอร์ต M019-LC3-GCGOLD ทุกไตรมาส (หน้า 10 frontier + หน้า 9 ส่วนที่ 1) — ไฟล์อ้างอิงคงที่จากทีม quant (ไม่ได้คำนวณในแอป).
 
@@ -722,11 +729,16 @@ def load_gc75_frontier() -> dict:
     · weekly: t, FundCode, week, ret (52 สัปดาห์ ≤ t · กองทองบางไตรมาสมี NaN)
     · realized (ไม่มีไฟล์ = None): t, portfolio, horizon (Q/1Y), cost, ret, ret_ann, vol_ann, sharpe, exp_*, weights (JSON) ...
     """
-    holdings = pd.read_csv(config.GC75_FRONTIER_HOLDINGS_CSV, comment="#", parse_dates=["t", "e"])
-    weekly = pd.read_csv(config.GC75_FRONTIER_WEEKLY_CSV, comment="#", parse_dates=["t", "week"])
-    realized = (pd.read_csv(config.GC75_FRONTIER_REALIZED_CSV, comment="#", parse_dates=["t", "e", "end"])
-                if os.path.exists(config.GC75_FRONTIER_REALIZED_CSV) else None)
-    return {"holdings": holdings, "weekly": weekly, "realized": realized}
+    return _load_frontier(config.GC75_FRONTIER_HOLDINGS_CSV, config.GC75_FRONTIER_WEEKLY_CSV, config.GC75_FRONTIER_REALIZED_CSV)
+
+
+M052_FRONTIER_FILES = (config.M052_FRONTIER_HOLDINGS_CSV, config.M052_FRONTIER_WEEKLY_CSV, config.M052_FRONTIER_REALIZED_CSV)
+
+
+def load_m052_frontier() -> dict:
+    """พอร์ต M052 ทุกไตรมาส (หน้า 11) — รูปแบบเดียวกับ load_gc75_frontier + คอลัมน์ต่อไตรมาส gc_k, x_gc, canary_b, vsl_mult, x_model
+    (ไฟล์อ้างอิงจาก .claude/quant_team/backtest/run_r6.py export52)."""
+    return _load_frontier(config.M052_FRONTIER_HOLDINGS_CSV, config.M052_FRONTIER_WEEKLY_CSV, config.M052_FRONTIER_REALIZED_CSV)
 
 
 def tf_cache_ready() -> bool:
@@ -886,6 +898,7 @@ try:
     get_tf_live = _versioned(tf_live, st.cache_data, *TF_CACHE_FILES, *TF_INPUT_FILES)
     get_tf_top3 = _versioned(load_tf_top3, st.cache_data, *TF_TOP3_FILES)
     get_gc75_frontier = _versioned(load_gc75_frontier, st.cache_data, *GC75_FRONTIER_FILES)
+    get_m052_frontier = _versioned(load_m052_frontier, st.cache_data, *M052_FRONTIER_FILES)
 
     def rebuild() -> None:
         try:
@@ -916,6 +929,7 @@ except ModuleNotFoundError:  # รันนอก streamlit (เช่น pytest
     get_tf_live = tf_live
     get_tf_top3 = load_tf_top3
     get_gc75_frontier = load_gc75_frontier
+    get_m052_frontier = load_m052_frontier
 
 
 if __name__ == "__main__":

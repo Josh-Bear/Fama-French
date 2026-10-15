@@ -36,6 +36,7 @@
 | [8-score-screen](pages/8-score-screen.md) | 🧭 Score Screen | คะแนนโซน country × sector → คัดกองที่ผ่านเกณฑ์ไม่ซ้ำการเดิมพัน (สูงสุด 5 · โหมดเริ่มต้นได้ 4) → efficient frontier ของกองชุดนั้น |
 | [9-tf-portfolio](pages/9-tf-portfolio.md) | 📈 TF Portfolio | โมเดล M004-TF-FX ที่ผ่าน walk-forward backtest — พอร์ตแนะนำ ณ วันที่เลือก (8 กอง SR12 + ERC + เงินสดตาม trend) + ผลย้อนหลังด้วยค่าธรรมเนียมจริง |
 | [10-gc75-frontier](pages/10-gc75-frontier.md) | 🗺 M019 Frontier | efficient frontier ของกองที่ M019 (หุ้น 3 กอง + ขาทอง) ถือจริง 4 ไตรมาส + จุด MVP / max Sharpe / ERC · เทียบ max Sharpe กับ ERC |
+| [11-m052-frontier](pages/11-m052-frontier.md) | 🧭 M052 Frontier | frontier แบบหน้า 10 ของพอร์ตที่ M052 ถือจริง (CANARY บอนด์ AGG + VSL) · คาดหวัง vs จริง |
 
 ### ภาคผนวก
 | เอกสาร | เนื้อหา |

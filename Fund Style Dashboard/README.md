@@ -51,6 +51,7 @@ python3 -m venv .venv
 | 🧭 **Score Screen** | 3 ส่วน: คะแนนโซน country × sector (momentum 12-1 + vol ทำนายต่ำ) → คัดกองที่ผ่านเกณฑ์ (score ≥ 0.7) ไม่ซ้ำการเดิมพัน สูงสุด 5 กอง (โหมดเริ่มต้นได้ 4) → **efficient frontier** ของกองชุดนั้น (Σ = B·F·Bᵀ+D · μ = Black-Litterman) (ดู [`docs/pages/8-score-screen.md`](docs/pages/8-score-screen.md)) |
 | 📈 **TF Portfolio** | โมเดล M004-TF-FX ที่ผ่าน walk-forward backtest ของทีม quant: พอร์ตแนะนำ ณ วันที่เลือก (8 กอง SR12 · ERC · เงินสด 25% เมื่อ ACWI < SMA200) + ผลย้อนหลังด้วยค่าธรรมเนียมจริง (Sharpe 0.71 · ไม่ใช่คำแนะนำการลงทุน) (ดู [`docs/pages/9-tf-portfolio.md`](docs/pages/9-tf-portfolio.md)) |
 | 🗺 **M019 Frontier** | efficient frontier ของกองที่ M019 ถือจริง 4 ไตรมาส (สุ่มคงที่) · หุ้น 3 กอง (อันดับ 1 + correlation ต่ำ · ERC เพดาน 40%) + ขาทองตาม GC75 · ขาทอง/ตลาดเงินล็อกตามกติกา · กองหุ้นละ 0–40% ของส่วนหุ้น ทีละ 1% (231 พอร์ต) · จุด MVP / max Sharpe / ERC ของโมเดล + ตาราง/กราฟเทียบ max Sharpe กับ ERC (ดู [`docs/pages/10-gc75-frontier.md`](docs/pages/10-gc75-frontier.md)) |
+| 🧭 **M052 Frontier** | frontier แบบหน้า 10 ของพอร์ตที่ **M052** (M019 + ลดค่าธรรมเนียม + CANARY บอนด์ AGG + VSL · ตัวดีสุดใน TOP5) ถือจริง · จุด Model = น้ำหนักที่ถือจริง · คาดหวัง vs จริง (ดู [`docs/pages/11-m052-frontier.md`](docs/pages/11-m052-frontier.md)) |
 
 ---
 
@@ -93,7 +94,7 @@ data_access.py       orchestration + cache (build_pipeline) + UI layer (@st.cach
 viz.py               helper กราฟ plotly (scatter + quadrant, match strength bar)
 page_common.py       shared helper หน้า scatter (guard + Country/Sector/Style page)
 app.py               landing + ปุ่ม rebuild (build_pipeline + vol + style + macro cache)
-pages/               1_Country_Match · 2_Sector_Match · 3_Match_Strength · 4_Vol_Forecast · 5_Filtered_Scatter · 6_Style_Match · 7_Macro_Chain · 8_Score_Screen · 9_TF_Portfolio · 10_M019_Frontier
+pages/               1_Country_Match · 2_Sector_Match · 3_Match_Strength · 4_Vol_Forecast · 5_Filtered_Scatter · 6_Style_Match · 7_Macro_Chain · 8_Score_Screen · 9_TF_Portfolio · 10_M019_Frontier · 11_M052_Frontier
 data/
   fund_profile.py    load + filter FundProfile.csv (9 เกณฑ์)
   nav_loader.py      chunked load nav_history + dedupe(FundCode,NAVDate keep UpdateTime ล่าสุด)
