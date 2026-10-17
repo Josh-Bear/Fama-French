@@ -1,0 +1,2 @@
+done {'E': 357, 'F': 49, 'O': 27}
+L0_NAV_CACHE= PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. ./.venv/bin/python -B     11.86s user 0.57s system 94% cpu 13.097 total

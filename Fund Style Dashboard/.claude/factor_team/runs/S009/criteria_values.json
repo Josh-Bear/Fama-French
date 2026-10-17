@@ -1,0 +1,55 @@
+{
+ "Q2_n_with_evidence": 14,
+ "Q2_counts": {
+  "ไม่พบ": 184,
+  "มีหลักฐาน α": 14,
+  "บางส่วน (ฐานเดียว)": 8
+ },
+ "Q2_label": "",
+ "p_boot_frac_bh": {
+  "M1": 0.003,
+  "M2": 0.001
+ },
+ "FX_gap": [
+  {
+   "n_groups": 6,
+   "n_computable": 5,
+   "median_ratio": 0.8462959574576361,
+   "na": false,
+   "base": "1a"
+  },
+  {
+   "n_groups": 6,
+   "n_computable": 5,
+   "median_ratio": 0.9551144810702082,
+   "na": false,
+   "base": "1c"
+  }
+ ],
+ "Q1": {
+  "G-F": "บางส่วน",
+  "G-O": "ไม่มี",
+  "MSCI_ACWI": "ไม่มี",
+  "MSCI_ACWI_CD": "บางส่วน",
+  "MSCI_ACWI_CS": "N/A (กลุ่มเล็กเกิน)",
+  "MSCI_ACWI_EX_US": "บางส่วน",
+  "MSCI_ACWI_FN": "N/A (กลุ่มเล็กเกิน)",
+  "MSCI_ACWI_HC": "N/A (กลุ่มเล็กเกิน)",
+  "MSCI_ACWI_IN": "N/A (กลุ่มเล็กเกิน)",
+  "MSCI_ACWI_IT": "มี",
+  "MSCI_ACWI_MT": "N/A (กลุ่มเล็กเกิน)",
+  "MSCI_ACWI_UT": "N/A (กลุ่มเล็กเกิน)",
+  "MSCI_ASEAN": "N/A (กลุ่มเล็กเกิน)",
+  "MSCI_ASIA_EX_JAPAN": "ไม่มี",
+  "MSCI_CHINA_ALL_SHARES": "บางส่วน",
+  "MSCI_CHINA_A_SHARES": "N/A (กลุ่มเล็กเกิน)",
+  "MSCI_EM": "ไม่มี",
+  "MSCI_EUROPE": "มี",
+  "MSCI_INDIA": "มี",
+  "MSCI_JAPAN": "มี",
+  "MSCI_KOREA": "N/A (กลุ่มเล็กเกิน)",
+  "MSCI_USA": "N/A (กลุ่มเล็กเกิน)",
+  "MSCI_VIETNAM": "N/A (กลุ่มเล็กเกิน)",
+  "MSCI_WORLD_EX_US": "N/A (กลุ่มเล็กเกิน)"
+ }
+}

@@ -1,0 +1,350 @@
+{
+ "all_identical": true,
+ "n_files": 69,
+ "excluded": "results.md, run.log, run_meta.json, run.py, repro_check.* (\u0e21\u0e35\u0e40\u0e27\u0e25\u0e32/\u0e40\u0e21\u0e15\u0e32); placebo_rule.json \u0e40\u0e17\u0e35\u0e22\u0e1a\u0e40\u0e19\u0e37\u0e49\u0e2d\u0e2b\u0e32\u0e44\u0e21\u0e48\u0e23\u0e27\u0e21 timestamp",
+ "files": {
+  "appendix_k3/bootstrap.csv": {
+   "run1": "d6466081e02b18f2bfdf84e7573db668bed24f9204bb10ee6c66bd71c694d2e8",
+   "run2": "d6466081e02b18f2bfdf84e7573db668bed24f9204bb10ee6c66bd71c694d2e8",
+   "identical": true
+  },
+  "appendix_k3/canon.csv": {
+   "run1": "3f0419fa84433314d0353ce5090e8479e42d6fca207bdf72a42a2c774931adde",
+   "run2": "3f0419fa84433314d0353ce5090e8479e42d6fca207bdf72a42a2c774931adde",
+   "identical": true
+  },
+  "appendix_k3/criteria_P1.csv": {
+   "run1": "c197abd04a4b0f6d3d86f6a878acb63bf2eb38d47cea37e4b784464b148cd6f3",
+   "run2": "c197abd04a4b0f6d3d86f6a878acb63bf2eb38d47cea37e4b784464b148cd6f3",
+   "identical": true
+  },
+  "appendix_k3/criteria_P3.csv": {
+   "run1": "380982933ed0e637ef1389fbbc2e102582071b61efa5b00d807e1e2e0784a3bf",
+   "run2": "380982933ed0e637ef1389fbbc2e102582071b61efa5b00d807e1e2e0784a3bf",
+   "identical": true
+  },
+  "appendix_k3/criteria_P4.json": {
+   "run1": "1aa18fd1a8800c05d99909ae97d2ca959bcecf174bfa171376400d126334c68b",
+   "run2": "1aa18fd1a8800c05d99909ae97d2ca959bcecf174bfa171376400d126334c68b",
+   "identical": true
+  },
+  "appendix_k3/fund_level.csv": {
+   "run1": "fc7444538dfd66b8c64d4f3bce05e58ec11b984608be8f09e0bf0fb082393146",
+   "run2": "fc7444538dfd66b8c64d4f3bce05e58ec11b984608be8f09e0bf0fb082393146",
+   "identical": true
+  },
+  "appendix_k3/grs.csv": {
+   "run1": "889bfaf09f6be95a0cbe2290dfb6528a31fe18f6555238ee2449ec7423a4bfda",
+   "run2": "889bfaf09f6be95a0cbe2290dfb6528a31fe18f6555238ee2449ec7423a4bfda",
+   "identical": true
+  },
+  "appendix_k3/monthly.csv": {
+   "run1": "e90f90798b791b4529a0cecd392f559ec2f56323ea0e34f3c4430bc55eeda371",
+   "run2": "e90f90798b791b4529a0cecd392f559ec2f56323ea0e34f3c4430bc55eeda371",
+   "identical": true
+  },
+  "appendix_k3/py.csv": {
+   "run1": "46a18502cbd606664759de278f5f08462d89dc10f5ad60b3de544a0142489f2d",
+   "run2": "46a18502cbd606664759de278f5f08462d89dc10f5ad60b3de544a0142489f2d",
+   "identical": true
+  },
+  "appendix_k3/rolling_104.csv": {
+   "run1": "3a0e2d50d13b70dc5159ea445e57a52cae85797534afd5ce5bf8d53f33dc845f",
+   "run2": "3a0e2d50d13b70dc5159ea445e57a52cae85797534afd5ce5bf8d53f33dc845f",
+   "identical": true
+  },
+  "appendix_k3/rotation.csv": {
+   "run1": "147525b1fdd1c6bdad1f31a01b5d969df86aa5afc9630253fab5aca90273902d",
+   "run2": "147525b1fdd1c6bdad1f31a01b5d969df86aa5afc9630253fab5aca90273902d",
+   "identical": true
+  },
+  "appendix_k3/rotation_B.csv": {
+   "run1": "a6c41e5507dce069d97e5732c9d8abbba23d52c8c6494cc368233b8870273247",
+   "run2": "a6c41e5507dce069d97e5732c9d8abbba23d52c8c6494cc368233b8870273247",
+   "identical": true
+  },
+  "appendix_k3/scan_by_index.csv": {
+   "run1": "18c49db66636b55c9cf3fcae35ebc50f3e1aa2c45bb2a80a80b04ad66cb396aa",
+   "run2": "18c49db66636b55c9cf3fcae35ebc50f3e1aa2c45bb2a80a80b04ad66cb396aa",
+   "identical": true
+  },
+  "appendix_k3/scan_single.csv": {
+   "run1": "87897f3608695f2f17828a1e99a069660516c29f019141f87b2717e7c87b4a94",
+   "run2": "87897f3608695f2f17828a1e99a069660516c29f019141f87b2717e7c87b4a94",
+   "identical": true
+  },
+  "appendix_k3/scorecard.csv": {
+   "run1": "6842f1032774f48c9ff3c549d3770302fa7c2b4611fcfacd5599819d19520e88",
+   "run2": "6842f1032774f48c9ff3c549d3770302fa7c2b4611fcfacd5599819d19520e88",
+   "identical": true
+  },
+  "appendix_k3/span_forward.csv": {
+   "run1": "84a2c32d15ac1e2ef887cf07ccdcfa373548f7e97c8644224e34987f34914a35",
+   "run2": "84a2c32d15ac1e2ef887cf07ccdcfa373548f7e97c8644224e34987f34914a35",
+   "identical": true
+  },
+  "appendix_k3/span_forward_wald.csv": {
+   "run1": "02504e34abed1c83605e3bd6a44fbfe0d2c53a7f4860c6165a34df12d7699dc0",
+   "run2": "02504e34abed1c83605e3bd6a44fbfe0d2c53a7f4860c6165a34df12d7699dc0",
+   "identical": true
+  },
+  "appendix_k3/span_reverse.csv": {
+   "run1": "59afd3e1c7a4afc7d07f56367ac2a380804b5c0b145dcea1fc65e8bc0d9c577b",
+   "run2": "59afd3e1c7a4afc7d07f56367ac2a380804b5c0b145dcea1fc65e8bc0d9c577b",
+   "identical": true
+  },
+  "appendix_k3/stability.csv": {
+   "run1": "494f97b991b996ccef97c6a3325bc1856bbca268b86c8434c8d2b12c94baf280",
+   "run2": "494f97b991b996ccef97c6a3325bc1856bbca268b86c8434c8d2b12c94baf280",
+   "identical": true
+  },
+  "appendix_k5/bootstrap.csv": {
+   "run1": "7c5dd44f9df372fd7f9740355c0f2e28189a08ea0567d8568acc9374cd96d010",
+   "run2": "7c5dd44f9df372fd7f9740355c0f2e28189a08ea0567d8568acc9374cd96d010",
+   "identical": true
+  },
+  "appendix_k5/canon.csv": {
+   "run1": "e58a06496c7910b9f2962e1cd7641348c3caf1b747c8ed61cb27e2af00007e83",
+   "run2": "e58a06496c7910b9f2962e1cd7641348c3caf1b747c8ed61cb27e2af00007e83",
+   "identical": true
+  },
+  "appendix_k5/criteria_P1.csv": {
+   "run1": "b5123ed29c460506dab36a72b815edaaf2d92cc58049c9ebcc7153f3f24d12f7",
+   "run2": "b5123ed29c460506dab36a72b815edaaf2d92cc58049c9ebcc7153f3f24d12f7",
+   "identical": true
+  },
+  "appendix_k5/criteria_P3.csv": {
+   "run1": "4186bbc54b507fa14ac18f59c59a6102182f01e8311f3fd09ac599d9dca64be7",
+   "run2": "4186bbc54b507fa14ac18f59c59a6102182f01e8311f3fd09ac599d9dca64be7",
+   "identical": true
+  },
+  "appendix_k5/criteria_P4.json": {
+   "run1": "05d12d18be72a41595a98c26ec94fc10b39a0a6923348bdaff73bdbfcdfa0a91",
+   "run2": "05d12d18be72a41595a98c26ec94fc10b39a0a6923348bdaff73bdbfcdfa0a91",
+   "identical": true
+  },
+  "appendix_k5/fund_level.csv": {
+   "run1": "a2c4da7d56c6f25d0cd8438e2b1dddf336ad35bce774d7836664c45273f888ae",
+   "run2": "a2c4da7d56c6f25d0cd8438e2b1dddf336ad35bce774d7836664c45273f888ae",
+   "identical": true
+  },
+  "appendix_k5/grs.csv": {
+   "run1": "4226bdfc6b681ea4bff20a7845010197011d589b5e895cd186c557a8866de2ca",
+   "run2": "4226bdfc6b681ea4bff20a7845010197011d589b5e895cd186c557a8866de2ca",
+   "identical": true
+  },
+  "appendix_k5/monthly.csv": {
+   "run1": "2af1adff9ee29d2df55c79f96f6a236561c12ed1fba26c0263e20055babbd03a",
+   "run2": "2af1adff9ee29d2df55c79f96f6a236561c12ed1fba26c0263e20055babbd03a",
+   "identical": true
+  },
+  "appendix_k5/py.csv": {
+   "run1": "763455a09095c418f11c093a6f4ded4da6356c11e86e45ee47eda4418cc5e75f",
+   "run2": "763455a09095c418f11c093a6f4ded4da6356c11e86e45ee47eda4418cc5e75f",
+   "identical": true
+  },
+  "appendix_k5/rolling_104.csv": {
+   "run1": "7de0c8b6e90111a22f4547aa5ebf4121d79dde12524042fa5020b1fc7b0da5bf",
+   "run2": "7de0c8b6e90111a22f4547aa5ebf4121d79dde12524042fa5020b1fc7b0da5bf",
+   "identical": true
+  },
+  "appendix_k5/rotation.csv": {
+   "run1": "d6e9d712d230a28494f0b82bef37e0a2d44b83710dede958d65da30ce012a2eb",
+   "run2": "d6e9d712d230a28494f0b82bef37e0a2d44b83710dede958d65da30ce012a2eb",
+   "identical": true
+  },
+  "appendix_k5/rotation_B.csv": {
+   "run1": "83f33539d4f4ea9bcd27fddf48fa69e7609bfa5dcedd8b060acef2610ad7f677",
+   "run2": "83f33539d4f4ea9bcd27fddf48fa69e7609bfa5dcedd8b060acef2610ad7f677",
+   "identical": true
+  },
+  "appendix_k5/scan_by_index.csv": {
+   "run1": "8fac713335ed9bdb1bc185d551ea1b3730a48c0ebdb198fd12fb733f9367688a",
+   "run2": "8fac713335ed9bdb1bc185d551ea1b3730a48c0ebdb198fd12fb733f9367688a",
+   "identical": true
+  },
+  "appendix_k5/scan_single.csv": {
+   "run1": "2c77cdd50705258b2262a83f983b45e94585d8d855e2b7290a9bcc451cc62dbc",
+   "run2": "2c77cdd50705258b2262a83f983b45e94585d8d855e2b7290a9bcc451cc62dbc",
+   "identical": true
+  },
+  "appendix_k5/scorecard.csv": {
+   "run1": "bf87151b00c3720f0c9359c34b20757957f716c574bec8e739b9c57c67dffd86",
+   "run2": "bf87151b00c3720f0c9359c34b20757957f716c574bec8e739b9c57c67dffd86",
+   "identical": true
+  },
+  "appendix_k5/span_forward.csv": {
+   "run1": "d9a987caf0d34e7f0d4263550a59d4d43d2f2f4d2771d2171d208bf0fd35d4ff",
+   "run2": "d9a987caf0d34e7f0d4263550a59d4d43d2f2f4d2771d2171d208bf0fd35d4ff",
+   "identical": true
+  },
+  "appendix_k5/span_forward_wald.csv": {
+   "run1": "d74cd05f3be000838d0dd0d00b172f2396144c1b1037139ed23c21935329532c",
+   "run2": "d74cd05f3be000838d0dd0d00b172f2396144c1b1037139ed23c21935329532c",
+   "identical": true
+  },
+  "appendix_k5/span_reverse.csv": {
+   "run1": "5d8b6236d39f9d873acf0b3e6b7cdb6520452413639ac3a93be5bf8ee4c0d68b",
+   "run2": "5d8b6236d39f9d873acf0b3e6b7cdb6520452413639ac3a93be5bf8ee4c0d68b",
+   "identical": true
+  },
+  "appendix_k5/stability.csv": {
+   "run1": "ed399c5995493d4315496aab045621d1cdd66954350ab52ef9d3eb7d2a0d040c",
+   "run2": "ed399c5995493d4315496aab045621d1cdd66954350ab52ef9d3eb7d2a0d040c",
+   "identical": true
+  },
+  "bootstrap.csv": {
+   "run1": "6c482c31d9c7cbec6c2ea34513de88469830e891be19a3a3f252213fd6d4908e",
+   "run2": "6c482c31d9c7cbec6c2ea34513de88469830e891be19a3a3f252213fd6d4908e",
+   "identical": true
+  },
+  "canon.csv": {
+   "run1": "5129551eea452a935cd6c27cc35fea49b66e279d5a78000a9ff4b8cc8c9be000",
+   "run2": "5129551eea452a935cd6c27cc35fea49b66e279d5a78000a9ff4b8cc8c9be000",
+   "identical": true
+  },
+  "criteria_P1.csv": {
+   "run1": "580b813cad0e7df29a19c762000bbe8becc24254de3b8a2f2e4ef81d2231eca7",
+   "run2": "580b813cad0e7df29a19c762000bbe8becc24254de3b8a2f2e4ef81d2231eca7",
+   "identical": true
+  },
+  "criteria_P3.csv": {
+   "run1": "9b87aad296cf123fea80c9e3c9af78608f397bb82f542430ee33e5bc86303819",
+   "run2": "9b87aad296cf123fea80c9e3c9af78608f397bb82f542430ee33e5bc86303819",
+   "identical": true
+  },
+  "criteria_P4.json": {
+   "run1": "0db21831202f8ff2378923740074d2517be1a37563d5f09a64e103d8651cbfb2",
+   "run2": "0db21831202f8ff2378923740074d2517be1a37563d5f09a64e103d8651cbfb2",
+   "identical": true
+  },
+  "expectations_vs_results.csv": {
+   "run1": "c480aa2e145732966ad4ab54f0b8d6867dc14e40db9d5d6ce3efcba3a3c84359",
+   "run2": "c480aa2e145732966ad4ab54f0b8d6867dc14e40db9d5d6ce3efcba3a3c84359",
+   "identical": true
+  },
+  "fund_clusters.csv": {
+   "run1": "072cd97ade7e01a32edb9aaf5b949381d1500dcb1ed909558bee3a373e2fc0cb",
+   "run2": "072cd97ade7e01a32edb9aaf5b949381d1500dcb1ed909558bee3a373e2fc0cb",
+   "identical": true
+  },
+  "fund_level.csv": {
+   "run1": "1be9d49e70f385cd9a6e09d586f16ec3677622ee87b598826a34bebd69a89cf5",
+   "run2": "1be9d49e70f385cd9a6e09d586f16ec3677622ee87b598826a34bebd69a89cf5",
+   "identical": true
+  },
+  "grs.csv": {
+   "run1": "951f21b2c994432f7e727056326b8227955bbdf18c228e87205b228c4d93119c",
+   "run2": "951f21b2c994432f7e727056326b8227955bbdf18c228e87205b228c4d93119c",
+   "identical": true
+  },
+  "k_side_by_side.csv": {
+   "run1": "40fd2e5bb89a9bfe9eb1430e9c537c3e7fc2bc39732cde09869e86ec4082c27e",
+   "run2": "40fd2e5bb89a9bfe9eb1430e9c537c3e7fc2bc39732cde09869e86ec4082c27e",
+   "identical": true
+  },
+  "map_factor_index.csv": {
+   "run1": "2ad34f59706a484cf6c220759a0ed210338152eab7d0760eb16a3a5d2add733a",
+   "run2": "2ad34f59706a484cf6c220759a0ed210338152eab7d0760eb16a3a5d2add733a",
+   "identical": true
+  },
+  "monthly.csv": {
+   "run1": "853a05d1ef1395e682668bcfb0aca7fe3dd87c311bd1cfc5a3054be425c91e39",
+   "run2": "853a05d1ef1395e682668bcfb0aca7fe3dd87c311bd1cfc5a3054be425c91e39",
+   "identical": true
+  },
+  "placebo_by_index.csv": {
+   "run1": "d6696e298627d02af38ccbeefccb401df50f93e94eea97b3dd03ee9def02cffe",
+   "run2": "d6696e298627d02af38ccbeefccb401df50f93e94eea97b3dd03ee9def02cffe",
+   "identical": true
+  },
+  "placebo_scan.csv": {
+   "run1": "b13274ce45b6981a07400d4e69c51107cab72ca46d8fcbf09ebe4a7acaebb878",
+   "run2": "b13274ce45b6981a07400d4e69c51107cab72ca46d8fcbf09ebe4a7acaebb878",
+   "identical": true
+  },
+  "placebo_summary.csv": {
+   "run1": "94bd716096b697326d31cc0448154bf9b56a5a606898e7ebced2cff6b11fde33",
+   "run2": "94bd716096b697326d31cc0448154bf9b56a5a606898e7ebced2cff6b11fde33",
+   "identical": true
+  },
+  "primary_index.csv": {
+   "run1": "5a94ab9b498bb107600938d37f665c7263d9f0a5973460159c09ae83a799275c",
+   "run2": "5a94ab9b498bb107600938d37f665c7263d9f0a5973460159c09ae83a799275c",
+   "identical": true
+  },
+  "py.csv": {
+   "run1": "5fc3b36ca18952f077edfe51da003866437c75f6b751f8b044abdc7146b68a03",
+   "run2": "5fc3b36ca18952f077edfe51da003866437c75f6b751f8b044abdc7146b68a03",
+   "identical": true
+  },
+  "q4_1_verdict.csv": {
+   "run1": "f529f4a0d7c8397fe2c75e0a440e7e7a7ea7520fdb34a2ce5b0b79f415ae0c4c",
+   "run2": "f529f4a0d7c8397fe2c75e0a440e7e7a7ea7520fdb34a2ce5b0b79f415ae0c4c",
+   "identical": true
+  },
+  "redundancy.csv": {
+   "run1": "ca0848d9222f25132f084739ae5353843a5362aa564fd4c6bd14480c87d7e24d",
+   "run2": "ca0848d9222f25132f084739ae5353843a5362aa564fd4c6bd14480c87d7e24d",
+   "identical": true
+  },
+  "rolling_104.csv": {
+   "run1": "6855fc6adc32edceea42de518d9d3b22dbd0853d7cda21853aa25c9b4e584ffb",
+   "run2": "6855fc6adc32edceea42de518d9d3b22dbd0853d7cda21853aa25c9b4e584ffb",
+   "identical": true
+  },
+  "rotation.csv": {
+   "run1": "d89629d6c9c887b7447ee87d26f2c662b8882aadec39ad2d2c9d4b4f4e46f761",
+   "run2": "d89629d6c9c887b7447ee87d26f2c662b8882aadec39ad2d2c9d4b4f4e46f761",
+   "identical": true
+  },
+  "rotation_B.csv": {
+   "run1": "13904a942e2e454db2d7d59476fb4ef6394e463ef90ac403c1536e1a21b428ae",
+   "run2": "13904a942e2e454db2d7d59476fb4ef6394e463ef90ac403c1536e1a21b428ae",
+   "identical": true
+  },
+  "rotation_targets.csv": {
+   "run1": "8d5de9e1fe40f37d42c3356451a26a133119cf8d44128355332dd3dbbe28a0b2",
+   "run2": "8d5de9e1fe40f37d42c3356451a26a133119cf8d44128355332dd3dbbe28a0b2",
+   "identical": true
+  },
+  "scan_by_index.csv": {
+   "run1": "65d9e45563df08d3ee7fd3937c38bd51781813da90296f63cee2951df87bec6a",
+   "run2": "65d9e45563df08d3ee7fd3937c38bd51781813da90296f63cee2951df87bec6a",
+   "identical": true
+  },
+  "scan_single.csv": {
+   "run1": "7ef279ece633e7c1c48ce9810e973eacd86910804b8740d74b443364b71aeb3c",
+   "run2": "7ef279ece633e7c1c48ce9810e973eacd86910804b8740d74b443364b71aeb3c",
+   "identical": true
+  },
+  "scorecard.csv": {
+   "run1": "f71c67466a4590bbf442b2224dbc421f2b4a0caf34a2e7f4930e480736047c89",
+   "run2": "f71c67466a4590bbf442b2224dbc421f2b4a0caf34a2e7f4930e480736047c89",
+   "identical": true
+  },
+  "span_forward.csv": {
+   "run1": "444464f290ddb07fab8df4f85765ed2f6b8e6f59f4010d78427f6c89dfe9d790",
+   "run2": "444464f290ddb07fab8df4f85765ed2f6b8e6f59f4010d78427f6c89dfe9d790",
+   "identical": true
+  },
+  "span_forward_wald.csv": {
+   "run1": "b8a8551f39cd022257c7066e20c3c27ffefc4b47ab1c0530f7bf006cafd5fac7",
+   "run2": "b8a8551f39cd022257c7066e20c3c27ffefc4b47ab1c0530f7bf006cafd5fac7",
+   "identical": true
+  },
+  "span_reverse.csv": {
+   "run1": "810e1256205bf6fb50dea0729b226c9c559fa1647253a925347d05b809b509c4",
+   "run2": "810e1256205bf6fb50dea0729b226c9c559fa1647253a925347d05b809b509c4",
+   "identical": true
+  },
+  "stability.csv": {
+   "run1": "80d38432ef7efbdab0304acbf3942ee2fce04f3b9ae8ad75a705de87ca32f091",
+   "run2": "80d38432ef7efbdab0304acbf3942ee2fce04f3b9ae8ad75a705de87ca32f091",
+   "identical": true
+  },
+  "placebo_rule.json(\u0e15\u0e31\u0e14 timestamp)": {
+   "identical": true
+  }
+ }
+}

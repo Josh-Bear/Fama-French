@@ -1,0 +1,3 @@
+row,n_funds_monthly,BH_monthly,BY_monthly,BH_weekly_206,BH_weekly_same_funds,spearman_alpha_weekly_vs_monthly,spearman_p,sign_agree_frac,n_ev14_in_monthly,n_ev14_BH_monthly,note
+M1,206,25,14,16,16,0.9159880159375675,7.43310827977577e-83,0.883495145631068,14,13,รายเดือน Dimson lag 1 เดือน · HAC L=3 · ดัชนีดิบแทน e (span เท่ากัน) · min_obs 36 · α ×12 · บรรยาย ไม่ใช่รูปแบบใหม่ · ทำหลังเห็นผล
+M2,206,42,19,20,20,0.977817816168875,1.8183512405123466e-140,0.9611650485436893,14,14,รายเดือน Dimson lag 1 เดือน · HAC L=3 · ดัชนีดิบแทน e (span เท่ากัน) · min_obs 36 · α ×12 · บรรยาย ไม่ใช่รูปแบบใหม่ · ทำหลังเห็นผล

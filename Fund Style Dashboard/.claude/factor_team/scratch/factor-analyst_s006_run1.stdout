@@ -1,0 +1,33 @@
+[2026-10-16T23:30:10 +   0.0s] START run S006
+[2026-10-16T23:30:10 +   0.0s] sha256 ข้อมูล 8 ไฟล์ + 13 ไฟล์ pin ตรง · lib 12 ไฟล์เดิมตรง S005 + l3.py · regression S003/S005 ผ่าน (ทุกบิต)
+[2026-10-16T23:30:10 +   0.2s] ชุดกอง ตรง spec: {'base': 277, 'bal': 134, 'EVAL': 207, 'STAB': 191, 'PYTR': 148, 'PYTE': 206, 'E67': 67} · M28 (260, 28) · EXT (260, 14) · placebo_rule ขั้น 2
+[2026-10-16T23:30:10 +   0.2s] เขียน vif_A0.csv
+[2026-10-16T23:30:10 +   0.2s] เขียน vif_elim_A.csv · S_A {"1a": 15, "1c": 16} · (ข) {"1a": 15, "1c": 16}
+[2026-10-16T23:30:10 +   0.6s] เขียน primary_A.csv (ก่อน fit)
+[2026-10-16T23:30:10 +   0.6s] เขียน resid_B_coef.csv · VIF max [f,e(P4)] = {'1a': 2.119863780783534, '1c': 1.904348779232899} · fallback: {'1a': False, '1c': False}
+[2026-10-16T23:30:10 +   0.6s] เขียน hier_coef.csv
+[2026-10-16T23:30:11 +   1.1s] เขียน placebo_C.json (ก่อน selection จริง) · τ = 0.0000 · เลือก {"26": 0, "52": 0}
+[2026-10-16T23:30:11 +   1.5s] เขียน select_C.csv · บล็อก C (1): ['MSCI_ACWI_CD']
+[2026-10-16T23:30:11 +   1.7s] เขียน primary_C.csv (ก่อน fit)
+[2026-10-16T23:30:12 +   2.1s] span test: (i)(ii)+อ้างอิง ผ่านทั้งหมด (max 4.55e-13) · (iii) max 1.15e-10
+[2026-10-16T23:30:12 +   2.1s] เริ่ม fit แถวที่ให้คะแนน (หลัง vif_A0 · vif_elim_A · primary_A · resid_B_coef · hier_coef · placebo_C · select_C · primary_C · span test)
+[2026-10-16T23:30:12 +   2.6s] fit รายกอง 17 แถว
+[2026-10-16T23:30:12 +   2.7s] เขียน scorecard.csv + fund_level.csv
+[2026-10-16T23:30:14 +   4.4s] เขียน bootstrap.csv
+[2026-10-16T23:30:29 +  19.0s] เขียน grs.csv + py.csv
+/Users/doyinratnavardhana/Fama French/Fund Style Dashboard/.claude/factor_team/lib/scorecard.py:83: RuntimeWarning: All-NaN slice encountered
+  return np.nanmedian(cs, axis=0), np.nanmin(cs, axis=0)
+/Users/doyinratnavardhana/Fama French/Fund Style Dashboard/.claude/factor_team/lib/scorecard.py:83: RuntimeWarning: All-NaN slice encountered
+  return np.nanmedian(cs, axis=0), np.nanmin(cs, axis=0)
+/Users/doyinratnavardhana/Fama French/Fund Style Dashboard/.claude/factor_team/lib/scorecard.py:83: RuntimeWarning: All-NaN slice encountered
+  return np.nanmedian(cs, axis=0), np.nanmin(cs, axis=0)
+/Users/doyinratnavardhana/Fama French/Fund Style Dashboard/.claude/factor_team/lib/scorecard.py:83: RuntimeWarning: All-NaN slice encountered
+  return np.nanmedian(cs, axis=0), np.nanmin(cs, axis=0)
+[2026-10-16T23:30:41 +  30.9s] เขียน stability.csv + rolling_104.csv
+[2026-10-16T23:30:42 +  31.7s] เขียน monthly.csv
+[2026-10-16T23:30:42 +  32.4s] เขียน drop_one_B.csv + q1_verdict.csv
+[2026-10-16T23:30:44 +  33.9s] เขียน wald_B + vif_rows.csv
+[2026-10-16T23:31:20 +  70.5s] เขียน enet_stability.csv + enet_by_index.csv
+[2026-10-16T23:31:21 +  70.8s] เขียน q3_primary_vs_app.csv + q3_crosstab.csv
+[2026-10-16T23:31:21 +  70.8s] เขียน expectations_vs_results.csv
+[2026-10-16T23:31:21 +  70.9s] เสร็จ · runtime 70.9s

@@ -1,0 +1,272 @@
+{
+"sha_match": {
+"data/panel_weekly.parquet": true,
+"data/factors_weekly.parquet": true,
+"data/universe.csv": true,
+"runs/S005/primary_index.csv": true,
+"runs/S005/fund_clusters.csv": true,
+"runs/S006/fund_level.csv": true,
+"runs/S006/resid_B_coef.csv": true,
+"runs/S003/fund_level.csv": true,
+"base_data/SecFundFee.csv": true
+},
+"data_QA_ACWI_CD_sha": "7eb12ca26f95a8ebb88ffcf7e62e2ed8285942f3bd6ac7a4478dc35540c293f7",
+"MGAG_MGAPVD_same_cluster": true,
+"train_rows_max": 156,
+"E_groups": [
+[
+"MSCI_ACWI_CD",
+38,
+35,
+22,
+20,
+"PCA"
+],
+[
+"MSCI_CHINA_ALL_SHARES",
+21,
+16,
+11,
+8,
+"PCA"
+],
+[
+"MSCI_ASIA_EX_JAPAN",
+14,
+14,
+6,
+6,
+"PCA"
+],
+[
+"MSCI_ACWI_IT",
+14,
+11,
+10,
+7,
+"PCA"
+],
+[
+"MSCI_ACWI",
+12,
+9,
+10,
+7,
+"LOO-mean"
+],
+[
+"MSCI_ACWI_EX_US",
+10,
+9,
+2,
+2,
+"LOO-mean"
+],
+[
+"MSCI_EM",
+8,
+7,
+6,
+5,
+"LOO-mean"
+],
+[
+"MSCI_JAPAN",
+8,
+7,
+4,
+4,
+"LOO-mean"
+],
+[
+"MSCI_INDIA",
+8,
+7,
+7,
+7,
+"LOO-mean"
+],
+[
+"MSCI_ACWI_HC",
+7,
+4,
+6,
+3,
+"none"
+],
+[
+"MSCI_VIETNAM",
+6,
+3,
+2,
+1,
+"none"
+],
+[
+"MSCI_EUROPE",
+6,
+5,
+6,
+5,
+"LOO-mean"
+],
+[
+"MSCI_WORLD_EX_US",
+4,
+3,
+2,
+2,
+"none"
+],
+[
+"MSCI_ASEAN",
+3,
+3,
+1,
+1,
+"none"
+],
+[
+"MSCI_ACWI_UT",
+3,
+2,
+3,
+2,
+"none"
+],
+[
+"MSCI_CHINA_A_SHARES",
+3,
+2,
+3,
+2,
+"none"
+],
+[
+"MSCI_ACWI_IN",
+2,
+2,
+0,
+0,
+"none"
+],
+[
+"MSCI_USA",
+2,
+2,
+1,
+1,
+"none"
+],
+[
+"MSCI_ACWI_FN",
+2,
+2,
+2,
+2,
+"none"
+],
+[
+"MSCI_ACWI_CS",
+1,
+1,
+1,
+1,
+"none"
+],
+[
+"MSCI_ACWI_MT",
+1,
+1,
+1,
+1,
+"none"
+],
+[
+"MSCI_KOREA",
+1,
+1,
+1,
+1,
+"none"
+]
+],
+"G_F": {
+"n": 18,
+"n_indep": 17,
+"n_full_train": 15,
+"n_indep_full_train": 14
+},
+"G_O": {
+"n": 14,
+"n_indep": 8,
+"n_full_train": 9,
+"n_indep_full_train": 6
+},
+"E_all": {
+"n": 174,
+"n_indep": 143,
+"n_full_train": 107
+},
+"TT_first_asof_hist": {
+"2023": 103,
+"2024": 1,
+"2025": 1,
+"2026": 102
+},
+"TT_first_asof_ge2024": 104,
+"TT_first_asof_ge2026": 102,
+"TT_first_asof_top": {
+"2023-05-10": 97,
+"2026-07-31": 54,
+"2026-06-30": 47,
+"2023-10-31": 6,
+"2025-09-30": 1
+},
+"late_any_FEEMF_before2024": 5,
+"late_codes_before2026": {
+"UW": 8,
+"IA": 7,
+"EO": 2,
+"FR": 2,
+"OF": 2,
+"SP": 2,
+"TT": 2
+},
+"late_policy": {
+"E": 88,
+"F": 8,
+"O": 8
+},
+"asof_2024_2025_n": 46,
+"TT_rows_by_year_all_funds": {
+"2019": 2,
+"2020": 2,
+"2021": 2,
+"2022": 8,
+"2023": 2240,
+"2024": 40,
+"2025": 24,
+"2026": 3040
+},
+"TT_actual_patterns": {
+"9.99": 180,
+"9.9999": 29,
+"9.9": 23,
+"9.99999": 6,
+"9.999": 6,
+"9": 2
+},
+"TT_rate_patterns": {
+"9.99": 228,
+"9": 47,
+"9.9": 22,
+"9.999": 10,
+"9.9999": 7,
+"99.9": 1
+},
+"TT_OF_both_numeric": 138,
+"TT_ge_OF_frac": 0.9782608695652174,
+"TT_nan_at_first": 69,
+"TT_eq_OF_frac": 0.007246376811594203
+}

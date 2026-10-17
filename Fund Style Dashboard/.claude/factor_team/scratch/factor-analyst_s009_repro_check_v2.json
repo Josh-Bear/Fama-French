@@ -1,0 +1,254 @@
+{
+ "all_identical": true,
+ "n_csv": 47,
+ "extra_in_run2": [],
+ "json_files": {
+  "ter_qa.json(ตัด timestamp)": {
+   "identical": true
+  },
+  "criteria_values.json(ตัด timestamp)": {
+   "identical": true
+  },
+  "criteria_Q3_wald.json(ตัด timestamp)": {
+   "identical": true
+  }
+ },
+ "excluded": "results.md, run.log, run_meta.json, run.py, repro_check.*, pytest_all.log, regression_*.json, decisions_pre_run.md (มีเวลา/เมตา)",
+ "files": {
+  "alpha_bh_list.csv": {
+   "run1": "a8df9e2e622b2dc5180e4eb632ca947b9a90a1bce1082ef942a757cb24b05b58",
+   "run2": "a8df9e2e622b2dc5180e4eb632ca947b9a90a1bce1082ef942a757cb24b05b58",
+   "identical": true
+  },
+  "alpha_by_group.csv": {
+   "run1": "ac01c40533c67d56b114813b3684654248954010916fe59401f825c182920216",
+   "run2": "ac01c40533c67d56b114813b3684654248954010916fe59401f825c182920216",
+   "identical": true
+  },
+  "alpha_by_set.csv": {
+   "run1": "b2fed981d90413fac04b193b2f0c131940d5f64be919ce662a98030a352b3205",
+   "run2": "b2fed981d90413fac04b193b2f0c131940d5f64be919ce662a98030a352b3205",
+   "identical": true
+  },
+  "alpha_div.csv": {
+   "run1": "8ae169e42f9a624062b5c0a585da42705d4a55b7afa42e6d0323c93651c33cbf",
+   "run2": "8ae169e42f9a624062b5c0a585da42705d4a55b7afa42e6d0323c93651c33cbf",
+   "identical": true
+  },
+  "alpha_div_summary.csv": {
+   "run1": "04547f2b57223451e22fb89eddf7455454f059e981c2ae4ff2672b2b57de7e2f",
+   "run2": "04547f2b57223451e22fb89eddf7455454f059e981c2ae4ff2672b2b57de7e2f",
+   "identical": true
+  },
+  "alpha_fund.csv": {
+   "run1": "7a2dea7a928cb529547e8edde8e1f0f31a7ab603bcffd69cd6f2ef6400302894",
+   "run2": "7a2dea7a928cb529547e8edde8e1f0f31a7ab603bcffd69cd6f2ef6400302894",
+   "identical": true
+  },
+  "alpha_mgapvd.csv": {
+   "run1": "304ee0db1957e58e7b5662da6bddeeae5e1b5a1f53916a238cb0801284b0d69e",
+   "run2": "304ee0db1957e58e7b5662da6bddeeae5e1b5a1f53916a238cb0801284b0d69e",
+   "identical": true
+  },
+  "alpha_p4.csv": {
+   "run1": "6c2b766b5872bc6b6fbe57b8f240d386518b5921638dc3cdbdaf0a374680ab15",
+   "run2": "6c2b766b5872bc6b6fbe57b8f240d386518b5921638dc3cdbdaf0a374680ab15",
+   "identical": true
+  },
+  "alpha_q2.csv": {
+   "run1": "7421794bbb4632da809eb910a9fec61a8b82ef719dae33fa6e578272b5ea24ff",
+   "run2": "7421794bbb4632da809eb910a9fec61a8b82ef719dae33fa6e578272b5ea24ff",
+   "identical": true
+  },
+  "bh_by_exclGO.csv": {
+   "run1": "5d77a8b89cd58bd4fedb66b4c1613e786e76330577ed31c3ef72350e11f64c97",
+   "run2": "5d77a8b89cd58bd4fedb66b4c1613e786e76330577ed31c3ef72350e11f64c97",
+   "identical": true
+  },
+  "bootstrap.csv": {
+   "run1": "94b5407c8d0088455168e8b8db5c9ebc46b9bda791feb2993043aa95be9209f5",
+   "run2": "94b5407c8d0088455168e8b8db5c9ebc46b9bda791feb2993043aa95be9209f5",
+   "identical": true
+  },
+  "carry_diag.csv": {
+   "run1": "454431093003577599fce610f00ed6b2d92eb34269b2cd2c66670cb80495e3b3",
+   "run2": "454431093003577599fce610f00ed6b2d92eb34269b2cd2c66670cb80495e3b3",
+   "identical": true
+  },
+  "chars.csv": {
+   "run1": "b3aff52ce487578c2c084f012d3631755b2e1be4e9a389d94caf9f36bea423c7",
+   "run2": "b3aff52ce487578c2c084f012d3631755b2e1be4e9a389d94caf9f36bea423c7",
+   "identical": true
+  },
+  "criteria_Q3.csv": {
+   "run1": "2d00b40ea96b84c01f87c6e3014c2c9c99e5d8c7c0c03bbb01464c213e532d21",
+   "run2": "2d00b40ea96b84c01f87c6e3014c2c9c99e5d8c7c0c03bbb01464c213e532d21",
+   "identical": true
+  },
+  "dalpha_vs_bfx.csv": {
+   "run1": "5779138c28b5617b94aaa36e2f2153f278eb003619ad7f49ecd60d6e98c2e3c0",
+   "run2": "5779138c28b5617b94aaa36e2f2153f278eb003619ad7f49ecd60d6e98c2e3c0",
+   "identical": true
+  },
+  "expectations_reassessed.csv": {
+   "run1": "6d7a0b055e5cadf1a8ba84d4aaf6f4928a7bac34487eafcfaf5eb1a3f994b2bc",
+   "run2": "6d7a0b055e5cadf1a8ba84d4aaf6f4928a7bac34487eafcfaf5eb1a3f994b2bc",
+   "identical": true
+  },
+  "expectations_vs_results.csv": {
+   "run1": "c2c6aeede7c9a73f9504e1e89c0e95f52f2fa044619cc70de5cc29dd2c913ca1",
+   "run2": "c2c6aeede7c9a73f9504e1e89c0e95f52f2fa044619cc70de5cc29dd2c913ca1",
+   "identical": true
+  },
+  "ff_boot_M1.csv": {
+   "run1": "267c02faed49340b3209292288c18bde20ed029e4864f3dc9f7a529e83304473",
+   "run2": "267c02faed49340b3209292288c18bde20ed029e4864f3dc9f7a529e83304473",
+   "identical": true
+  },
+  "ff_boot_M2.csv": {
+   "run1": "8140df4bc9f4550ec0d831783fd43bc0a4229dd6d937411a7fd3b25529a40873",
+   "run2": "8140df4bc9f4550ec0d831783fd43bc0a4229dd6d937411a7fd3b25529a40873",
+   "identical": true
+  },
+  "ff_boot_exclGO_summary.csv": {
+   "run1": "f9fac1cb5468d5a57aec10c677b10830964963dbba44d7213a84a47daea94f7e",
+   "run2": "f9fac1cb5468d5a57aec10c677b10830964963dbba44d7213a84a47daea94f7e",
+   "identical": true
+  },
+  "ff_boot_summary.csv": {
+   "run1": "a35cc02afb1666512135db3d71b1fa93ebf6ce51132f289f8dfd97194bc9ea73",
+   "run2": "a35cc02afb1666512135db3d71b1fa93ebf6ce51132f289f8dfd97194bc9ea73",
+   "identical": true
+  },
+  "fund_level.csv": {
+   "run1": "7997e859df43d5790dd4146d04acf21f23109dfacbe6b7257b6d2dcd7b658394",
+   "run2": "7997e859df43d5790dd4146d04acf21f23109dfacbe6b7257b6d2dcd7b658394",
+   "identical": true
+  },
+  "fx_gap.csv": {
+   "run1": "b13fd777f98367e4ebac7208e57edfb8f12ffc54f8c1ba1d574babff87dc8683",
+   "run2": "b13fd777f98367e4ebac7208e57edfb8f12ffc54f8c1ba1d574babff87dc8683",
+   "identical": true
+  },
+  "fx_gap_summary.csv": {
+   "run1": "37821d6d29bf0c6a8eae4f28dcba948168cc285df9f72a70b7dcff9748e52ba6",
+   "run2": "37821d6d29bf0c6a8eae4f28dcba948168cc285df9f72a70b7dcff9748e52ba6",
+   "identical": true
+  },
+  "g0_pca.csv": {
+   "run1": "7437c710d69feca631074916d0eda1f76b14e916afc5eb89fcfb416c39c04259",
+   "run2": "7437c710d69feca631074916d0eda1f76b14e916afc5eb89fcfb416c39c04259",
+   "identical": true
+  },
+  "group_factor.csv": {
+   "run1": "e9f8b2b4d2b7925cc3c6eefdf83240a66306a8543a7fb5e85be3ce43270c9503",
+   "run2": "e9f8b2b4d2b7925cc3c6eefdf83240a66306a8543a7fb5e85be3ce43270c9503",
+   "identical": true
+  },
+  "group_factor_fund.csv": {
+   "run1": "bda692a0b377d7f3473452a6e1b44124fd4f58a1a96eb519348ca1d421b281e0",
+   "run2": "bda692a0b377d7f3473452a6e1b44124fd4f58a1a96eb519348ca1d421b281e0",
+   "identical": true
+  },
+  "group_names.csv": {
+   "run1": "4bb3e27835dea4754ba5114e053697dbf7822dc04ba8f6ce915a1a22c7534d54",
+   "run2": "4bb3e27835dea4754ba5114e053697dbf7822dc04ba8f6ce915a1a22c7534d54",
+   "identical": true
+  },
+  "group_null.csv": {
+   "run1": "c6cd2183c0896db9c141325dd62e170a054e496377b5f720d340516dd0c4b986",
+   "run2": "c6cd2183c0896db9c141325dd62e170a054e496377b5f720d340516dd0c4b986",
+   "identical": true
+  },
+  "groups.csv": {
+   "run1": "069b1c8f9cdfe61ecc312d1e6166b562a40b61d02b5045994aa6eae67a6ca5a7",
+   "run2": "069b1c8f9cdfe61ecc312d1e6166b562a40b61d02b5045994aa6eae67a6ca5a7",
+   "identical": true
+  },
+  "grs.csv": {
+   "run1": "c4f18c400dfbe8e2e739a5ddf8ad43b743071f16de5aaabac5df894928b75266",
+   "run2": "c4f18c400dfbe8e2e739a5ddf8ad43b743071f16de5aaabac5df894928b75266",
+   "identical": true
+  },
+  "mda.csv": {
+   "run1": "2d5febc9504a9c68cfa651e06cdc8cae29d8184a7b4aa7ad3367b3d9ed48559d",
+   "run2": "2d5febc9504a9c68cfa651e06cdc8cae29d8184a7b4aa7ad3367b3d9ed48559d",
+   "identical": true
+  },
+  "monthly_check.csv": {
+   "run1": "dbc9fc3d59fa4b068d8067c244d64933f4d7d8bf7fb38647cc50ecbae7089dae",
+   "run2": "dbc9fc3d59fa4b068d8067c244d64933f4d7d8bf7fb38647cc50ecbae7089dae",
+   "identical": true
+  },
+  "monthly_check_funds.csv": {
+   "run1": "00e5191dabd962c54eee51830d16c0305497a8c360d399226946b4ccab42dd76",
+   "run2": "00e5191dabd962c54eee51830d16c0305497a8c360d399226946b4ccab42dd76",
+   "identical": true
+  },
+  "py.csv": {
+   "run1": "f7ee209075999f0fc3e540ddfc8023a5cc4d166106ad9767842f86893d1e0436",
+   "run2": "f7ee209075999f0fc3e540ddfc8023a5cc4d166106ad9767842f86893d1e0436",
+   "identical": true
+  },
+  "q2_evidence_cluster_summary.csv": {
+   "run1": "081cff2761b5f5602f5b1b3dc99e4514c0b54b031066ce9bc04cb2d412739f78",
+   "run2": "081cff2761b5f5602f5b1b3dc99e4514c0b54b031066ce9bc04cb2d412739f78",
+   "identical": true
+  },
+  "q2_evidence_funds.csv": {
+   "run1": "e30af46acacc80590408ff8ba890fd9038baceac82103848d0eb4118942d492e",
+   "run2": "e30af46acacc80590408ff8ba890fd9038baceac82103848d0eb4118942d492e",
+   "identical": true
+  },
+  "q2_evidence_summary.csv": {
+   "run1": "0b7d3849b8668266120ee0e7677c191c443c1a0086d3cde82e25a58dba443316",
+   "run2": "0b7d3849b8668266120ee0e7677c191c443c1a0086d3cde82e25a58dba443316",
+   "identical": true
+  },
+  "q2_vs_ref3a.csv": {
+   "run1": "8179662ef2933c71bbd976d3f0089597494351f48e2758ea64e3aeabc4af3f73",
+   "run2": "8179662ef2933c71bbd976d3f0089597494351f48e2758ea64e3aeabc4af3f73",
+   "identical": true
+  },
+  "q3_verdict.csv": {
+   "run1": "75d2b963a0d52d3b620baa7793d926a621d9498d65ba30860cad30d63847a186",
+   "run2": "75d2b963a0d52d3b620baa7793d926a621d9498d65ba30860cad30d63847a186",
+   "identical": true
+  },
+  "rolling_104.csv": {
+   "run1": "df049c65059a3cfb564f4b2f161be09b3b2259caeff391e9a47d6efbf3cab8b3",
+   "run2": "df049c65059a3cfb564f4b2f161be09b3b2259caeff391e9a47d6efbf3cab8b3",
+   "identical": true
+  },
+  "scorecard.csv": {
+   "run1": "8479c8e69ba9766fa9f8c140067fa4da8726e199b1cf0adfd899775986014114",
+   "run2": "8479c8e69ba9766fa9f8c140067fa4da8726e199b1cf0adfd899775986014114",
+   "identical": true
+  },
+  "stability.csv": {
+   "run1": "6142ad5a538a4e0577f4f790e65e715002f971c03b70d76d8d83a67aeda49de6",
+   "run2": "6142ad5a538a4e0577f4f790e65e715002f971c03b70d76d8d83a67aeda49de6",
+   "identical": true
+  },
+  "test50_ref_L3B_vs_S006.csv": {
+   "run1": "ffd861a75059233a17d95fb7da1643445fe3a0c97d8a9956fbe1a3446b4ed91a",
+   "run2": "ffd861a75059233a17d95fb7da1643445fe3a0c97d8a9956fbe1a3446b4ed91a",
+   "identical": true
+  },
+  "x2_vs_x4.csv": {
+   "run1": "0f5e56d64f8872ff05c493d33747d3f20e4ebf2c0b8aaa80c865a78d76d36c23",
+   "run2": "0f5e56d64f8872ff05c493d33747d3f20e4ebf2c0b8aaa80c865a78d76d36c23",
+   "identical": true
+  },
+  "xsec.csv": {
+   "run1": "fc3fe8b1b1185922e91fe09e02847d9a69e1b60508e3ddef14f7bfbef68c1ab7",
+   "run2": "fc3fe8b1b1185922e91fe09e02847d9a69e1b60508e3ddef14f7bfbef68c1ab7",
+   "identical": true
+  },
+  "xsec_meta.csv": {
+   "run1": "63e2f55dab7c52d1cd2ff0318038904a0c4a37a3d4eb6a2170a01c8b55ffb00a",
+   "run2": "63e2f55dab7c52d1cd2ff0318038904a0c4a37a3d4eb6a2170a01c8b55ffb00a",
+   "identical": true
+  }
+ }
+}

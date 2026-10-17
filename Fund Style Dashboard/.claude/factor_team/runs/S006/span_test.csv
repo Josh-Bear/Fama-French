@@ -1,0 +1,47 @@
+test,base,stat,max_abs_diff,tol,passed
+i_Ball_vs_raw,1a,alpha,1.231653667943533e-16,1e-10,True
+i_Ball_vs_raw,1a,adj_r2,4.440892098500626e-16,1e-10,True
+i_Ball_vs_raw,1a,r2,3.3306690738754696e-16,1e-10,True
+i_Ball_vs_raw,1a,bic,4.547473508864641e-13,1e-10,True
+i_Ball_vs_raw,1a,t_alpha_hac,8.004708007547379e-14,1e-08,True
+i_Ball_vs_raw,1a,r2_oos,4.5630166312093934e-14,1e-10,True
+ii_Bprim_vs_L2,1a,alpha,9.985502008591496e-17,1e-10,True
+ii_Bprim_vs_L2,1a,adj_r2,2.220446049250313e-16,1e-10,True
+ii_Bprim_vs_L2,1a,bic,2.2737367544323206e-13,1e-10,True
+ii_Bprim_vs_L2,1a,r2_oos,8.881784197001252e-16,1e-10,True
+ref_vs_S005,1a,ฐาน 1a:alpha,9.985502008591496e-17,1e-10,True
+ref_vs_S005,1a,ฐาน 1a:adj_r2,1.1102230246251565e-16,1e-10,True
+ref_vs_S005,1a,ฐาน 1a:bic,2.2737367544323206e-13,1e-10,True
+ref_vs_S005,1a,ฐาน 1a:r2_oos,9.71445146547012e-17,1e-10,True
+ref_vs_S005,1a,L2-1:alpha,9.985502008591496e-17,1e-10,True
+ref_vs_S005,1a,L2-1:adj_r2,1.1102230246251565e-16,1e-10,True
+ref_vs_S005,1a,L2-1:bic,4.547473508864641e-13,1e-10,True
+ref_vs_S005,1a,L2-1:r2_oos,1.1102230246251565e-16,1e-10,True
+i_Ball_vs_raw,1c,alpha,1.487525380650112e-16,1e-10,True
+i_Ball_vs_raw,1c,adj_r2,3.3306690738754696e-16,1e-10,True
+i_Ball_vs_raw,1c,r2,2.220446049250313e-16,1e-10,True
+i_Ball_vs_raw,1c,bic,4.547473508864641e-13,1e-10,True
+i_Ball_vs_raw,1c,t_alpha_hac,1.7463808177353712e-13,1e-08,True
+i_Ball_vs_raw,1c,r2_oos,1.1546319456101628e-14,1e-10,True
+ii_Bprim_vs_L2,1c,alpha,9.915028867379938e-17,1e-10,True
+ii_Bprim_vs_L2,1c,adj_r2,2.220446049250313e-16,1e-10,True
+ii_Bprim_vs_L2,1c,bic,2.2737367544323206e-13,1e-10,True
+ii_Bprim_vs_L2,1c,r2_oos,7.771561172376096e-16,1e-10,True
+ref_vs_S005,1c,ฐาน 1c:alpha,9.915028867379938e-17,1e-10,True
+ref_vs_S005,1c,ฐาน 1c:adj_r2,1.1102230246251565e-16,1e-10,True
+ref_vs_S005,1c,ฐาน 1c:bic,2.2737367544323206e-13,1e-10,True
+ref_vs_S005,1c,ฐาน 1c:r2_oos,1.1102230246251565e-16,1e-10,True
+ref_vs_S005,1c,L2-3:alpha,9.955686448848144e-17,1e-10,True
+ref_vs_S005,1c,L2-3:adj_r2,1.1102230246251565e-16,1e-10,True
+ref_vs_S005,1c,L2-3:bic,2.2737367544323206e-13,1e-10,True
+ref_vs_S005,1c,L2-3:r2_oos,1.1102230246251565e-16,1e-10,True
+ref_vs_S003,3a,alpha,9.8879238130678e-17,1e-10,True
+ref_vs_S003,3a,adj_r2,8.326672684688674e-17,1e-10,True
+ref_vs_S003,3a,bic,2.2737367544323206e-13,1e-10,True
+ref_vs_S003,3a,r2_oos,9.020562075079397e-17,1e-10,True
+iii_Cclosure,C0,alpha,1.1368683772161603e-13,1e-08,True
+iii_Cclosure,C0,adj_r2,7.771561172376096e-16,1e-08,True
+iii_Cclosure,C0,r2,2.220446049250313e-16,1e-08,True
+iii_Cclosure,C0,bic,4.547473508864641e-13,1e-08,True
+iii_Cclosure,C0,t_alpha_hac,1.14584342014723e-10,1e-08,True
+iii_Cclosure,C0,r2_oos,3.356248612362833e-11,1e-08,True

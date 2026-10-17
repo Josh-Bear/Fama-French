@@ -1,0 +1,30 @@
+[2026-10-15T13:51:57 +   0.0s] START run S003
+[2026-10-15T13:51:57 +   0.0s] sha256 ข้อมูลตรง manifest + spec: {"panel_weekly.parquet": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b", "panel_monthly.parquet": "e8e8cb5d5f04fba9bb35558ef7c3d8195c656334119e56f82775cc1ae21ccaed", "factors_weekly.parquet": "115b87139d2bec0fd57a77a1593c46d36bb23f3f35f83236cdb07be642af47a8", "factors_monthly.parquet": "f7c4248b4fa889853024449e72ae8909cf1f8d3226a54eebc37448a2a485bb72", "aum_weekly.parquet": "48c34c73ae22ebffc6112f93e03f729223a496297bb65c324b693b817a723d26", "universe.csv": "fdfb7830df78ce032465ac9d8cddc2c98f9aa86cfa0f3925fdb83026aa3f7252", "dup_pairs.csv": "b1f0f0c745947fa70803a4f40526c0a1967c72925be985a2bedc1057d8b8aef3", "factor_groups.csv": "42bf1cfb270721ae6112799ab795ebc4c91212e7584d5cdfee23b9b70b1b1731"}
+[2026-10-15T13:51:57 +   0.0s] sha256 lib: {"external.py": "40fe064353d732cd8a3ed5671a55177c8d359f55bfac27f553334efbc2db1af2", "forms.py": "7a1eae1fa0c374fcef35917e2482ff8d3e79e6ade4cf67ab7228f7424f048493", "fundff.py": "6cfe0d717440235a67f12e631bfc52e288703256cc0eac32754bb46c4d3c1a77", "hybrid.py": "a3ce7e40af87d39a6d8a5c5daafe74ab78877a0a2f4fd9b41106c4750e3d3768", "io_l1.py": "613b12f757ab9ee23a768aef14dd3974f76e8a7e75780aac5894eabab7ce1210", "nfactors.py": "4e1f6fe9ebaa7552792054e28cd862e1a21351e75e7e3adf05f420bc735849b9", "pca.py": "7fe5c5e26262446ddad89dd179b0ea8fb38ad1d93e3d6df4b8ff12f4839cfd26", "regress.py": "6ea4c314feb6345e4e4becc9dec19b667f063fb8b5c3143fcb4f80d6cc3ca8c9", "samples.py": "8a145a009729c8d118a9e54632a3789bc99f7db006bd4d164a5e3b76fdf04a0a", "scorecard.py": "48f0e25b2e7457dd6ac5e03ca556123bdc7832266ef2e5816a4bc0930f4ff580", "tests_stat.py": "a5d6015e4f83b93afccc42e74f9031901193b377b53ec7ec62a778bbf2fa0e50"}
+[2026-10-15T13:51:57 +   0.2s] ขนาดชุดกอง ตรง spec: {"base": 277, "bal": 134, "EVAL": 207, "STAB": 191, "PYTR": 148, "PYTE": 206, "PYTC": 200, "E67": 67, "EVALin": 132}
+[2026-10-15T13:51:57 +   0.3s] เขียน regions.csv (ก่อน fit)
+[2026-10-15T13:51:57 +   0.3s] เขียน grs_ports.csv (ก่อน fit) · จำนวนพอร์ต {"full": 17, "A": 11, "B": 11}
+[2026-10-15T13:51:57 +   0.3s] เขียน halves.csv (ก่อน fit)
+[2026-10-15T13:51:57 +   0.3s] เริ่ม fit/สร้าง factor รูปแบบ ① ② ③ ④
+[2026-10-15T13:51:58 +   1.0s] k ของ ①a: {'IC_p1': 10, 'IC_p2': 10, 'ER': 1, 'GR': 1, 'ED': 2, 'PA': 6} · k*=4 (auto 4) · EM iter=56 converged=True · k_res ④a=5
+[2026-10-15T13:51:58 +   1.4s] fit รายกองครบ 10 รูปแบบ
+[2026-10-15T13:51:58 +   1.4s] EVAL ที่ fit ②c ไม่ได้ (n<78 ใน train_c): 0
+[2026-10-15T13:51:58 +   1.6s] เขียน scorecard.csv, fund_level.csv
+[2026-10-15T13:52:00 +   3.0s] bootstrap 2000 รอบ เสร็จ
+[2026-10-15T13:52:00 +   3.1s] GRS เสร็จ
+[2026-10-15T13:52:01 +   4.1s] PY เสร็จ
+[2026-10-15T13:52:01 +   4.7s] stability 1a
+[2026-10-15T13:52:02 +   5.3s] stability 1b
+[2026-10-15T13:52:03 +   5.9s] stability 1c
+[2026-10-15T13:52:03 +   6.4s] stability 2a
+[2026-10-15T13:52:04 +   7.1s] stability 2b
+[2026-10-15T13:52:04 +   7.6s] stability 2c
+[2026-10-15T13:52:05 +   8.1s] stability 3a
+[2026-10-15T13:52:06 +   9.0s] stability 3b
+[2026-10-15T13:52:07 +  10.2s] stability 3c
+[2026-10-15T13:52:08 +  10.9s] stability 4a
+[2026-10-15T13:52:09 +  12.4s] ส่วนเสริมเสร็จ
+[2026-10-15T13:52:09 +  12.5s] รายเดือนเสร็จ
+[2026-10-15T13:52:09 +  12.7s] เสร็จ · runtime 12.7s
+pytest หลังแก้รอบรีวิวผล (เพิ่ม port_alpha): 21 passed in 4.57s
+แก้หลังรีวิวผล S003: เพิ่ม scorecard.port_alpha+test, n1_hedge_alpha.csv, expectations_vs_results.csv, หัวข้อ 8.5/9b/หมายเหตุใน results.md; ไม่เปลี่ยนโมเดล

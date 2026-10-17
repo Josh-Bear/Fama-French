@@ -1,0 +1,250 @@
+key,k,index,n_funds_sig,n_groups_sig,P1a,P1b,P1,med_dR2oos_used,label,n_funds_sig_oos002,n_groups_sig_oos002,P1a_strict,P1_strict,P1a_BYpadj
+1a@3,3,MSCI_ACWI,48,45,True,False,False,-0.0008934271365766,,19,18,True,False,True
+1a@3,3,MSCI_ACWI_CD,36,28,True,False,False,0.0008703957118983,,17,12,True,False,True
+1a@3,3,MSCI_ACWI_CS,57,50,True,False,False,0.0094492232051455,n เล็ก,22,20,True,False,True
+1a@3,3,MSCI_ACWI_EN,72,61,True,False,False,-0.0028229904398567,n เล็ก,11,10,True,False,True
+1a@3,3,MSCI_ACWI_EX_US,82,70,True,False,False,-0.0025491481719912,,43,36,True,False,True
+1a@3,3,MSCI_ACWI_FN,98,80,True,False,False,-0.0047584049063215,n เล็ก,26,22,True,False,True
+1a@3,3,MSCI_ACWI_HC,66,57,True,True,True,0.3645203231483291,,21,18,True,True,True
+1a@3,3,MSCI_ACWI_IN,60,53,True,False,False,0.0104751942845511,n เล็ก,25,22,True,False,True
+1a@3,3,MSCI_ACWI_IT,81,69,True,True,True,0.0361487995485743,,38,32,True,True,True
+1a@3,3,MSCI_ACWI_MT,55,50,True,False,False,0.0051418555502812,n เล็ก,16,14,True,False,True
+1a@3,3,MSCI_ACWI_TC,35,32,True,False,False,0.0030584799360288,n เล็ก,13,12,True,False,True
+1a@3,3,MSCI_ACWI_UT,63,57,True,True,True,0.173870443683101,,30,28,True,True,True
+1a@3,3,MSCI_ASEAN,57,45,True,True,True,0.0341037601902521,,16,16,True,True,True
+1a@3,3,MSCI_ASIA_EX_JAPAN,59,52,True,False,False,0.0075167290677171,,22,21,True,False,True
+1a@3,3,MSCI_BRAZIL,24,21,True,False,False,-0.0054167203530174,n เล็ก;ไวต่อ dependence,1,1,False,False,False
+1a@3,3,MSCI_CHINA_ALL_SHARES,56,46,True,False,False,0.01419206149739,,16,15,True,False,True
+1a@3,3,MSCI_CHINA_A_SHARES,54,48,True,False,False,0.0194755303233111,n เล็ก,27,24,True,False,True
+1a@3,3,MSCI_CHINA_H_SHARES,43,35,True,False,False,0.0080777838681947,n เล็ก,15,11,True,False,True
+1a@3,3,MSCI_EM,61,50,True,False,False,-0.0129907599052771,,28,25,True,False,True
+1a@3,3,MSCI_EUROPE,77,62,True,True,True,0.1354355738163546,,35,29,True,True,True
+1a@3,3,MSCI_INDIA,70,59,True,True,True,0.519250101664046,,40,35,True,True,True
+1a@3,3,MSCI_JAPAN,54,49,True,True,True,0.1260083951747528,,13,12,True,True,True
+1a@3,3,MSCI_KOREA,43,37,True,False,False,-0.0016552093495727,n เล็ก,9,8,True,False,True
+1a@3,3,MSCI_TAIWAN,59,49,True,False,False,0.0077160233499835,n เล็ก,20,20,True,False,True
+1a@3,3,MSCI_USA,63,55,True,False,False,0.009511998963213,n เล็ก,30,27,True,False,True
+1a@3,3,MSCI_VIETNAM,26,20,True,True,True,0.3622547885428133,,8,5,False,False,True
+1a@3,3,MSCI_WORLD,50,47,True,False,False,0.0144255153969305,n เล็ก,23,22,True,False,True
+1a@3,3,MSCI_WORLD_EX_US,86,73,True,False,False,-0.00534305161371,,37,31,True,False,True
+1c@3,3,MSCI_ACWI,56,52,True,False,False,-0.0034151284133344,,19,18,True,False,True
+1c@3,3,MSCI_ACWI_CD,27,23,True,False,False,-0.002728363923757,,8,7,True,False,True
+1c@3,3,MSCI_ACWI_CS,57,50,True,False,False,0.0171925388446166,n เล็ก,26,24,True,False,True
+1c@3,3,MSCI_ACWI_EN,72,63,True,False,False,-0.0015524514343294,n เล็ก,15,14,True,False,True
+1c@3,3,MSCI_ACWI_EX_US,79,68,True,False,False,-0.0018791429712833,,33,31,True,False,True
+1c@3,3,MSCI_ACWI_FN,91,77,True,False,False,0.0046290604878482,n เล็ก,27,23,True,False,True
+1c@3,3,MSCI_ACWI_HC,62,53,True,True,True,0.4071448176334181,,23,20,True,True,True
+1c@3,3,MSCI_ACWI_IN,66,61,True,True,True,0.0203948013104162,n เล็ก,33,30,True,True,True
+1c@3,3,MSCI_ACWI_IT,76,66,True,False,False,0.0177369768534648,,26,22,True,False,True
+1c@3,3,MSCI_ACWI_MT,60,55,True,False,False,0.0129402736535356,n เล็ก,24,21,True,False,True
+1c@3,3,MSCI_ACWI_TC,28,26,True,False,False,0.0040143458882921,n เล็ก,7,7,True,False,True
+1c@3,3,MSCI_ACWI_UT,59,51,True,True,True,0.1637845608093965,,29,27,True,True,True
+1c@3,3,MSCI_ASEAN,57,47,True,True,True,0.0423417022460975,,14,14,True,True,True
+1c@3,3,MSCI_ASIA_EX_JAPAN,59,51,True,False,False,0.0052151927415718,,20,19,True,False,True
+1c@3,3,MSCI_BRAZIL,27,24,True,False,False,-0.002771856502589,n เล็ก;ไวต่อ dependence,1,1,False,False,False
+1c@3,3,MSCI_CHINA_ALL_SHARES,46,40,True,False,False,0.0071507636782396,,15,14,True,False,True
+1c@3,3,MSCI_CHINA_A_SHARES,51,44,True,False,False,0.017526257572812,n เล็ก,25,22,True,False,True
+1c@3,3,MSCI_CHINA_H_SHARES,36,33,True,False,False,0.0072500241044305,n เล็ก,10,8,True,False,True
+1c@3,3,MSCI_EM,63,54,True,False,False,-0.012258650998392,,23,21,True,False,True
+1c@3,3,MSCI_EUROPE,75,62,True,True,True,0.1406716703906824,,30,26,True,True,True
+1c@3,3,MSCI_INDIA,50,45,True,True,True,0.6119885943980315,,20,19,True,True,True
+1c@3,3,MSCI_JAPAN,53,47,True,True,True,0.1291020297792915,,13,12,True,True,True
+1c@3,3,MSCI_KOREA,41,36,True,False,False,-0.0009461471985314,n เล็ก,8,7,True,False,True
+1c@3,3,MSCI_TAIWAN,53,45,True,False,False,0.0132655278237574,n เล็ก,18,18,True,False,True
+1c@3,3,MSCI_USA,51,42,True,False,False,0.0057276808288639,n เล็ก,20,19,True,False,True
+1c@3,3,MSCI_VIETNAM,26,20,True,True,True,0.3449811856000583,ไวต่อ dependence,9,6,False,False,False
+1c@3,3,MSCI_WORLD,54,49,True,False,False,0.0104795848605718,n เล็ก,22,21,True,False,True
+1c@3,3,MSCI_WORLD_EX_US,85,74,True,False,False,-0.0007352033801057,,34,29,True,False,True
+1a@4,4,MSCI_ACWI,51,48,True,False,False,0.0013489041789414,,25,23,True,False,True
+1a@4,4,MSCI_ACWI_CD,45,36,True,False,False,0.0004893192490111,,17,12,True,False,True
+1a@4,4,MSCI_ACWI_CS,67,58,True,False,False,0.002831932232574,n เล็ก,20,17,True,False,True
+1a@4,4,MSCI_ACWI_EN,31,29,True,False,False,0.0153042200277437,n เล็ก,10,10,True,False,True
+1a@4,4,MSCI_ACWI_EX_US,32,29,True,False,False,-0.0015733315996391,,15,14,True,False,True
+1a@4,4,MSCI_ACWI_FN,51,44,True,False,False,0.0064144011996127,n เล็ก,21,18,True,False,True
+1a@4,4,MSCI_ACWI_HC,79,69,True,True,True,0.3770780838136491,,32,28,True,True,True
+1a@4,4,MSCI_ACWI_IN,39,36,True,True,True,0.0314716761185343,n เล็ก,23,20,True,True,True
+1a@4,4,MSCI_ACWI_IT,66,56,True,True,True,0.0289895451817289,,31,25,True,True,True
+1a@4,4,MSCI_ACWI_MT,36,36,True,True,True,0.0215239512566449,n เล็ก,19,19,True,True,True
+1a@4,4,MSCI_ACWI_TC,32,29,True,False,False,0.0090803728824833,n เล็ก,11,11,True,False,True
+1a@4,4,MSCI_ACWI_UT,63,55,True,True,True,0.1301481033370719,,18,17,True,True,True
+1a@4,4,MSCI_ASEAN,27,22,True,False,False,0.003902584416708,,3,3,False,False,True
+1a@4,4,MSCI_ASIA_EX_JAPAN,39,35,True,False,False,0.0040435581568316,,9,9,True,False,True
+1a@4,4,MSCI_BRAZIL,22,20,True,False,False,0.0016520267753382,n เล็ก;ไวต่อ dependence,2,2,False,False,False
+1a@4,4,MSCI_CHINA_ALL_SHARES,54,43,True,True,True,0.0210232288781232,,18,17,True,True,True
+1a@4,4,MSCI_CHINA_A_SHARES,51,46,True,False,False,0.0190023258440643,n เล็ก,25,22,True,False,True
+1a@4,4,MSCI_CHINA_H_SHARES,22,17,True,False,False,0.0081695374136402,n เล็ก,8,6,False,False,True
+1a@4,4,MSCI_EM,20,18,True,False,False,-0.0097222154268549,ไวต่อ dependence,5,5,False,False,False
+1a@4,4,MSCI_EUROPE,62,51,True,True,True,0.1559522712782708,,23,20,True,True,True
+1a@4,4,MSCI_INDIA,46,40,True,True,True,0.1947514491625567,,32,27,True,True,True
+1a@4,4,MSCI_JAPAN,38,35,True,True,True,0.1207743352258411,,10,9,True,True,True
+1a@4,4,MSCI_KOREA,37,34,True,False,False,-0.0030831495614731,n เล็ก,7,6,False,False,True
+1a@4,4,MSCI_TAIWAN,60,49,True,False,False,0.0150942831225068,n เล็ก,24,24,True,False,True
+1a@4,4,MSCI_USA,61,53,True,False,False,0.0164040010443974,n เล็ก,28,25,True,False,True
+1a@4,4,MSCI_VIETNAM,42,31,True,True,True,0.296955399582528,,10,6,False,False,True
+1a@4,4,MSCI_WORLD,53,49,True,False,False,0.0161380875578619,n เล็ก,24,22,True,False,True
+1a@4,4,MSCI_WORLD_EX_US,48,41,True,False,False,0.0053638072695731,,23,21,True,False,True
+1b@4,4,MSCI_ACWI,75,64,True,True,True,0.0483470970855664,,47,38,True,True,True
+1b@4,4,MSCI_ACWI_CD,75,61,True,False,False,0.0016557114400222,,27,21,True,False,True
+1b@4,4,MSCI_ACWI_CS,56,50,True,False,False,-0.005422414339451,n เล็ก,13,11,True,False,True
+1b@4,4,MSCI_ACWI_EN,31,29,True,False,False,0.0146119524198364,n เล็ก;ไวต่อ dependence,15,14,True,False,False
+1b@4,4,MSCI_ACWI_EX_US,49,41,True,False,False,-0.0017845418505719,,15,14,True,False,True
+1b@4,4,MSCI_ACWI_FN,61,50,True,False,False,-0.0056071350933893,n เล็ก,23,18,True,False,True
+1b@4,4,MSCI_ACWI_HC,71,59,True,True,True,0.3663201069638383,,22,17,True,True,True
+1b@4,4,MSCI_ACWI_IN,55,48,True,True,True,0.0269615358158361,n เล็ก,33,27,True,True,True
+1b@4,4,MSCI_ACWI_IT,87,70,True,True,True,0.029630465191517,,54,40,True,True,True
+1b@4,4,MSCI_ACWI_MT,26,26,True,False,False,0.0141186549553409,n เล็ก;ไวต่อ dependence,12,12,True,False,False
+1b@4,4,MSCI_ACWI_TC,56,48,True,False,False,0.0115127538532079,n เล็ก,24,19,True,False,True
+1b@4,4,MSCI_ACWI_UT,49,41,True,True,True,0.1802121142256892,,16,13,True,True,True
+1b@4,4,MSCI_ASEAN,15,15,True,True,True,0.0570363710226371,ไวต่อ dependence,4,4,False,False,False
+1b@4,4,MSCI_ASIA_EX_JAPAN,59,49,True,False,False,0.0082361355339469,,25,21,True,False,True
+1b@4,4,MSCI_BRAZIL,13,12,True,False,False,-0.0013833533089555,n เล็ก;ไวต่อ dependence,1,1,False,False,False
+1b@4,4,MSCI_CHINA_ALL_SHARES,64,56,True,False,False,-0.0020968699607849,,18,15,True,False,True
+1b@4,4,MSCI_CHINA_A_SHARES,62,52,True,False,False,0.013320524114392,n เล็ก,27,23,True,False,True
+1b@4,4,MSCI_CHINA_H_SHARES,33,26,True,False,False,0.0081476976063288,n เล็ก,11,9,True,False,True
+1b@4,4,MSCI_EM,58,49,True,False,False,-0.0051413305426609,,26,22,True,False,True
+1b@4,4,MSCI_EUROPE,51,43,True,True,True,0.1136059008825313,,15,12,True,True,True
+1b@4,4,MSCI_INDIA,58,46,True,True,True,0.4359105829516939,,22,18,True,True,True
+1b@4,4,MSCI_JAPAN,38,33,True,True,True,0.1333559844085159,,13,12,True,True,True
+1b@4,4,MSCI_KOREA,30,29,True,False,False,-0.0020335260933846,n เล็ก,5,5,False,False,True
+1b@4,4,MSCI_TAIWAN,35,31,True,False,False,0.0099035959121516,n เล็ก,11,11,True,False,True
+1b@4,4,MSCI_USA,77,62,True,True,True,0.0249905964388645,n เล็ก,45,36,True,True,True
+1b@4,4,MSCI_VIETNAM,63,50,True,True,True,0.2514381088187202,,10,7,True,True,True
+1b@4,4,MSCI_WORLD,72,62,True,True,True,0.0278883701066786,n เล็ก,43,35,True,True,True
+1b@4,4,MSCI_WORLD_EX_US,41,32,True,False,False,0.0042472488690891,,15,13,True,False,True
+1c@4,4,MSCI_ACWI,43,37,True,False,False,-0.000236732362066,,18,17,True,False,True
+1c@4,4,MSCI_ACWI_CD,26,23,True,False,False,-0.0010444516516429,,7,6,False,False,True
+1c@4,4,MSCI_ACWI_CS,56,46,True,False,False,0.0083501653854872,n เล็ก,19,16,True,False,True
+1c@4,4,MSCI_ACWI_EN,46,42,True,False,False,-0.0009371857397264,n เล็ก,9,9,True,False,True
+1c@4,4,MSCI_ACWI_EX_US,51,42,True,False,False,-0.0037334460469846,,23,22,True,False,True
+1c@4,4,MSCI_ACWI_FN,68,57,True,False,False,0.0057879431820603,n เล็ก,25,21,True,False,True
+1c@4,4,MSCI_ACWI_HC,67,56,True,True,True,0.4463820311833139,,24,20,True,True,True
+1c@4,4,MSCI_ACWI_IN,58,53,True,False,False,0.0166741465650287,n เล็ก,27,25,True,False,True
+1c@4,4,MSCI_ACWI_IT,73,64,True,False,False,0.0168096690140472,,28,23,True,False,True
+1c@4,4,MSCI_ACWI_MT,42,39,True,False,False,0.0175648404671802,n เล็ก,20,20,True,False,True
+1c@4,4,MSCI_ACWI_TC,30,26,True,False,False,-0.0003524265632284,n เล็ก,8,8,True,False,True
+1c@4,4,MSCI_ACWI_UT,64,51,True,True,True,0.1368081106431825,,20,17,True,True,True
+1c@4,4,MSCI_ASEAN,28,23,True,False,False,-0.0046264624785593,,3,3,False,False,True
+1c@4,4,MSCI_ASIA_EX_JAPAN,40,36,True,False,False,0.002775153263688,,10,10,True,False,True
+1c@4,4,MSCI_BRAZIL,21,19,True,False,False,0.0012002245705157,n เล็ก;ไวต่อ dependence,1,1,False,False,False
+1c@4,4,MSCI_CHINA_ALL_SHARES,48,41,True,False,False,0.0075261229914362,,16,15,True,False,True
+1c@4,4,MSCI_CHINA_A_SHARES,47,40,True,True,True,0.0209074433159434,n เล็ก,25,22,True,True,True
+1c@4,4,MSCI_CHINA_H_SHARES,26,22,True,False,False,0.014545906948317,n เล็ก;ไวต่อ dependence,7,6,False,False,False
+1c@4,4,MSCI_EM,31,27,True,False,False,-0.0104717737906751,,11,10,True,False,True
+1c@4,4,MSCI_EUROPE,61,48,True,True,True,0.1448976556815371,,22,19,True,True,True
+1c@4,4,MSCI_INDIA,29,22,True,True,True,0.4742803269640263,,21,14,True,True,True
+1c@4,4,MSCI_JAPAN,32,29,True,True,True,0.1098113939202961,,10,9,True,True,True
+1c@4,4,MSCI_KOREA,36,33,True,False,False,0.0031879782008691,n เล็ก,8,7,True,False,True
+1c@4,4,MSCI_TAIWAN,52,44,True,False,False,0.0130823388133023,n เล็ก,20,18,True,False,True
+1c@4,4,MSCI_USA,56,47,True,False,False,0.0084296544080959,n เล็ก,21,20,True,False,True
+1c@4,4,MSCI_VIETNAM,80,60,True,True,True,0.0664063978439391,,15,11,True,True,True
+1c@4,4,MSCI_WORLD,48,42,True,False,False,0.0093078625298283,n เล็ก,20,19,True,False,True
+1c@4,4,MSCI_WORLD_EX_US,59,46,True,False,False,0.0031414903339601,,23,20,True,False,True
+3b@4,4,MSCI_ACWI_CD,90,75,True,False,False,-0.0472114971116462,,6,6,False,False,True
+3b@4,4,MSCI_ACWI_CS,55,49,True,True,True,0.0250138780037028,n เล็ก,28,25,True,True,True
+3b@4,4,MSCI_ACWI_EN,72,61,True,False,False,-0.0034914438653816,n เล็ก,19,14,True,False,True
+3b@4,4,MSCI_ACWI_EX_US,9,8,True,False,False,-0.0235469849929236,ไวต่อ dependence;เกือบซ้ำเชิงนิยาม,0,0,False,False,False
+3b@4,4,MSCI_ACWI_FN,71,63,True,False,False,0.0080938216325275,n เล็ก,27,23,True,False,True
+3b@4,4,MSCI_ACWI_HC,24,21,True,True,True,0.5360560070827078,,14,11,True,True,True
+3b@4,4,MSCI_ACWI_IN,15,12,True,False,False,-0.010790946458867,n เล็ก;ไวต่อ dependence,2,2,False,False,False
+3b@4,4,MSCI_ACWI_IT,72,61,True,True,True,0.071507068434207,,38,30,True,True,True
+3b@4,4,MSCI_ACWI_MT,46,38,True,False,False,-0.0051146823257309,n เล็ก,10,9,True,False,True
+3b@4,4,MSCI_ACWI_TC,14,12,True,False,False,-0.0033766939658608,n เล็ก;ไวต่อ dependence,4,4,False,False,False
+3b@4,4,MSCI_ACWI_UT,63,53,True,True,True,0.3167531931816594,,37,30,True,True,True
+3b@4,4,MSCI_ASEAN,40,32,True,False,False,-0.000780821573781,,4,4,False,False,True
+3b@4,4,MSCI_ASIA_EX_JAPAN,68,56,True,True,True,0.0225765360802542,,29,24,True,True,True
+3b@4,4,MSCI_BRAZIL,36,34,True,False,False,0.0091456117329886,n เล็ก,8,8,True,False,True
+3b@4,4,MSCI_CHINA_ALL_SHARES,53,43,True,True,True,0.3214887126011848,,28,22,True,True,True
+3b@4,4,MSCI_CHINA_A_SHARES,34,28,True,True,True,0.1522831121901574,n เล็ก,24,18,True,True,True
+3b@4,4,MSCI_CHINA_H_SHARES,21,17,True,True,True,0.027185713935249,n เล็ก;ไวต่อ dependence,12,8,True,True,False
+3b@4,4,MSCI_EM,43,37,True,False,False,-0.0337772714015362,เกือบซ้ำเชิงนิยาม,5,5,False,False,True
+3b@4,4,MSCI_EUROPE,40,31,True,True,True,0.068203777452292,,15,13,True,True,True
+3b@4,4,MSCI_INDIA,26,21,True,True,True,0.7565722500227692,,24,19,True,True,True
+3b@4,4,MSCI_JAPAN,43,34,True,True,True,0.1719086699147008,,12,10,True,True,True
+3b@4,4,MSCI_KOREA,40,33,True,True,True,0.024948938850964,n เล็ก,21,15,True,True,True
+3b@4,4,MSCI_TAIWAN,40,33,True,True,True,0.0283243670119937,n เล็ก,26,20,True,True,True
+3b@4,4,MSCI_VIETNAM,12,8,True,True,True,0.6164171588195764,ไวต่อ dependence,7,4,False,False,False
+3b@4,4,MSCI_WORLD,43,37,True,False,False,-0.0029342847157908,เกือบซ้ำเชิงนิยาม,5,5,False,False,True
+3b@4,4,MSCI_WORLD_EX_US,9,8,True,False,False,-0.0204420461096331,ไวต่อ dependence;เกือบซ้ำเชิงนิยาม,0,0,False,False,False
+4a@4,4,MSCI_ACWI_CD,16,13,True,False,False,-0.0053212280782163,ไวต่อ dependence,2,2,False,False,False
+4a@4,4,MSCI_ACWI_CS,16,14,True,False,False,0.0012875525521449,n เล็ก;ไวต่อ dependence,3,3,False,False,False
+4a@4,4,MSCI_ACWI_EN,24,20,True,False,False,0.0084759001469084,n เล็ก;ไวต่อ dependence,8,8,True,False,False
+4a@4,4,MSCI_ACWI_EX_US,38,31,True,False,False,-0.0012991636465535,,17,13,True,False,True
+4a@4,4,MSCI_ACWI_FN,33,28,True,False,False,-0.0007213733019291,n เล็ก,10,9,True,False,True
+4a@4,4,MSCI_ACWI_HC,48,37,True,True,True,0.2254324811892725,,25,18,True,True,True
+4a@4,4,MSCI_ACWI_IN,35,31,True,False,False,-0.0008742518109559,n เล็ก,10,10,True,False,True
+4a@4,4,MSCI_ACWI_IT,51,41,True,False,False,0.0049269194188981,,10,10,True,False,True
+4a@4,4,MSCI_ACWI_MT,21,20,True,False,False,0.0027489833488815,n เล็ก;ไวต่อ dependence,5,5,False,False,False
+4a@4,4,MSCI_ACWI_TC,17,16,True,False,False,-0.0076804020130244,n เล็ก;ไวต่อ dependence,3,3,False,False,False
+4a@4,4,MSCI_ACWI_UT,18,17,True,True,True,0.0558286387342776,ไวต่อ dependence,3,2,False,False,False
+4a@4,4,MSCI_ASEAN,20,18,True,False,False,0.0002746764949075,ไวต่อ dependence,6,5,False,False,False
+4a@4,4,MSCI_ASIA_EX_JAPAN,31,29,True,False,False,0.0065222604554748,,14,12,True,False,True
+4a@4,4,MSCI_BRAZIL,15,13,True,False,False,-0.0072947347420672,n เล็ก;ไวต่อ dependence,0,0,False,False,False
+4a@4,4,MSCI_CHINA_ALL_SHARES,33,31,True,True,True,0.0306576762924961,,11,10,True,True,True
+4a@4,4,MSCI_CHINA_A_SHARES,31,29,True,False,False,0.0085968095036603,n เล็ก,13,12,True,False,True
+4a@4,4,MSCI_CHINA_H_SHARES,13,12,True,False,False,0.013397588939517,n เล็ก;ไวต่อ dependence,5,4,False,False,False
+4a@4,4,MSCI_EM,23,20,True,False,False,0.0023504340644404,ไวต่อ dependence,8,7,True,False,False
+4a@4,4,MSCI_EUROPE,43,35,True,True,True,0.1180926150883248,,10,9,True,True,True
+4a@4,4,MSCI_INDIA,40,31,True,True,True,0.4791806716289602,,21,16,True,True,True
+4a@4,4,MSCI_JAPAN,19,18,True,True,True,0.1346757648759394,,10,9,True,True,True
+4a@4,4,MSCI_KOREA,33,28,True,False,False,-0.0020328795053564,n เล็ก,8,7,True,False,True
+4a@4,4,MSCI_TAIWAN,23,20,True,True,True,0.0207604749704783,n เล็ก,12,12,True,True,True
+4a@4,4,MSCI_USA,37,29,True,False,False,0.0049230973556746,n เล็ก,16,12,True,False,True
+4a@4,4,MSCI_VIETNAM,21,17,True,True,True,0.3401342641979272,,7,4,False,False,True
+4a@4,4,MSCI_WORLD,20,18,True,False,False,-0.0012737159150227,ไวต่อ dependence;เกือบซ้ำเชิงนิยาม,7,6,False,False,False
+4a@4,4,MSCI_WORLD_EX_US,45,36,True,False,False,-0.0122490944095988,,13,11,True,False,True
+1a@5,5,MSCI_ACWI,49,44,True,False,False,0.0014732535013529,,24,22,True,False,True
+1a@5,5,MSCI_ACWI_CD,41,34,True,False,False,-0.0009194240657834,,18,13,True,False,True
+1a@5,5,MSCI_ACWI_CS,49,43,True,False,False,0.0039090897882738,n เล็ก,14,13,True,False,True
+1a@5,5,MSCI_ACWI_EN,31,29,True,False,False,0.0133678062285264,n เล็ก,11,11,True,False,True
+1a@5,5,MSCI_ACWI_EX_US,35,31,True,False,False,-0.0010205446045075,,14,13,True,False,True
+1a@5,5,MSCI_ACWI_FN,32,27,True,True,True,0.0269073964421455,n เล็ก,18,16,True,True,True
+1a@5,5,MSCI_ACWI_HC,73,64,True,True,True,0.3326170679506092,,39,33,True,True,True
+1a@5,5,MSCI_ACWI_IN,45,43,True,True,True,0.026929311758713,n เล็ก,25,23,True,True,True
+1a@5,5,MSCI_ACWI_IT,70,58,True,False,False,0.0154201774209604,,30,24,True,False,True
+1a@5,5,MSCI_ACWI_MT,39,38,True,True,True,0.0245710034910919,n เล็ก,22,21,True,True,True
+1a@5,5,MSCI_ACWI_TC,35,32,True,False,False,0.005954942382457,n เล็ก,10,9,True,False,True
+1a@5,5,MSCI_ACWI_UT,58,51,True,True,True,0.0518034052352287,,12,11,True,True,True
+1a@5,5,MSCI_ASEAN,16,15,True,True,True,0.0205751088005925,ไวต่อ dependence,3,3,False,False,False
+1a@5,5,MSCI_ASIA_EX_JAPAN,31,30,True,False,False,-0.0042277278622873,ไวต่อ dependence,7,7,True,False,False
+1a@5,5,MSCI_BRAZIL,23,21,True,False,False,0.000518252953481,n เล็ก;ไวต่อ dependence,2,2,False,False,False
+1a@5,5,MSCI_CHINA_ALL_SHARES,58,46,True,False,False,0.0075365975901807,,19,17,True,False,True
+1a@5,5,MSCI_CHINA_A_SHARES,54,47,True,False,False,0.0162723617809211,n เล็ก,23,20,True,False,True
+1a@5,5,MSCI_CHINA_H_SHARES,26,21,True,False,False,1.6981834973728294e-05,n เล็ก,7,6,False,False,True
+1a@5,5,MSCI_EM,14,13,True,False,False,-0.0184270334247362,ไวต่อ dependence,4,4,False,False,False
+1a@5,5,MSCI_EUROPE,44,36,True,True,True,0.1164252912703318,,20,16,True,True,True
+1a@5,5,MSCI_INDIA,46,40,True,True,True,0.1989517698189524,,27,23,True,True,True
+1a@5,5,MSCI_JAPAN,38,35,True,True,True,0.0929001246330653,,12,11,True,True,True
+1a@5,5,MSCI_KOREA,29,27,True,False,False,-0.0121931983780971,n เล็ก,4,4,False,False,True
+1a@5,5,MSCI_TAIWAN,28,24,True,False,False,0.0052409561826219,n เล็ก,9,9,True,False,True
+1a@5,5,MSCI_USA,60,50,True,False,False,0.0158355241548402,n เล็ก,26,24,True,False,True
+1a@5,5,MSCI_VIETNAM,50,42,True,True,True,0.261491343410296,,8,5,False,False,True
+1a@5,5,MSCI_WORLD,49,44,True,False,False,0.0190169889342117,n เล็ก,24,22,True,False,True
+1a@5,5,MSCI_WORLD_EX_US,44,38,True,False,False,0.006522061865621,,21,20,True,False,True
+1c@5,5,MSCI_ACWI,45,40,True,False,False,0.0004424349956387,,18,17,True,False,True
+1c@5,5,MSCI_ACWI_CD,30,25,True,False,False,2.627965926982334e-06,ไวต่อ dependence,9,7,True,False,False
+1c@5,5,MSCI_ACWI_CS,51,41,True,False,False,0.0125085028739879,n เล็ก,18,16,True,False,True
+1c@5,5,MSCI_ACWI_EN,27,24,True,False,False,0.0013193120475658,n เล็ก;ไวต่อ dependence,7,7,True,False,False
+1c@5,5,MSCI_ACWI_EX_US,30,28,True,False,False,-0.0029658557112693,,14,14,True,False,True
+1c@5,5,MSCI_ACWI_FN,43,38,True,False,False,0.0109110249473806,n เล็ก,14,11,True,False,True
+1c@5,5,MSCI_ACWI_HC,64,54,True,True,True,0.4540358804801041,,26,21,True,True,True
+1c@5,5,MSCI_ACWI_IN,38,36,True,True,True,0.0251870927885675,n เล็ก,22,20,True,True,True
+1c@5,5,MSCI_ACWI_IT,56,49,True,False,False,0.0120499465330785,,29,24,True,False,True
+1c@5,5,MSCI_ACWI_MT,33,30,True,False,False,0.0177093939014587,n เล็ก,13,12,True,False,True
+1c@5,5,MSCI_ACWI_TC,24,23,True,False,False,0.004854857309937,n เล็ก,6,6,False,False,True
+1c@5,5,MSCI_ACWI_UT,65,50,True,True,True,0.0959732190551689,,18,15,True,True,True
+1c@5,5,MSCI_ASEAN,31,27,True,False,False,-0.0092889372485551,ไวต่อ dependence,3,3,False,False,False
+1c@5,5,MSCI_ASIA_EX_JAPAN,43,41,True,False,False,0.0040855038625111,,10,10,True,False,True
+1c@5,5,MSCI_BRAZIL,26,24,True,False,False,-0.004978546008959,n เล็ก;ไวต่อ dependence,0,0,False,False,False
+1c@5,5,MSCI_CHINA_ALL_SHARES,47,40,True,False,False,0.0092826061056603,,16,15,True,False,True
+1c@5,5,MSCI_CHINA_A_SHARES,46,41,True,False,False,0.0192088844071555,n เล็ก,21,19,True,False,True
+1c@5,5,MSCI_CHINA_H_SHARES,25,21,True,False,False,0.0083208233272861,n เล็ก;ไวต่อ dependence,6,6,False,False,False
+1c@5,5,MSCI_EM,26,25,True,False,False,-0.0117427682536987,,7,7,True,False,True
+1c@5,5,MSCI_EUROPE,56,46,True,True,True,0.1190429002231454,,22,19,True,True,True
+1c@5,5,MSCI_INDIA,25,21,True,True,True,0.4550679515218602,,20,16,True,True,True
+1c@5,5,MSCI_JAPAN,44,40,True,True,True,0.0971606455120273,,10,9,True,True,True
+1c@5,5,MSCI_KOREA,35,33,True,False,False,-0.0059851138797699,n เล็ก,6,6,False,False,True
+1c@5,5,MSCI_TAIWAN,51,44,True,False,False,0.0124377264244428,n เล็ก,20,18,True,False,True
+1c@5,5,MSCI_USA,48,39,True,False,False,0.0053260453539467,n เล็ก,20,19,True,False,True
+1c@5,5,MSCI_VIETNAM,36,29,True,True,True,0.0563414857352151,,20,15,True,True,True
+1c@5,5,MSCI_WORLD,51,44,True,False,False,0.0055267777595495,n เล็ก,19,18,True,False,True
+1c@5,5,MSCI_WORLD_EX_US,39,38,True,False,False,-0.0014999391085813,,15,15,True,False,True

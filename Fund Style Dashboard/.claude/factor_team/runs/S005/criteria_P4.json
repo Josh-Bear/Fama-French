@@ -1,0 +1,32 @@
+{
+ "k": 4,
+ "pass_both": [
+  "MSCI_ACWI_HC",
+  "MSCI_ACWI_UT",
+  "MSCI_EUROPE",
+  "MSCI_INDIA",
+  "MSCI_JAPAN",
+  "MSCI_VIETNAM"
+ ],
+ "REG8": {
+  "1a@4": {
+   "dR2oos_E": 0.005060767188030613,
+   "dBIC_E": 31.067974230151776,
+   "worth": false
+  },
+  "1c@4": {
+   "dR2oos_E": -0.01365751658559855,
+   "dBIC_E": 27.265511645890683,
+   "worth": false
+  }
+ },
+ "near_dup_labels": {
+  "MSCI_ACWI_HC": false,
+  "MSCI_ACWI_UT": false,
+  "MSCI_EUROPE": false,
+  "MSCI_INDIA": false,
+  "MSCI_JAPAN": false,
+  "MSCI_VIETNAM": false
+ },
+ "verdict": "ส่งต่อ L3: MSCI_ACWI_HC,MSCI_ACWI_UT,MSCI_EUROPE,MSCI_INDIA,MSCI_JAPAN,MSCI_VIETNAM"
+}

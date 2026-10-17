@@ -1,0 +1,3 @@
+key,n_factors,factors,n,wald,p,df,note,p_holm
+1a@5,5,"PC1,PC2,PC3,PC4,PC5",155,5.71038701684514,0.3354270230047119,5,HAC Wald asymptotic ไม่ใช่ exact F,0.5655120360304745
+1c@5,5,"PC1,PC2,PC3,PC4,PC5",155,6.248809280911749,0.28275601801523725,5,HAC Wald asymptotic ไม่ใช่ exact F,0.5655120360304745

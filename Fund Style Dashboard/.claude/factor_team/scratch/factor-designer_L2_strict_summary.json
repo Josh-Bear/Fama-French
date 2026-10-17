@@ -1,0 +1,414 @@
+{
+ "inputs_sha256": {
+  ".claude/factor_team/runs/S005/fund_clusters.csv": "072cd97ade7e01a32edb9aaf5b949381d1500dcb1ed909558bee3a373e2fc0cb",
+  ".claude/factor_team/runs/S005/scan_single.csv": "7ef279ece633e7c1c48ce9810e973eacd86910804b8740d74b443364b71aeb3c",
+  ".claude/factor_team/runs/S005/criteria_P1.csv": "580b813cad0e7df29a19c762000bbe8becc24254de3b8a2f2e4ef81d2231eca7",
+  ".claude/factor_team/runs/S005/scan_by_index.csv": "65d9e45563df08d3ee7fd3937c38bd51781813da90296f63cee2951df87bec6a",
+  ".claude/factor_team/runs/S005/appendix_k3/scan_single.csv": "87897f3608695f2f17828a1e99a069660516c29f019141f87b2717e7c87b4a94",
+  ".claude/factor_team/runs/S005/appendix_k3/criteria_P1.csv": "c197abd04a4b0f6d3d86f6a878acb63bf2eb38d47cea37e4b784464b148cd6f3",
+  ".claude/factor_team/runs/S005/appendix_k3/scan_by_index.csv": "18c49db66636b55c9cf3fcae35ebc50f3e1aa2c45bb2a80a80b04ad66cb396aa",
+  ".claude/factor_team/runs/S005/appendix_k5/scan_single.csv": "2c77cdd50705258b2262a83f983b45e94585d8d855e2b7290a9bcc451cc62dbc",
+  ".claude/factor_team/runs/S005/appendix_k5/criteria_P1.csv": "b5123ed29c460506dab36a72b815edaaf2d92cc58049c9ebcc7153f3f24d12f7",
+  ".claude/factor_team/runs/S005/appendix_k5/scan_by_index.csv": "8fac713335ed9bdb1bc185d551ea1b3730a48c0ebdb198fd12fb733f9367688a"
+ },
+ "thr_n": 7,
+ "thr_d": 0.02,
+ "base_rates": {
+  "1a@4": {
+   "n_pairs": 5796,
+   "n_sig": 1274,
+   "frac_ge002_all": 0.15079365079365079,
+   "frac_ge002_sig": 0.3869701726844584,
+   "frac_ge002_nonsig": 0.0842547545333923
+  },
+  "1b@4": {
+   "n_pairs": 5796,
+   "n_sig": 1460,
+   "frac_ge002_all": 0.17425810904071773,
+   "frac_ge002_sig": 0.4054794520547945,
+   "frac_ge002_nonsig": 0.09640221402214022
+  },
+  "1c@4": {
+   "n_pairs": 5796,
+   "n_sig": 1318,
+   "frac_ge002_all": 0.13681849551414768,
+   "frac_ge002_sig": 0.3497723823975721,
+   "frac_ge002_nonsig": 0.07414024117909782
+  },
+  "3b@4": {
+   "n_pairs": 5382,
+   "n_sig": 1079,
+   "frac_ge002_all": 0.15533259011519882,
+   "frac_ge002_sig": 0.3753475440222428,
+   "frac_ge002_nonsig": 0.10016267720195213
+  },
+  "4a@4": {
+   "n_pairs": 5589,
+   "n_sig": 764,
+   "frac_ge002_all": 0.0966183574879227,
+   "frac_ge002_sig": 0.33638743455497383,
+   "frac_ge002_nonsig": 0.05865284974093264
+  },
+  "1a@3": {
+   "n_pairs": 5796,
+   "n_sig": 1635,
+   "frac_ge002_all": 0.16545893719806765,
+   "frac_ge002_sig": 0.3798165137614679,
+   "frac_ge002_nonsig": 0.08123047344388368
+  },
+  "1c@3": {
+   "n_pairs": 5796,
+   "n_sig": 1560,
+   "frac_ge002_all": 0.15079365079365079,
+   "frac_ge002_sig": 0.35384615384615387,
+   "frac_ge002_nonsig": 0.07601510859301228
+  },
+  "1a@5": {
+   "n_pairs": 5796,
+   "n_sig": 1167,
+   "frac_ge002_all": 0.13716356107660455,
+   "frac_ge002_sig": 0.38817480719794345,
+   "frac_ge002_nonsig": 0.07388204795852236
+  },
+  "1c@5": {
+   "n_pairs": 5796,
+   "n_sig": 1135,
+   "frac_ge002_all": 0.13095238095238096,
+   "frac_ge002_sig": 0.360352422907489,
+   "frac_ge002_nonsig": 0.07509118214975327
+  }
+ },
+ "per_key": {
+  "1a@3": {
+   "n_index": 28,
+   "P1a_locked": 28,
+   "P1a_strict": 26,
+   "P1a_BYpadj": 27,
+   "P1_locked": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IT",
+    "MSCI_ACWI_UT",
+    "MSCI_ASEAN",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_VIETNAM"
+   ],
+   "P1_strict": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IT",
+    "MSCI_ACWI_UT",
+    "MSCI_ASEAN",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN"
+   ],
+   "dropped": [
+    "MSCI_VIETNAM"
+   ]
+  },
+  "1a@4": {
+   "n_index": 28,
+   "P1a_locked": 28,
+   "P1a_strict": 22,
+   "P1a_BYpadj": 26,
+   "P1_locked": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IN",
+    "MSCI_ACWI_IT",
+    "MSCI_ACWI_MT",
+    "MSCI_ACWI_UT",
+    "MSCI_CHINA_ALL_SHARES",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_VIETNAM"
+   ],
+   "P1_strict": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IN",
+    "MSCI_ACWI_IT",
+    "MSCI_ACWI_MT",
+    "MSCI_ACWI_UT",
+    "MSCI_CHINA_ALL_SHARES",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN"
+   ],
+   "dropped": [
+    "MSCI_VIETNAM"
+   ]
+  },
+  "1a@5": {
+   "n_index": 28,
+   "P1a_locked": 28,
+   "P1a_strict": 22,
+   "P1a_BYpadj": 24,
+   "P1_locked": [
+    "MSCI_ACWI_FN",
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IN",
+    "MSCI_ACWI_MT",
+    "MSCI_ACWI_UT",
+    "MSCI_ASEAN",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_VIETNAM"
+   ],
+   "P1_strict": [
+    "MSCI_ACWI_FN",
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IN",
+    "MSCI_ACWI_MT",
+    "MSCI_ACWI_UT",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN"
+   ],
+   "dropped": [
+    "MSCI_ASEAN",
+    "MSCI_VIETNAM"
+   ]
+  },
+  "1b@4": {
+   "n_index": 28,
+   "P1a_locked": 28,
+   "P1a_strict": 25,
+   "P1a_BYpadj": 24,
+   "P1_locked": [
+    "MSCI_ACWI",
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IN",
+    "MSCI_ACWI_IT",
+    "MSCI_ACWI_UT",
+    "MSCI_ASEAN",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_USA",
+    "MSCI_VIETNAM",
+    "MSCI_WORLD"
+   ],
+   "P1_strict": [
+    "MSCI_ACWI",
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IN",
+    "MSCI_ACWI_IT",
+    "MSCI_ACWI_UT",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_USA",
+    "MSCI_VIETNAM",
+    "MSCI_WORLD"
+   ],
+   "dropped": [
+    "MSCI_ASEAN"
+   ]
+  },
+  "1c@3": {
+   "n_index": 28,
+   "P1a_locked": 28,
+   "P1a_strict": 26,
+   "P1a_BYpadj": 26,
+   "P1_locked": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IN",
+    "MSCI_ACWI_UT",
+    "MSCI_ASEAN",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_VIETNAM"
+   ],
+   "P1_strict": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IN",
+    "MSCI_ACWI_UT",
+    "MSCI_ASEAN",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN"
+   ],
+   "dropped": [
+    "MSCI_VIETNAM"
+   ]
+  },
+  "1c@4": {
+   "n_index": 28,
+   "P1a_locked": 28,
+   "P1a_strict": 24,
+   "P1a_BYpadj": 26,
+   "P1_locked": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_UT",
+    "MSCI_CHINA_A_SHARES",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_VIETNAM"
+   ],
+   "P1_strict": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_UT",
+    "MSCI_CHINA_A_SHARES",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_VIETNAM"
+   ],
+   "dropped": []
+  },
+  "1c@5": {
+   "n_index": 28,
+   "P1a_locked": 28,
+   "P1a_strict": 23,
+   "P1a_BYpadj": 23,
+   "P1_locked": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IN",
+    "MSCI_ACWI_UT",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_VIETNAM"
+   ],
+   "P1_strict": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IN",
+    "MSCI_ACWI_UT",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_VIETNAM"
+   ],
+   "dropped": []
+  },
+  "3b@4": {
+   "n_index": 26,
+   "P1a_locked": 26,
+   "P1a_strict": 17,
+   "P1a_BYpadj": 20,
+   "P1_locked": [
+    "MSCI_ACWI_CS",
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IT",
+    "MSCI_ACWI_UT",
+    "MSCI_ASIA_EX_JAPAN",
+    "MSCI_CHINA_ALL_SHARES",
+    "MSCI_CHINA_A_SHARES",
+    "MSCI_CHINA_H_SHARES",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_KOREA",
+    "MSCI_TAIWAN",
+    "MSCI_VIETNAM"
+   ],
+   "P1_strict": [
+    "MSCI_ACWI_CS",
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IT",
+    "MSCI_ACWI_UT",
+    "MSCI_ASIA_EX_JAPAN",
+    "MSCI_CHINA_ALL_SHARES",
+    "MSCI_CHINA_A_SHARES",
+    "MSCI_CHINA_H_SHARES",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_KOREA",
+    "MSCI_TAIWAN"
+   ],
+   "dropped": [
+    "MSCI_VIETNAM"
+   ]
+  },
+  "4a@4": {
+   "n_index": 27,
+   "P1a_locked": 27,
+   "P1a_strict": 17,
+   "P1a_BYpadj": 16,
+   "P1_locked": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_UT",
+    "MSCI_CHINA_ALL_SHARES",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_TAIWAN",
+    "MSCI_VIETNAM"
+   ],
+   "P1_strict": [
+    "MSCI_ACWI_HC",
+    "MSCI_CHINA_ALL_SHARES",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_TAIWAN"
+   ],
+   "dropped": [
+    "MSCI_ACWI_UT",
+    "MSCI_VIETNAM"
+   ]
+  }
+ },
+ "P4": {
+  "3": {
+   "locked": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_UT",
+    "MSCI_ASEAN",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_VIETNAM"
+   ],
+   "strict": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_UT",
+    "MSCI_ASEAN",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN"
+   ]
+  },
+  "4": {
+   "locked": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_UT",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_VIETNAM"
+   ],
+   "strict": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_UT",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN"
+   ]
+  },
+  "5": {
+   "locked": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IN",
+    "MSCI_ACWI_UT",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN",
+    "MSCI_VIETNAM"
+   ],
+   "strict": [
+    "MSCI_ACWI_HC",
+    "MSCI_ACWI_IN",
+    "MSCI_ACWI_UT",
+    "MSCI_EUROPE",
+    "MSCI_INDIA",
+    "MSCI_JAPAN"
+   ]
+  }
+ }
+}

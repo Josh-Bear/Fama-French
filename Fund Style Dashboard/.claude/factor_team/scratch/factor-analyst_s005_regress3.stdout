@@ -1,0 +1,26 @@
+[2026-10-16T23:13:34 +   0.0s] START run S005
+[2026-10-16T23:13:34 +   0.0s] sha256 ข้อมูล 8 ไฟล์ + 5 ไฟล์ pin ตรง · lib: {"external.py": "40fe064353d732cd8a3ed5671a55177c8d359f55bfac27f553334efbc2db1af2", "forms.py": "7a1eae1fa0c374fcef35917e2482ff8d3e79e6ade4cf67ab7228f7424f048493", "fundff.py": "6cfe0d717440235a67f12e631bfc52e288703256cc0eac32754bb46c4d3c1a77", "hybrid.py": "a3ce7e40af87d39a6d8a5c5daafe74ab78877a0a2f4fd9b41106c4750e3d3768", "io_l1.py": "613b12f757ab9ee23a768aef14dd3974f76e8a7e75780aac5894eabab7ce1210", "l2.py": "930009d490aec9de26a94d4e75c2c5414c62e2c490b9d0a9be1f933d5e63694f", "nfactors.py": "4e1f6fe9ebaa7552792054e28cd862e1a21351e75e7e3adf05f420bc735849b9", "pca.py": "7fe5c5e26262446ddad89dd179b0ea8fb38ad1d93e3d6df4b8ff12f4839cfd26", "regress.py": "6ea4c314feb6345e4e4becc9dec19b667f063fb8b5c3143fcb4f80d6cc3ca8c9", "samples.py": "8a145a009729c8d118a9e54632a3789bc99f7db006bd4d164a5e3b76fdf04a0a", "scorecard.py": "48f0e25b2e7457dd6ac5e03ca556123bdc7832266ef2e5816a4bc0930f4ff580", "tests_stat.py": "4041444029b68cd35258c223de929c38c5cb4885188cc54de1e2c14f3513172d"}
+[2026-10-16T23:13:34 +   0.2s] ชุดกอง ตรง spec: {'base': 277, 'bal': 134, 'EVAL': 207, 'STAB': 191, 'PYTR': 148, 'PYTE': 206, 'E67': 67} · I_L2 (260, 39)
+[2026-10-16T23:13:35 +   0.9s] build_line1 k=3: EM iter=53 converged=True
+[2026-10-16T23:13:36 +   1.6s] build_line1 k=4: EM iter=56 converged=True
+[2026-10-16T23:13:36 +   2.3s] build_line1 k=5: EM iter=57 converged=True
+[2026-10-16T23:13:40 +   6.1s] เขียน primary_index.csv (ก่อน fit) · common_primary n=188 (E/F/O = [161, 16, 11])
+[2026-10-16T23:13:40 +   6.1s] เขียน fund_clusters.csv (ก่อน fit) · กลุ่ม 168 จาก 207 กอง · กลุ่มใหญ่สุด 5
+[2026-10-16T23:13:40 +   6.1s] เขียน rotation_targets.csv (train เท่านั้น · ก่อน fit)
+[2026-10-16T23:13:40 +   6.1s] เขียน redundancy.csv (คลัสเตอร์ · train · ก่อน fit)
+[2026-10-16T23:13:49 +  15.3s] เขียน placebo_scan/summary + placebo_rule.json (ก่อนสแกนจริง): k=4 R0=0.0973 R1=0.0740 → ขั้น 2 · k=3 ขั้น 2 · k=5 ขั้น 2
+[2026-10-16T23:13:49 +  15.3s] เริ่ม fit รูปแบบจริง / สแกนจริง (หลัง placebo_rule.json)
+[2026-10-16T23:13:50 +  15.6s] [k=4] fit รายกอง 12 โมเดล
+[2026-10-16T23:13:56 +  22.0s] [k=4] สแกนดัชนีเดี่ยว + P1 เสร็จ · ผ่าน P1: {"1a@4": ["MSCI_ACWI_HC", "MSCI_ACWI_IN", "MSCI_ACWI_IT", "MSCI_ACWI_MT", "MSCI_ACWI_UT", "MSCI_CHINA_ALL_SHARES", "MSCI_EUROPE", "MSCI_INDIA", "MSCI_JAPAN", "MSCI_VIETNAM"], "1c@4": ["MSCI_ACWI_HC", "MSCI_ACWI_UT", "MSCI_CHINA_A_SHARES", "MSCI_EUROPE", "MSCI_INDIA", "MSCI_JAPAN", "MSCI_VIETNAM"], "3b@4": ["MSCI_ACWI_CS", "MSCI_ACWI_HC", "MSCI_ACWI_IT", "MSCI_ACWI_UT", "MSCI_ASIA_EX_JAPAN", "MSCI_CHINA_ALL_SHARES", "MSCI_CHINA_A_SHARES", "MSCI_CHINA_H_SHARES", "MSCI_EUROPE", "MSCI_INDIA", "MSCI_JAPAN", "MSCI_KOREA", "MSCI_TAIWAN", "MSCI_VIETNAM"], "4a@4": ["MSCI_ACWI_HC", "MSCI_ACWI_UT", "MSCI_CHINA_ALL_SHARES", "MSCI_EUROPE", "MSCI_INDIA", "MSCI_JAPAN", "MSCI_TAIWAN", "MSCI_VIETNAM"], "1b@4": ["MSCI_ACWI", "MSCI_ACWI_HC", "MSCI_ACWI_IN", "MSCI_ACWI_IT", "MSCI_ACWI_UT", "MSCI_ASEAN", "MSCI_EUROPE", "MSCI_INDIA", "MSCI_JAPAN", "MSCI_USA", "MSCI_VIETNAM", "MSCI_WORLD"]}
+[2026-10-16T23:14:09 +  34.9s] [k=4] GRS + PY null bootstrap เสร็จ
+[2026-10-16T23:14:18 +  44.2s] [k=4] เสร็จกลุ่ม (29s) · P4 ['MSCI_ACWI_HC', 'MSCI_ACWI_UT', 'MSCI_EUROPE', 'MSCI_INDIA', 'MSCI_JAPAN', 'MSCI_VIETNAM']
+[2026-10-16T23:14:18 +  44.3s] [k=3] fit รายกอง 6 โมเดล
+[2026-10-16T23:14:21 +  47.2s] [k=3] สแกนดัชนีเดี่ยว + P1 เสร็จ · ผ่าน P1: {"1a@3": ["MSCI_ACWI_HC", "MSCI_ACWI_IT", "MSCI_ACWI_UT", "MSCI_ASEAN", "MSCI_EUROPE", "MSCI_INDIA", "MSCI_JAPAN", "MSCI_VIETNAM"], "1c@3": ["MSCI_ACWI_HC", "MSCI_ACWI_IN", "MSCI_ACWI_UT", "MSCI_ASEAN", "MSCI_EUROPE", "MSCI_INDIA", "MSCI_JAPAN", "MSCI_VIETNAM"]}
+[2026-10-16T23:14:29 +  54.5s] [k=3] GRS + PY null bootstrap เสร็จ
+[2026-10-16T23:14:33 +  59.3s] [k=3] เสร็จกลุ่ม (15s) · P4 ['MSCI_ACWI_HC', 'MSCI_ACWI_UT', 'MSCI_ASEAN', 'MSCI_EUROPE', 'MSCI_INDIA', 'MSCI_JAPAN', 'MSCI_VIETNAM']
+[2026-10-16T23:14:33 +  59.4s] [k=5] fit รายกอง 6 โมเดล
+[2026-10-16T23:14:36 +  62.4s] [k=5] สแกนดัชนีเดี่ยว + P1 เสร็จ · ผ่าน P1: {"1a@5": ["MSCI_ACWI_FN", "MSCI_ACWI_HC", "MSCI_ACWI_IN", "MSCI_ACWI_MT", "MSCI_ACWI_UT", "MSCI_ASEAN", "MSCI_EUROPE", "MSCI_INDIA", "MSCI_JAPAN", "MSCI_VIETNAM"], "1c@5": ["MSCI_ACWI_HC", "MSCI_ACWI_IN", "MSCI_ACWI_UT", "MSCI_EUROPE", "MSCI_INDIA", "MSCI_JAPAN", "MSCI_VIETNAM"]}
+[2026-10-16T23:14:44 +  69.8s] [k=5] GRS + PY null bootstrap เสร็จ
+[2026-10-16T23:14:49 +  75.0s] [k=5] เสร็จกลุ่ม (16s) · P4 ['MSCI_ACWI_HC', 'MSCI_ACWI_IN', 'MSCI_ACWI_UT', 'MSCI_EUROPE', 'MSCI_INDIA', 'MSCI_JAPAN', 'MSCI_VIETNAM']
+[2026-10-16T23:14:49 +  75.1s] เขียน map_factor_index.csv
+[2026-10-16T23:14:49 +  75.2s] เสร็จ · runtime 75s

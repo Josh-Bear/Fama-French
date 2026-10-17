@@ -1,0 +1,152 @@
+{
+ "created": "2026-10-16T23:31:21",
+ "seed": 20261015,
+ "data_sha256": {
+  ".claude/factor_team/data/panel_weekly.parquet": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b",
+  ".claude/factor_team/data/panel_monthly.parquet": "e8e8cb5d5f04fba9bb35558ef7c3d8195c656334119e56f82775cc1ae21ccaed",
+  ".claude/factor_team/data/factors_weekly.parquet": "115b87139d2bec0fd57a77a1593c46d36bb23f3f35f83236cdb07be642af47a8",
+  ".claude/factor_team/data/factors_monthly.parquet": "f7c4248b4fa889853024449e72ae8909cf1f8d3226a54eebc37448a2a485bb72",
+  ".claude/factor_team/data/aum_weekly.parquet": "48c34c73ae22ebffc6112f93e03f729223a496297bb65c324b693b817a723d26",
+  ".claude/factor_team/data/universe.csv": "fdfb7830df78ce032465ac9d8cddc2c98f9aa86cfa0f3925fdb83026aa3f7252",
+  ".claude/factor_team/data/dup_pairs.csv": "b1f0f0c745947fa70803a4f40526c0a1967c72925be985a2bedc1057d8b8aef3",
+  ".claude/factor_team/data/factor_groups.csv": "42bf1cfb270721ae6112799ab795ebc4c91212e7584d5cdfee23b9b70b1b1731"
+ },
+ "pinned_sha256": {
+  "data/factors_ext_weekly.parquet": "3105b6e7fe32ffd3648e8feac8dbd03a8db22b7e8eb245c5faf462b14da5e296",
+  "runs/S003/factors_S003_weekly.parquet": "be3ceb2e34b0df1f1a3db27d59e1a103cf5f5a5ca38f2e87f7c812c1c53944ac",
+  "runs/S003/fund_level.csv": "36b41161d6a13c1184a4052d9e799f660f431c2694dc57fafd747f8e695bf8cf",
+  "runs/S003/grs_ports.csv": "d55011094898acdf6e0419c90a3b2713479451380cacc0bf950559c43b98ba19",
+  "runs/S003/regions.csv": "2fa3ce691c9dd66ef523e1baca228a635369d2971857797a05c105c1306e6866",
+  "runs/S005/primary_index.csv": "5a94ab9b498bb107600938d37f665c7263d9f0a5973460159c09ae83a799275c",
+  "runs/S005/fund_clusters.csv": "072cd97ade7e01a32edb9aaf5b949381d1500dcb1ed909558bee3a373e2fc0cb",
+  "runs/S005/criteria_P4.json": "0db21831202f8ff2378923740074d2517be1a37563d5f09a64e103d8651cbfb2",
+  "runs/S005/fund_level.csv": "1be9d49e70f385cd9a6e09d586f16ec3677622ee87b598826a34bebd69a89cf5",
+  "runs/S005/placebo_rule.json": "0460b5b2ff9721c3be97c134fd15c19d28c6596c0a5f6ad5dd08d842ec3f78dc",
+  "specs/S005_L2_addendum_to_S004.md": "c71ad963b64347d463c8d8a30fe55240b851be85d364f35a6ab121a7112f8468",
+  "config.py": "711d5738ecf25fc0064e10134ae4cf5d8cfb0cee22d8dd5fbf0174fe925a7d66",
+  "cache/results.csv": "7c0ce137c4a8692e0136cefe1c4ddbad4cea42cca5e0af8aaa8bb36a05239cfc"
+ },
+ "lib_sha256": {
+  "external.py": "40fe064353d732cd8a3ed5671a55177c8d359f55bfac27f553334efbc2db1af2",
+  "forms.py": "7a1eae1fa0c374fcef35917e2482ff8d3e79e6ade4cf67ab7228f7424f048493",
+  "fundff.py": "6cfe0d717440235a67f12e631bfc52e288703256cc0eac32754bb46c4d3c1a77",
+  "hybrid.py": "a3ce7e40af87d39a6d8a5c5daafe74ab78877a0a2f4fd9b41106c4750e3d3768",
+  "io_l1.py": "613b12f757ab9ee23a768aef14dd3974f76e8a7e75780aac5894eabab7ce1210",
+  "l2.py": "930009d490aec9de26a94d4e75c2c5414c62e2c490b9d0a9be1f933d5e63694f",
+  "l3.py": "e7a5e997ccb28f7e6e21b23f85397eb277bd42988d4ea4f12da70fadcb73600f",
+  "nfactors.py": "4e1f6fe9ebaa7552792054e28cd862e1a21351e75e7e3adf05f420bc735849b9",
+  "pca.py": "7fe5c5e26262446ddad89dd179b0ea8fb38ad1d93e3d6df4b8ff12f4839cfd26",
+  "regress.py": "6ea4c314feb6345e4e4becc9dec19b667f063fb8b5c3143fcb4f80d6cc3ca8c9",
+  "samples.py": "8a145a009729c8d118a9e54632a3789bc99f7db006bd4d164a5e3b76fdf04a0a",
+  "scorecard.py": "48f0e25b2e7457dd6ac5e03ca556123bdc7832266ef2e5816a4bc0930f4ff580",
+  "tests_stat.py": "4041444029b68cd35258c223de929c38c5cb4885188cc54de1e2c14f3513172d"
+ },
+ "regression": {
+  "all_pass": true
+ },
+ "versions": {
+  "python": "3.12.4",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.0"
+ },
+ "runtime_sec": 70.9,
+ "S_A": {
+  "1a": [
+   "MSCI_BRAZIL",
+   "MSCI_CHINA_A_SHARES",
+   "MSCI_CHINA_H_SHARES",
+   "MSCI_INDIA",
+   "MSCI_JAPAN",
+   "MSCI_KOREA",
+   "MSCI_ASEAN",
+   "MSCI_TAIWAN",
+   "MSCI_VIETNAM",
+   "MSCI_ACWI_CS",
+   "MSCI_ACWI_EN",
+   "MSCI_ACWI_HC",
+   "MSCI_ACWI_MT",
+   "MSCI_ACWI_TC",
+   "MSCI_ACWI_UT"
+  ],
+  "1c": [
+   "MSCI_BRAZIL",
+   "MSCI_CHINA_A_SHARES",
+   "MSCI_CHINA_H_SHARES",
+   "MSCI_EUROPE",
+   "MSCI_INDIA",
+   "MSCI_JAPAN",
+   "MSCI_KOREA",
+   "MSCI_ASEAN",
+   "MSCI_TAIWAN",
+   "MSCI_VIETNAM",
+   "MSCI_ACWI_CS",
+   "MSCI_ACWI_EN",
+   "MSCI_ACWI_HC",
+   "MSCI_ACWI_MT",
+   "MSCI_ACWI_TC",
+   "MSCI_ACWI_UT"
+  ]
+ },
+ "S_A_b": {
+  "1a": [
+   "MSCI_BRAZIL",
+   "MSCI_CHINA_A_SHARES",
+   "MSCI_CHINA_H_SHARES",
+   "MSCI_INDIA",
+   "MSCI_JAPAN",
+   "MSCI_KOREA",
+   "MSCI_ASEAN",
+   "MSCI_TAIWAN",
+   "MSCI_VIETNAM",
+   "MSCI_ACWI_CS",
+   "MSCI_ACWI_EN",
+   "MSCI_ACWI_HC",
+   "MSCI_ACWI_MT",
+   "MSCI_ACWI_TC",
+   "MSCI_ACWI_UT"
+  ],
+  "1c": [
+   "MSCI_BRAZIL",
+   "MSCI_CHINA_A_SHARES",
+   "MSCI_CHINA_H_SHARES",
+   "MSCI_EUROPE",
+   "MSCI_INDIA",
+   "MSCI_JAPAN",
+   "MSCI_KOREA",
+   "MSCI_ASEAN",
+   "MSCI_TAIWAN",
+   "MSCI_VIETNAM",
+   "MSCI_ACWI_CS",
+   "MSCI_ACWI_EN",
+   "MSCI_ACWI_HC",
+   "MSCI_ACWI_MT",
+   "MSCI_ACWI_TC",
+   "MSCI_ACWI_UT"
+  ]
+ },
+ "B_used": {
+  "1a": [
+   "MSCI_ACWI_HC",
+   "MSCI_ACWI_UT",
+   "MSCI_EUROPE",
+   "MSCI_INDIA",
+   "MSCI_JAPAN",
+   "MSCI_VIETNAM"
+  ],
+  "1c": [
+   "MSCI_ACWI_HC",
+   "MSCI_ACWI_UT",
+   "MSCI_EUROPE",
+   "MSCI_INDIA",
+   "MSCI_JAPAN",
+   "MSCI_VIETNAM"
+  ]
+ },
+ "C_selected": [
+  "MSCI_ACWI_CD"
+ ],
+ "tau": 0.0,
+ "placebo_rule_step": 2
+}

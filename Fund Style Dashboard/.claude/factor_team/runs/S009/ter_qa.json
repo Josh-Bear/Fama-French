@@ -1,0 +1,86 @@
+{
+ "cells": [
+  {
+   "ter_vintage": "le2025",
+   "ter_src": "actual",
+   "policy": "E",
+   "n": 34
+  },
+  {
+   "ter_vintage": "le2025",
+   "ter_src": "actual",
+   "policy": "F",
+   "n": 4
+  },
+  {
+   "ter_vintage": "le2025",
+   "ter_src": "actual",
+   "policy": "O",
+   "n": 5
+  },
+  {
+   "ter_vintage": "le2025",
+   "ter_src": "rate",
+   "policy": "E",
+   "n": 1
+  },
+  {
+   "ter_vintage": "le2025",
+   "ter_src": "rate",
+   "policy": "F",
+   "n": 1
+  },
+  {
+   "ter_vintage": "y2026",
+   "ter_src": "actual",
+   "policy": "E",
+   "n": 139
+  },
+  {
+   "ter_vintage": "y2026",
+   "ter_src": "actual",
+   "policy": "F",
+   "n": 13
+  },
+  {
+   "ter_vintage": "y2026",
+   "ter_src": "actual",
+   "policy": "O",
+   "n": 9
+  }
+ ],
+ "n_nan": 0,
+ "tt_ge_of": {
+  "n": 204,
+  "frac": 0.9803921568627451,
+  "thr": 0.9
+ },
+ "ter_dropped": false,
+ "rate_minus_actual_same_row": {
+  "n": 204,
+  "median": 3.20981,
+  "q25": 2.455,
+  "q75": 3.7199999999999998,
+  "frac_pos_or_zero": 1.0
+ },
+ "rate_le2025_minus_actual_chosen": {
+  "n": 102,
+  "median": 3.40385,
+  "q25": 2.836275,
+  "q75": 4.176125,
+  "frac_pos_or_zero": 1.0
+ },
+ "cross_vintage_stability": {
+  "n": 39,
+  "median": 0.020000000000000018,
+  "q25": -0.010000000000000009,
+  "q75": 0.2983149999999999,
+  "frac_pos_or_zero": 0.717948717948718,
+  "corr": 0.91964996027229
+ },
+ "rate_funds": [
+  "FCSCBSETE",
+  "KKP G-UBOND-H-U"
+ ],
+ "timestamp": "2026-10-17T04:08:52"
+}

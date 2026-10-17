@@ -1,0 +1,9 @@
+[2026-10-17T08:01:15] START addendum (ทำหลังเห็นผล)
+[2026-10-17T08:01:15] เขียน bh_by_exclGO.csv
+[2026-10-17T08:01:27] ff_bootstrap M1 206: n_bh จริง 16 · null p95 4.0
+[2026-10-17T08:01:37] ff_bootstrap M1 192_exclGO: n_bh จริง 4 · null p95 3.0
+[2026-10-17T08:01:49] ff_bootstrap M2 206: n_bh จริง 20 · null p95 2.0
+[2026-10-17T08:01:59] ff_bootstrap M2 192_exclGO: n_bh จริง 13 · null p95 3.0
+[2026-10-17T08:02:00] รายเดือน M1: n=206 BH=25 Spearman=0.916
+[2026-10-17T08:02:00] รายเดือน M2: n=206 BH=42 Spearman=0.978
+[2026-10-17T08:02:00] เสร็จ addendum

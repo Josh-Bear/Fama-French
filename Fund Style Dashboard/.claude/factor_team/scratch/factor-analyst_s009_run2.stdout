@@ -1,0 +1,43 @@
+[2026-10-17T04:08:52 +    0.0s] START run S009 
+[2026-10-17T04:08:52 +    0.0s] sha256 ข้อมูล 8 ไฟล์ L0 + 17 ไฟล์ pin ตรง · lib 13 ไฟล์เดิมตรง S006 + l4.py · regression S003/S005/S006 ผ่านทุกบิต (regression_S003_S005_S006.json)
+[2026-10-17T04:08:52 +    0.2s] ชุดกอง EVAL 207 · α-family 206 (ตัด MGAPVD) · E 174 / F 18 / O 14 · div ใน EVAL 17 · E67 67 · in_PCA_sample 132
+[2026-10-17T04:08:52 +    0.6s] เขียน ter_qa.json (ก่อน fit) · TT≥OF {'n': 204, 'frac': 0.9803921568627451, 'thr': 0.9} · ter_dropped=False · NaN 0 · กอง Rate ['FCSCBSETE', 'KKP G-UBOND-H-U'] · ข้ามรุ่น {'n': 39, 'median': 0.020000000000000018, 'q25': -0.010000000000000009, 'q75': 0.2983149999999999, 'frac_pos_or_zero': 0.717948717948718, 'corr': 0.91964996027229}
+[2026-10-17T04:08:52 +    0.6s] เขียน chars.csv (TER · d_v2026 · d_rate · DIV · FXβ · log AUM) ก่อน fit model α
+[2026-10-17T04:08:52 +    0.6s] เขียน groups.csv · dummy กลุ่ม ["MSCI_ACWI_CD", "MSCI_ACWI_IT", "MSCI_ASIA_EX_JAPAN", "MSCI_CHINA_ALL_SHARES"] · วิธี {"G-F": "PCA", "G-O": "LOO-mean", "MSCI_ACWI": "LOO-mean", "MSCI_ACWI_CD": "PCA", "MSCI_ACWI_CS": "small", "MSCI_ACWI_EX_US": "LOO-mean", "MSCI_ACWI_FN": "small", "MSCI_ACWI_HC": "small", "MSCI_ACWI_IN": "small", "MSCI_ACWI_IT": "LOO-mean", "MSCI_ACWI_MT": "small", "MSCI_ACWI_UT": "small", "MSCI_ASEAN": "small", "MSCI_ASIA_EX_JAPAN": "LOO-mean", "MSCI_CHINA_ALL_SHARES": "LOO-mean", "MSCI_CHINA_A_SHARES": "small", "MSCI_EM": "LOO-mean", "MSCI_EUROPE": "LOO-mean", "MSCI_INDIA": "LOO-mean", "MSCI_JAPAN": "LOO-mean", "MSCI_KOREA": "small", "MSCI_USA": "small", "MSCI_VIETNAM": "small", "MSCI_WORLD_EX_US": "small"}
+[2026-10-17T04:08:52 +    0.7s] เขียน decisions_pre_run.md (ก่อน fit)
+[2026-10-17T04:08:52 +    0.7s] เริ่ม fit ref-L3B + ตรวจ test 50 (ก่อน fit แถวอื่น)
+[2026-10-17T04:08:53 +    0.8s] test 50 ผ่าน: ref-L3B ตรง S006 R3/R8/R5/R10 (max 4.55e-13)
+[2026-10-17T04:08:53 +    1.3s] fit 30 (แถว × ช่วง) เสร็จ
+[2026-10-17T04:08:53 +    1.4s] เขียน scorecard.csv · fund_level.csv · alpha_fund.csv
+[2026-10-17T04:08:53 +    1.4s] BH (full · 206): M1 16 · M2 20 · M3 16 · M4 20 · ref-③a 23
+[2026-10-17T04:08:53 +    1.4s] เริ่ม ff_bootstrap M1 B=999
+[2026-10-17T04:09:05 +   13.0s] เริ่ม ff_bootstrap M2 B=999
+[2026-10-17T04:09:17 +   24.8s] เขียน alpha_q2 · alpha_bh_list · alpha_div · alpha_by_set · alpha_by_group · mda · alpha_p4 · ff_boot_summary · p_boot frac_BH {'M1': 0.003, 'M2': 0.001} → ป้าย 'แยกจากโชคไม่ได้' = False
+[2026-10-17T04:09:17 +   25.3s] factor กลุ่ม 1a G-O [LOO-mean] n_fit=14 med ΔR²oos=-0.0021 med ΔBIC=-2.84
+[2026-10-17T04:09:18 +   26.2s] factor กลุ่ม 1a MSCI_ACWI [LOO-mean] n_fit=12 med ΔR²oos=0.0070 med ΔBIC=-6.06
+[2026-10-17T04:09:48 +   56.2s] factor กลุ่ม 1a MSCI_ACWI_CD [PCA] n_fit=38 med ΔR²oos=0.0953 med ΔBIC=-36.94
+[2026-10-17T04:09:49 +   56.9s] factor กลุ่ม 1a MSCI_ACWI_EX_US [LOO-mean] n_fit=10 med ΔR²oos=0.0355 med ΔBIC=-2.38
+[2026-10-17T04:09:50 +   58.0s] factor กลุ่ม 1a MSCI_ACWI_IT [LOO-mean] n_fit=14 med ΔR²oos=0.0345 med ΔBIC=-28.78
+[2026-10-17T04:09:51 +   59.1s] factor กลุ่ม 1a MSCI_ASIA_EX_JAPAN [LOO-mean] n_fit=14 med ΔR²oos=0.0049 med ΔBIC=-12.35
+[2026-10-17T04:09:53 +   60.8s] factor กลุ่ม 1a MSCI_CHINA_ALL_SHARES [LOO-mean] n_fit=21 med ΔR²oos=0.0439 med ΔBIC=-8.31
+[2026-10-17T04:09:53 +   61.4s] factor กลุ่ม 1a MSCI_EM [LOO-mean] n_fit=8 med ΔR²oos=0.0072 med ΔBIC=4.43
+[2026-10-17T04:09:54 +   61.9s] factor กลุ่ม 1a MSCI_EUROPE [LOO-mean] n_fit=6 med ΔR²oos=0.0655 med ΔBIC=-59.41
+[2026-10-17T04:09:54 +   62.5s] factor กลุ่ม 1a MSCI_INDIA [LOO-mean] n_fit=8 med ΔR²oos=0.0675 med ΔBIC=-40.04
+[2026-10-17T04:09:55 +   63.2s] factor กลุ่ม 1a MSCI_JAPAN [LOO-mean] n_fit=8 med ΔR²oos=0.0717 med ΔBIC=-106.28
+[2026-10-17T04:09:56 +   63.8s] factor กลุ่ม 1c G-F [PCA] n_fit=18 med ΔR²oos=0.1603 med ΔBIC=-34.93
+[2026-10-17T04:09:56 +   63.8s] factor กลุ่ม 1c G-O [LOO-mean] n_fit=14 med ΔR²oos=-0.0067 med ΔBIC=6.56
+[2026-10-17T04:09:56 +   64.7s] factor กลุ่ม 1c MSCI_ACWI [LOO-mean] n_fit=12 med ΔR²oos=0.0070 med ΔBIC=-19.15
+[2026-10-17T04:09:57 +   65.6s] factor กลุ่ม 1c MSCI_ACWI_EX_US [LOO-mean] n_fit=10 med ΔR²oos=0.0198 med ΔBIC=3.48
+[2026-10-17T04:09:58 +   66.7s] factor กลุ่ม 1c MSCI_ACWI_IT [LOO-mean] n_fit=14 med ΔR²oos=0.0262 med ΔBIC=-15.22
+[2026-10-17T04:10:00 +   67.7s] factor กลุ่ม 1c MSCI_ASIA_EX_JAPAN [LOO-mean] n_fit=14 med ΔR²oos=0.0131 med ΔBIC=-10.52
+[2026-10-17T04:10:01 +   69.4s] factor กลุ่ม 1c MSCI_CHINA_ALL_SHARES [LOO-mean] n_fit=21 med ΔR²oos=0.0179 med ΔBIC=-4.08
+[2026-10-17T04:10:02 +   70.0s] factor กลุ่ม 1c MSCI_EM [LOO-mean] n_fit=8 med ΔR²oos=0.0148 med ΔBIC=-1.14
+[2026-10-17T04:10:02 +   70.5s] factor กลุ่ม 1c MSCI_EUROPE [LOO-mean] n_fit=6 med ΔR²oos=0.0536 med ΔBIC=-59.22
+[2026-10-17T04:10:03 +   71.1s] factor กลุ่ม 1c MSCI_INDIA [LOO-mean] n_fit=8 med ΔR²oos=0.0775 med ΔBIC=-62.93
+[2026-10-17T04:10:04 +   71.7s] factor กลุ่ม 1c MSCI_JAPAN [LOO-mean] n_fit=8 med ΔR²oos=0.0679 med ΔBIC=-107.89
+[2026-10-17T04:10:04 +   71.8s] เขียน group_factor · group_factor_fund · group_names · group_null · g0_pca
+[2026-10-17T04:10:04 +   71.9s] เขียน xsec.csv · xsec_meta.csv · chars.csv (เติม 1−R² ของ M1–M4 หลัง fit — คอลัมน์เดียวที่เขียนทีหลัง)
+[2026-10-17T04:10:08 +   76.7s] เขียน fx_gap · carry_diag · bootstrap · grs · py
+[2026-10-17T04:10:10 +   78.7s] เขียน stability · rolling_104
+[2026-10-17T04:10:10 +   78.7s] เขียน expectations_vs_results.csv · criteria_*
+[2026-10-17T04:10:11 +   78.8s] เสร็จ · runtime 78.8s

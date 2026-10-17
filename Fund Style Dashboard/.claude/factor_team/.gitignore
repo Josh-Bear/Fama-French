@@ -1,0 +1,8 @@
+# factor_team — ผู้ใช้ตัดสิน 2026-10-17: ไม่ commit สำเนาผลรันขนาดใหญ่ใน scratch (สร้างใหม่ได้จากสคริปต์ · ยังอยู่ในเครื่อง)
+# สำเนา regression / รันซ้ำ / smoke / debug ของ analyst และ data-engineer
+scratch/factor-analyst_*/
+scratch/factor-data-engineer_rerun/
+scratch/factor-data-engineer_nav.parquet
+
+# .gitignore ของโปรเจกต์ข้าม *.log — แต่ run.log / log ของทีมคือหลักฐาน hash ของข้อมูลและ lib จึงต้อง commit
+!*.log

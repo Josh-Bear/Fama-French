@@ -1,0 +1,226 @@
+{
+ "created": "2026-10-15",
+ "script": "build_l0.py",
+ "pandas": "3.0.5",
+ "numpy": "2.5.2",
+ "criteria": {
+  "main_period": [
+   "2021-01-01",
+   "2025-12-31"
+  ],
+  "panel_end": "2026-07-31",
+  "min_weekly_returns": 52,
+  "zero_return_thresholds_PROVISIONAL": {
+   "E": 0.1,
+   "F": 0.1,
+   "O": 0.1
+  },
+  "asof_tolerance_calendar_days": 10,
+  "nav_hole_business_days": 10,
+  "dup_corr": 0.99,
+  "family_fixed": true,
+  "th_bond_est_durations": "par-bond modified duration ที่ y ต้นช่วง · อายุ(ปี)={\"TH1Y\": 1.0, \"TH5Y\": 5.0, \"TH10Y\": 10.0, \"TH_TBILL3M\": 0.25}",
+  "fund_filter": "config.FILTER_EQ/NEQ/EMPTY (9 เกณฑ์)"
+ },
+ "inputs": [
+  {
+   "file": "base_data/FundProfile.csv",
+   "sha256": "9516281426fc854c8f3a0833f119cad0ce581adb39450732e579084cb4cedfaf",
+   "rows": 3982,
+   "date_min": null,
+   "date_max": null
+  },
+  {
+   "file": "base_data/nav_history_db.csv",
+   "sha256": "97f2a7a070327ae5550dd9628b4cf970cf3775634abe48536d5bfc4eb3d97d45",
+   "rows": 3068584,
+   "date_min": "2005-11-11",
+   "date_max": "2026-10-06"
+  },
+  {
+   "file": "base_data/share_class_groups.csv",
+   "sha256": "f70505bc0b806a36178fa6acb8e9c1d0d053c02c7d1af20a76acfb09e945cf0b",
+   "rows": 70,
+   "date_min": null,
+   "date_max": null
+  },
+  {
+   "file": "base_data/MSCI_COUNTRY_ETF.csv",
+   "sha256": "d51667fdf14242680a197b3d6541f03ef15134862a9d9acbb5456c9ea05ad06b",
+   "rows": 1456,
+   "date_min": "2021-01-01",
+   "date_max": "2026-07-31"
+  },
+  {
+   "file": "base_data/MSCI_SECTOR_ETF.csv",
+   "sha256": "f99a9056eed1c5ead851b05f8398dfd11da051e0f7cb6f9d36defc9d7f380768",
+   "rows": 1456,
+   "date_min": "2021-01-01",
+   "date_max": "2026-07-31"
+  },
+  {
+   "file": "base_data/STYLE_FACTOR_ETF.csv",
+   "sha256": "df89b3171620d4ca15cdaee7891aa2fc6657fae3f5338b75c8fbdf891efdadc0",
+   "rows": 1472,
+   "date_min": "2020-11-02",
+   "date_max": "2026-09-14"
+  },
+  {
+   "file": "base_data/MACRO_FACTOR.csv",
+   "sha256": "5b96807d808a8cf917d55b05c9afa9b724382a8d862f8fd078af28969b72682c",
+   "rows": 1528,
+   "date_min": "2020-11-02",
+   "date_max": "2026-09-15"
+  },
+  {
+   "file": "base_data/TH_POLICY_RATE.csv",
+   "sha256": "37ae1fc265816ff9876bdc9726e47e81f238d326cdb13deb98d765f1eb17ca1e",
+   "rows": 87,
+   "date_min": "2015-01-28",
+   "date_max": "2026-08-26"
+  },
+  {
+   "file": "base_data/US_BOND_ETF.csv",
+   "sha256": "4825566ba4808c01599bbdc8e82acb099d8c115770acd6b9f3b6bf6348cc3bb4",
+   "rows": 1494,
+   "date_min": "2020-11-02",
+   "date_max": "2026-10-13"
+  },
+  {
+   "file": ".claude/factor_team/data/external/TH_EQUITY_PROXY.csv",
+   "sha256": "d74a489ab1958ef69fb657f977b9f4b7dd99ec2a10b093aacfefaf9e1a8a4b1d",
+   "rows": 1439,
+   "date_min": "2020-11-02",
+   "date_max": "2026-10-15"
+  },
+  {
+   "file": ".claude/factor_team/data/external/US_RATES_CREDIT_ETF.csv",
+   "sha256": "f883e6eea8e1cb8238fcf8a1418e66f2ed4892b7c69e7d7d71dfba18caace389",
+   "rows": 1494,
+   "date_min": "2020-11-02",
+   "date_max": "2026-10-14"
+  },
+  {
+   "file": ".claude/factor_team/data/external/TH_GOV_YIELDS.csv",
+   "sha256": "58c14a3cce019fb3f672d26d4c5bd5d25fbaa76b4ee12cae6b716d60b52609e8",
+   "rows": 1440,
+   "date_min": "2020-11-02",
+   "date_max": "2026-10-14"
+  },
+  {
+   "file": ".claude/factor_team/data/external/US_SPREADS_FRED.csv",
+   "sha256": "d5315a2521d6292dde07d9ba0780e16c6a579243f056fedfc72f9fc2101360e1",
+   "rows": 1563,
+   "date_min": "2020-11-02",
+   "date_max": "2026-10-13"
+  },
+  {
+   "file": ".claude/factor_team/data/build_l0.py",
+   "sha256": "5773c34abaf023518882dfb0833bc8907dee406cb8014d98350d70795da64e0d",
+   "date_min": null,
+   "date_max": null
+  },
+  {
+   "file": ".claude/factor_team/data/qa_l0.py",
+   "sha256": "5c5102f386bf1bb8fdcade6489bd6f575bd5d633fb39955e8ee41290736bbd06",
+   "date_min": null,
+   "date_max": null
+  }
+ ],
+ "outputs": [
+  {
+   "file": ".claude/factor_team/data/panel_weekly.parquet",
+   "sha256": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b",
+   "rows": 126003,
+   "date_min": "2021-01-08",
+   "date_max": "2026-07-31"
+  },
+  {
+   "file": ".claude/factor_team/data/panel_monthly.parquet",
+   "sha256": "e8e8cb5d5f04fba9bb35558ef7c3d8195c656334119e56f82775cc1ae21ccaed",
+   "rows": 29011,
+   "date_min": "2021-01-31",
+   "date_max": "2026-07-31"
+  },
+  {
+   "file": ".claude/factor_team/data/aum_weekly.parquet",
+   "sha256": "48c34c73ae22ebffc6112f93e03f729223a496297bb65c324b693b817a723d26",
+   "rows": 126436,
+   "date_min": "2021-01-01",
+   "date_max": "2026-07-31"
+  },
+  {
+   "file": ".claude/factor_team/data/factors_weekly.parquet",
+   "sha256": "115b87139d2bec0fd57a77a1593c46d36bb23f3f35f83236cdb07be642af47a8",
+   "rows": 291,
+   "date_min": "2021-01-08",
+   "date_max": "2026-07-31"
+  },
+  {
+   "file": ".claude/factor_team/data/factors_monthly.parquet",
+   "sha256": "f7c4248b4fa889853024449e72ae8909cf1f8d3226a54eebc37448a2a485bb72",
+   "rows": 67,
+   "date_min": "2021-01-31",
+   "date_max": "2026-07-31"
+  },
+  {
+   "file": ".claude/factor_team/data/universe.csv",
+   "sha256": "fdfb7830df78ce032465ac9d8cddc2c98f9aa86cfa0f3925fdb83026aa3f7252",
+   "rows": 715,
+   "date_min": null,
+   "date_max": null
+  },
+  {
+   "file": ".claude/factor_team/data/factor_groups.csv",
+   "sha256": "42bf1cfb270721ae6112799ab795ebc4c91212e7584d5cdfee23b9b70b1b1731",
+   "rows": 75,
+   "date_min": null,
+   "date_max": null
+  },
+  {
+   "file": ".claude/factor_team/data/coverage_weekly.csv",
+   "sha256": "c9cbb4cfa5d13dc4b3612fa8ad70738de1676ca3ec4a32b506c0961751fb330d",
+   "rows": 291,
+   "date_min": "2021-01-08",
+   "date_max": "2026-07-31"
+  },
+  {
+   "file": ".claude/factor_team/data/spike_fixes.csv",
+   "sha256": "0104435314bc36376b0c191276e58f3ca4a30ef6ef46c9f031589ef3c0108cf7",
+   "rows": 17,
+   "date_min": null,
+   "date_max": null
+  },
+  {
+   "file": ".claude/factor_team/data/spike_candidates_Frule.csv",
+   "sha256": "8658f051777bd3e14dcf8df514bc0815b86f871b1dac803d1c7cf123b279402c",
+   "rows": 119,
+   "date_min": null,
+   "date_max": null
+  },
+  {
+   "file": ".claude/factor_team/data/dup_pairs.csv",
+   "sha256": "b1f0f0c745947fa70803a4f40526c0a1967c72925be985a2bedc1057d8b8aef3",
+   "rows": 79,
+   "date_min": null,
+   "date_max": null
+  },
+  {
+   "file": ".claude/factor_team/data/QA_L0.md",
+   "sha256": "493c46d5d1541fa82baa12d4a685c7ca67b41167bb632e769d1990c88c0f3a5d",
+   "note": "มีวันที่สร้างในเนื้อหา"
+  }
+ ],
+ "counts": {
+  "filter9": {
+   "E": 600,
+   "F": 77,
+   "O": 38
+  },
+  "selected": {
+   "E": 357,
+   "F": 49,
+   "O": 27
+  }
+ }
+}

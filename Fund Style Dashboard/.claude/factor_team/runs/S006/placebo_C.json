@@ -1,0 +1,18 @@
+{
+ "timestamp": "2026-10-16T23:30:11",
+ "shifts": {
+  "26": {
+   "selected": [],
+   "n_selected": 0,
+   "best_score_step1": 6.8917884408132295
+  },
+  "52": {
+   "selected": [],
+   "n_selected": 0,
+   "best_score_step1": 6.586252873103149
+  }
+ },
+ "tau": 0.0,
+ "any_selected": false,
+ "rule": "placebo เลือก 0 → τ = 0"
+}

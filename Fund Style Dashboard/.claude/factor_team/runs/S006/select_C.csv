@@ -1,0 +1,3 @@
+round,candidate,score,second,second_score,tau,action,n_selected
+1,MSCI_ACWI_CD,-2.098150927655979,MSCI_USA,-0.4081339493907308,0.0,added,1
+2,MSCI_USA,0.21146379503397839,MSCI_ASIA_EX_JAPAN,1.6336043501419226,0.0,stop_tau,1

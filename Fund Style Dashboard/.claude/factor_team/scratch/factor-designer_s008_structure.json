@@ -1,0 +1,414 @@
+{
+"sha256": {
+"specs/S007_L4_group_factors_fund_alpha.md": "5dfddfc42f381679f423bdfb9ec7401222272450f3e5c1644ac46ab0a2ab2996",
+"reviews/S007_spec_review.md": "62146d536ffe92d988423a5e692efeaf22515e95428449895d925357abb67487",
+"data/QA_ACWI_CD_group.md": "7eb12ca26f95a8ebb88ffcf7e62e2ed8285942f3bd6ac7a4478dc35540c293f7",
+"runs/S003/fund_level.csv": "36b41161d6a13c1184a4052d9e799f660f431c2694dc57fafd747f8e695bf8cf",
+"runs/S005/fund_clusters.csv": "072cd97ade7e01a32edb9aaf5b949381d1500dcb1ed909558bee3a373e2fc0cb",
+"runs/S005/primary_index.csv": "5a94ab9b498bb107600938d37f665c7263d9f0a5973460159c09ae83a799275c",
+"data/panel_weekly.parquet": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b",
+"data/factors_weekly.parquet": "115b87139d2bec0fd57a77a1593c46d36bb23f3f35f83236cdb07be642af47a8",
+"base_data/SecFundFee.csv": "94f0b7716a7979303ef6ba063746061d7e454c8e966731b567aa29316f0134cd"
+},
+"EVAL_n": 207,
+"in_PCA_sample_by_pol": {
+"E": 108,
+"F": 15,
+"O": 9
+},
+"in_E67_by_pol": {
+"E": 67
+},
+"E67_and_PCA_overlap": 0,
+"E_not_PCA_not_E67": 0,
+"train_rows_max": 156,
+"E_groups": [
+{
+"group": "MSCI_ACWI_CD",
+"n": 38,
+"n_indep_all": 35,
+"n_tr": 22,
+"n_indep_tr": 20,
+"method": "PCA",
+"dummy": true,
+"min_peer_tr": 20,
+"min_peer_all": 36,
+"pool_E_all": 136,
+"pool_E_tr": 85
+},
+{
+"group": "MSCI_CHINA_ALL_SHARES",
+"n": 21,
+"n_indep_all": 16,
+"n_tr": 11,
+"n_indep_tr": 8,
+"method": "LOO-mean",
+"dummy": true,
+"min_peer_tr": 7,
+"min_peer_all": 16,
+"pool_E_all": 153,
+"pool_E_tr": 96
+},
+{
+"group": "MSCI_ASIA_EX_JAPAN",
+"n": 14,
+"n_indep_all": 14,
+"n_tr": 6,
+"n_indep_tr": 6,
+"method": "LOO-mean",
+"dummy": true,
+"min_peer_tr": 5,
+"min_peer_all": 13,
+"pool_E_all": 160,
+"pool_E_tr": 101
+},
+{
+"group": "MSCI_ACWI_IT",
+"n": 14,
+"n_indep_all": 11,
+"n_tr": 10,
+"n_indep_tr": 7,
+"method": "LOO-mean",
+"dummy": true,
+"min_peer_tr": 6,
+"min_peer_all": 10,
+"pool_E_all": 160,
+"pool_E_tr": 97
+},
+{
+"group": "MSCI_ACWI",
+"n": 12,
+"n_indep_all": 9,
+"n_tr": 10,
+"n_indep_tr": 7,
+"method": "LOO-mean",
+"dummy": false,
+"min_peer_tr": 7,
+"min_peer_all": 9,
+"pool_E_all": 162,
+"pool_E_tr": 97
+},
+{
+"group": "MSCI_ACWI_EX_US",
+"n": 10,
+"n_indep_all": 9,
+"n_tr": 2,
+"n_indep_tr": 2,
+"method": "LOO-mean",
+"dummy": false,
+"min_peer_tr": 1,
+"min_peer_all": 8,
+"pool_E_all": 164,
+"pool_E_tr": 105
+},
+{
+"group": "MSCI_EM",
+"n": 8,
+"n_indep_all": 7,
+"n_tr": 6,
+"n_indep_tr": 5,
+"method": "LOO-mean",
+"dummy": false,
+"min_peer_tr": 4,
+"min_peer_all": 6,
+"pool_E_all": 166,
+"pool_E_tr": 101
+},
+{
+"group": "MSCI_JAPAN",
+"n": 8,
+"n_indep_all": 7,
+"n_tr": 4,
+"n_indep_tr": 4,
+"method": "LOO-mean",
+"dummy": false,
+"min_peer_tr": 3,
+"min_peer_all": 6,
+"pool_E_all": 166,
+"pool_E_tr": 103
+},
+{
+"group": "MSCI_INDIA",
+"n": 8,
+"n_indep_all": 7,
+"n_tr": 7,
+"n_indep_tr": 7,
+"method": "LOO-mean",
+"dummy": false,
+"min_peer_tr": 6,
+"min_peer_all": 6,
+"pool_E_all": 166,
+"pool_E_tr": 100
+},
+{
+"group": "MSCI_ACWI_HC",
+"n": 7,
+"n_indep_all": 4,
+"n_tr": 6,
+"n_indep_tr": 3,
+"method": "none",
+"dummy": false,
+"min_peer_tr": 2,
+"min_peer_all": 3,
+"pool_E_all": 167,
+"pool_E_tr": 101
+},
+{
+"group": "MSCI_VIETNAM",
+"n": 6,
+"n_indep_all": 3,
+"n_tr": 2,
+"n_indep_tr": 1,
+"method": "none",
+"dummy": false,
+"min_peer_tr": 0,
+"min_peer_all": 3,
+"pool_E_all": 168,
+"pool_E_tr": 105
+},
+{
+"group": "MSCI_EUROPE",
+"n": 6,
+"n_indep_all": 5,
+"n_tr": 6,
+"n_indep_tr": 5,
+"method": "LOO-mean",
+"dummy": false,
+"min_peer_tr": 4,
+"min_peer_all": 4,
+"pool_E_all": 168,
+"pool_E_tr": 101
+},
+{
+"group": "MSCI_WORLD_EX_US",
+"n": 4,
+"n_indep_all": 3,
+"n_tr": 2,
+"n_indep_tr": 2,
+"method": "none",
+"dummy": false,
+"min_peer_tr": 1,
+"min_peer_all": 2,
+"pool_E_all": 170,
+"pool_E_tr": 105
+},
+{
+"group": "MSCI_ASEAN",
+"n": 3,
+"n_indep_all": 3,
+"n_tr": 1,
+"n_indep_tr": 1,
+"method": "none",
+"dummy": false,
+"min_peer_tr": 0,
+"min_peer_all": 2,
+"pool_E_all": 171,
+"pool_E_tr": 106
+},
+{
+"group": "MSCI_ACWI_UT",
+"n": 3,
+"n_indep_all": 2,
+"n_tr": 3,
+"n_indep_tr": 2,
+"method": "none",
+"dummy": false,
+"min_peer_tr": 1,
+"min_peer_all": 1,
+"pool_E_all": 171,
+"pool_E_tr": 104
+},
+{
+"group": "MSCI_CHINA_A_SHARES",
+"n": 3,
+"n_indep_all": 2,
+"n_tr": 3,
+"n_indep_tr": 2,
+"method": "none",
+"dummy": false,
+"min_peer_tr": 1,
+"min_peer_all": 1,
+"pool_E_all": 171,
+"pool_E_tr": 104
+},
+{
+"group": "MSCI_ACWI_IN",
+"n": 2,
+"n_indep_all": 2,
+"n_tr": 0,
+"n_indep_tr": 0,
+"method": "none",
+"dummy": false,
+"min_peer_tr": 0,
+"min_peer_all": 1,
+"pool_E_all": 172,
+"pool_E_tr": 107
+},
+{
+"group": "MSCI_USA",
+"n": 2,
+"n_indep_all": 2,
+"n_tr": 1,
+"n_indep_tr": 1,
+"method": "none",
+"dummy": false,
+"min_peer_tr": 0,
+"min_peer_all": 1,
+"pool_E_all": 172,
+"pool_E_tr": 106
+},
+{
+"group": "MSCI_ACWI_FN",
+"n": 2,
+"n_indep_all": 2,
+"n_tr": 2,
+"n_indep_tr": 2,
+"method": "none",
+"dummy": false,
+"min_peer_tr": 1,
+"min_peer_all": 1,
+"pool_E_all": 172,
+"pool_E_tr": 105
+},
+{
+"group": "MSCI_ACWI_CS",
+"n": 1,
+"n_indep_all": 1,
+"n_tr": 1,
+"n_indep_tr": 1,
+"method": "none",
+"dummy": false,
+"min_peer_tr": 0,
+"min_peer_all": 0,
+"pool_E_all": 173,
+"pool_E_tr": 106
+},
+{
+"group": "MSCI_ACWI_MT",
+"n": 1,
+"n_indep_all": 1,
+"n_tr": 1,
+"n_indep_tr": 1,
+"method": "none",
+"dummy": false,
+"min_peer_tr": 0,
+"min_peer_all": 0,
+"pool_E_all": 173,
+"pool_E_tr": 106
+},
+{
+"group": "MSCI_KOREA",
+"n": 1,
+"n_indep_all": 1,
+"n_tr": 1,
+"n_indep_tr": 1,
+"method": "none",
+"dummy": false,
+"min_peer_tr": 0,
+"min_peer_all": 0,
+"pool_E_all": 173,
+"pool_E_tr": 106
+}
+],
+"G_F": {
+"n": 18,
+"n_indep_all": 17,
+"n_tr": 15,
+"n_indep_tr": 14,
+"method": "PCA"
+},
+"G_O": {
+"n": 14,
+"n_indep_all": 8,
+"n_tr": 9,
+"n_indep_tr": 6,
+"method": "LOO-mean"
+},
+"G0_E": {
+"n": 174,
+"n_tr": 107,
+"n_indep_tr": 88
+},
+"TER_missing": 0,
+"TER_vint_x_src": {
+"('le2025', 'actual')": 44,
+"('le2025', 'rate')": 61,
+"('y2026', 'actual')": 102
+},
+"TER_vint_x_src_x_pol": {
+"('E', 'le2025', 'actual')": 35,
+"('E', 'le2025', 'rate')": 54,
+"('E', 'y2026', 'actual')": 86,
+"('F', 'le2025', 'actual')": 4,
+"('F', 'le2025', 'rate')": 6,
+"('F', 'y2026', 'actual')": 8,
+"('O', 'le2025', 'actual')": 5,
+"('O', 'le2025', 'rate')": 1,
+"('O', 'y2026', 'actual')": 8
+},
+"TER_old_rule_rate_n": 69,
+"TER_le2025_n_by_pol": {
+"E": 89,
+"F": 10,
+"O": 6
+},
+"TER_asof_top": {
+"2023-05-10": 89,
+"2026-07-31": 54,
+"2026-06-30": 47,
+"2023-10-31": 14,
+"2025-09-30": 1,
+"2026-07-13": 1
+},
+"QA_TT_ge_OF": {
+"n": 146,
+"frac": 0.9794520547945206
+},
+"subset_E67": {
+"n": 67,
+"n_indep": 61,
+"by_pol": {
+"E": 67
+},
+"dummy_groups": {
+"MSCI_ACWI_CD": 16,
+"MSCI_ACWI_IT": 4,
+"MSCI_ASIA_EX_JAPAN": 8,
+"MSCI_CHINA_ALL_SHARES": 10
+}
+},
+"subset_E_le2025": {
+"n": 88,
+"n_indep": 77,
+"by_pol": {
+"E": 88
+},
+"dummy_groups": {
+"MSCI_ACWI_CD": 26,
+"MSCI_ACWI_IT": 11,
+"MSCI_ASIA_EX_JAPAN": 5,
+"MSCI_CHINA_ALL_SHARES": 10
+}
+},
+"subset_ALL_le2025": {
+"n": 104,
+"n_indep": 91,
+"by_pol": {
+"E": 88,
+"F": 10,
+"O": 6
+},
+"dummy_groups": {
+"MSCI_ACWI_CD": 26,
+"MSCI_ACWI_IT": 11,
+"MSCI_ASIA_EX_JAPAN": 5,
+"MSCI_CHINA_ALL_SHARES": 10
+}
+},
+"dummy_groups": [
+"MSCI_ACWI_CD",
+"MSCI_ACWI_IT",
+"MSCI_ASIA_EX_JAPAN",
+"MSCI_CHINA_ALL_SHARES"
+]
+}

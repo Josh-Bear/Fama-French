@@ -1,0 +1,131 @@
+{
+"sha256": {
+"specs/S007_L4_group_factors_fund_alpha.md": "5dfddfc42f381679f423bdfb9ec7401222272450f3e5c1644ac46ab0a2ab2996",
+"specs/S008_L4_addendum_to_S007.md": "6483b4aaabe8bb3f48c6e6c95a97b28c6f6e78fd68f565d9ad48e3dbad0b3f66",
+"reviews/S008_spec_review.md": "a8ce7113dd0f2710c1551aa42765e2bf5e21e39116b1a601fa0b9a777f62908c",
+"base_data/SecFundFee.csv": "94f0b7716a7979303ef6ba063746061d7e454c8e966731b567aa29316f0134cd"
+},
+"cell_counts_EVAL207": {
+"actual|le2025": 44,
+"actual|y2026": 161,
+"rate|le2025": 2
+},
+"cell_by_policy": {
+"E|actual|le2025": 35,
+"E|actual|y2026": 139,
+"E|rate|le2025": 1,
+"F|actual|le2025": 4,
+"F|actual|y2026": 13,
+"F|rate|le2025": 1,
+"O|actual|le2025": 5,
+"O|actual|y2026": 9
+},
+"n_nan": 0,
+"family206_cells": {
+"actual|le2025": 43,
+"actual|y2026": 161,
+"rate|le2025": 2
+},
+"family206_cells_by_pol": {
+"E|actual|le2025": 34,
+"E|actual|y2026": 139,
+"E|rate|le2025": 1,
+"F|actual|le2025": 4,
+"F|actual|y2026": 13,
+"F|rate|le2025": 1,
+"O|actual|le2025": 5,
+"O|actual|y2026": 9
+},
+"rate_minus_actual_same_row": {
+"n": 205,
+"median": 3.2117899999999997,
+"q25": 2.46,
+"q75": 3.7199999999999998,
+"frac_rate_ge_actual": 1.0
+},
+"rate_le2025_minus_actual_chosen": {
+"n": 103,
+"median": 3.3899999999999997,
+"q25": 2.83735,
+"q75": 4.17225,
+"frac_rate_ge_actual": 1.0
+},
+"QA_TT_ge_OF": {
+"n": 205,
+"frac": 0.9804878048780488
+},
+"XV1_ALL_actual_le2025": {
+"n": 43,
+"n_indep": 40,
+"by_pol": {
+"E": 34,
+"O": 5,
+"F": 4
+},
+"d_v2026": 0,
+"d_rate": 0,
+"dummy_groups": {
+"MSCI_ACWI_CD": 11,
+"MSCI_ACWI_IT": 5,
+"MSCI_ASIA_EX_JAPAN": 2,
+"MSCI_CHINA_ALL_SHARES": 4
+}
+},
+"XV2_E_actual_le2025": {
+"n": 34,
+"n_indep": 32,
+"by_pol": {
+"E": 34
+},
+"d_v2026": 0,
+"d_rate": 0,
+"dummy_groups": {
+"MSCI_ACWI_CD": 11,
+"MSCI_ACWI_IT": 5,
+"MSCI_ASIA_EX_JAPAN": 2,
+"MSCI_CHINA_ALL_SHARES": 4
+}
+},
+"X2_E_all": {
+"n": 174,
+"n_indep": 143,
+"by_pol": {
+"E": 174
+},
+"d_v2026": 139,
+"d_rate": 1,
+"dummy_groups": {
+"MSCI_ACWI_CD": 38,
+"MSCI_ACWI_IT": 14,
+"MSCI_ASIA_EX_JAPAN": 14,
+"MSCI_CHINA_ALL_SHARES": 21
+}
+},
+"XE67": {
+"n": 67,
+"n_indep": 61,
+"by_pol": {
+"E": 67
+},
+"d_v2026": 56,
+"d_rate": 1,
+"dummy_groups": {
+"MSCI_ACWI_CD": 16,
+"MSCI_ACWI_IT": 4,
+"MSCI_ASIA_EX_JAPAN": 8,
+"MSCI_CHINA_ALL_SHARES": 10
+}
+},
+"rate_funds": [
+{
+"FundCode": "FCSCBSETE",
+"policy": "E",
+"vint": "le2025"
+},
+{
+"FundCode": "KKP G-UBOND-H-U",
+"policy": "F",
+"vint": "le2025"
+}
+]
+}

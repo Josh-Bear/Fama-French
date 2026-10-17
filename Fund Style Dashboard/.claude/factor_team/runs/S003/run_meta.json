@@ -1,0 +1,61 @@
+{
+ "created": "2026-10-15T13:52:09",
+ "seed": 20261015,
+ "data_sha256": {
+  ".claude/factor_team/data/panel_weekly.parquet": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b",
+  ".claude/factor_team/data/panel_monthly.parquet": "e8e8cb5d5f04fba9bb35558ef7c3d8195c656334119e56f82775cc1ae21ccaed",
+  ".claude/factor_team/data/factors_weekly.parquet": "115b87139d2bec0fd57a77a1593c46d36bb23f3f35f83236cdb07be642af47a8",
+  ".claude/factor_team/data/factors_monthly.parquet": "f7c4248b4fa889853024449e72ae8909cf1f8d3226a54eebc37448a2a485bb72",
+  ".claude/factor_team/data/aum_weekly.parquet": "48c34c73ae22ebffc6112f93e03f729223a496297bb65c324b693b817a723d26",
+  ".claude/factor_team/data/universe.csv": "fdfb7830df78ce032465ac9d8cddc2c98f9aa86cfa0f3925fdb83026aa3f7252",
+  ".claude/factor_team/data/dup_pairs.csv": "b1f0f0c745947fa70803a4f40526c0a1967c72925be985a2bedc1057d8b8aef3",
+  ".claude/factor_team/data/factor_groups.csv": "42bf1cfb270721ae6112799ab795ebc4c91212e7584d5cdfee23b9b70b1b1731"
+ },
+ "lib_sha256": {
+  "external.py": "40fe064353d732cd8a3ed5671a55177c8d359f55bfac27f553334efbc2db1af2",
+  "forms.py": "7a1eae1fa0c374fcef35917e2482ff8d3e79e6ade4cf67ab7228f7424f048493",
+  "fundff.py": "6cfe0d717440235a67f12e631bfc52e288703256cc0eac32754bb46c4d3c1a77",
+  "hybrid.py": "a3ce7e40af87d39a6d8a5c5daafe74ab78877a0a2f4fd9b41106c4750e3d3768",
+  "io_l1.py": "613b12f757ab9ee23a768aef14dd3974f76e8a7e75780aac5894eabab7ce1210",
+  "nfactors.py": "4e1f6fe9ebaa7552792054e28cd862e1a21351e75e7e3adf05f420bc735849b9",
+  "pca.py": "7fe5c5e26262446ddad89dd179b0ea8fb38ad1d93e3d6df4b8ff12f4839cfd26",
+  "regress.py": "6ea4c314feb6345e4e4becc9dec19b667f063fb8b5c3143fcb4f80d6cc3ca8c9",
+  "samples.py": "8a145a009729c8d118a9e54632a3789bc99f7db006bd4d164a5e3b76fdf04a0a",
+  "scorecard.py": "48f0e25b2e7457dd6ac5e03ca556123bdc7832266ef2e5816a4bc0930f4ff580",
+  "tests_stat.py": "a5d6015e4f83b93afccc42e74f9031901193b377b53ec7ec62a778bbf2fa0e50"
+ },
+ "versions": {
+  "python": "3.12.4",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "scipy": "1.18.1",
+  "statsmodels": "0.15.0",
+  "sklearn": "1.9.0"
+ },
+ "runtime_sec": 12.6,
+ "spec": "S002 rev1 + S003 addendum (\u0e23\u0e35\u0e27\u0e34\u0e27 S003 PASS \u00b7 M1\u2013M4)",
+ "output_sha256": {
+  "bootstrap.csv": "9051e72a70a386c279c441fc335444df8c132ce40299978c1866b2560b42a454",
+  "criteria_values.csv": "989f64c20d7ac84aba384be4f2e3f402fd88d7e0474224eec7530777a47d1604",
+  "expectations_vs_results.csv": "d3034f263667132f9da1ebc14044120eb7b21b0b51657f2c6cd69f5e3b8d887f",
+  "extras.csv": "ca8df4f020bf1655aa4b16c32c6f6f64b75def8a933ca1fdc57ec5f2301fc5e0",
+  "factors_S003_weekly.parquet": "be3ceb2e34b0df1f1a3db27d59e1a103cf5f5a5ca38f2e87f7c812c1c53944ac",
+  "fund_level.csv": "36b41161d6a13c1184a4052d9e799f660f431c2694dc57fafd747f8e695bf8cf",
+  "grs.csv": "aab4eae9db84c4867a28f8bd723334e3e980d517686578c56e880d6ad603415d",
+  "grs_dropped_weeks.csv": "4c1330c3dd7e898d521c6555330e0ba0bdae94b69de11fe4a2094140e79b2b4f",
+  "grs_ports.csv": "d55011094898acdf6e0419c90a3b2713479451380cacc0bf950559c43b98ba19",
+  "grs_split.csv": "08c989830928be14229a3bb3997ca7b8409ea44d1b8d6e717abc551f5b904f58",
+  "halves.csv": "9f3cdadb9432511484c671d6d9c98d13efda45f1fe4b25b9636097dbcb0dbe99",
+  "interpret.csv": "2db9434f66312d37f82e8e1b0fe0ceda8a67101b4e654bef20f2abcf7424fd2c",
+  "k_curve.csv": "0f4d8ae3cb5c1d1b2780a8c9cab6df4fe01c45cca3209d593e04d5381091f055",
+  "monthly.csv": "d3a36b039e8688cf84a787ea9255df8f9f1db965f86e639a4cef318f942e5f27",
+  "n1_hedge_alpha.csv": "88dde1762ab8862cc8a53f4bef372d4e84592e86d6eeb8b1b952b0a52bc23747",
+  "nfactors.csv": "9ad5bd866d0e9488c497afa984fe586f15318516dfa8a0c939d6b91a6040f16a",
+  "py.csv": "a8593123dda2e0a28ce43c92d97aef4302f4fa43234203bf58c176c2fd13482f",
+  "regions.csv": "2fa3ce691c9dd66ef523e1baca228a635369d2971857797a05c105c1306e6866",
+  "scorecard.csv": "9d4247a5f56e6e48a72ac9d9d17104cc364e6ced7fce8161a4584b9ac7d28a77",
+  "spanning.csv": "6d6a87dc41300fae53ef42e312511f6d50f79fe630e3b726e89447927a049d99",
+  "stability.csv": "b63d3a724cf9e09069b4574bd96726a95a9bd3bc8d33c6ef6e56dcf168c8c740",
+  "vif.csv": "8e35ae316f76a13d9aafed5b4e40d133aec66572a5a1edff0a7a4ff92aff9f64"
+ }
+}

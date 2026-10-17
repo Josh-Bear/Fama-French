@@ -1,0 +1,66 @@
+{
+ "checked": "sha256 ผลจาก build_l0.py 2 รอบ (รอบ 2 เขียนที่ scratch/factor-data-engineer_rerun) อ่าน nav_history_db.csv ใหม่ทั้งสองรอบ",
+ "all_identical": true,
+ "files": {
+  "panel_weekly.parquet": {
+   "run1": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b",
+   "run2": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b",
+   "identical": true
+  },
+  "panel_monthly.parquet": {
+   "run1": "e8e8cb5d5f04fba9bb35558ef7c3d8195c656334119e56f82775cc1ae21ccaed",
+   "run2": "e8e8cb5d5f04fba9bb35558ef7c3d8195c656334119e56f82775cc1ae21ccaed",
+   "identical": true
+  },
+  "aum_weekly.parquet": {
+   "run1": "48c34c73ae22ebffc6112f93e03f729223a496297bb65c324b693b817a723d26",
+   "run2": "48c34c73ae22ebffc6112f93e03f729223a496297bb65c324b693b817a723d26",
+   "identical": true
+  },
+  "factors_weekly.parquet": {
+   "run1": "115b87139d2bec0fd57a77a1593c46d36bb23f3f35f83236cdb07be642af47a8",
+   "run2": "115b87139d2bec0fd57a77a1593c46d36bb23f3f35f83236cdb07be642af47a8",
+   "identical": true
+  },
+  "factors_monthly.parquet": {
+   "run1": "f7c4248b4fa889853024449e72ae8909cf1f8d3226a54eebc37448a2a485bb72",
+   "run2": "f7c4248b4fa889853024449e72ae8909cf1f8d3226a54eebc37448a2a485bb72",
+   "identical": true
+  },
+  "universe.csv": {
+   "run1": "fdfb7830df78ce032465ac9d8cddc2c98f9aa86cfa0f3925fdb83026aa3f7252",
+   "run2": "fdfb7830df78ce032465ac9d8cddc2c98f9aa86cfa0f3925fdb83026aa3f7252",
+   "identical": true
+  },
+  "factor_groups.csv": {
+   "run1": "42bf1cfb270721ae6112799ab795ebc4c91212e7584d5cdfee23b9b70b1b1731",
+   "run2": "42bf1cfb270721ae6112799ab795ebc4c91212e7584d5cdfee23b9b70b1b1731",
+   "identical": true
+  },
+  "coverage_weekly.csv": {
+   "run1": "c9cbb4cfa5d13dc4b3612fa8ad70738de1676ca3ec4a32b506c0961751fb330d",
+   "run2": "c9cbb4cfa5d13dc4b3612fa8ad70738de1676ca3ec4a32b506c0961751fb330d",
+   "identical": true
+  },
+  "spike_fixes.csv": {
+   "run1": "0104435314bc36376b0c191276e58f3ca4a30ef6ef46c9f031589ef3c0108cf7",
+   "run2": "0104435314bc36376b0c191276e58f3ca4a30ef6ef46c9f031589ef3c0108cf7",
+   "identical": true
+  },
+  "spike_candidates_Frule.csv": {
+   "run1": "8658f051777bd3e14dcf8df514bc0815b86f871b1dac803d1c7cf123b279402c",
+   "run2": "8658f051777bd3e14dcf8df514bc0815b86f871b1dac803d1c7cf123b279402c",
+   "identical": true
+  },
+  "dup_pairs.csv": {
+   "run1": "b1f0f0c745947fa70803a4f40526c0a1967c72925be985a2bedc1057d8b8aef3",
+   "run2": "b1f0f0c745947fa70803a4f40526c0a1967c72925be985a2bedc1057d8b8aef3",
+   "identical": true
+  },
+  "QA_L0.md": {
+   "run1": "493c46d5d1541fa82baa12d4a685c7ca67b41167bb632e769d1990c88c0f3a5d",
+   "run2": "493c46d5d1541fa82baa12d4a685c7ca67b41167bb632e769d1990c88c0f3a5d",
+   "identical": true
+  }
+ }
+}
