@@ -1,0 +1,215 @@
+{
+ "fp_rows_per_panel_fund_max": 1,
+ "panel_funds_with_multiple_distinct_EN": 0,
+ "n_gold_rule": 17,
+ "gold": [
+  "ASP-GOLD",
+  "BGOLD",
+  "DAOL-GOLD",
+  "ES-GOLD",
+  "ES-GOLDBULLION-H",
+  "ES-GOLDS",
+  "I-GOLD",
+  "IGOLD-G",
+  "K-GOLD-A(A)",
+  "KT-GOLD",
+  "KT-GOLDUH-A",
+  "LHGOLD-A",
+  "PRINCIPAL iGOLD-A",
+  "SCBGOLDHP",
+  "TGOLD",
+  "UOBSG - H",
+  "UOBSG-N"
+ ],
+ "golden_hits": [],
+ "th_only": [],
+ "by_q": [
+  {
+   "t": "2022-03-25",
+   "elig52": 205,
+   "u0_removed": 0,
+   "hole_at_t_alive": 0,
+   "gold_cut": 10,
+   "gold_in_balanced": 3,
+   "gold_bal": [
+    "I-GOLD",
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2022-06-24",
+   "elig52": 219,
+   "u0_removed": 0,
+   "hole_at_t_alive": 0,
+   "gold_cut": 10,
+   "gold_in_balanced": 3,
+   "gold_bal": [
+    "I-GOLD",
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2022-09-30",
+   "elig52": 231,
+   "u0_removed": 0,
+   "hole_at_t_alive": 0,
+   "gold_cut": 10,
+   "gold_in_balanced": 3,
+   "gold_bal": [
+    "I-GOLD",
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2022-12-30",
+   "elig52": 241,
+   "u0_removed": 0,
+   "hole_at_t_alive": 0,
+   "gold_cut": 10,
+   "gold_in_balanced": 3,
+   "gold_bal": [
+    "I-GOLD",
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2023-03-31",
+   "elig52": 259,
+   "u0_removed": 0,
+   "hole_at_t_alive": 0,
+   "gold_cut": 10,
+   "gold_in_balanced": 3,
+   "gold_bal": [
+    "I-GOLD",
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2023-06-30",
+   "elig52": 267,
+   "u0_removed": 0,
+   "hole_at_t_alive": 0,
+   "gold_cut": 10,
+   "gold_in_balanced": 3,
+   "gold_bal": [
+    "I-GOLD",
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2023-09-29",
+   "elig52": 293,
+   "u0_removed": 3,
+   "hole_at_t_alive": 0,
+   "gold_cut": 11,
+   "gold_in_balanced": 3,
+   "gold_bal": [
+    "I-GOLD",
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2023-12-29",
+   "elig52": 305,
+   "u0_removed": 10,
+   "hole_at_t_alive": 2,
+   "gold_cut": 10,
+   "gold_in_balanced": 2,
+   "gold_bal": [
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2024-03-29",
+   "elig52": 317,
+   "u0_removed": 10,
+   "hole_at_t_alive": 2,
+   "gold_cut": 10,
+   "gold_in_balanced": 2,
+   "gold_bal": [
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2024-06-28",
+   "elig52": 324,
+   "u0_removed": 11,
+   "hole_at_t_alive": 0,
+   "gold_cut": 10,
+   "gold_in_balanced": 2,
+   "gold_bal": [
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2024-09-27",
+   "elig52": 329,
+   "u0_removed": 11,
+   "hole_at_t_alive": 0,
+   "gold_cut": 10,
+   "gold_in_balanced": 2,
+   "gold_bal": [
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2024-12-27",
+   "elig52": 340,
+   "u0_removed": 11,
+   "hole_at_t_alive": 0,
+   "gold_cut": 12,
+   "gold_in_balanced": 2,
+   "gold_bal": [
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2025-03-28",
+   "elig52": 353,
+   "u0_removed": 11,
+   "hole_at_t_alive": 0,
+   "gold_cut": 12,
+   "gold_in_balanced": 2,
+   "gold_bal": [
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2025-06-27",
+   "elig52": 398,
+   "u0_removed": 11,
+   "hole_at_t_alive": 0,
+   "gold_cut": 16,
+   "gold_in_balanced": 2,
+   "gold_bal": [
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  },
+  {
+   "t": "2025-09-26",
+   "elig52": 415,
+   "u0_removed": 12,
+   "hole_at_t_alive": 0,
+   "gold_cut": 16,
+   "gold_in_balanced": 2,
+   "gold_bal": [
+    "SCBGOLDHP",
+    "UOBSG-N"
+   ]
+  }
+ ]
+}

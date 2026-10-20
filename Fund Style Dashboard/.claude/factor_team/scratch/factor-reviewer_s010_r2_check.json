@@ -1,0 +1,326 @@
+{
+ "F_family_rerun": {
+  "returncode": 0,
+  "stdout": [
+   "OK · BH m=97 ปฏิเสธ: {'J1eq1': ['P2-C1.R5'], 'J1real': ['P2-C1.R5']} · BY: {'J1eq1': [], 'J1real': []}",
+   "sha256(family_m97.csv) = 0da368754a010ad993a27ef42d701bb06b576f3eebbbcdd2df87233bbd7dae54"
+  ],
+  "stderr_tail": [],
+  "files_changed_outside_scratch": [],
+  "sha_mine": "0da368754a010ad993a27ef42d701bb06b576f3eebbbcdd2df87233bbd7dae54",
+  "sha_runs": "0da368754a010ad993a27ef42d701bb06b576f3eebbbcdd2df87233bbd7dae54",
+  "csv_identical": true,
+  "check_json_identical": true
+ },
+ "E_exec_segment": {
+  "count_XS": 1,
+  "count_ORDER17": 1,
+  "line_start": 221,
+  "line_end": 244,
+  "top_stmt_types": [
+   "Assign",
+   "AugAssign",
+   "For"
+  ],
+  "calls": [
+   "range"
+  ],
+  "names_loaded": [
+   "COND",
+   "ROB_COLS",
+   "SLOTS_COND_ROB",
+   "SLOTS_MAIN",
+   "SLOTS_ROB",
+   "XS",
+   "c",
+   "i",
+   "r",
+   "range",
+   "s"
+  ],
+  "has_import": false,
+  "assert_line_excluded": true,
+  "run_py_sha": "f65f484f5474625bc13174fb437c643585dc7295359e24988e9a1ba8d7baca11",
+  "run_py_mtime": "2026-10-20T10:22:57"
+ },
+ "C_family_mine": {
+  "order_prefix_equal": true,
+  "order_set_equal_r1": true,
+  "n": 97,
+  "roles": {
+   "main": 12,
+   "conditional": 30,
+   "robustness": 55
+  },
+  "n_label_rob": 80,
+  "n_ran": 67,
+  "J1eq1": {
+   "p_equal": false,
+   "bh_rej": [
+    "P2-C1.R5"
+   ],
+   "by_rej": [],
+   "bh_equal_file": true,
+   "by_equal_file": true,
+   "adj_maxdiff": 5.551115123125783e-17,
+   "C1R5_adj": 0.097,
+   "smallest": [
+    [
+     0.001,
+     "P2-C1.R5"
+    ],
+    [
+     0.003,
+     "P2-A1.R5"
+    ],
+    [
+     0.015,
+     "P2-A3.R5"
+    ],
+    [
+     0.1350517299920674,
+     "P2-D1.R3"
+    ],
+    [
+     0.14080059561200325,
+     "P2-A1"
+    ]
+   ]
+  },
+  "J1real": {
+   "p_equal": false,
+   "bh_rej": [
+    "P2-C1.R5"
+   ],
+   "by_rej": [],
+   "bh_equal_file": true,
+   "by_equal_file": true,
+   "adj_maxdiff": 5.551115123125783e-17,
+   "C1R5_adj": 0.097,
+   "smallest": [
+    [
+     0.001,
+     "P2-C1.R5"
+    ],
+    [
+     0.003,
+     "P2-A1.R5"
+    ],
+    [
+     0.015,
+     "P2-A3.R5"
+    ],
+    [
+     0.1314858356809094,
+     "P2-J1.S3"
+    ],
+    [
+     0.1350517299920674,
+     "P2-D1.R3"
+    ]
+   ]
+  },
+  "bh17_rej": [],
+  "noR5_bh_rej": [],
+  "noR5_by_rej": [],
+  "equals_round1": true,
+  "lib_equal_run_meta": {
+   "external.py": true,
+   "forms.py": true,
+   "fundff.py": true,
+   "hybrid.py": true,
+   "io_l1.py": true,
+   "l2.py": true,
+   "l3.py": true,
+   "l4.py": true,
+   "nfactors.py": true,
+   "p2.py": true,
+   "pca.py": true,
+   "regress.py": true,
+   "samples.py": true,
+   "scorecard.py": true,
+   "tests_stat.py": true
+  }
+ },
+ "T_trials": {
+  "n_lines": 68,
+  "n_data_rows": 67,
+  "sha": "094bdeaeaefcebe0a857e2988bb6ef64c1a6f7f4e25e980fbb7b6d92868dbfc4",
+  "mtime": "2026-10-20T10:23:29",
+  "mtime_ns": 1792466609838459518,
+  "backups": 11,
+  "last_backup": "trials.backup_20261020T102329_6.csv",
+  "last_backup_mtime": "2026-10-20T10:23:29",
+  "all_backups_prefix": true,
+  "run_at": [
+   "2026-10-20T10:23:28",
+   "2026-10-20T10:23:29"
+  ],
+  "run_dir": [
+   "runs/S010"
+  ],
+  "p_same_as_round1_smallest": true,
+  "quant_trials_mtime": "2026-10-15T09:21:38"
+ },
+ "R_runs_files": {
+  "repro_csv_equal": {
+   "b1_payoff.csv": true,
+   "dsr_appendix.csv": true,
+   "expectations_vs_results.csv": true,
+   "ic_series.csv": true,
+   "j1_slopes.csv": true,
+   "mde.csv": true,
+   "pca_diag.csv": true,
+   "robustness.csv": true,
+   "scorecard_wf.csv": true,
+   "trial_summary.csv": true,
+   "universe_by_quarter.csv": true,
+   "verdict.csv": true
+  },
+  "all_repro_equal": true,
+  "run_meta_output_equal": {
+   "b1_payoff.csv": true,
+   "dsr_appendix.csv": true,
+   "expectations_vs_results.csv": true,
+   "ic_series.csv": true,
+   "j1_slopes.csv": true,
+   "mde.csv": true,
+   "pca_diag.csv": true,
+   "robustness.csv": true,
+   "scorecard_wf.csv": true,
+   "trial_summary.csv": true,
+   "universe_by_quarter.csv": true,
+   "verdict.csv": true
+  },
+  "mtimes": {
+   "b1_payoff.csv": "2026-10-20T10:23:29",
+   "decisions_pre_run.md": "2026-10-20T10:22:45",
+   "dsr_appendix.csv": "2026-10-20T10:23:30",
+   "expectations_vs_results.csv": "2026-10-20T10:23:30",
+   "family_m97.csv": "2026-10-20T12:01:02",
+   "family_m97.py": "2026-10-20T12:00:55",
+   "family_m97_check.json": "2026-10-20T12:01:03",
+   "ic_series.csv": "2026-10-20T10:23:29",
+   "j1_slopes.csv": "2026-10-20T10:23:29",
+   "mde.csv": "2026-10-20T10:23:30",
+   "pca_diag.csv": "2026-10-20T10:23:29",
+   "pre_run_numbers.json": "2026-10-20T10:22:45",
+   "pytest_all.log": "2026-10-20T10:23:24",
+   "regression_phase1.json": "2026-10-20T10:10:08",
+   "repro_check.json": "2026-10-20T10:23:49",
+   "results.md": "2026-10-20T12:06:19",
+   "robustness.csv": "2026-10-20T10:23:29",
+   "run.log": "2026-10-20T10:23:30",
+   "run.py": "2026-10-20T10:22:57",
+   "run_meta.json": "2026-10-20T10:23:30",
+   "run_pre.log": "2026-10-20T10:22:45",
+   "scorecard_wf.csv": "2026-10-20T10:23:29",
+   "trial_summary.csv": "2026-10-20T10:23:29",
+   "universe_by_quarter.csv": "2026-10-20T10:23:27",
+   "verdict.csv": "2026-10-20T10:23:29"
+  },
+  "newer_than_1024": [
+   "family_m97.csv",
+   "family_m97.py",
+   "family_m97_check.json",
+   "results.md"
+  ]
+ },
+ "P_pre_check": {
+  "decisions_pre_run.md": {
+   "identical": false,
+   "n_lines": [
+    55,
+    55
+   ],
+   "diff_lines": [
+    [
+     3,
+     "สร้างโดย `run.py --phase pre` เมื่อ 2026-10-20T12:04:27 · sha256 ข้อมูล 8 ไฟล์ L0 + 6 ไฟล์ pin ตรง (สเปก S010 = 833ab516",
+     "สร้างโดย `run.py --phase pre` เมื่อ 2026-10-20T10:22:45 · sha256 ข้อมูล 8 ไฟล์ L0 + 6 ไฟล์ pin ตรง (สเปก S010 = 833ab516"
+    ]
+   ],
+   "n_diff": 1
+  },
+  "pre_run_numbers.json": {
+   "identical": true,
+   "n_lines": [
+    37,
+    37
+   ],
+   "diff_lines": [],
+   "n_diff": 0
+  },
+  "universe_by_quarter.csv": {
+   "identical": true,
+   "n_lines": [
+    16,
+    16
+   ],
+   "diff_lines": [],
+   "n_diff": 0
+  },
+  "run_pre.log": {
+   "identical": false,
+   "n_lines": [
+    7,
+    7
+   ],
+   "diff_lines": [
+    [
+     1,
+     "[2026-10-20T12:04:22 +    0.0s] START run S010/S011 phase=pre sim=False no_trials=True",
+     "[2026-10-20T10:22:41 +    0.0s] START run S010/S011 phase=pre sim=False no_trials=False"
+    ],
+    [
+     2,
+     "[2026-10-20T12:04:22 +    0.0s] sha256 ข้อมูล 8 ไฟล์ L0 + 6 ไฟล์ pin ตรง · lib 15 ไฟล์ (รวม p2.py)",
+     "[2026-10-20T10:22:41 +    0.0s] sha256 ข้อมูล 8 ไฟล์ L0 + 6 ไฟล์ pin ตรง · lib 15 ไฟล์ (รวม p2.py)"
+    ],
+    [
+     3,
+     "[2026-10-20T12:04:23 +    1.1s] ข้อมูล: R (260, 433) · กองทอง 17 · ปันผล 27 · TER actual 425 / rate 8",
+     "[2026-10-20T10:22:41 +    0.8s] ข้อมูล: R (260, 433) · กองทอง 17 · ปันผล 27 · TER actual 425 / rate 8"
+    ],
+    [
+     4,
+     "[2026-10-20T12:04:25 +    2.9s] สร้าง state 15 จุด (PCA · fit · สัญญาณ) เสร็จ — ยังไม่คำนวณ target",
+     "[2026-10-20T10:22:43 +    2.5s] สร้าง state 15 จุด (PCA · fit · สัญญาณ) เสร็จ — ยังไม่คำนวณ target"
+    ],
+    [
+     5,
+     "[2026-10-20T12:04:25 +    3.0s] universe_by_quarter:          t  S_t  U_pre  U_t  dropped_target  gold_cut | 2022-03-25 ",
+     "[2026-10-20T10:22:43 +    2.6s] universe_by_quarter:          t  S_t  U_pre  U_t  dropped_target  gold_cut | 2022-03-25 "
+    ],
+    [
+     6,
+     "[2026-10-20T12:04:27 +    4.9s] future-scramble บนข้อมูลจริง: [('2023-03-31', True), ('2024-09-27', True)]",
+     "[2026-10-20T10:22:45 +    3.9s] future-scramble บนข้อมูลจริง: [('2023-03-31', True), ('2024-09-27', True)]"
+    ]
+   ],
+   "n_diff": 7
+  },
+  "pre_check_mtimes": {
+   "decisions_pre_run.md": "2026-10-20T12:04:27",
+   "pre_run_numbers.json": "2026-10-20T12:04:27",
+   "run_pre.log": "2026-10-20T12:04:27",
+   "stdout.txt": "2026-10-20T12:04:27",
+   "universe_by_quarter.csv": "2026-10-20T12:04:25"
+  }
+ },
+ "S_sim_headers": {
+  "b1_payoff.csv": true,
+  "dsr_appendix.csv": true,
+  "expectations_vs_results.csv": true,
+  "ic_series.csv": true,
+  "j1_slopes.csv": true,
+  "mde.csv": true,
+  "pca_diag.csv": true,
+  "robustness.csv": true,
+  "scorecard_wf.csv": true,
+  "trial_summary.csv": true,
+  "universe_by_quarter.csv": true,
+  "verdict.csv": true,
+  "sim_run_meta_lib_equal": true
+ }
+}

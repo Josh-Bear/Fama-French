@@ -1,0 +1,98 @@
+slot,trial_id,role,ran,label,p_J1eq1,rank_J1eq1,BH_threshold_J1eq1,BH_adj_p_J1eq1,BH_reject_m97_J1eq1,BY_reject_m97_J1eq1,p_J1real,rank_J1real,BH_threshold_J1real,BH_adj_p_J1real,BH_reject_m97_J1real,BY_reject_m97_J1real
+P2-B0,P2-B0,main,True,,0.78517883557,45,0.0463917525773,1,False,False,0.78517883557,50,0.0515463917526,1,False,False
+P2-A2,P2-A2,main,True,,0.825368278944,49,0.0505154639175,1,False,False,0.825368278944,54,0.0556701030928,1,False,False
+P2-C1,P2-C1,main,True,,0.149406608692,7,0.00721649484536,1,False,False,0.149406608692,8,0.00824742268041,1,False,False
+P2-A1,P2-A1,main,True,,0.140800595612,5,0.00515463917526,1,False,False,0.140800595612,6,0.00618556701031,1,False,False
+P2-A3,P2-A3,main,True,,0.179768298155,10,0.0103092783505,1,False,False,0.179768298155,12,0.0123711340206,1,False,False
+P2-C2,P2-C2,main,True,,0.818096756783,48,0.0494845360825,1,False,False,0.818096756783,53,0.0546391752577,1,False,False
+P2-D1,P2-D1,main,True,,0.384161830785,25,0.0257731958763,1,False,False,0.384161830785,29,0.0298969072165,1,False,False
+P2-C3,P2-C3,main,True,,0.738266185453,42,0.0432989690722,1,False,False,0.738266185453,47,0.0484536082474,1,False,False
+P2-D3,P2-D3,main,True,,0.313046190002,22,0.0226804123711,1,False,False,0.313046190002,25,0.0257731958763,1,False,False
+P2-B2,P2-B2,main,True,,0.922051901043,54,0.0556701030928,1,False,False,0.922051901043,59,0.060824742268,1,False,False
+P2-B1,P2-B1,main,True,,0.661202596155,38,0.039175257732,1,False,False,0.661202596155,43,0.0443298969072,1,False,False
+P2-J1,P2-J1,main,True,,1,63,0.0649484536082,1,False,False,0.172904025407,11,0.0113402061856,1,False,False
+P2-M1,P2-M1,conditional,False,,1,64,0.0659793814433,1,False,False,1,68,0.0701030927835,1,False,False
+P2-M2,P2-M2,conditional,False,,1,65,0.0670103092784,1,False,False,1,69,0.0711340206186,1,False,False
+P2-W1,P2-W1,conditional,False,,1,66,0.0680412371134,1,False,False,1,70,0.0721649484536,1,False,False
+P2-W2,P2-W2,conditional,False,,1,67,0.0690721649485,1,False,False,1,71,0.0731958762887,1,False,False
+P2-W3,P2-W3,conditional,False,,1,68,0.0701030927835,1,False,False,1,72,0.0742268041237,1,False,False
+P2-B0.R1,P2-B0.R1,robustness,True,robustness · ไม่ใช้ตัดสิน,0.609335557478,32,0.0329896907216,1,False,False,0.609335557478,37,0.0381443298969,1,False,False
+P2-B0.R2,P2-B0.R2,robustness,True,robustness · ไม่ใช้ตัดสิน,0.633914776243,36,0.0371134020619,1,False,False,0.633914776243,41,0.0422680412371,1,False,False
+P2-B0.R3,P2-B0.R3,robustness,True,robustness · ไม่ใช้ตัดสิน,0.765861112619,44,0.0453608247423,1,False,False,0.765861112619,49,0.0505154639175,1,False,False
+P2-B0.R4,P2-B0.R4,robustness,True,robustness · ไม่ใช้ตัดสิน,0.738364269912,43,0.0443298969072,1,False,False,0.738364269912,48,0.0494845360825,1,False,False
+P2-B0.R5,P2-B0.R5,robustness,True,robustness · ไม่ใช้ตัดสิน,0.154,9,0.00927835051546,1,False,False,0.154,10,0.0103092783505,1,False,False
+P2-A2.R1,P2-A2.R1,robustness,True,robustness · ไม่ใช้ตัดสิน,0.951415180196,58,0.059793814433,1,False,False,0.951415180196,63,0.0649484536082,1,False,False
+P2-A2.R2,P2-A2.R2,robustness,True,robustness · ไม่ใช้ตัดสิน,0.90830623726,52,0.0536082474227,1,False,False,0.90830623726,57,0.0587628865979,1,False,False
+P2-A2.R3,P2-A2.R3,robustness,True,robustness · ไม่ใช้ตัดสิน,0.683832458793,40,0.0412371134021,1,False,False,0.683832458793,45,0.0463917525773,1,False,False
+P2-A2.R4,P2-A2.R4,robustness,True,robustness · ไม่ใช้ตัดสิน,0.938317840848,57,0.0587628865979,1,False,False,0.938317840848,62,0.0639175257732,1,False,False
+P2-A2.R5,P2-A2.R5,robustness,True,robustness · ไม่ใช้ตัดสิน,0.607,31,0.0319587628866,1,False,False,0.607,36,0.0371134020619,1,False,False
+P2-C1.R1,P2-C1.R1,robustness,True,robustness · ไม่ใช้ตัดสิน,0.307851515675,20,0.020618556701,1,False,False,0.307851515675,23,0.0237113402062,1,False,False
+P2-C1.R2,P2-C1.R2,robustness,True,robustness · ไม่ใช้ตัดสิน,0.288313051266,18,0.0185567010309,1,False,False,0.288313051266,21,0.0216494845361,1,False,False
+P2-C1.R3,P2-C1.R3,robustness,True,robustness · ไม่ใช้ตัดสิน,0.311754278158,21,0.0216494845361,1,False,False,0.311754278158,24,0.0247422680412,1,False,False
+P2-C1.R4,P2-C1.R4,robustness,True,robustness · ไม่ใช้ตัดสิน,0.148287667939,6,0.00618556701031,1,False,False,0.148287667939,7,0.00721649484536,1,False,False
+P2-C1.R5,P2-C1.R5,robustness,True,robustness · ไม่ใช้ตัดสิน,0.001,1,0.00103092783505,0.097,True,False,0.001,1,0.00103092783505,0.097,True,False
+P2-A1.R1,P2-A1.R1,robustness,True,robustness · ไม่ใช้ตัดสิน,0.249155168012,14,0.0144329896907,1,False,False,0.249155168012,17,0.0175257731959,1,False,False
+P2-A1.R2,P2-A1.R2,robustness,True,robustness · ไม่ใช้ตัดสิน,0.405735439903,26,0.0268041237113,1,False,False,0.405735439903,30,0.0309278350515,1,False,False
+P2-A1.R3,P2-A1.R3,robustness,True,robustness · ไม่ใช้ตัดสิน,0.15034626002,8,0.00824742268041,1,False,False,0.15034626002,9,0.00927835051546,1,False,False
+P2-A1.R4,P2-A1.R4,robustness,True,robustness · ไม่ใช้ตัดสิน,0.303285541468,19,0.019587628866,1,False,False,0.303285541468,22,0.0226804123711,1,False,False
+P2-A1.R5,P2-A1.R5,robustness,True,robustness · ไม่ใช้ตัดสิน,0.003,2,0.0020618556701,0.1455,False,False,0.003,2,0.0020618556701,0.1455,False,False
+P2-A3.R1,P2-A3.R1,robustness,True,robustness · ไม่ใช้ตัดสิน,0.26667488767,17,0.0175257731959,1,False,False,0.26667488767,20,0.020618556701,1,False,False
+P2-A3.R2,P2-A3.R2,robustness,True,robustness · ไม่ใช้ตัดสิน,0.244412746755,13,0.0134020618557,1,False,False,0.244412746755,16,0.0164948453608,1,False,False
+P2-A3.R3,P2-A3.R3,robustness,True,robustness · ไม่ใช้ตัดสิน,0.249868644217,15,0.0154639175258,1,False,False,0.249868644217,18,0.0185567010309,1,False,False
+P2-A3.R4,P2-A3.R4,robustness,True,robustness · ไม่ใช้ตัดสิน,0.331991012512,23,0.0237113402062,1,False,False,0.331991012512,26,0.0268041237113,1,False,False
+P2-A3.R5,P2-A3.R5,robustness,True,robustness · ไม่ใช้ตัดสิน,0.015,3,0.00309278350515,0.485,False,False,0.015,3,0.00309278350515,0.485,False,False
+P2-C2.R1,P2-C2.R1,robustness,True,robustness · ไม่ใช้ตัดสิน,0.938285393304,56,0.0577319587629,1,False,False,0.938285393304,61,0.0628865979381,1,False,False
+P2-C2.R2,P2-C2.R2,robustness,True,robustness · ไม่ใช้ตัดสิน,0.923504291996,55,0.0567010309278,1,False,False,0.923504291996,60,0.0618556701031,1,False,False
+P2-C2.R4,P2-C2.R4,robustness,True,robustness · ไม่ใช้ตัดสิน,0.975639614788,61,0.0628865979381,1,False,False,0.975639614788,66,0.0680412371134,1,False,False
+P2-C2.R5,P2-C2.R5,robustness,True,robustness · ไม่ใช้ตัดสิน,0.518,27,0.0278350515464,1,False,False,0.518,31,0.0319587628866,1,False,False
+P2-D1.R1,P2-D1.R1,robustness,True,robustness · ไม่ใช้ตัดสิน,0.204519464433,11,0.0113402061856,1,False,False,0.204519464433,13,0.0134020618557,1,False,False
+P2-D1.R2,P2-D1.R2,robustness,True,robustness · ไม่ใช้ตัดสิน,0.681809403053,39,0.040206185567,1,False,False,0.681809403053,44,0.0453608247423,1,False,False
+P2-D1.R3,P2-D1.R3,robustness,True,robustness · ไม่ใช้ตัดสิน,0.135051729992,4,0.00412371134021,1,False,False,0.135051729992,5,0.00515463917526,1,False,False
+P2-D1.R4,P2-D1.R4,robustness,True,robustness · ไม่ใช้ตัดสิน,0.619084029836,35,0.0360824742268,1,False,False,0.619084029836,40,0.0412371134021,1,False,False
+P2-D1.R5,P2-D1.R5,robustness,True,robustness · ไม่ใช้ตัดสิน,0.239,12,0.0123711340206,1,False,False,0.239,15,0.0154639175258,1,False,False
+P2-C3.R1,P2-C3.R1,robustness,True,robustness · ไม่ใช้ตัดสิน,0.560092246877,28,0.0288659793814,1,False,False,0.560092246877,32,0.0329896907216,1,False,False
+P2-C3.R2,P2-C3.R2,robustness,True,robustness · ไม่ใช้ตัดสิน,0.89682323705,51,0.0525773195876,1,False,False,0.89682323705,56,0.0577319587629,1,False,False
+P2-C3.R3,P2-C3.R3,robustness,True,robustness · ไม่ใช้ตัดสิน,0.815229496316,47,0.0484536082474,1,False,False,0.815229496316,52,0.0536082474227,1,False,False
+P2-C3.R4,P2-C3.R4,robustness,True,robustness · ไม่ใช้ตัดสิน,0.615846988905,34,0.0350515463918,1,False,False,0.615846988905,39,0.040206185567,1,False,False
+P2-C3.R5,P2-C3.R5,robustness,True,robustness · ไม่ใช้ตัดสิน,0.612,33,0.0340206185567,1,False,False,0.612,38,0.039175257732,1,False,False
+P2-D3.R1,P2-D3.R1,robustness,True,robustness · ไม่ใช้ตัดสิน,0.651819554093,37,0.0381443298969,1,False,False,0.651819554093,42,0.0432989690722,1,False,False
+P2-D3.R2,P2-D3.R2,robustness,True,robustness · ไม่ใช้ตัดสิน,0.78958453523,46,0.0474226804124,1,False,False,0.78958453523,51,0.0525773195876,1,False,False
+P2-D3.R3,P2-D3.R3,robustness,True,robustness · ไม่ใช้ตัดสิน,0.717066586305,41,0.0422680412371,1,False,False,0.717066586305,46,0.0474226804124,1,False,False
+P2-D3.R4,P2-D3.R4,robustness,True,robustness · ไม่ใช้ตัดสิน,0.606067797357,30,0.0309278350515,1,False,False,0.606067797357,35,0.0360824742268,1,False,False
+P2-D3.R5,P2-D3.R5,robustness,True,robustness · ไม่ใช้ตัดสิน,0.25,16,0.0164948453608,1,False,False,0.25,19,0.019587628866,1,False,False
+P2-B2.R1,P2-B2.R1,robustness,True,robustness · ไม่ใช้ตัดสิน,0.980615032869,62,0.0639175257732,1,False,False,0.980615032869,67,0.0690721649485,1,False,False
+P2-B2.R2,P2-B2.R2,robustness,True,robustness · ไม่ใช้ตัดสิน,0.97429949731,60,0.0618556701031,1,False,False,0.97429949731,65,0.0670103092784,1,False,False
+P2-B2.R3,P2-B2.R3,robustness,True,robustness · ไม่ใช้ตัดสิน,0.896177107046,50,0.0515463917526,1,False,False,0.896177107046,55,0.0567010309278,1,False,False
+P2-B2.R4,P2-B2.R4,robustness,True,robustness · ไม่ใช้ตัดสิน,0.967452018135,59,0.060824742268,1,False,False,0.967452018135,64,0.0659793814433,1,False,False
+P2-B2.R5,P2-B2.R5,robustness,True,robustness · ไม่ใช้ตัดสิน,0.587,29,0.0298969072165,1,False,False,0.587,34,0.0350515463918,1,False,False
+P2-D1.R6,P2-D1.R6,robustness,True,robustness · ไม่ใช้ตัดสิน,0.91212481209,53,0.0546391752577,1,False,False,0.91212481209,58,0.059793814433,1,False,False
+P2-B1.R1B,P2-B1.R1B,robustness,True,robustness · ไม่ใช้ตัดสิน,0.381687636091,24,0.0247422680412,1,False,False,0.381687636091,28,0.0288659793814,1,False,False
+P2-J1.S1,P2-J1.S1,robustness,True,robustness · ไม่ใช้ตัดสิน,1,69,0.0711340206186,1,False,False,0.217259982274,14,0.0144329896907,1,False,False
+P2-J1.S2,P2-J1.S2,robustness,True,robustness · ไม่ใช้ตัดสิน,1,70,0.0721649484536,1,False,False,0.366205649792,27,0.0278350515464,1,False,False
+P2-J1.S3,P2-J1.S3,robustness,True,robustness · ไม่ใช้ตัดสิน,1,71,0.0731958762887,1,False,False,0.131485835681,4,0.00412371134021,1,False,False
+P2-J1.S4,P2-J1.S4,robustness,True,robustness · ไม่ใช้ตัดสิน,1,72,0.0742268041237,1,False,False,0.560790890511,33,0.0340206185567,1,False,False
+P2-M1.R1,P2-M1.R1,conditional,False,robustness · ไม่ใช้ตัดสิน,1,73,0.0752577319588,1,False,False,1,73,0.0752577319588,1,False,False
+P2-M1.R2,P2-M1.R2,conditional,False,robustness · ไม่ใช้ตัดสิน,1,74,0.0762886597938,1,False,False,1,74,0.0762886597938,1,False,False
+P2-M1.R3,P2-M1.R3,conditional,False,robustness · ไม่ใช้ตัดสิน,1,75,0.0773195876289,1,False,False,1,75,0.0773195876289,1,False,False
+P2-M1.R4,P2-M1.R4,conditional,False,robustness · ไม่ใช้ตัดสิน,1,76,0.0783505154639,1,False,False,1,76,0.0783505154639,1,False,False
+P2-M1.R5,P2-M1.R5,conditional,False,robustness · ไม่ใช้ตัดสิน,1,77,0.079381443299,1,False,False,1,77,0.079381443299,1,False,False
+P2-M2.R1,P2-M2.R1,conditional,False,robustness · ไม่ใช้ตัดสิน,1,78,0.080412371134,1,False,False,1,78,0.080412371134,1,False,False
+P2-M2.R2,P2-M2.R2,conditional,False,robustness · ไม่ใช้ตัดสิน,1,79,0.0814432989691,1,False,False,1,79,0.0814432989691,1,False,False
+P2-M2.R3,P2-M2.R3,conditional,False,robustness · ไม่ใช้ตัดสิน,1,80,0.0824742268041,1,False,False,1,80,0.0824742268041,1,False,False
+P2-M2.R4,P2-M2.R4,conditional,False,robustness · ไม่ใช้ตัดสิน,1,81,0.0835051546392,1,False,False,1,81,0.0835051546392,1,False,False
+P2-M2.R5,P2-M2.R5,conditional,False,robustness · ไม่ใช้ตัดสิน,1,82,0.0845360824742,1,False,False,1,82,0.0845360824742,1,False,False
+P2-W1.R1,P2-W1.R1,conditional,False,robustness · ไม่ใช้ตัดสิน,1,83,0.0855670103093,1,False,False,1,83,0.0855670103093,1,False,False
+P2-W1.R2,P2-W1.R2,conditional,False,robustness · ไม่ใช้ตัดสิน,1,84,0.0865979381443,1,False,False,1,84,0.0865979381443,1,False,False
+P2-W1.R3,P2-W1.R3,conditional,False,robustness · ไม่ใช้ตัดสิน,1,85,0.0876288659794,1,False,False,1,85,0.0876288659794,1,False,False
+P2-W1.R4,P2-W1.R4,conditional,False,robustness · ไม่ใช้ตัดสิน,1,86,0.0886597938144,1,False,False,1,86,0.0886597938144,1,False,False
+P2-W1.R5,P2-W1.R5,conditional,False,robustness · ไม่ใช้ตัดสิน,1,87,0.0896907216495,1,False,False,1,87,0.0896907216495,1,False,False
+P2-W2.R1,P2-W2.R1,conditional,False,robustness · ไม่ใช้ตัดสิน,1,88,0.0907216494845,1,False,False,1,88,0.0907216494845,1,False,False
+P2-W2.R2,P2-W2.R2,conditional,False,robustness · ไม่ใช้ตัดสิน,1,89,0.0917525773196,1,False,False,1,89,0.0917525773196,1,False,False
+P2-W2.R3,P2-W2.R3,conditional,False,robustness · ไม่ใช้ตัดสิน,1,90,0.0927835051546,1,False,False,1,90,0.0927835051546,1,False,False
+P2-W2.R4,P2-W2.R4,conditional,False,robustness · ไม่ใช้ตัดสิน,1,91,0.0938144329897,1,False,False,1,91,0.0938144329897,1,False,False
+P2-W2.R5,P2-W2.R5,conditional,False,robustness · ไม่ใช้ตัดสิน,1,92,0.0948453608247,1,False,False,1,92,0.0948453608247,1,False,False
+P2-W3.R1,P2-W3.R1,conditional,False,robustness · ไม่ใช้ตัดสิน,1,93,0.0958762886598,1,False,False,1,93,0.0958762886598,1,False,False
+P2-W3.R2,P2-W3.R2,conditional,False,robustness · ไม่ใช้ตัดสิน,1,94,0.0969072164948,1,False,False,1,94,0.0969072164948,1,False,False
+P2-W3.R3,P2-W3.R3,conditional,False,robustness · ไม่ใช้ตัดสิน,1,95,0.0979381443299,1,False,False,1,95,0.0979381443299,1,False,False
+P2-W3.R4,P2-W3.R4,conditional,False,robustness · ไม่ใช้ตัดสิน,1,96,0.0989690721649,1,False,False,1,96,0.0989690721649,1,False,False
+P2-W3.R5,P2-W3.R5,conditional,False,robustness · ไม่ใช้ตัดสิน,1,97,0.1,1,False,False,1,97,0.1,1,False,False

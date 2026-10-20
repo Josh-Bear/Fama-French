@@ -22,7 +22,12 @@ def test_team_dirs():
     for d in SUBDIRS:
         assert (TEAM / d).is_dir(), d
     assert (TEAM / "research/INDEX.md").is_file()
-    assert not (TEAM / "trials.csv").exists()          # ระยะ 2 เท่านั้น
+    trials = TEAM / "trials.csv"                       # ระยะ 2 เท่านั้น — มีได้เมื่อผู้ใช้ผ่าน gate (BRIEF ข้อ 102)
+    if trials.exists():
+        assert "gate ระยะ 2 (ผู้ใช้" in read(TEAM / "BRIEF.md")
+        header = read(trials).splitlines()[0].split(",")
+        for col in ["trial_id", "counts_mode_A", "counts_mode_B", "n_trials_cumulative", "n_combined", "status"]:
+            assert col in header, col
 
 
 def test_brief_sections():

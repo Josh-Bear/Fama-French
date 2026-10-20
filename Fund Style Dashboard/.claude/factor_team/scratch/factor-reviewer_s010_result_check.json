@@ -1,0 +1,398 @@
+{
+ "A_trials": {
+  "n_rows": 67,
+  "row_kind": {
+   "robustness": 55,
+   "main": 12
+  },
+  "has_inference": {
+   "1": 67
+  },
+  "sumA": 12,
+  "sumB": 67,
+  "cumA_ok": true,
+  "cumB_ok": true,
+  "ncomb_ok": true,
+  "last_ncomb": [
+   "114",
+   "169"
+  ],
+  "dup_trial_id": [],
+  "run_at": [
+   "2026-10-20T10:23:28",
+   "2026-10-20T10:23:29"
+  ],
+  "spec_file": [
+   "specs/S011_P2_addendum_to_S010.md"
+  ],
+  "status": {
+   "valid": 67
+  },
+  "run_dir": [
+   "runs/S010"
+  ],
+  "lib_sha_unique": 1,
+  "data_sha_unique": 1,
+  "main_ids": [
+   "P2-B0",
+   "P2-A2",
+   "P2-C1",
+   "P2-A1",
+   "P2-A3",
+   "P2-C2",
+   "P2-D1",
+   "P2-C3",
+   "P2-D3",
+   "P2-B2",
+   "P2-B1",
+   "P2-J1"
+  ],
+  "rob_by_parent": {
+   "P2-A1": 5,
+   "P2-A2": 5,
+   "P2-A3": 5,
+   "P2-B0": 5,
+   "P2-B1": 1,
+   "P2-B2": 5,
+   "P2-C1": 5,
+   "P2-C2": 4,
+   "P2-C3": 5,
+   "P2-D1": 6,
+   "P2-D3": 5,
+   "P2-J1": 4
+  },
+  "rob_noinf": [],
+  "blank_p_with_inf": [],
+  "lib_sha_matches_meta": true,
+  "data_sha_matches_meta": true
+ },
+ "B_backups": {
+  "n": 11,
+  "chain": [
+   {
+    "f": "trials.backup_20261020T102328.csv",
+    "lines": 7,
+    "prefix_of_final": true,
+    "extends_prev": true
+   },
+   {
+    "f": "trials.backup_20261020T102328_1.csv",
+    "lines": 13,
+    "prefix_of_final": true,
+    "extends_prev": true
+   },
+   {
+    "f": "trials.backup_20261020T102328_2.csv",
+    "lines": 19,
+    "prefix_of_final": true,
+    "extends_prev": true
+   },
+   {
+    "f": "trials.backup_20261020T102328_3.csv",
+    "lines": 25,
+    "prefix_of_final": true,
+    "extends_prev": true
+   },
+   {
+    "f": "trials.backup_20261020T102329.csv",
+    "lines": 31,
+    "prefix_of_final": true,
+    "extends_prev": true
+   },
+   {
+    "f": "trials.backup_20261020T102329_1.csv",
+    "lines": 36,
+    "prefix_of_final": true,
+    "extends_prev": true
+   },
+   {
+    "f": "trials.backup_20261020T102329_2.csv",
+    "lines": 43,
+    "prefix_of_final": true,
+    "extends_prev": true
+   },
+   {
+    "f": "trials.backup_20261020T102329_3.csv",
+    "lines": 49,
+    "prefix_of_final": true,
+    "extends_prev": true
+   },
+   {
+    "f": "trials.backup_20261020T102329_4.csv",
+    "lines": 55,
+    "prefix_of_final": true,
+    "extends_prev": true
+   },
+   {
+    "f": "trials.backup_20261020T102329_5.csv",
+    "lines": 61,
+    "prefix_of_final": true,
+    "extends_prev": true
+   },
+   {
+    "f": "trials.backup_20261020T102329_6.csv",
+    "lines": 63,
+    "prefix_of_final": true,
+    "extends_prev": true
+   }
+  ]
+ },
+ "C_family": {
+  "len97": 97,
+  "n_rob": 55,
+  "bh97_rejected": [
+   [
+    "P2-C1.R5",
+    0.001
+   ]
+  ],
+  "bh97_thr_rank1": 0.0010309278350515464,
+  "bh97_rejected_realJ1": [
+   "P2-C1.R5"
+  ],
+  "by97_rejected": [],
+  "bh17_rejected": [],
+  "smallest_p": [
+   [
+    0.001,
+    "P2-C1.R5"
+   ],
+   [
+    0.003,
+    "P2-A1.R5"
+   ],
+   [
+    0.015,
+    "P2-A3.R5"
+   ],
+   [
+    0.1314858356809094,
+    "P2-J1.S3"
+   ],
+   [
+    0.1350517299920674,
+    "P2-D1.R3"
+   ],
+   [
+    0.14080059561200325,
+    "P2-A1"
+   ]
+  ],
+  "bh97_rejected_if_R5_p1": []
+ },
+ "D_tdec": {
+  "P2-C1": {
+   "mine": {
+    "Q": 15,
+    "mean": -0.068214,
+    "s": 0.173185,
+    "se_iid": 0.044716,
+    "se_nw": 0.039271,
+    "L": 2,
+    "t": -1.52549,
+    "p": 0.149407,
+    "h1": -0.104712,
+    "h2": -0.036278
+   },
+   "file_t": -1.52549,
+   "file_p": 0.149407,
+   "diff_t": 4.440892098500626e-16,
+   "diff_mean": 5.551115123125783e-17
+  },
+  "P2-A1": {
+   "mine": {
+    "Q": 15,
+    "mean": 0.053809,
+    "s": 0.13349,
+    "se_iid": 0.034467,
+    "se_nw": 0.027002,
+    "L": 2,
+    "t": 1.561163,
+    "p": 0.140801,
+    "h1": -0.000476,
+    "h2": 0.101308
+   },
+   "file_t": 1.561163,
+   "file_p": 0.140801,
+   "diff_t": 8.881784197001252e-16,
+   "diff_mean": 1.3877787807814457e-17
+  },
+  "P2-B0": {
+   "mine": {
+    "Q": 15,
+    "mean": 0.024413,
+    "s": 0.340285,
+    "se_iid": 0.087861,
+    "se_nw": 0.08084,
+    "L": 2,
+    "t": 0.277863,
+    "p": 0.785179,
+    "h1": -0.001916,
+    "h2": 0.047452
+   },
+   "file_t": 0.277863,
+   "file_p": 0.785179,
+   "diff_t": 2.7755575615628914e-16,
+   "diff_mean": 5.898059818321144e-17
+  },
+  "P2-D3": {
+   "mine": {
+    "Q": 15,
+    "mean": -0.019114,
+    "s": 0.070738,
+    "se_iid": 0.018265,
+    "se_nw": 0.015346,
+    "L": 2,
+    "t": -1.046537,
+    "p": 0.313046,
+    "h1": -0.034037,
+    "h2": -0.006057
+   },
+   "file_t": -1.046537,
+   "file_p": 0.313046,
+   "diff_t": 0.0,
+   "diff_mean": 6.245004513516506e-17
+  },
+  "P2-B1": {
+   "t": 0.447723513462373,
+   "file_t": 0.4477235134623729,
+   "mean": 0.06601369137891856
+  }
+ },
+ "E_hotelling": {
+  "Q": 15,
+  "p": 4,
+  "F": 1.9454846121502973,
+  "pval": 0.17290402540729288,
+  "slope_t": [
+   1.2920539863556353,
+   -0.9338568295620027,
+   1.6019352613518887,
+   0.5958421190082732
+  ]
+ },
+ "F_mde": {
+  "mult_sim_ratio": {
+   "P2-B0": 1.06,
+   "P2-A1": 1.0600000000000005,
+   "P2-C1": 1.06
+  },
+  "nct": 1.00981259442361
+ },
+ "G_recompute": {
+  "2022-03-25": {
+   "nU": 156,
+   "nUt": 156,
+   "B0_mine": -0.104914,
+   "B0_file": -0.104914,
+   "N_b0": 156,
+   "N_file": 156.0,
+   "A1_mine": [
+    0.1312481231527872,
+    156
+   ],
+   "A1_file": 0.131248,
+   "C1_mine": [
+    -0.2988162033158951,
+    156
+   ],
+   "C1_file": -0.298816,
+   "maxdiff_Tpca": 7.369105325949477e-15,
+   "corr_tA1": 1.0,
+   "maxdiff_C1": 2.220446049250313e-16
+  },
+  "2023-12-29": {
+   "nU": 239,
+   "nUt": 239,
+   "B0_mine": 0.554987,
+   "B0_file": 0.554987,
+   "N_b0": 239,
+   "N_file": 239.0,
+   "A1_mine": [
+    0.3213617664639077,
+    239
+   ],
+   "A1_file": 0.321362,
+   "C1_mine": [
+    0.13937449456770154,
+    239
+   ],
+   "C1_file": 0.139374,
+   "maxdiff_Tpca": 1.321859288694327e-14,
+   "corr_tA1": 1.0,
+   "maxdiff_C1": 3.3306690738754696e-16
+  },
+  "2025-09-26": {
+   "nU": 323,
+   "nUt": 323,
+   "B0_mine": -0.174669,
+   "B0_file": -0.174669,
+   "N_b0": 323,
+   "N_file": 323.0,
+   "A1_mine": [
+    0.03650964581103227,
+    323
+   ],
+   "A1_file": 0.03651,
+   "C1_mine": [
+    0.13014526939685103,
+    323
+   ],
+   "C1_file": 0.130145,
+   "maxdiff_Tpca": 4.1598668953923834e-15,
+   "corr_tA1": 1.0,
+   "maxdiff_C1": 3.3306690738754696e-16
+  }
+ },
+ "H_future_scramble_extra": {
+  "2022-06-24": {
+   "U": true,
+   "S": true,
+   "sig": false,
+   "Lam": true,
+   "Q": true
+  },
+  "2025-06-27": {
+   "U": true,
+   "S": true,
+   "sig": false,
+   "Lam": true,
+   "Q": true
+  }
+ },
+ "I_regress": {
+  "note": "รัน run.py ของ S003/S005/S006/S009(+run_addendum) ใหม่ลง scratch/factor-analyst_s010_regress_* แล้วเทียบ sha256 กับ run1 ใน runs/S###/repro_check.json และไฟล์จริงใน runs/S###/ (S006 รันในต้นไม้ scratch ที่ lib ไม่มี l4.py เพราะ S006 assert lib = S005 + l3.py)",
+  "S003": {
+   "n_files": 22,
+   "all_identical": true,
+   "extra_new_csv": 0,
+   "files": 22,
+   "lib_sha256_equal_run_meta": false,
+   "data_sha256_equal_run_meta": true
+  },
+  "S005": {
+   "n_files": 69,
+   "all_identical": true,
+   "extra_new_csv": 0,
+   "files": 69,
+   "lib_sha256_equal_run_meta": false,
+   "data_sha256_equal_run_meta": true
+  },
+  "S006": {
+   "n_files": 32,
+   "all_identical": true,
+   "extra_new_csv": 0,
+   "files": 32,
+   "lib_sha256_equal_run_meta": true
+  },
+  "S009": {
+   "n_files": 47,
+   "all_identical": true,
+   "extra_new_csv": 0,
+   "files": 47,
+   "lib_sha256_equal_run_meta": true,
+   "data_sha256_equal_run_meta": true
+  },
+  "all_pass": true
+ }
+}

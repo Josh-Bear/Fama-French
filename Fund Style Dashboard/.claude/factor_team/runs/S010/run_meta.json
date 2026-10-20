@@ -1,0 +1,62 @@
+{
+ "created": "2026-10-20T10:23:30",
+ "runtime_sec": 5.0,
+ "seed": 20261015,
+ "python": "3.12.4",
+ "versions": {
+  "numpy": "2.5.2",
+  "pandas": "3.0.5"
+ },
+ "data_sha256": {
+  ".claude/factor_team/data/panel_weekly.parquet": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b",
+  ".claude/factor_team/data/panel_monthly.parquet": "e8e8cb5d5f04fba9bb35558ef7c3d8195c656334119e56f82775cc1ae21ccaed",
+  ".claude/factor_team/data/factors_weekly.parquet": "115b87139d2bec0fd57a77a1593c46d36bb23f3f35f83236cdb07be642af47a8",
+  ".claude/factor_team/data/factors_monthly.parquet": "f7c4248b4fa889853024449e72ae8909cf1f8d3226a54eebc37448a2a485bb72",
+  ".claude/factor_team/data/aum_weekly.parquet": "48c34c73ae22ebffc6112f93e03f729223a496297bb65c324b693b817a723d26",
+  ".claude/factor_team/data/universe.csv": "fdfb7830df78ce032465ac9d8cddc2c98f9aa86cfa0f3925fdb83026aa3f7252",
+  ".claude/factor_team/data/dup_pairs.csv": "b1f0f0c745947fa70803a4f40526c0a1967c72925be985a2bedc1057d8b8aef3",
+  ".claude/factor_team/data/factor_groups.csv": "42bf1cfb270721ae6112799ab795ebc4c91212e7584d5cdfee23b9b70b1b1731"
+ },
+ "pinned_sha256": {
+  "specs/S010_P2_predictive_walkforward.md": "833ab5163cc432fa69a66585c9e304ffc2c2a7edf24e9f072c562d4d6467d8b3",
+  "specs/S011_P2_addendum_to_S010.md": "8c1365d0a229d5b708d0432c1f64e9ae5f06537fb0093d4c33a721530ebf60af",
+  "reviews/S010_spec_review.md": "8cf0cdd8e5a62875a190e81bea3ff4f9e9ade895cd72aaa935e1cba8293e43b4",
+  "reviews/S011_spec_review.md": "b7269ee9d70bf19f3a8ca903533d9d96bd82d0c7adde53dd0a3d07dab2ead110",
+  "base_data/SecFundFee.csv": "94f0b7716a7979303ef6ba063746061d7e454c8e966731b567aa29316f0134cd",
+  "base_data/FundProfile.csv": "9516281426fc854c8f3a0833f119cad0ce581adb39450732e579084cb4cedfaf"
+ },
+ "lib_sha256": {
+  "external.py": "40fe064353d732cd8a3ed5671a55177c8d359f55bfac27f553334efbc2db1af2",
+  "forms.py": "7a1eae1fa0c374fcef35917e2482ff8d3e79e6ade4cf67ab7228f7424f048493",
+  "fundff.py": "6cfe0d717440235a67f12e631bfc52e288703256cc0eac32754bb46c4d3c1a77",
+  "hybrid.py": "a3ce7e40af87d39a6d8a5c5daafe74ab78877a0a2f4fd9b41106c4750e3d3768",
+  "io_l1.py": "613b12f757ab9ee23a768aef14dd3974f76e8a7e75780aac5894eabab7ce1210",
+  "l2.py": "930009d490aec9de26a94d4e75c2c5414c62e2c490b9d0a9be1f933d5e63694f",
+  "l3.py": "e7a5e997ccb28f7e6e21b23f85397eb277bd42988d4ea4f12da70fadcb73600f",
+  "l4.py": "7cb3ca35ae06408c12a98d6cd0eea948c754c6840c06e7cd32a3a865aeeb4898",
+  "nfactors.py": "4e1f6fe9ebaa7552792054e28cd862e1a21351e75e7e3adf05f420bc735849b9",
+  "p2.py": "a9c8edcfba98d1efdaf3c5c47810b2ff6c1529ff2b5ece915b8cda7511600469",
+  "pca.py": "7fe5c5e26262446ddad89dd179b0ea8fb38ad1d93e3d6df4b8ff12f4839cfd26",
+  "regress.py": "6ea4c314feb6345e4e4becc9dec19b667f063fb8b5c3143fcb4f80d6cc3ca8c9",
+  "samples.py": "8a145a009729c8d118a9e54632a3789bc99f7db006bd4d164a5e3b76fdf04a0a",
+  "scorecard.py": "48f0e25b2e7457dd6ac5e03ca556123bdc7832266ef2e5816a4bc0930f4ff580",
+  "tests_stat.py": "4041444029b68cd35258c223de929c38c5cb4885188cc54de1e2c14f3513172d"
+ },
+ "mode": "B-full m=97",
+ "sim": false,
+ "no_trials": false,
+ "output_sha256": {
+  "b1_payoff.csv": "6a042a02ff80a3ac94e94b6df2c918476553d47ad61d2c7d0d2ec67fa0543083",
+  "dsr_appendix.csv": "6333408476dcf586a9e2cb2056b6dec27f97af52527421bb838bc79d4b9e3bce",
+  "expectations_vs_results.csv": "ff35f10e42998d1569991b753125f9242e98e442d440461094cd88761015c961",
+  "ic_series.csv": "e10e89737bc777a04849392b13eba7cb037786f6c09dcccf7abe795b089cad59",
+  "j1_slopes.csv": "1706a15af64cdd3b50dfe41b59e1fa66fc96ef0aab69074c424c4a0c931c0afd",
+  "mde.csv": "46c3fdf9f7fd74ea4132aa9076acca8a69695ae2bc6de30675ae5a919fe77781",
+  "pca_diag.csv": "bcdcec9f3869e9dd7dea8b1fd7ab2293997f32867d09dfa3a7add67bb9285172",
+  "robustness.csv": "d2a53056a99fc5e6bd7ca6f88bef9e05e1a5fd2630a2e4b03fdbc9051276ced2",
+  "scorecard_wf.csv": "0f02da81578129c34568d7972b2191a7b905e5086a015ce2142a10453173a62f",
+  "trial_summary.csv": "4ea6f53492d5c0bd72336979934372c701f4ff32ed54b3743c969bfeacd8de1e",
+  "universe_by_quarter.csv": "0325a7cc394ea0a01a4c4b49410d5a28cfa207e4f7f4a68c3a9824d0b274ef5a",
+  "verdict.csv": "d91839afd297f5a905d32b07f00dabf3f54f4ce1a059a91f9ef95aeea2bb8b7c"
+ }
+}

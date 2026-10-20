@@ -1,0 +1,41 @@
+{
+ "BH_reject_m17_J1eq1": [],
+ "BH_reject_m17_J1real": [],
+ "BH_reject_m97_J1eq1": [
+  "P2-C1.R5"
+ ],
+ "BH_reject_m97_J1real": [
+  "P2-C1.R5"
+ ],
+ "BY_reject_m17": [],
+ "BY_reject_m97_J1eq1": [],
+ "BY_reject_m97_J1real": [],
+ "C1R5_BH_threshold": 0.0010309278350515464,
+ "C1R5_p": 0.001,
+ "C1R5_rank": 1,
+ "all_R5_p1_BH_reject": [],
+ "all_R5_p1_BY_reject": [],
+ "n_conditional": 30,
+ "n_main": 12,
+ "n_ran": 67,
+ "n_robustness": 55,
+ "n_slots": 97,
+ "smallest_p": [
+  [
+   "P2-C1.R5",
+   0.001
+  ],
+  [
+   "P2-A1.R5",
+   0.003
+  ],
+  [
+   "P2-A3.R5",
+   0.015
+  ],
+  [
+   "P2-J1.S3",
+   0.1314858356809094
+  ]
+ ]
+}

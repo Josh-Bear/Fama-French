@@ -1,0 +1,6 @@
+[2026-10-20T10:07:08 +   0.0s] START run S006
+Traceback (most recent call last):
+  File "/Users/doyinratnavardhana/Fama French/Fund Style Dashboard/.claude/factor_team/runs/S006/run.py", line 102, in <module>
+    assert set(lib_hashes) - set(s5lib) == {"l3.py"}, set(lib_hashes) - set(s5lib)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'l4.py', 'l3.py'}
