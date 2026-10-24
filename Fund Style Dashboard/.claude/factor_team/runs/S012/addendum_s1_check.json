@@ -1,0 +1,9 @@
+{
+ "max_abs_diff_vs_paired_lens_E": 1.5265566588595902e-16,
+ "identical_to_run_py_table": true,
+ "n_bootstrap": 2000,
+ "run_py_sha256": "c15ba054c919f4a8e9f18bae3315697cebf787a7f39c3d6fa27796f909c1c88d",
+ "addendum_script_sha256": "73e9b317690a7cc39fc6efbd8ba7dae6038800aa6bb92a3ed407041c08f9707d",
+ "lib_l1eo_sha256": "4c828e3bbfb7cade9868f6a884d0169fa2094c6defc4fc2636d74697ab523170",
+ "fund_level_E_sha256": "10574ff19235aaa4d33162fa12c4436157679457611e8d9f1e7ceea320da1251"
+}

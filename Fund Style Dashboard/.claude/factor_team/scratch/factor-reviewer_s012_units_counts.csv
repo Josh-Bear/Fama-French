@@ -1,0 +1,229 @@
+,n_tr,n_te,n_h1,n_h2,n_tr_raw,n_main,n_ptr,n_pte,policy,SEL,EVAL,EVAL52,STAB,bal,unb
+I-GOLD*,155,104,129,130,156,260,76,79,O,True,True,True,True,True,True
+ES-GINFRA*,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ES-GCG*,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ES-GINNO*,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ABAGS,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ABAPAC,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ABCA-A,29,104,3,130,29,133,0,29,E,False,False,False,False,False,False
+ABEG,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ABGEM,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ABIG,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ABJO,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ABWOOF,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+AFMOAT-HA,101,89,78,112,101,190,25,76,E,False,False,True,False,False,True
+ASP-X,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ASP-DIGIBLOC,100,104,74,130,100,204,21,79,E,False,False,True,False,False,True
+ASP-DISRUPT,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ASP-EUG,152,104,126,130,152,256,73,79,E,True,True,True,True,False,True
+ASP-EVOCHINA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ASP-IHEALTH,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ASP-INDIA-A,0,57,0,57,0,57,0,0,E,False,False,False,False,False,False
+ASP-JHC,152,24,126,50,152,176,73,79,E,True,False,False,False,False,True
+ASP-NGF,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ASP-S&P500-A,0,57,0,57,0,57,0,0,E,False,False,False,False,False,False
+ASP-TOPBRAND,155,24,129,50,156,180,76,79,E,True,False,False,False,True,True
+ASP-USSMALL-A,0,57,0,57,0,57,0,0,E,False,False,False,False,False,False
+ASP-VIET,155,24,129,50,156,180,76,79,E,True,False,False,False,True,True
+B-ASIA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+B-BHARATA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+B-CHINE-EQ,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+B-FINTECH,132,104,106,130,132,236,53,79,E,True,True,True,True,False,True
+B-FUTURE,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+B-GLOB-INFRA,93,104,67,130,93,197,14,79,E,False,False,True,False,False,True
+B-GLOBAL,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+B-GTO,149,104,123,130,149,253,70,79,E,True,True,True,True,False,True
+B-INNOTECH,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+B-NIPPON,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+B-PREMIUM,44,104,18,130,44,148,0,44,E,False,False,False,False,False,False
+B-SIP,146,104,120,130,146,250,67,79,E,True,True,True,True,False,True
+B-USALPHA,122,104,96,130,122,226,43,79,E,True,True,True,False,False,True
+B-VIETNAM,113,104,87,130,113,217,34,79,E,True,True,True,False,False,True
+BCARE,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+DAOL-CHIG,67,104,41,130,67,171,0,67,E,False,False,True,False,False,True
+DAOL-CYBER,67,104,41,130,67,171,0,67,E,False,False,True,False,False,True
+DAOL-EVOSEMI,67,104,41,130,67,171,0,67,E,False,False,True,False,False,True
+DAOL-GEQUITY,67,104,41,130,67,171,0,67,E,False,False,True,False,False,True
+DAOL-GOLD,67,104,41,130,67,171,0,67,E,False,False,True,False,False,True
+EHD,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ES-GDIV,48,104,22,130,48,152,0,48,E,False,False,False,False,False,False
+ES-INDONESIA,72,104,46,130,72,176,0,72,E,False,False,True,False,False,True
+ES-LOVE,44,104,18,130,44,148,0,44,E,False,False,False,False,False,False
+ES-USTECH,68,104,42,130,68,172,0,68,E,False,False,True,False,False,True
+FCSCBSETE,144,104,118,130,144,248,65,79,E,True,True,True,True,False,True
+GC,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+JSM,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+K-AEC,155,104,129,130,155,259,76,79,E,True,True,True,True,False,True
+K-ASIA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+K-ASIAX,128,104,102,130,128,232,49,79,E,True,True,True,False,False,True
+K-ATECH,143,104,117,130,143,247,64,79,E,True,True,True,True,False,True
+K-CHANGE-A(A),146,104,120,130,146,250,69,77,E,True,True,True,True,False,True
+K-CHINA-A(A),138,104,112,130,138,242,61,77,E,True,True,True,True,False,True
+K-CHX,155,104,129,130,155,259,76,79,E,True,True,True,True,False,True
+K-EUROPE-A(D),82,104,56,130,82,186,5,77,E,False,False,True,False,False,True
+K-EUSMALL,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+K-EUX,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+K-GHEALTH,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+K-GHEALTH(UH),146,104,120,130,146,250,69,77,E,True,True,True,True,False,True
+K-GINFRA-A(D),58,104,32,130,58,162,0,58,E,False,False,True,False,False,True
+K-GLOBE,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+K-GPROP-A(A),142,104,116,130,142,246,65,77,E,True,True,True,True,False,True
+K-INDIA-A(A),0,101,0,101,0,101,0,0,E,False,False,False,False,False,False
+K-INDX,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+K-JP-A(D),49,104,23,130,49,153,0,49,E,False,False,False,False,False,False
+K-JPX-A(A),58,104,32,130,58,162,0,58,E,False,False,True,False,False,True
+K-PLANET-A(A),35,104,9,130,35,139,0,35,E,False,False,False,False,False,False
+K-SEMQ,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+K-US500X-A(A),59,104,33,130,59,163,0,59,E,False,False,True,False,False,True
+K-USA-A(A),146,104,120,130,146,250,69,77,E,True,True,True,True,False,True
+K-USXNDQ-A(A),146,104,120,130,146,250,69,77,E,True,True,True,True,False,True
+K-VIETNAM,155,104,129,130,155,259,76,79,E,True,True,True,True,False,True
+K-WORLDX,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KKP CHINA-H,43,104,17,130,43,147,0,43,E,False,False,False,False,False,False
+KKP G-THEME-H,150,104,124,130,150,254,71,79,E,True,True,True,True,False,True
+KKP GHC,155,78,129,104,156,234,76,79,E,True,True,True,True,True,True
+KKP GIMPACT-H,125,104,99,130,125,229,46,79,E,True,True,True,False,False,True
+KKP GINFRAEQ-H,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KKP GNP,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KKP NDQ100-H,99,104,73,130,99,203,20,79,E,False,False,True,False,False,True
+KKP PGE-H,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KKP SEMICON-H,129,104,103,130,129,233,50,79,E,True,True,True,False,False,True
+KKP TECH-H,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KT-AASIA-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KT-ASEAN-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KT-ASIAG-A,148,104,122,130,148,252,69,79,E,True,True,True,True,False,True
+KT-Ashares-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KT-CHINA-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KT-CLIMATE-A,144,104,118,130,144,248,65,79,E,True,True,True,True,False,True
+KT-EMEQ-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KT-EUROSM,17,104,0,121,17,121,0,17,E,False,False,False,False,False,False
+KT-EUROTECH-A,120,104,94,130,120,224,41,79,E,True,True,True,False,False,True
+KT-FINANCE-A,63,104,37,130,63,167,0,63,E,False,False,True,False,False,True
+KT-GEQ-A,132,104,106,130,132,236,53,79,E,True,True,True,True,False,True
+KT-GESG-A,100,104,74,130,100,204,21,79,E,False,False,True,False,False,True
+KT-HEALTHCARE-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KT-INDIA-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KT-JAPANSM-A,17,104,0,121,17,121,0,17,E,False,False,False,False,False,False
+KT-LUXURY-A,85,104,59,130,85,189,6,79,E,False,False,True,False,False,True
+KT-MFE-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KT-MINING,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KT-PROPERTY-A,53,104,27,130,53,157,0,53,E,False,False,True,False,False,True
+KT-US-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+KT-VIETNAM-A,76,104,50,130,76,180,0,76,E,False,False,True,False,False,True
+KT-WEQ-A,63,104,37,130,63,167,0,63,E,False,False,True,False,False,True
+KT-WTAI-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+LHCHINA-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+LHCYBER-A,125,104,99,130,125,229,46,79,E,True,True,True,False,False,True
+LHDIGITAL-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+LHESPORT-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+LHEUROPE-A,113,104,87,130,113,217,34,79,E,True,True,True,False,False,True
+LHGEQ-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+LHGEQP-A,79,104,53,130,79,183,0,79,E,False,False,True,False,False,True
+LHGLIFEE-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+LHHEALTH-A,117,104,91,130,117,221,38,79,E,True,True,True,False,False,True
+LHINNO-A,153,104,127,130,153,257,74,79,E,True,True,True,True,False,True
+LHROBOTE-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+LHSEMICON-A,130,104,104,130,130,234,51,79,E,True,True,True,True,False,True
+LHVN-A,109,104,83,130,109,213,30,79,E,True,True,True,False,False,True
+M-ASIA,56,104,30,130,56,160,0,56,E,False,False,True,False,False,True
+M-EDGE,109,104,83,130,109,213,30,79,E,True,True,True,False,False,True
+M-EM,153,104,127,130,153,257,74,79,E,True,True,True,True,False,True
+M-META,105,104,79,130,105,209,26,79,E,True,True,True,False,False,True
+MATECH-A,154,104,128,130,154,258,75,79,E,True,True,True,True,False,True
+MCHEVO,124,104,98,130,124,228,45,79,E,True,True,True,False,False,True
+MCHINAGA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+MCHINAGD,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+MEGA10-A,50,89,27,112,50,139,0,50,E,False,False,False,False,False,False
+MEURO-G,14,104,0,118,14,118,0,14,E,False,False,False,False,False,False
+MFTECH,148,104,122,130,148,252,69,79,E,True,True,True,True,False,True
+MGAG,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+MGAI,76,104,50,130,76,180,0,76,E,False,False,True,False,False,True
+MGAPVD,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+MGFGA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+MGFGD,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+MGFPVD,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+MGTECH,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+MHEALTHG,69,104,43,130,69,173,0,69,E,False,False,True,False,False,True
+MRENEW-A,154,104,128,130,154,258,75,79,E,True,True,True,True,False,True
+MVIET,91,104,65,130,91,195,12,79,E,False,False,True,False,False,True
+ONE-ALLCHINA-RA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ONE-APACESG,125,104,99,130,125,229,46,79,E,True,True,True,False,False,True
+ONE-DISC-RA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ONE-EUROEQ,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ONE-GECOM,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ONE-GLOBFIN-IA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ONE-METAVERSE,96,104,70,130,96,200,17,79,E,False,False,True,False,False,True
+ONE-UGG-RA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+ONE-UJE-RA,137,104,111,130,137,241,58,79,E,True,True,True,True,False,True
+ONE-VIETNAM-RA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+P-CGREEN,139,104,113,130,139,243,60,79,E,True,True,True,True,False,True
+PRINCIPAL APDI-A,91,104,65,130,91,195,12,79,E,False,False,True,False,False,True
+PRINCIPAL CHEQ-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+PRINCIPAL CHTECH-A,136,104,110,130,136,240,57,79,E,True,True,True,True,False,True
+PRINCIPAL EUEQ-A,90,104,64,130,90,194,11,79,E,False,False,True,False,False,True
+PRINCIPAL GCLEAN-A,144,104,118,130,144,248,65,79,E,True,True,True,True,False,True
+PRINCIPAL GCLOUD-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+PRINCIPAL GEF-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+PRINCIPAL GHEALTH-A,152,104,126,130,152,256,73,79,E,True,True,True,True,False,True
+PRINCIPAL GIF,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+PRINCIPAL GINNO-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+PRINCIPAL GOPP-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+PRINCIPAL JEQ-A,91,104,65,130,91,195,12,79,E,False,False,True,False,False,True
+PRINCIPAL VNEQ-A,155,104,129,130,155,259,76,79,E,True,True,True,True,False,True
+PWIN,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+TBIOTECH,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+TBRAND,98,104,72,130,98,202,19,79,E,False,False,True,False,False,True
+TCHCON,150,104,124,130,150,254,71,79,E,True,True,True,True,False,True
+TCHSTARP,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+TCHT5M4,128,104,102,130,128,232,49,79,E,True,True,True,False,False,True
+TCHTECH-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+TCLOUD,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+TCYBER,102,104,76,130,102,206,23,79,E,False,False,True,False,False,True
+TGENOME,154,104,128,130,154,258,75,79,E,True,True,True,True,False,True
+TGHDIGI,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+TGHIDIV,61,104,35,130,61,165,0,61,E,False,False,True,False,False,True
+TGHSTARP,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+TISCOAP,155,104,129,130,155,259,76,79,E,True,True,True,True,False,True
+TISCOCH,155,104,129,130,155,259,76,79,E,True,True,True,True,False,True
+TISCOCHA-A,155,104,129,130,155,259,76,79,E,True,True,True,True,False,True
+TISCOEU-A,111,104,85,130,111,215,32,79,E,True,True,True,False,False,True
+TISCOJP,155,104,129,130,155,259,76,79,E,True,True,True,True,False,True
+TISCOUS-A,111,104,85,130,111,215,32,79,E,True,True,True,False,False,True
+TISTECH-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+TLUSNDQ-H-A,105,89,82,112,105,194,29,76,E,True,True,True,False,False,True
+TNEWENGY,145,104,119,130,145,249,66,79,E,True,True,True,True,False,True
+TNEXTGEN-A,111,104,85,130,111,215,32,79,E,True,True,True,False,False,True
+TSTAR-UH,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+TSTARP,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+TUSEQ-UH,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+TUSFIN-A,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+TUSTECH-A,66,104,40,130,66,170,0,66,E,False,False,True,False,False,True
+TVIETNAM,83,104,57,130,83,187,4,79,E,False,False,True,False,False,True
+UCHI,149,104,123,130,149,253,70,79,E,True,True,True,True,False,True
+UCHINA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+UCI,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+UES,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+UEV,147,104,121,130,147,251,68,79,E,True,True,True,True,False,True
+UGD,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+UGFT,39,104,13,130,39,143,0,39,E,False,False,False,False,False,False
+UGH,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+UGQG,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+UINFRA-N,76,104,50,130,76,180,0,76,E,False,False,True,False,False,True
+UNI,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+UOBSA,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+UOBSGC,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+UOBSHC,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+UOBSJSM,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+USUS,155,104,129,130,156,260,76,79,E,True,True,True,True,True,True
+BGOLD,155,104,129,130,155,259,76,79,O,True,True,True,True,False,True
+DAOL-USREIT,67,104,41,130,67,171,0,67,O,False,False,True,False,False,True
+IREITG,155,104,129,130,156,260,76,79,O,True,True,True,True,True,True
+K-GOLD-A(A),144,104,118,130,144,248,68,76,O,True,True,True,True,False,True
+KT-GOLD,155,104,129,130,155,259,76,79,O,True,True,True,True,False,True
+LHPROPG-A,155,104,129,130,156,260,76,79,O,True,True,True,True,True,True
+ONEPROP-SG,155,104,129,130,156,260,76,79,O,True,True,True,True,True,True
+PRINCIPAL GREITs,155,104,129,130,156,260,76,79,O,True,True,True,True,True,True
+PRINCIPAL iGOLD-A,155,104,129,130,155,259,76,79,O,True,True,True,True,False,True
+TGOLD,155,104,129,130,155,259,76,79,O,True,True,True,True,False,True
+TUSREIT,155,104,129,130,156,260,76,79,O,True,True,True,True,True,True
+UOBSG-N,155,104,129,130,156,260,76,79,O,True,True,True,True,True,True

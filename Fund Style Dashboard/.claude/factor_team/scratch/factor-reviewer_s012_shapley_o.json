@@ -1,0 +1,62 @@
+{
+ "ทอง": {
+  "GOLD_XS": {
+   "lag0_med": 0.693571993811935,
+   "dimson_med": 0.735081635811302
+  },
+  "FX": {
+   "lag0_med": 0.30642800618806504,
+   "dimson_med": 0.2649183641886979
+  }
+ },
+ "REIT": {
+  "MKT": {
+   "lag0_med": 0.47279371141545146,
+   "dimson_med": 0.46880871617642467
+  },
+  "REIT_e": {
+   "lag0_med": 0.37962806890087425,
+   "dimson_med": 0.38307354625555
+  },
+  "FX": {
+   "lag0_med": 0.06987309670657403,
+   "dimson_med": 0.06929084997970615
+  },
+  "TERM": {
+   "lag0_med": 0.0613707075759487,
+   "dimson_med": 0.06300959586253602
+  }
+ },
+ "file_O": [
+  {
+   "row": "O-X(ทอง)",
+   "factor": "GOLD_XS",
+   "shap_share_med": 0.693571993811935
+  },
+  {
+   "row": "O-X(ทอง)",
+   "factor": "FX",
+   "shap_share_med": 0.3064280061880649
+  },
+  {
+   "row": "O-X(REIT)",
+   "factor": "MKT",
+   "shap_share_med": 0.4727937114154515
+  },
+  {
+   "row": "O-X(REIT)",
+   "factor": "REIT_e",
+   "shap_share_med": 0.379628068900874
+  },
+  {
+   "row": "O-X(REIT)",
+   "factor": "FX",
+   "shap_share_med": 0.069873096706574
+  },
+  {
+   "row": "O-X(REIT)",
+   "factor": "TERM",
+   "shap_share_med": 0.0613707075759488
+  }
+ ]
+}

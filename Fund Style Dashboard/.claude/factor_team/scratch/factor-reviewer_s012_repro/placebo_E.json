@@ -1,0 +1,58 @@
+{
+ "any_selected": false,
+ "logs": [
+  {
+   "action": "stop_tau",
+   "best": "WML",
+   "best_score": 7.469009421507735,
+   "g1_cap_ok": true,
+   "g2_score_ok": false,
+   "g3_median": -0.017892721990505123,
+   "g3_n": 108,
+   "g3_pseudo_ok": false,
+   "n_core_before": 1,
+   "n_selected": 0,
+   "round": 1,
+   "second": "TERM",
+   "second_score": 7.888082761664691,
+   "tag": "placebo26",
+   "tau": -2.0
+  },
+  {
+   "action": "stop_tau",
+   "best": "JKP_EM_value",
+   "best_score": 7.653924524118338,
+   "g1_cap_ok": true,
+   "g2_score_ok": false,
+   "g3_median": -0.00852285224991639,
+   "g3_n": 108,
+   "g3_pseudo_ok": false,
+   "n_core_before": 1,
+   "n_selected": 0,
+   "round": 1,
+   "second": "FX",
+   "second_score": 8.238968521549396,
+   "tag": "placebo52",
+   "tau": -2.0
+  }
+ ],
+ "n_candidates_evaluated": 22,
+ "note": "ตามกฎ S012 ข้อ 4.3 + m8 (e_CHINA เลื่อนหลัง residualize · G3 ไม่ residualize ซ้ำ)",
+ "rule": "placebo เลือก 0 ทั้งสอง shift → τ = −2",
+ "shifts": {
+  "26": {
+   "best_score_round1": 7.469009421507735,
+   "n_selected": 0,
+   "rounds": 1,
+   "selected": []
+  },
+  "52": {
+   "best_score_round1": 7.653924524118338,
+   "n_selected": 0,
+   "rounds": 1,
+   "selected": []
+  }
+ },
+ "tau": -2.0,
+ "tau0": -2.0
+}

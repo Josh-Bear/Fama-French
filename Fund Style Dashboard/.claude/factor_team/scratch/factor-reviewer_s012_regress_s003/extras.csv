@@ -1,0 +1,156 @@
+item,key,value
+lead_diag_3a,MKT,0.07729468599033816
+lead_diag_3a,BOND,0.057971014492753624
+lead_diag_3a,GOLD,0.06763285024154589
+lead_diag_3a,FX,0.043478260869565216
+lead_diag_3a,any_factor,0.2222222222222222
+dimson_b1_share_abs_t_gt2,1a:PC1,0.13526570048309178
+dimson_b1_share_abs_t_gt2,1a:PC2,0.09178743961352658
+dimson_b1_share_abs_t_gt2,1a:PC3,0.0966183574879227
+dimson_b1_share_abs_t_gt2,1a:PC4,0.12077294685990338
+dimson_b1_share_abs_t_gt2,1b:PC1,0.18357487922705315
+dimson_b1_share_abs_t_gt2,1b:PC2,0.1111111111111111
+dimson_b1_share_abs_t_gt2,1b:PC3,0.0966183574879227
+dimson_b1_share_abs_t_gt2,1b:PC4,0.0966183574879227
+dimson_b1_share_abs_t_gt2,1c:PC1,0.13043478260869565
+dimson_b1_share_abs_t_gt2,1c:PC2,0.1642512077294686
+dimson_b1_share_abs_t_gt2,1c:PC3,0.12560386473429952
+dimson_b1_share_abs_t_gt2,1c:PC4,0.11594202898550725
+dimson_b1_share_abs_t_gt2,2a:APB_E,0.09178743961352658
+dimson_b1_share_abs_t_gt2,2a:APB_F,0.03864734299516908
+dimson_b1_share_abs_t_gt2,2a:APB_O,0.04830917874396135
+dimson_b1_share_abs_t_gt2,2b:APB_E,0.03864734299516908
+dimson_b1_share_abs_t_gt2,2b:APB_F,0.04830917874396135
+dimson_b1_share_abs_t_gt2,2b:APB_O,0.0821256038647343
+dimson_b1_share_abs_t_gt2,2b:FXH,0.07246376811594203
+dimson_b1_share_abs_t_gt2,2c:APB_E,0.12560386473429952
+dimson_b1_share_abs_t_gt2,2c:APB_F,0.10628019323671498
+dimson_b1_share_abs_t_gt2,2c:APB_O,0.03864734299516908
+dimson_b1_share_abs_t_gt2,2c:FXH,0.12560386473429952
+dimson_b1_share_abs_t_gt2,2c:MOM,0.0821256038647343
+dimson_b1_share_abs_t_gt2,2c:SIZE,0.38164251207729466
+dimson_b1_share_abs_t_gt2,2c:ACT,0.07246376811594203
+dimson_b1_share_abs_t_gt2,3a:MKT,0.11594202898550725
+dimson_b1_share_abs_t_gt2,3a:BOND,0.033816425120772944
+dimson_b1_share_abs_t_gt2,3a:GOLD,0.3864734299516908
+dimson_b1_share_abs_t_gt2,3a:FX,0.10144927536231885
+dimson_b1_share_abs_t_gt2,3b:MKT,0.03864734299516908
+dimson_b1_share_abs_t_gt2,3b:BOND,0.03864734299516908
+dimson_b1_share_abs_t_gt2,3b:GOLD,0.33816425120772947
+dimson_b1_share_abs_t_gt2,3b:FX,0.043478260869565216
+dimson_b1_share_abs_t_gt2,3b:EMDM,0.16908212560386474
+dimson_b1_share_abs_t_gt2,3b:USX,0.1497584541062802
+dimson_b1_share_abs_t_gt2,3b:TH,0.10628019323671498
+dimson_b1_share_abs_t_gt2,3b:TERM,0.028985507246376812
+dimson_b1_share_abs_t_gt2,3b:IG,0.024154589371980676
+dimson_b1_share_abs_t_gt2,3b:HY,0.07246376811594203
+dimson_b1_share_abs_t_gt2,3b:EMD,0.2995169082125604
+dimson_b1_share_abs_t_gt2,3c:MKT,0.2318840579710145
+dimson_b1_share_abs_t_gt2,3c:BOND,0.11594202898550725
+dimson_b1_share_abs_t_gt2,3c:GOLD,0.32367149758454106
+dimson_b1_share_abs_t_gt2,3c:FX,0.12077294685990338
+dimson_b1_share_abs_t_gt2,3c:EMDM,0.28502415458937197
+dimson_b1_share_abs_t_gt2,3c:USX,0.1932367149758454
+dimson_b1_share_abs_t_gt2,3c:TH,0.10628019323671498
+dimson_b1_share_abs_t_gt2,3c:TERM,0.06280193236714976
+dimson_b1_share_abs_t_gt2,3c:IG,0.0821256038647343
+dimson_b1_share_abs_t_gt2,3c:HY,0.18357487922705315
+dimson_b1_share_abs_t_gt2,3c:EMD,0.22705314009661837
+dimson_b1_share_abs_t_gt2,3c:Momentum,0.12077294685990338
+dimson_b1_share_abs_t_gt2,3c:Quality,0.14009661835748793
+dimson_b1_share_abs_t_gt2,3c:Value,0.15458937198067632
+dimson_b1_share_abs_t_gt2,3c:LowVol,0.14009661835748793
+dimson_b1_share_abs_t_gt2,3c:VIX_d,0.178743961352657
+dimson_b1_share_abs_t_gt2,3c:US10Y_d,0.08695652173913043
+dimson_b1_share_abs_t_gt2,3c:Oil_Brent,0.2028985507246377
+dimson_b1_share_abs_t_gt2,3c:TH5Y_d,0.14492753623188406
+dimson_b1_share_abs_t_gt2,4a:MKT,0.30917874396135264
+dimson_b1_share_abs_t_gt2,4a:BOND,0.1932367149758454
+dimson_b1_share_abs_t_gt2,4a:GOLD,0.5700483091787439
+dimson_b1_share_abs_t_gt2,4a:FX,0.3671497584541063
+dimson_b1_share_abs_t_gt2,4a:RPC1,0.07246376811594203
+dimson_b1_share_abs_t_gt2,4a:RPC2,0.10144927536231885
+dimson_b1_share_abs_t_gt2,4a:RPC3,0.10628019323671498
+dimson_b1_share_abs_t_gt2,4a:RPC4,0.10628019323671498
+dimson_b1_share_abs_t_gt2,4a:RPC5,0.06763285024154589
+mean_abs_resid_corr_within_policy,1a:E,0.1499561095714923
+mean_abs_resid_corr_within_policy,1a:F,0.19757509140790677
+mean_abs_resid_corr_within_policy,1a:O,0.2963815538289432
+mean_abs_resid_corr_within_policy,1b:E,0.13891043489864086
+mean_abs_resid_corr_within_policy,1b:F,0.3970574562247711
+mean_abs_resid_corr_within_policy,1b:O,0.38869163130944195
+mean_abs_resid_corr_within_policy,1c:E,0.15007384760429346
+mean_abs_resid_corr_within_policy,1c:F,0.250849899775577
+mean_abs_resid_corr_within_policy,1c:O,0.30698702517229703
+mean_abs_resid_corr_within_policy,2a:E,0.2276761338964475
+mean_abs_resid_corr_within_policy,2a:F,0.1869819402418822
+mean_abs_resid_corr_within_policy,2a:O,0.49545257187155556
+mean_abs_resid_corr_within_policy,2b:E,0.2345213528813538
+mean_abs_resid_corr_within_policy,2b:F,0.1824076270161835
+mean_abs_resid_corr_within_policy,2b:O,0.5077162032393621
+mean_abs_resid_corr_within_policy,2c:E,0.24378165847357927
+mean_abs_resid_corr_within_policy,2c:F,0.1980048860798376
+mean_abs_resid_corr_within_policy,2c:O,0.5044777291434402
+mean_abs_resid_corr_within_policy,3a:E,0.25930389610118515
+mean_abs_resid_corr_within_policy,3a:F,0.254412483340563
+mean_abs_resid_corr_within_policy,3a:O,0.34231066196627263
+mean_abs_resid_corr_within_policy,3b:E,0.22716180743673986
+mean_abs_resid_corr_within_policy,3b:F,0.23228745051351626
+mean_abs_resid_corr_within_policy,3b:O,0.363042968304388
+mean_abs_resid_corr_within_policy,3c:E,0.2131124286842912
+mean_abs_resid_corr_within_policy,3c:F,0.23713328148726565
+mean_abs_resid_corr_within_policy,3c:O,0.3760955896288189
+mean_abs_resid_corr_within_policy,4a:E,0.12868076663565256
+mean_abs_resid_corr_within_policy,4a:F,0.18309166205267963
+mean_abs_resid_corr_within_policy,4a:O,0.25021586317246286
+H1b_canonical_corr_1c_vs_1a_train,1,0.9985144086756426
+H1b_canonical_corr_1c_vs_1a_train,2,0.9954716697233444
+H1b_canonical_corr_1c_vs_1a_train,3,0.9689691303274187
+H1b_canonical_corr_1c_vs_1a_train,4,0.8310672658129719
+nonFX_flag_count,total_E_flagged,19
+nonFX_flag_count,reason=a,11
+nonFX_flag_count,reason=b,1
+nonFX_flag_count,reason=a+b,7
+named12_flag_status,ASP-EUPROP,ไม่ติดธง
+named12_flag_status,B-GLOB-INFRA,ไม่ติดธง
+named12_flag_status,DAOL-GOLD,ติดธง a
+named12_flag_status,FCSCBSETE,ติดธง a+b
+named12_flag_status,K-GINFRA-A(D),ติดธง a+b
+named12_flag_status,K-GPROP-A(A),ไม่ติดธง
+named12_flag_status,KKP GINFRAEQ-H,ไม่ติดธง
+named12_flag_status,KT-PROPERTY-A,ไม่ติดธง
+named12_flag_status,MINFRA,ติดธง a+b
+named12_flag_status,TGHIDIV,ไม่ติดธง
+named12_flag_status,TMBGINFRA,ไม่ติดธง
+named12_flag_status,UINFRA-N,ติดธง b
+max_abs_corr_within_form,1a,0.091 (PC1 vs PC3)
+max_abs_corr_within_form,1b,0.062 (PC1 vs PC4)
+max_abs_corr_within_form,1c,0.105 (PC1 vs PC4)
+max_abs_corr_within_form,2a,0.547 (APB_E vs APB_O)
+max_abs_corr_within_form,2b,0.802 (APB_E vs FXH)
+max_abs_corr_within_form,2c,0.802 (APB_E vs FXH)
+max_abs_corr_within_form,3a,0.745 (BOND vs FX)
+max_abs_corr_within_form,3b,0.772 (EMDM vs USX)
+max_abs_corr_within_form,3c,0.988 (TERM vs US10Y_d)
+max_abs_corr_within_form,4a,0.745 (BOND vs FX)
+corr_FXH_vs,APB_E,0.802
+corr_FXH_vs,USDTHB(weekly),-0.504
+flagged_fund,ASP-DIGIBLOC,reason=a; maxR2_8idx=0.280; r2_gold=0.032; r2_tdex=0.015
+flagged_fund,DAOL-CANAB,reason=a; maxR2_8idx=0.229; r2_gold=0.009; r2_tdex=0.069
+flagged_fund,DAOL-GOLD,reason=a; maxR2_8idx=0.149; r2_gold=0.107; r2_tdex=0.042
+flagged_fund,ES-INDONESIA,reason=a+b; maxR2_8idx=0.148; r2_gold=0.010; r2_tdex=0.172
+flagged_fund,FCSCBSETE,reason=a+b; maxR2_8idx=0.140; r2_gold=0.000; r2_tdex=0.856
+flagged_fund,K-CHANGE-A(A),reason=a; maxR2_8idx=0.299; r2_gold=0.008; r2_tdex=0.084
+flagged_fund,K-GHEALTH,reason=a; maxR2_8idx=0.209; r2_gold=0.041; r2_tdex=0.061
+flagged_fund,K-GINFRA-A(D),reason=a+b; maxR2_8idx=0.247; r2_gold=0.077; r2_tdex=0.291
+flagged_fund,K-USA-A(A),reason=a; maxR2_8idx=0.281; r2_gold=0.003; r2_tdex=0.091
+flagged_fund,KT-ASEAN-A,reason=a+b; maxR2_8idx=0.283; r2_gold=0.000; r2_tdex=0.405
+flagged_fund,KT-MINING,reason=a; maxR2_8idx=0.166; r2_gold=0.069; r2_tdex=0.109
+flagged_fund,MCANN,reason=a; maxR2_8idx=0.233; r2_gold=0.005; r2_tdex=0.068
+flagged_fund,MINFRA,reason=a+b; maxR2_8idx=0.244; r2_gold=0.011; r2_tdex=0.328
+flagged_fund,ONE-DISC-RA,reason=a; maxR2_8idx=0.279; r2_gold=0.026; r2_tdex=0.089
+flagged_fund,PRINCIPAL GCLEAN-A,reason=a+b; maxR2_8idx=0.115; r2_gold=0.002; r2_tdex=0.150
+flagged_fund,TBIOTECH,reason=a; maxR2_8idx=0.251; r2_gold=0.007; r2_tdex=0.067
+flagged_fund,TNEWENGY,reason=a; maxR2_8idx=0.285; r2_gold=0.001; r2_tdex=0.156
+flagged_fund,TRAREEARTH,reason=a+b; maxR2_8idx=0.208; r2_gold=0.022; r2_tdex=0.222
+flagged_fund,UINFRA-N,reason=b; maxR2_8idx=0.316; r2_gold=0.010; r2_tdex=0.323

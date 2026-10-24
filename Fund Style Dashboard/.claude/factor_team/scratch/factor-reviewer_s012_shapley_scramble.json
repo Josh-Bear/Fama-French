@@ -1,0 +1,151 @@
+{
+ "shapley_EX2_max_abs_diff_file_vs_lag0": 6.661338147750939e-16,
+ "shapley_EX2_max_abs_diff_file_vs_dimson": 0.08506573128817396,
+ "shapley_EX2_share_medians": {
+  "CMA": {
+   "n": 160,
+   "share_med_file": 0.19387854880983085,
+   "share_med_lag0": 0.19387854880983088,
+   "share_med_dimson": 0.20112045494198866,
+   "max_abs_share_diff": 0.04656484121075728
+  },
+  "FX": {
+   "n": 160,
+   "share_med_file": 0.09774798327538364,
+   "share_med_lag0": 0.09774798327538375,
+   "share_med_dimson": 0.09770477890603876,
+   "max_abs_share_diff": 0.045440938660941364
+  },
+  "MKT": {
+   "n": 160,
+   "share_med_file": 0.4217939237332813,
+   "share_med_lag0": 0.4217939237332814,
+   "share_med_dimson": 0.4158488601962411,
+   "max_abs_share_diff": 0.05393566290135532
+  },
+  "e_ARKK": {
+   "n": 10,
+   "share_med_file": 0.03604324624949985,
+   "share_med_lag0": 0.03604324624949992,
+   "share_med_dimson": 0.041979294510124054,
+   "max_abs_share_diff": 0.007290709085358227
+  },
+  "e_ASIA": {
+   "n": 13,
+   "share_med_file": 0.3430653609877988,
+   "share_med_lag0": 0.3430653609877987,
+   "share_med_dimson": 0.34424340356683625,
+   "max_abs_share_diff": 0.021597386530121
+  },
+  "e_CHINAg": {
+   "n": 25,
+   "share_med_file": 0.7959981583915154,
+   "share_med_lag0": 0.7959981583915152,
+   "share_med_dimson": 0.7755699604789144,
+   "max_abs_share_diff": 0.03438732595546723
+  },
+  "e_EUROPE": {
+   "n": 10,
+   "share_med_file": 0.2326582091805095,
+   "share_med_lag0": 0.2326582091805096,
+   "share_med_dimson": 0.2271356074067216,
+   "max_abs_share_diff": 0.010776509607224233
+  },
+  "e_HC": {
+   "n": 14,
+   "share_med_file": 0.2923599375827969,
+   "share_med_lag0": 0.2923599375827969,
+   "share_med_dimson": 0.2907791906584111,
+   "max_abs_share_diff": 0.02856609316250258
+  },
+  "e_IGF": {
+   "n": 3,
+   "share_med_file": 0.329338271057808,
+   "share_med_lag0": 0.329338271057808,
+   "share_med_dimson": 0.32426352811026143,
+   "max_abs_share_diff": 0.011828841462190598
+  },
+  "e_INDIA": {
+   "n": 4,
+   "share_med_file": 0.5634442023814257,
+   "share_med_lag0": 0.5634442023814259,
+   "share_med_dimson": 0.5424050200384847,
+   "max_abs_share_diff": 0.03274303962157876
+  },
+  "e_IT": {
+   "n": 12,
+   "share_med_file": 0.01496389520822505,
+   "share_med_lag0": 0.014963895208225057,
+   "share_med_dimson": 0.022494952250811773,
+   "max_abs_share_diff": 0.04385417285240446
+  },
+  "e_JAPAN": {
+   "n": 7,
+   "share_med_file": 0.4154385837089517,
+   "share_med_lag0": 0.4154385837089517,
+   "share_med_dimson": 0.4298683045767507,
+   "max_abs_share_diff": 0.015095106783363899
+  },
+  "e_USA": {
+   "n": 9,
+   "share_med_file": 0.0699966828289579,
+   "share_med_lag0": 0.06999668282895785,
+   "share_med_dimson": 0.0694572678453776,
+   "max_abs_share_diff": 0.03445907939625732
+  },
+  "e_VIETNAM": {
+   "n": 5,
+   "share_med_file": 0.9227059169949045,
+   "share_med_lag0": 0.9227059169949041,
+   "share_med_dimson": 0.8426160278871371,
+   "max_abs_share_diff": 0.13320218312119847
+  }
+ },
+ "shapley_EX1_max_abs_diff_file_vs_lag0": 5.551115123125783e-16,
+ "shapley_EX1_share_medians": {
+  "CMA": {
+   "file": 0.3028412942381563,
+   "lag0": 0.30284129423815653,
+   "dimson": 0.3050235713324333
+  },
+  "FX": {
+   "file": 0.1207036244466835,
+   "lag0": 0.12070362444668355,
+   "dimson": 0.1280171522253743
+  },
+  "MKT": {
+   "file": 0.5345000357441303,
+   "lag0": 0.5345000357441303,
+   "dimson": 0.5081245771703721
+  }
+ },
+ "scramble_equal": {
+  "reps": true,
+  "reps_list": true,
+  "placebo": true,
+  "tau": true,
+  "selected": true,
+  "steplog": true,
+  "allc": true,
+  "ecoef": true,
+  "gcoef": true,
+  "kstar": true,
+  "ks": true,
+  "Lam_a": true,
+  "sd_a": true,
+  "Lam_c": true,
+  "a1_train": true,
+  "k_res": true,
+  "W": true,
+  "s": true,
+  "coef": true,
+  "reit_coef": true
+ },
+ "scramble_all_equal": true,
+ "selected_base": [
+  "FX",
+  "CMA"
+ ],
+ "kstar_base": 3,
+ "k_res_base": 3
+}

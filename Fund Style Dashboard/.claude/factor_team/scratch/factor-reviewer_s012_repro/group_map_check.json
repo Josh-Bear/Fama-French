@@ -1,0 +1,193 @@
+{
+ "group_counts": {
+  "ASIA": {
+   "n_EVAL": 13,
+   "n_STAB": 11,
+   "n_U_units": 15,
+   "n_fit_SEL": 13
+  },
+  "CHINA": {
+   "n_EVAL": 25,
+   "n_STAB": 23,
+   "n_U_units": 28,
+   "n_fit_SEL": 25
+  },
+  "CLEAN": {
+   "n_EVAL": 4,
+   "n_STAB": 4,
+   "n_U_units": 4,
+   "n_fit_SEL": 4
+  },
+  "CONSUMER": {
+   "n_EVAL": 1,
+   "n_STAB": 1,
+   "n_U_units": 5,
+   "n_fit_SEL": 2
+  },
+  "EM": {
+   "n_EVAL": 4,
+   "n_STAB": 4,
+   "n_U_units": 4,
+   "n_fit_SEL": 4
+  },
+  "EUROPE": {
+   "n_EVAL": 10,
+   "n_STAB": 7,
+   "n_U_units": 14,
+   "n_fit_SEL": 10
+  },
+  "FIN": {
+   "n_EVAL": 1,
+   "n_STAB": 1,
+   "n_U_units": 2,
+   "n_fit_SEL": 1
+  },
+  "GLOBAL": {
+   "n_EVAL": 24,
+   "n_STAB": 23,
+   "n_U_units": 29,
+   "n_fit_SEL": 24
+  },
+  "HEALTH": {
+   "n_EVAL": 14,
+   "n_STAB": 13,
+   "n_U_units": 15,
+   "n_fit_SEL": 14
+  },
+  "INDIA": {
+   "n_EVAL": 4,
+   "n_STAB": 4,
+   "n_U_units": 6,
+   "n_fit_SEL": 4
+  },
+  "INFRA": {
+   "n_EVAL": 3,
+   "n_STAB": 3,
+   "n_U_units": 6,
+   "n_fit_SEL": 3
+  },
+  "INNOV": {
+   "n_EVAL": 10,
+   "n_STAB": 9,
+   "n_U_units": 11,
+   "n_fit_SEL": 10
+  },
+  "JAPAN": {
+   "n_EVAL": 7,
+   "n_STAB": 7,
+   "n_U_units": 12,
+   "n_fit_SEL": 8
+  },
+  "METAL": {
+   "n_EVAL": 1,
+   "n_STAB": 1,
+   "n_U_units": 2,
+   "n_fit_SEL": 1
+  },
+  "NONE": {
+   "n_EVAL": 10,
+   "n_STAB": 8,
+   "n_U_units": 15,
+   "n_fit_SEL": 10
+  },
+  "PROP": {
+   "n_EVAL": 1,
+   "n_STAB": 1,
+   "n_U_units": 2,
+   "n_fit_SEL": 1
+  },
+  "STYLE": {
+   "n_EVAL": 1,
+   "n_STAB": 1,
+   "n_U_units": 4,
+   "n_fit_SEL": 1
+  },
+  "TECH": {
+   "n_EVAL": 12,
+   "n_STAB": 10,
+   "n_U_units": 15,
+   "n_fit_SEL": 12
+  },
+  "TH": {
+   "n_EVAL": 1,
+   "n_STAB": 1,
+   "n_U_units": 1,
+   "n_fit_SEL": 1
+  },
+  "USA": {
+   "n_EVAL": 9,
+   "n_STAB": 6,
+   "n_U_units": 16,
+   "n_fit_SEL": 9
+  },
+  "VIETNAM": {
+   "n_EVAL": 5,
+   "n_STAB": 3,
+   "n_U_units": 9,
+   "n_fit_SEL": 6
+  }
+ },
+ "group_factor_counts": {
+  "e_ARKK": {
+   "n_EVAL": 10,
+   "n_U": 11
+  },
+  "e_ASIA": {
+   "n_EVAL": 13,
+   "n_U": 15
+  },
+  "e_CHINA(grp)": {
+   "n_EVAL": 25,
+   "n_U": 28
+  },
+  "e_EUROPE": {
+   "n_EVAL": 10,
+   "n_U": 14
+  },
+  "e_HC": {
+   "n_EVAL": 14,
+   "n_U": 15
+  },
+  "e_IGF": {
+   "n_EVAL": 3,
+   "n_U": 6
+  },
+  "e_INDIA": {
+   "n_EVAL": 4,
+   "n_U": 6
+  },
+  "e_IT": {
+   "n_EVAL": 12,
+   "n_U": 15
+  },
+  "e_JAPAN": {
+   "n_EVAL": 7,
+   "n_U": 12
+  },
+  "e_USA": {
+   "n_EVAL": 9,
+   "n_U": 16
+  },
+  "e_VIETNAM": {
+   "n_EVAL": 5,
+   "n_U": 9
+  },
+  "ไม่มี": {
+   "n_EVAL": 48,
+   "n_U": 68
+  }
+ },
+ "group_map_sha256": "898a86867b3f832060f7620d039fd95338d24e1bb71f531d76bb58004223fceb",
+ "n_codes": 232,
+ "n_eval_with_factor": 112,
+ "n_group_factor_E_units": 147,
+ "n_units": 228,
+ "n_units_E": 215,
+ "n_units_O": 13,
+ "recomputed_equals_csv": {
+  "alt": true,
+  "group": true,
+  "group_factor": true,
+  "name_group": true
+ }
+}

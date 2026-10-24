@@ -1,0 +1,229 @@
+unit,policy,n_weeks_main,n_train_raw,n_train_dimson,n_test,sel,eval,eval52,stab,dedup_keep,pca_balanced,pca_unbal52,group,group_factor,fx_risk_flag
+ABAGS,E,260,156,155,104,True,True,True,True,True,True,True,USA,e_USA,Y
+ABAPAC,E,260,156,155,104,True,True,True,True,True,True,True,ASIA,e_ASIA,Y
+ABCA-A,E,133,29,29,104,False,False,False,False,True,False,False,CHINA,e_CHINA(grp),Y
+ABEG,E,260,156,155,104,True,True,True,True,True,True,True,EUROPE,e_EUROPE,Y
+ABGEM,E,260,156,155,104,True,True,True,True,True,True,True,EM,ไม่มี,Y
+ABIG,E,260,156,155,104,True,True,True,True,True,True,True,INDIA,e_INDIA,Y
+ABJO,E,260,156,155,104,True,True,True,True,True,True,True,JAPAN,e_JAPAN,Y
+ABWOOF,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+AFMOAT-HA,E,190,101,101,89,False,False,True,False,True,False,True,USA,e_USA,N
+ASP-DIGIBLOC,E,204,100,100,104,False,False,True,False,True,False,True,TECH,e_IT,Y
+ASP-DISRUPT,E,260,156,155,104,True,True,True,True,True,True,True,INNOV,e_ARKK,Y
+ASP-EUG,E,256,152,152,104,True,True,True,True,True,False,True,EUROPE,e_EUROPE,Y
+ASP-EVOCHINA,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+ASP-IHEALTH,E,260,156,155,104,True,True,True,True,True,True,True,HEALTH,e_HC,Y
+ASP-INDIA-A,E,57,0,0,57,False,False,False,False,True,False,False,INDIA,e_INDIA,Y
+ASP-JHC,E,176,152,152,24,True,False,False,False,False,False,False,JAPAN,e_JAPAN,Y
+ASP-NGF,E,260,156,155,104,True,True,True,True,True,True,True,JAPAN,e_JAPAN,Y
+ASP-S&P500-A,E,57,0,0,57,False,False,False,False,False,False,False,USA,e_USA,Y
+ASP-TOPBRAND,E,180,156,155,24,True,False,False,False,True,True,True,CONSUMER,ไม่มี,Y
+ASP-USSMALL-A,E,57,0,0,57,False,False,False,False,True,False,False,USA,e_USA,Y
+ASP-VIET,E,180,156,155,24,True,False,False,False,True,True,True,VIETNAM,e_VIETNAM,Y
+ASP-X,E,260,156,155,104,True,True,True,True,True,True,True,NONE,ไม่มี,Y
+B-ASIA,E,260,156,155,104,True,True,True,True,True,True,True,ASIA,e_ASIA,Y
+B-BHARATA,E,260,156,155,104,True,True,True,True,True,True,True,INDIA,e_INDIA,Y
+B-CHINE-EQ,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+B-FINTECH,E,236,132,132,104,True,True,True,True,True,False,True,TECH,e_IT,Y
+B-FUTURE,E,260,156,155,104,True,True,True,True,True,True,True,NONE,ไม่มี,Y
+B-GLOB-INFRA,E,197,93,93,104,False,False,True,False,True,False,True,INFRA,e_IGF,Y
+B-GLOBAL,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+B-GTO,E,253,149,149,104,True,True,True,True,True,False,True,GLOBAL,ไม่มี,Y
+B-INNOTECH,E,260,156,155,104,True,True,True,True,True,True,True,INNOV,e_ARKK,Y
+B-NIPPON,E,260,156,155,104,True,True,True,True,True,True,True,JAPAN,e_JAPAN,Y
+B-PREMIUM,E,148,44,44,104,False,False,False,False,True,False,False,CONSUMER,ไม่มี,Y
+B-SIP,E,250,146,146,104,True,True,True,True,True,False,True,NONE,ไม่มี,Y
+B-USALPHA,E,226,122,122,104,True,True,True,False,True,False,True,USA,e_USA,Y
+B-VIETNAM,E,217,113,113,104,True,True,True,False,True,False,True,VIETNAM,e_VIETNAM,Y
+BCARE,E,260,156,155,104,True,True,True,True,True,True,True,HEALTH,e_HC,Y
+BGOLD,O,259,155,155,104,True,True,True,True,True,False,True,ทอง,GOLD_XS + FX,Y
+DAOL-CHIG,E,171,67,67,104,False,False,True,False,True,False,True,CHINA,e_CHINA(grp),Y
+DAOL-CYBER,E,171,67,67,104,False,False,True,False,True,False,True,INNOV,e_ARKK,Y
+DAOL-EVOSEMI,E,171,67,67,104,False,False,True,False,True,False,True,TECH,e_IT,Y
+DAOL-GEQUITY,E,171,67,67,104,False,False,True,False,True,False,True,GLOBAL,ไม่มี,Y
+DAOL-GOLD,E,171,67,67,104,False,False,True,False,True,False,True,METAL,ไม่มี,Y
+DAOL-USREIT,O,171,67,67,104,False,False,True,False,True,False,True,REIT,MKT + REIT_e + FX + TERM,Y
+EHD,E,260,156,155,104,True,True,True,True,True,True,True,EUROPE,e_EUROPE,Y
+ES-GCG*,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+ES-GDIV,E,152,48,48,104,False,False,False,False,True,False,False,STYLE,ไม่มี,Y
+ES-GINFRA*,E,260,156,155,104,True,True,True,True,True,True,True,INFRA,e_IGF,Y
+ES-GINNO*,E,260,156,155,104,True,True,True,True,True,True,True,INNOV,e_ARKK,Y
+ES-INDONESIA,E,176,72,72,104,False,False,True,False,True,False,True,NONE,ไม่มี,Y
+ES-LOVE,E,148,44,44,104,False,False,False,False,True,False,False,STYLE,ไม่มี,Y
+ES-USTECH,E,172,68,68,104,False,False,True,False,True,False,True,USA,e_USA,Y
+FCSCBSETE,E,248,144,144,104,True,True,True,True,True,False,True,TH,ไม่มี,N
+GC,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+I-GOLD*,O,260,156,155,104,True,True,True,True,True,True,True,ทอง,GOLD_XS + FX,Y
+IREITG,O,260,156,155,104,True,True,True,True,True,True,True,REIT,MKT + REIT_e + FX + TERM,Y
+JSM,E,260,156,155,104,True,True,True,True,True,True,True,JAPAN,e_JAPAN,Y
+K-AEC,E,259,155,155,104,True,True,True,True,True,False,True,ASIA,e_ASIA,Y
+K-ASIA,E,260,156,155,104,True,True,True,True,True,True,True,ASIA,e_ASIA,Y
+K-ASIAX,E,232,128,128,104,True,True,True,False,True,False,True,ASIA,e_ASIA,Y
+K-ATECH,E,247,143,143,104,True,True,True,True,True,False,True,ASIA,e_ASIA,Y
+K-CHANGE-A(A),E,250,146,146,104,True,True,True,True,True,False,True,NONE,ไม่มี,Y
+K-CHINA-A(A),E,242,138,138,104,True,True,True,True,True,False,True,CHINA,e_CHINA(grp),Y
+K-CHX,E,259,155,155,104,True,True,True,True,True,False,True,CHINA,e_CHINA(grp),Y
+K-EUROPE-A(D),E,186,82,82,104,False,False,True,False,True,False,True,EUROPE,e_EUROPE,Y
+K-EUSMALL,E,260,156,155,104,True,True,True,True,True,True,True,EUROPE,e_EUROPE,Y
+K-EUX,E,260,156,155,104,True,True,True,True,True,True,True,EUROPE,e_EUROPE,Y
+K-GHEALTH,E,260,156,155,104,True,True,True,True,True,True,True,HEALTH,e_HC,Y
+K-GHEALTH(UH),E,250,146,146,104,True,True,True,True,True,False,True,HEALTH,e_HC,Y
+K-GINFRA-A(D),E,162,58,58,104,False,False,True,False,True,False,True,INFRA,e_IGF,Y
+K-GLOBE,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+K-GOLD-A(A),O,248,144,144,104,True,True,True,True,True,False,True,ทอง,GOLD_XS + FX,N
+K-GPROP-A(A),E,246,142,142,104,True,True,True,True,True,False,True,PROP,ไม่มี,Y
+K-INDIA-A(A),E,101,0,0,101,False,False,False,False,True,False,False,INDIA,e_INDIA,Y
+K-INDX,E,260,156,155,104,True,True,True,True,True,True,True,INDIA,e_INDIA,Y
+K-JP-A(D),E,153,49,49,104,False,False,False,False,True,False,False,JAPAN,e_JAPAN,Y
+K-JPX-A(A),E,162,58,58,104,False,False,True,False,True,False,True,JAPAN,e_JAPAN,Y
+K-PLANET-A(A),E,139,35,35,104,False,False,False,False,True,False,False,NONE,ไม่มี,Y
+K-SEMQ,E,260,156,155,104,True,True,True,True,True,True,True,EM,ไม่มี,Y
+K-US500X-A(A),E,163,59,59,104,False,False,True,False,True,False,True,USA,e_USA,Y
+K-USA-A(A),E,250,146,146,104,True,True,True,True,True,False,True,USA,e_USA,Y
+K-USXNDQ-A(A),E,250,146,146,104,True,True,True,True,True,False,True,USA,e_USA,Y
+K-VIETNAM,E,259,155,155,104,True,True,True,True,True,False,True,VIETNAM,e_VIETNAM,Y
+K-WORLDX,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+KKP CHINA-H,E,147,43,43,104,False,False,False,False,True,False,False,CHINA,e_CHINA(grp),N
+KKP G-THEME-H,E,254,150,150,104,True,True,True,True,True,False,True,GLOBAL,ไม่มี,N
+KKP GHC,E,234,156,155,78,True,True,True,True,True,True,True,HEALTH,e_HC,Y
+KKP GIMPACT-H,E,229,125,125,104,True,True,True,False,True,False,True,GLOBAL,ไม่มี,N
+KKP GINFRAEQ-H,E,260,156,155,104,True,True,True,True,False,False,False,INFRA,e_IGF,N
+KKP GNP,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+KKP NDQ100-H,E,203,99,99,104,False,False,True,False,True,False,True,USA,e_USA,N
+KKP PGE-H,E,260,156,155,104,True,True,True,True,False,False,False,GLOBAL,ไม่มี,N
+KKP SEMICON-H,E,233,129,129,104,True,True,True,False,False,False,False,TECH,e_IT,N
+KKP TECH-H,E,260,156,155,104,True,True,True,True,True,True,True,TECH,e_IT,N
+KT-AASIA-A,E,260,156,155,104,True,True,True,True,True,True,True,ASIA,e_ASIA,Y
+KT-ASEAN-A,E,260,156,155,104,True,True,True,True,True,True,True,ASIA,e_ASIA,Y
+KT-ASIAG-A,E,252,148,148,104,True,True,True,True,True,False,True,ASIA,e_ASIA,Y
+KT-Ashares-A,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+KT-CHINA-A,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+KT-CLIMATE-A,E,248,144,144,104,True,True,True,True,True,False,True,CLEAN,ไม่มี,Y
+KT-EMEQ-A,E,260,156,155,104,True,True,True,True,True,True,True,EM,ไม่มี,Y
+KT-EUROSM,E,121,17,17,104,False,False,False,False,False,False,False,EUROPE,e_EUROPE,Y
+KT-EUROTECH-A,E,224,120,120,104,True,True,True,False,True,False,True,EUROPE,e_EUROPE,Y
+KT-FINANCE-A,E,167,63,63,104,False,False,True,False,True,False,True,FIN,ไม่มี,Y
+KT-GEQ-A,E,236,132,132,104,True,True,True,True,False,False,False,GLOBAL,ไม่มี,Y
+KT-GESG-A,E,204,100,100,104,False,False,True,False,True,False,True,GLOBAL,ไม่มี,Y
+KT-GOLD,O,259,155,155,104,True,True,True,True,True,False,True,ทอง,GOLD_XS + FX,Y
+KT-HEALTHCARE-A,E,260,156,155,104,True,True,True,True,True,True,True,HEALTH,e_HC,Y
+KT-INDIA-A,E,260,156,155,104,True,True,True,True,True,True,True,INDIA,e_INDIA,Y
+KT-JAPANSM-A,E,121,17,17,104,False,False,False,False,True,False,False,JAPAN,e_JAPAN,Y
+KT-LUXURY-A,E,189,85,85,104,False,False,True,False,True,False,True,CONSUMER,ไม่มี,Y
+KT-MFE-A,E,260,156,155,104,True,True,True,True,True,True,True,NONE,ไม่มี,Y
+KT-MINING,E,260,156,155,104,True,True,True,True,True,True,True,METAL,ไม่มี,Y
+KT-PROPERTY-A,E,157,53,53,104,False,False,True,False,True,False,True,PROP,ไม่มี,Y
+KT-US-A,E,260,156,155,104,True,True,True,True,True,True,True,USA,e_USA,Y
+KT-VIETNAM-A,E,180,76,76,104,False,False,True,False,True,False,True,VIETNAM,e_VIETNAM,Y
+KT-WEQ-A,E,167,63,63,104,False,False,True,False,True,False,True,GLOBAL,ไม่มี,Y
+KT-WTAI-A,E,260,156,155,104,True,True,True,True,True,True,True,TECH,e_IT,Y
+LHCHINA-A,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+LHCYBER-A,E,229,125,125,104,True,True,True,False,True,False,True,TECH,e_IT,Y
+LHDIGITAL-A,E,260,156,155,104,True,True,True,True,True,True,True,TECH,e_IT,Y
+LHESPORT-A,E,260,156,155,104,True,True,True,True,True,True,True,NONE,ไม่มี,Y
+LHEUROPE-A,E,217,113,113,104,True,True,True,False,True,False,True,EUROPE,e_EUROPE,Y
+LHGEQ-A,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+LHGEQP-A,E,183,79,79,104,False,False,True,False,False,False,False,GLOBAL,ไม่มี,Y
+LHGLIFEE-A,E,260,156,155,104,True,True,True,True,True,True,True,CONSUMER,ไม่มี,Y
+LHHEALTH-A,E,221,117,117,104,True,True,True,False,True,False,True,HEALTH,e_HC,Y
+LHINNO-A,E,257,153,153,104,True,True,True,True,True,False,True,INNOV,e_ARKK,Y
+LHPROPG-A,O,260,156,155,104,True,True,True,True,True,True,True,REIT,MKT + REIT_e + FX + TERM,Y
+LHROBOTE-A,E,260,156,155,104,True,True,True,True,True,True,True,TECH,e_IT,Y
+LHSEMICON-A,E,234,130,130,104,True,True,True,True,True,False,True,TECH,e_IT,Y
+LHVN-A,E,213,109,109,104,True,True,True,False,True,False,True,VIETNAM,e_VIETNAM,Y
+M-ASIA,E,160,56,56,104,False,False,True,False,True,False,True,ASIA,e_ASIA,Y
+M-EDGE,E,213,109,109,104,True,True,True,False,True,False,True,NONE,ไม่มี,Y
+M-EM,E,257,153,153,104,True,True,True,True,True,False,True,EM,ไม่มี,Y
+M-META,E,209,105,105,104,True,True,True,False,True,False,True,NONE,ไม่มี,Y
+MATECH-A,E,258,154,154,104,True,True,True,True,True,False,True,ASIA,e_ASIA,Y
+MCHEVO,E,228,124,124,104,True,True,True,False,True,False,True,CHINA,e_CHINA(grp),Y
+MCHINAGA,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+MCHINAGD,E,260,156,155,104,True,True,True,True,False,False,False,CHINA,e_CHINA(grp),Y
+MEGA10-A,E,139,50,50,89,False,False,False,False,True,False,False,NONE,ไม่มี,Y
+MEURO-G,E,118,14,14,104,False,False,False,False,True,False,False,EUROPE,e_EUROPE,Y
+MFTECH,E,252,148,148,104,True,True,True,True,True,False,True,INNOV,e_ARKK,Y
+MGAG,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+MGAI,E,180,76,76,104,False,False,True,False,False,False,False,GLOBAL,ไม่มี,Y
+MGAPVD,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+MGFGA,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+MGFGD,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+MGFPVD,E,260,156,155,104,True,True,True,True,False,False,False,GLOBAL,ไม่มี,Y
+MGTECH,E,260,156,155,104,True,True,True,True,True,True,True,INNOV,e_ARKK,Y
+MHEALTHG,E,173,69,69,104,False,False,True,False,True,False,True,HEALTH,e_HC,Y
+MRENEW-A,E,258,154,154,104,True,True,True,True,True,False,True,CLEAN,ไม่มี,Y
+MVIET,E,195,91,91,104,False,False,True,False,True,False,True,VIETNAM,e_VIETNAM,Y
+ONE-ALLCHINA-RA,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+ONE-APACESG,E,229,125,125,104,True,True,True,False,True,False,True,ASIA,e_ASIA,Y
+ONE-DISC-RA,E,260,156,155,104,True,True,True,True,True,True,True,NONE,ไม่มี,Y
+ONE-EUROEQ,E,260,156,155,104,True,True,True,True,True,True,True,EUROPE,e_EUROPE,Y
+ONE-GECOM,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+ONE-GLOBFIN-IA,E,260,156,155,104,True,True,True,True,True,True,True,FIN,ไม่มี,Y
+ONE-METAVERSE,E,200,96,96,104,False,False,True,False,True,False,True,NONE,ไม่มี,Y
+ONE-UGG-RA,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+ONE-UJE-RA,E,241,137,137,104,True,True,True,True,True,False,True,JAPAN,e_JAPAN,Y
+ONE-VIETNAM-RA,E,260,156,155,104,True,True,True,True,True,True,True,VIETNAM,e_VIETNAM,Y
+ONEPROP-SG,O,260,156,155,104,True,True,True,True,True,True,True,REIT,MKT + REIT_e + FX + TERM,Y
+P-CGREEN,E,243,139,139,104,True,True,True,True,True,False,True,CHINA,e_CHINA(grp),Y
+PRINCIPAL APDI-A,E,195,91,91,104,False,False,True,False,True,False,True,ASIA,e_ASIA,Y
+PRINCIPAL CHEQ-A,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),N
+PRINCIPAL CHTECH-A,E,240,136,136,104,True,True,True,True,True,False,True,CHINA,e_CHINA(grp),N
+PRINCIPAL EUEQ-A,E,194,90,90,104,False,False,True,False,True,False,True,EUROPE,e_EUROPE,N
+PRINCIPAL GCLEAN-A,E,248,144,144,104,True,True,True,True,True,False,True,CLEAN,ไม่มี,Y
+PRINCIPAL GCLOUD-A,E,260,156,155,104,True,True,True,True,True,True,True,TECH,e_IT,N
+PRINCIPAL GEF-A,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,N
+PRINCIPAL GHEALTH-A,E,256,152,152,104,True,True,True,True,True,False,True,HEALTH,e_HC,N
+PRINCIPAL GIF,E,260,156,155,104,True,True,True,True,True,True,True,INFRA,e_IGF,Y
+PRINCIPAL GINNO-A,E,260,156,155,104,True,True,True,True,True,True,True,INNOV,e_ARKK,N
+PRINCIPAL GOPP-A,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+PRINCIPAL GREITs,O,260,156,155,104,True,True,True,True,True,True,True,REIT,MKT + REIT_e + FX + TERM,Y
+PRINCIPAL JEQ-A,E,195,91,91,104,False,False,True,False,True,False,True,JAPAN,e_JAPAN,Y
+PRINCIPAL VNEQ-A,E,259,155,155,104,True,True,True,True,True,False,True,VIETNAM,e_VIETNAM,Y
+PRINCIPAL iGOLD-A,O,259,155,155,104,True,True,True,True,True,False,True,ทอง,GOLD_XS + FX,N
+PWIN,E,260,156,155,104,True,True,True,True,True,True,True,INNOV,e_ARKK,Y
+TBIOTECH,E,260,156,155,104,True,True,True,True,True,True,True,HEALTH,e_HC,Y
+TBRAND,E,202,98,98,104,False,False,True,False,True,False,True,CONSUMER,ไม่มี,Y
+TCHCON,E,254,150,150,104,True,True,True,True,True,False,True,CHINA,e_CHINA(grp),Y
+TCHSTARP,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+TCHT5M4,E,232,128,128,104,True,True,True,False,False,False,False,CHINA,e_CHINA(grp),Y
+TCHTECH-A,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+TCLOUD,E,260,156,155,104,True,True,True,True,True,True,True,TECH,e_IT,Y
+TCYBER,E,206,102,102,104,False,False,True,False,True,False,True,TECH,e_IT,Y
+TGENOME,E,258,154,154,104,True,True,True,True,True,False,True,HEALTH,e_HC,Y
+TGHDIGI,E,260,156,155,104,True,True,True,True,True,True,True,HEALTH,e_HC,Y
+TGHIDIV,E,165,61,61,104,False,False,True,False,True,False,True,STYLE,ไม่มี,Y
+TGHSTARP,E,260,156,155,104,True,True,True,True,True,True,True,HEALTH,e_HC,Y
+TGOLD,O,259,155,155,104,True,True,True,True,True,False,True,ทอง,GOLD_XS + FX,Y
+TISCOAP,E,259,155,155,104,True,True,True,True,True,False,True,ASIA,e_ASIA,Y
+TISCOCH,E,259,155,155,104,True,True,True,True,True,False,True,CHINA,e_CHINA(grp),Y
+TISCOCHA-A,E,259,155,155,104,True,True,True,True,True,False,True,CHINA,e_CHINA(grp),Y
+TISCOEU-A,E,215,111,111,104,True,True,True,False,False,False,False,EUROPE,e_EUROPE,Y
+TISCOJP,E,259,155,155,104,True,True,True,True,True,False,True,JAPAN,e_JAPAN,Y
+TISCOUS-A,E,215,111,111,104,True,True,True,False,True,False,True,USA,e_USA,Y
+TISTECH-A,E,260,156,155,104,True,True,True,True,True,True,True,TECH,e_IT,Y
+TLUSNDQ-H-A,E,194,105,105,89,True,True,True,False,False,False,False,USA,e_USA,N
+TNEWENGY,E,249,145,145,104,True,True,True,True,True,False,True,CLEAN,ไม่มี,Y
+TNEXTGEN-A,E,215,111,111,104,True,True,True,False,True,False,True,INNOV,e_ARKK,Y
+TSTAR-UH,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+TSTARP,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+TUSEQ-UH,E,260,156,155,104,True,True,True,True,True,True,True,USA,e_USA,Y
+TUSFIN-A,E,260,156,155,104,True,True,True,True,True,True,True,USA,e_USA,Y
+TUSREIT,O,260,156,155,104,True,True,True,True,True,True,True,REIT,MKT + REIT_e + FX + TERM,Y
+TUSTECH-A,E,170,66,66,104,False,False,True,False,True,False,True,USA,e_USA,Y
+TVIETNAM,E,187,83,83,104,False,False,True,False,True,False,True,VIETNAM,e_VIETNAM,Y
+UCHI,E,253,149,149,104,True,True,True,True,True,False,True,CHINA,e_CHINA(grp),Y
+UCHINA,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+UCI,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+UES,E,260,156,155,104,True,True,True,True,True,True,True,EUROPE,e_EUROPE,Y
+UEV,E,251,147,147,104,True,True,True,True,True,False,True,TECH,e_IT,Y
+UGD,E,260,156,155,104,True,True,True,True,True,True,True,GLOBAL,ไม่มี,Y
+UGFT,E,143,39,39,104,False,False,False,False,True,False,False,NONE,ไม่มี,Y
+UGH,E,260,156,155,104,True,True,True,True,True,True,True,HEALTH,e_HC,Y
+UGQG,E,260,156,155,104,True,True,True,True,True,True,True,STYLE,ไม่มี,Y
+UINFRA-N,E,180,76,76,104,False,False,True,False,True,False,True,INFRA,e_IGF,Y
+UNI,E,260,156,155,104,True,True,True,True,True,True,True,INNOV,e_ARKK,Y
+UOBSA,E,260,156,155,104,True,True,True,True,True,True,True,ASIA,e_ASIA,Y
+UOBSG-N,O,260,156,155,104,True,True,True,True,True,True,True,ทอง,GOLD_XS + FX,Y
+UOBSGC,E,260,156,155,104,True,True,True,True,True,True,True,CHINA,e_CHINA(grp),Y
+UOBSHC,E,260,156,155,104,True,True,True,True,False,False,False,HEALTH,e_HC,Y
+UOBSJSM,E,260,156,155,104,True,True,True,True,False,False,False,JAPAN,e_JAPAN,Y
+USUS,E,260,156,155,104,True,True,True,True,True,True,True,NONE,ไม่มี,Y

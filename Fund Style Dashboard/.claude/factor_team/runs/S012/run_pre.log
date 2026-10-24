@@ -1,0 +1,12 @@
+[2026-10-24T10:13:24 +    0.0s] run.py sha256=c15ba054c919f4a8e9f18bae3315697cebf787a7f39c3d6fa27796f909c1c88d phase=pre sim=False smoke=False
+[2026-10-24T10:13:24 +    0.0s] เก็บสำเนา run.py → run_pre.py
+[2026-10-24T10:13:24 +    0.0s] sha256 เต็ม 21 ไฟล์ตาม S013 §4 ตรง
+[2026-10-24T10:13:24 +    0.0s] lib เดิม 15 ไฟล์ตรง runs/S010 + l1eo.py · regression S003/S006 ผ่านทุกบิต · decisions_pre_run.md sha 874bcf023b7b…
+[2026-10-24T10:13:24 +    0.3s] รายชื่อหน่วยทุกชุด (SEL·EVAL·EVAL52·STAB·ตัดซ้ำ·PCA balanced 97·unbalanced 185) ตรง S013_pca_sets.csv ทุกหน่วย
+[2026-10-24T10:13:24 +    0.3s] ชุดกอง E: SEL 163 EVAL 160 EVAL52 196 STAB 141 ตัดซ้ำ 199 PCA 97/185 · O: SEL 12 EVAL 12 EVAL52 13 STAB 12
+[2026-10-24T10:13:25 +    0.5s] เขียน units_splice.csv · sets.csv · group_map_check.json
+[2026-10-24T10:13:25 +    0.6s] เขียน sel_reps.csv · ตัวแทนกลุ่มกองอิสระ 119 (จาก SEL_E 163)
+[2026-10-24T10:13:25 +    0.7s] เขียน placebo_E.json (ก่อน selection จริง) · τ = -2.0 · placebo เลือก [0, 0]
+[2026-10-24T10:13:25 +    0.9s] เขียน stepwise_E.csv · E-X1 = ['MKT', 'FX', 'CMA']
+[2026-10-24T10:13:26 +    1.9s] เขียน group_factor_coef.csv · pca_E.json (k* = 3) · hybrid_E.json (k_res = 3) · o_factor_coef.csv · stepwise_A1.csv (A1 = ['FX', 'EMDM'])
+[2026-10-24T10:13:26 +    1.9s] phase pre เสร็จ · ไม่ได้ fit แถวคะแนนใดๆ

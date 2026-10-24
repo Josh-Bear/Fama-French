@@ -1,0 +1,2 @@
+appendix,status,reason
+A2,N/A,AQR Terms of Use (BRIEF 117 · n2): ห้าม reproduce/copy/distribute โดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษร → เงื่อนไข BRIEF 113 ไม่ครบ · คอลัมน์ AQR ใน factors_eo_*.parquet ไม่ถูกใช้ในการรัน (ไม่อยู่ใน pool · ไม่อยู่ในชุดอ้างอิงชื่อ) · ไม่กระทบแถวหลัก

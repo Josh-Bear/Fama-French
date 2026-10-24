@@ -1,0 +1,3 @@
+group,n_EVAL_O,best_comparator,comparator_median_r2oos,OX_median_r2oos,med_d_r2oos,frac_pos,rule_8_3,desc_med_d_r2oos_vs_3a,desc_med_d_bic_vs_3a,descriptive,note_ban,vs_stock_factors_best,med_d_r2oos_vs_stock,frac_pos_vs_stock,beats_stock_factors
+ทอง,7,③a,0.4564089419023436,0.4795807047724425,0.0316099275946401,0.8571428571428571,ไม่ดีกว่าตัวเทียบ (ตามเกณฑ์ที่ล็อก),0.0316099275946401,-7.138533109070295,ไม่เข้าเกณฑ์ 'เทียบเท่า ③a',ห้ามสรุปว่า 'ชุดกลไกใช้ไม่ได้กับทอง' จากผล 'ไม่ดีกว่า ③a' (BRIEF 116) · ③a มี Gold_THB − RF + FX อยู่แล้ว,①c,0.0809009514467034,1.0,True
+REIT,5,①a,0.6053379996329473,0.9081736681098886,0.30206302546671604,0.8,ดีกว่าตัวเทียบ,,,,,,,,

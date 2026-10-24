@@ -1,0 +1,22 @@
+group,n_with_primary,n_primary_equals_Ig,rate,acceptable,top_primary,note
+ASIA,13,9.0,0.6923076923076923,MSCI_ASIA_EX_JAPAN,"{'MSCI_ASIA_EX_JAPAN': 9, 'MSCI_ASEAN': 2, 'MSCI_EM': 2}",บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+CHINA,22,21.0,0.9545454545454546,MSCI_CHINA_ALL_SHARES;MSCI_CHINA_A_SHARES;MSCI_CHINA_H_SHARES,"{'MSCI_CHINA_ALL_SHARES': 18, 'MSCI_CHINA_A_SHARES': 3, 'MSCI_ASIA_EX_JAPAN': 1}",บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+CLEAN,4,,,(ไม่มีดัชนี MSCI ตรงกับ I_g),"{'MSCI_ACWI_EX_US': 3, 'MSCI_ACWI_CD': 1}",บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+CONSUMER,1,,,(ไม่มีดัชนี MSCI ตรงกับ I_g),{'MSCI_ACWI_CD': 1},บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+EM,4,,,(ไม่มีดัชนี MSCI ตรงกับ I_g),"{'MSCI_EM': 3, 'MSCI_ASIA_EX_JAPAN': 1}",บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+EUROPE,9,4.0,0.4444444444444444,MSCI_EUROPE,"{'MSCI_EUROPE': 4, 'MSCI_WORLD_EX_US': 3, 'MSCI_ACWI_EX_US': 2}",บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+FIN,1,,,(ไม่มีดัชนี MSCI ตรงกับ I_g),{'MSCI_ACWI_FN': 1},บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+GLOBAL,20,,,(ไม่มีดัชนี MSCI ตรงกับ I_g),"{'MSCI_ACWI': 9, 'MSCI_ACWI_CD': 8, 'MSCI_ACWI_IT': 2}",บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+HEALTH,13,7.0,0.5384615384615384,MSCI_ACWI_HC,"{'MSCI_ACWI_HC': 7, 'MSCI_ACWI_CD': 6}",บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+INDIA,4,4.0,1.0,MSCI_INDIA,{'MSCI_INDIA': 4},บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+INFRA,2,,,(ไม่มีดัชนี MSCI ตรงกับ I_g),{'MSCI_ACWI_UT': 2},บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+INNOV,9,,,(ไม่มีดัชนี MSCI ตรงกับ I_g),"{'MSCI_ACWI_CD': 7, 'MSCI_ACWI_IT': 1, 'MSCI_ACWI': 1}",บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+JAPAN,6,6.0,1.0,MSCI_JAPAN,{'MSCI_JAPAN': 6},บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+METAL,1,,,(ไม่มีดัชนี MSCI ตรงกับ I_g),{'MSCI_ACWI_MT': 1},บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+NONE,10,,,(ไม่มีดัชนี MSCI ตรงกับ I_g),"{'MSCI_ACWI_CD': 6, 'MSCI_ACWI_EX_US': 3, 'MSCI_ACWI_IT': 1}",บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+PROP,1,,,(ไม่มีดัชนี MSCI ตรงกับ I_g),{'MSCI_WORLD_EX_US': 1},บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+STYLE,1,,,(ไม่มีดัชนี MSCI ตรงกับ I_g),{'MSCI_ACWI': 1},บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+TECH,11,7.0,0.6363636363636364,MSCI_ACWI_IT,"{'MSCI_ACWI_IT': 7, 'MSCI_ACWI_CD': 3, 'MSCI_ACWI_EX_US': 1}",บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+TH,1,,,(ไม่มีดัชนี MSCI ตรงกับ I_g),{'MSCI_ASEAN': 1},บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+USA,8,2.0,0.25,MSCI_USA,"{'MSCI_ACWI_CD': 3, 'MSCI_ACWI_IT': 2, 'MSCI_USA': 2}",บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary
+VIETNAM,5,5.0,1.0,MSCI_VIETNAM,{'MSCI_VIETNAM': 5},บรรยายแบบ Sensoy (2009): สัดส่วนกองที่ดัชนีหลัก L2 (form none) ตรงกับ I_g ของกลุ่มชื่อ · ไม่ใช้ตัดสิน · หน่วยต่อรหัสไม่มี primary

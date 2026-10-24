@@ -1,0 +1,315 @@
+{
+ "lib_sha256_original_15_equal_S010_run_meta": true,
+ "lib_files_now": [
+  "external.py",
+  "forms.py",
+  "fundff.py",
+  "hybrid.py",
+  "io_l1.py",
+  "l1eo.py",
+  "l2.py",
+  "l3.py",
+  "l4.py",
+  "nfactors.py",
+  "p2.py",
+  "pca.py",
+  "regress.py",
+  "samples.py",
+  "scorecard.py",
+  "tests_stat.py"
+ ],
+ "run_py_sha256": {
+  "S003": "9f21e388306cea0f63d6591580f03c505006fd6ca8d6161e2ef13cfcdce5590f",
+  "S006": "5515b2893fe0188c9135fa7728dd45f091534f03754bf529609b244c03c4f760"
+ },
+ "run_py_sha_expected": {
+  "S003": "9f21e388306cea0f63d6591580f03c505006fd6ca8d6161e2ef13cfcdce5590f",
+  "S006": "5515b2893fe0188c9135fa7728dd45f091534f03754bf529609b244c03c4f760"
+ },
+ "S003": {
+  "n_files": 22,
+  "all_identical": true,
+  "extra_new_files": [],
+  "files": {
+   "bootstrap.csv": {
+    "orig": "9051e72a70a386c279c441fc335444df8c132ce40299978c1866b2560b42a454",
+    "new": "9051e72a70a386c279c441fc335444df8c132ce40299978c1866b2560b42a454",
+    "identical": true
+   },
+   "criteria_values.csv": {
+    "orig": "989f64c20d7ac84aba384be4f2e3f402fd88d7e0474224eec7530777a47d1604",
+    "new": "989f64c20d7ac84aba384be4f2e3f402fd88d7e0474224eec7530777a47d1604",
+    "identical": true
+   },
+   "expectations_vs_results.csv": {
+    "orig": "d3034f263667132f9da1ebc14044120eb7b21b0b51657f2c6cd69f5e3b8d887f",
+    "new": "d3034f263667132f9da1ebc14044120eb7b21b0b51657f2c6cd69f5e3b8d887f",
+    "identical": true
+   },
+   "extras.csv": {
+    "orig": "ca8df4f020bf1655aa4b16c32c6f6f64b75def8a933ca1fdc57ec5f2301fc5e0",
+    "new": "ca8df4f020bf1655aa4b16c32c6f6f64b75def8a933ca1fdc57ec5f2301fc5e0",
+    "identical": true
+   },
+   "factors_S003_weekly.parquet": {
+    "orig": "be3ceb2e34b0df1f1a3db27d59e1a103cf5f5a5ca38f2e87f7c812c1c53944ac",
+    "new": "be3ceb2e34b0df1f1a3db27d59e1a103cf5f5a5ca38f2e87f7c812c1c53944ac",
+    "identical": true
+   },
+   "fund_level.csv": {
+    "orig": "36b41161d6a13c1184a4052d9e799f660f431c2694dc57fafd747f8e695bf8cf",
+    "new": "36b41161d6a13c1184a4052d9e799f660f431c2694dc57fafd747f8e695bf8cf",
+    "identical": true
+   },
+   "grs.csv": {
+    "orig": "aab4eae9db84c4867a28f8bd723334e3e980d517686578c56e880d6ad603415d",
+    "new": "aab4eae9db84c4867a28f8bd723334e3e980d517686578c56e880d6ad603415d",
+    "identical": true
+   },
+   "grs_dropped_weeks.csv": {
+    "orig": "4c1330c3dd7e898d521c6555330e0ba0bdae94b69de11fe4a2094140e79b2b4f",
+    "new": "4c1330c3dd7e898d521c6555330e0ba0bdae94b69de11fe4a2094140e79b2b4f",
+    "identical": true
+   },
+   "grs_ports.csv": {
+    "orig": "d55011094898acdf6e0419c90a3b2713479451380cacc0bf950559c43b98ba19",
+    "new": "d55011094898acdf6e0419c90a3b2713479451380cacc0bf950559c43b98ba19",
+    "identical": true
+   },
+   "grs_split.csv": {
+    "orig": "08c989830928be14229a3bb3997ca7b8409ea44d1b8d6e717abc551f5b904f58",
+    "new": "08c989830928be14229a3bb3997ca7b8409ea44d1b8d6e717abc551f5b904f58",
+    "identical": true
+   },
+   "halves.csv": {
+    "orig": "9f3cdadb9432511484c671d6d9c98d13efda45f1fe4b25b9636097dbcb0dbe99",
+    "new": "9f3cdadb9432511484c671d6d9c98d13efda45f1fe4b25b9636097dbcb0dbe99",
+    "identical": true
+   },
+   "interpret.csv": {
+    "orig": "2db9434f66312d37f82e8e1b0fe0ceda8a67101b4e654bef20f2abcf7424fd2c",
+    "new": "2db9434f66312d37f82e8e1b0fe0ceda8a67101b4e654bef20f2abcf7424fd2c",
+    "identical": true
+   },
+   "k_curve.csv": {
+    "orig": "0f4d8ae3cb5c1d1b2780a8c9cab6df4fe01c45cca3209d593e04d5381091f055",
+    "new": "0f4d8ae3cb5c1d1b2780a8c9cab6df4fe01c45cca3209d593e04d5381091f055",
+    "identical": true
+   },
+   "monthly.csv": {
+    "orig": "d3a36b039e8688cf84a787ea9255df8f9f1db965f86e639a4cef318f942e5f27",
+    "new": "d3a36b039e8688cf84a787ea9255df8f9f1db965f86e639a4cef318f942e5f27",
+    "identical": true
+   },
+   "n1_hedge_alpha.csv": {
+    "orig": "88dde1762ab8862cc8a53f4bef372d4e84592e86d6eeb8b1b952b0a52bc23747",
+    "new": "88dde1762ab8862cc8a53f4bef372d4e84592e86d6eeb8b1b952b0a52bc23747",
+    "identical": true
+   },
+   "nfactors.csv": {
+    "orig": "9ad5bd866d0e9488c497afa984fe586f15318516dfa8a0c939d6b91a6040f16a",
+    "new": "9ad5bd866d0e9488c497afa984fe586f15318516dfa8a0c939d6b91a6040f16a",
+    "identical": true
+   },
+   "py.csv": {
+    "orig": "a8593123dda2e0a28ce43c92d97aef4302f4fa43234203bf58c176c2fd13482f",
+    "new": "a8593123dda2e0a28ce43c92d97aef4302f4fa43234203bf58c176c2fd13482f",
+    "identical": true
+   },
+   "regions.csv": {
+    "orig": "2fa3ce691c9dd66ef523e1baca228a635369d2971857797a05c105c1306e6866",
+    "new": "2fa3ce691c9dd66ef523e1baca228a635369d2971857797a05c105c1306e6866",
+    "identical": true
+   },
+   "scorecard.csv": {
+    "orig": "9d4247a5f56e6e48a72ac9d9d17104cc364e6ced7fce8161a4584b9ac7d28a77",
+    "new": "9d4247a5f56e6e48a72ac9d9d17104cc364e6ced7fce8161a4584b9ac7d28a77",
+    "identical": true
+   },
+   "spanning.csv": {
+    "orig": "6d6a87dc41300fae53ef42e312511f6d50f79fe630e3b726e89447927a049d99",
+    "new": "6d6a87dc41300fae53ef42e312511f6d50f79fe630e3b726e89447927a049d99",
+    "identical": true
+   },
+   "stability.csv": {
+    "orig": "b63d3a724cf9e09069b4574bd96726a95a9bd3bc8d33c6ef6e56dcf168c8c740",
+    "new": "b63d3a724cf9e09069b4574bd96726a95a9bd3bc8d33c6ef6e56dcf168c8c740",
+    "identical": true
+   },
+   "vif.csv": {
+    "orig": "8e35ae316f76a13d9aafed5b4e40d133aec66572a5a1edff0a7a4ff92aff9f64",
+    "new": "8e35ae316f76a13d9aafed5b4e40d133aec66572a5a1edff0a7a4ff92aff9f64",
+    "identical": true
+   }
+  }
+ },
+ "S006": {
+  "n_files": 32,
+  "all_identical": true,
+  "extra_new_files": [],
+  "files": {
+   "bias_argmax.csv": {
+    "orig": "733a429d90e4c8d24023f65b255ab3d3494962bedbe74826c234a57ff5bf2ce3",
+    "new": "733a429d90e4c8d24023f65b255ab3d3494962bedbe74826c234a57ff5bf2ce3",
+    "identical": true
+   },
+   "bootstrap.csv": {
+    "orig": "821ea1e9d06ad8315d99ef98810980cdc2d3da2d5e17d5a2e14d2a7aa4b1eb08",
+    "new": "821ea1e9d06ad8315d99ef98810980cdc2d3da2d5e17d5a2e14d2a7aa4b1eb08",
+    "identical": true
+   },
+   "bprim_subset.csv": {
+    "orig": "2d4e68ab0bff462707b0461d62dc2690a1a37a399bd07e8e905fd94275fe70d3",
+    "new": "2d4e68ab0bff462707b0461d62dc2690a1a37a399bd07e8e905fd94275fe70d3",
+    "identical": true
+   },
+   "drop_one_B.csv": {
+    "orig": "1235cd5420c7558a886e3bc42101f38616a081505b523585e1bd740ad8ea4646",
+    "new": "1235cd5420c7558a886e3bc42101f38616a081505b523585e1bd740ad8ea4646",
+    "identical": true
+   },
+   "enet_by_index.csv": {
+    "orig": "6ab6ef5d0d6e2af182dcdc0377287013aaa119200350b2cec85ef6818ab49c42",
+    "new": "6ab6ef5d0d6e2af182dcdc0377287013aaa119200350b2cec85ef6818ab49c42",
+    "identical": true
+   },
+   "enet_stability.csv": {
+    "orig": "22cd7ecc1f67831749b8e48c8052661cea15f7f00f801c3ba9dbf4c90d3356b7",
+    "new": "22cd7ecc1f67831749b8e48c8052661cea15f7f00f801c3ba9dbf4c90d3356b7",
+    "identical": true
+   },
+   "expectations_vs_results.csv": {
+    "orig": "21ecef7477f8835af9926dea1125dba3f1f74683be8a588112a1d6b6bbb4c1d6",
+    "new": "21ecef7477f8835af9926dea1125dba3f1f74683be8a588112a1d6b6bbb4c1d6",
+    "identical": true
+   },
+   "fund_level.csv": {
+    "orig": "2fc1d735f52669d1034707c5d9c0194b087e91aff5dbfb91b2fd59ac4f85f5d2",
+    "new": "2fc1d735f52669d1034707c5d9c0194b087e91aff5dbfb91b2fd59ac4f85f5d2",
+    "identical": true
+   },
+   "grs.csv": {
+    "orig": "ba54c1a1ae128148ee3c921ac0ce38e5a38ce64b6bb3ea35c3760956f30cd291",
+    "new": "ba54c1a1ae128148ee3c921ac0ce38e5a38ce64b6bb3ea35c3760956f30cd291",
+    "identical": true
+   },
+   "hier_coef.csv": {
+    "orig": "9d653631de996109df576a5479cde67b542fa1474018f38b1d5c073340cfb7a6",
+    "new": "9d653631de996109df576a5479cde67b542fa1474018f38b1d5c073340cfb7a6",
+    "identical": true
+   },
+   "monthly.csv": {
+    "orig": "ad22d1b971ea23f87e6794556cd6a3cc8485449b606bbfd14a693bfb23d447c5",
+    "new": "ad22d1b971ea23f87e6794556cd6a3cc8485449b606bbfd14a693bfb23d447c5",
+    "identical": true
+   },
+   "placebo_C.json": {
+    "orig": "7710b27ac24034ff08eb65e980124d9d5a7cd51eb9aa8cd87e63a97c9f8e6a83",
+    "new": "cf4963cb1d02b2b7ca178b217b1c9d62696ed99e69e438fc9e40a079b3eafd77",
+    "identical": true
+   },
+   "primary_A.csv": {
+    "orig": "47152e7a40f6a5ebda2733f53d00a295bbb1c623379e3ad6171e7bd59e21347d",
+    "new": "47152e7a40f6a5ebda2733f53d00a295bbb1c623379e3ad6171e7bd59e21347d",
+    "identical": true
+   },
+   "primary_C.csv": {
+    "orig": "4a65c679c33e1ded0ca0ae262470c4c0db6bdc91ab7dc2fb70f2ad091ba56f62",
+    "new": "4a65c679c33e1ded0ca0ae262470c4c0db6bdc91ab7dc2fb70f2ad091ba56f62",
+    "identical": true
+   },
+   "primary_C_by_group.csv": {
+    "orig": "855d675b134ef7fbc58ead466caa87236783f33eceb182bd694e6a4267348464",
+    "new": "855d675b134ef7fbc58ead466caa87236783f33eceb182bd694e6a4267348464",
+    "identical": true
+   },
+   "py.csv": {
+    "orig": "3ad28597ab8fc680d8d8acb6ba700760b8adede477adbe124cf47be14a493fd8",
+    "new": "3ad28597ab8fc680d8d8acb6ba700760b8adede477adbe124cf47be14a493fd8",
+    "identical": true
+   },
+   "q1_verdict.csv": {
+    "orig": "fb02b58747d312f43f598bd1cebbe01aaffcd35234ce37139830a1e2ef8fb1b4",
+    "new": "fb02b58747d312f43f598bd1cebbe01aaffcd35234ce37139830a1e2ef8fb1b4",
+    "identical": true
+   },
+   "q1b_verdict.csv": {
+    "orig": "8e50b14da3463eca9e097de5030b17f4c4b8a6360cdd1a8ad3d9ff62987d3876",
+    "new": "8e50b14da3463eca9e097de5030b17f4c4b8a6360cdd1a8ad3d9ff62987d3876",
+    "identical": true
+   },
+   "q2_flags.csv": {
+    "orig": "2ffdbfd06477a8edcf4ee6400961e9fec0fea68f9b41b43df33b6ee2eaf81fc8",
+    "new": "2ffdbfd06477a8edcf4ee6400961e9fec0fea68f9b41b43df33b6ee2eaf81fc8",
+    "identical": true
+   },
+   "q3_crosstab.csv": {
+    "orig": "b1cc5d30e874c2232e7ed281099908257fd1e53ef9c5f4ac3a8ce9bab8a0c119",
+    "new": "b1cc5d30e874c2232e7ed281099908257fd1e53ef9c5f4ac3a8ce9bab8a0c119",
+    "identical": true
+   },
+   "q3_primary_vs_app.csv": {
+    "orig": "c4a582eff51f13df1bf7879345ad639cdf73718848b64527a32148728fe14060",
+    "new": "c4a582eff51f13df1bf7879345ad639cdf73718848b64527a32148728fe14060",
+    "identical": true
+   },
+   "resid_B_coef.csv": {
+    "orig": "71af654fc789a24d79999d96d7149e05e75007ac6e8f83d33bd0355d292eef0b",
+    "new": "71af654fc789a24d79999d96d7149e05e75007ac6e8f83d33bd0355d292eef0b",
+    "identical": true
+   },
+   "rolling_104.csv": {
+    "orig": "a3c603fd40654a827feebf1f702c6d784c9767f1d0a934c176092dd5388125e9",
+    "new": "a3c603fd40654a827feebf1f702c6d784c9767f1d0a934c176092dd5388125e9",
+    "identical": true
+   },
+   "scorecard.csv": {
+    "orig": "113905d889d5d63390a9887a860dab23bc61a1e024e4bb696ec6a0d11012a124",
+    "new": "113905d889d5d63390a9887a860dab23bc61a1e024e4bb696ec6a0d11012a124",
+    "identical": true
+   },
+   "select_C.csv": {
+    "orig": "c02009e28adc77409212458e419983039774ea9e98772c71e49aeb74a78d43f6",
+    "new": "c02009e28adc77409212458e419983039774ea9e98772c71e49aeb74a78d43f6",
+    "identical": true
+   },
+   "span_test.csv": {
+    "orig": "a435d239ebb6c9c662d0fa7bbdbeb2e6af196dab0f6d4ec13aa7ca08e73891e8",
+    "new": "a435d239ebb6c9c662d0fa7bbdbeb2e6af196dab0f6d4ec13aa7ca08e73891e8",
+    "identical": true
+   },
+   "stability.csv": {
+    "orig": "6813083077ae6bd3be00190d56aeb56866a35292936a780d8b6fd33216b70b75",
+    "new": "6813083077ae6bd3be00190d56aeb56866a35292936a780d8b6fd33216b70b75",
+    "identical": true
+   },
+   "vif_A0.csv": {
+    "orig": "59b3c72b7c9157b6476650fb199e15b0303d03f59e325003586489f4c5be78f0",
+    "new": "59b3c72b7c9157b6476650fb199e15b0303d03f59e325003586489f4c5be78f0",
+    "identical": true
+   },
+   "vif_elim_A.csv": {
+    "orig": "23c532b0ec7bb3c433ed7a2f0559a343ed72d2369c13202d817daa67673a6089",
+    "new": "23c532b0ec7bb3c433ed7a2f0559a343ed72d2369c13202d817daa67673a6089",
+    "identical": true
+   },
+   "vif_rows.csv": {
+    "orig": "2e1396aa1fddd5918dc03f1bd95ed69dbcc998086d8fe2c2901a601898b17f5d",
+    "new": "2e1396aa1fddd5918dc03f1bd95ed69dbcc998086d8fe2c2901a601898b17f5d",
+    "identical": true
+   },
+   "wald_B.csv": {
+    "orig": "67e4599451bfad3fe6263f962e7ecac98b3fbb1b17fca53db6dfc0b8b7240a8c",
+    "new": "67e4599451bfad3fe6263f962e7ecac98b3fbb1b17fca53db6dfc0b8b7240a8c",
+    "identical": true
+   },
+   "wald_B_summary.csv": {
+    "orig": "232b190ca2288b03d92fddbbe397c8a0f892bbb72c8ce6f2b2f0a374f779a938",
+    "new": "232b190ca2288b03d92fddbbe397c8a0f892bbb72c8ce6f2b2f0a374f779a938",
+    "identical": true
+   }
+  }
+ },
+ "note": "S006 รันในต้นไม้ scratch (lib 13 ไฟล์ · ไม่มี l4.py/p2.py/l1eo.py) เพราะ run.py ของ S006 assert รายชื่อ lib = S005 + l3.py (วิธีเดียวกับ S010)",
+ "all_pass": true
+}

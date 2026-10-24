@@ -1,0 +1,39 @@
+{
+ "checked": "sha256 ผลจาก build_eo.py 2 รอบ (รอบ 2 เขียนที่ scratch/factor-data-engineer_eo_rerun) · อ่าน nav_history_db.csv + ไฟล์ดิบใหม่ทั้งสองรอบ",
+ "all_identical": true,
+ "files": {
+  "factors_eo_weekly.parquet": {
+   "run1": "87b793508d83d2a4235eb07f1ff584cd32493375d5f73f8c6711f172f2a0bfca",
+   "run2": "87b793508d83d2a4235eb07f1ff584cd32493375d5f73f8c6711f172f2a0bfca",
+   "identical": true
+  },
+  "factors_eo_monthly.parquet": {
+   "run1": "c13c36e7dd2b039116131092b757160ae83460478829af3b7234afdd67bef82f",
+   "run2": "c13c36e7dd2b039116131092b757160ae83460478829af3b7234afdd67bef82f",
+   "identical": true
+  },
+  "aum_fam.parquet": {
+   "run1": "e442f6ae8f09ff01fb23a3b25aa89e2b98da8af9134143f0a873913e7ef2db46",
+   "run2": "e442f6ae8f09ff01fb23a3b25aa89e2b98da8af9134143f0a873913e7ef2db46",
+   "identical": true
+  },
+  "factor_groups_eo.csv": {
+   "run1": "4d92320c6dd765e951c1fc2f540e15830e74f2951847505c0cab6360cde12e56",
+   "run2": "4d92320c6dd765e951c1fc2f540e15830e74f2951847505c0cab6360cde12e56",
+   "identical": true
+  },
+  "eo_row_flags.csv": {
+   "run1": "c046501112b1e1e45b3959f4a19e5605c44af8cb7b02ad808f3f568c5fe8632a",
+   "run2": "c046501112b1e1e45b3959f4a19e5605c44af8cb7b02ad808f3f568c5fe8632a",
+   "identical": true
+  },
+  "QA_EO.md": {
+   "run1": "64e12139e6d4f184c3141340d174e4b1ffe8ffc41bc82dadd40fef7625b2c906",
+   "run2": "64e12139e6d4f184c3141340d174e4b1ffe8ffc41bc82dadd40fef7625b2c906",
+   "identical": true
+  },
+  "manifest_eo.json (ไม่นับ created)": {
+   "identical": true
+  }
+ }
+}

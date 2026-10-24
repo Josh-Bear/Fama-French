@@ -1,0 +1,1024 @@
+{
+ "E": {
+  "units": 215,
+  "SEL": 163,
+  "EVAL": 160,
+  "EVAL52": 196,
+  "STAB": 141,
+  "dedup_keep": 199,
+  "dropped": [
+   "ASP-JHC",
+   "ASP-S&P500-A",
+   "KKP GINFRAEQ-H",
+   "KKP PGE-H",
+   "KKP SEMICON-H",
+   "KT-EUROSM",
+   "KT-GEQ-A",
+   "LHGEQP-A",
+   "MCHINAGD",
+   "MGAI",
+   "MGFPVD",
+   "TCHT5M4",
+   "TISCOEU-A",
+   "TLUSNDQ-H-A",
+   "UOBSHC",
+   "UOBSJSM"
+  ],
+  "pca_bal": 97,
+  "pca_unb": 185,
+  "pca_bal_list_spliced": [
+   "ES-GCG*",
+   "ES-GINFRA*",
+   "ES-GINNO*"
+  ],
+  "no_train": 4,
+  "no_test": 0,
+  "SEL_pseudo_ok": 143,
+  "SEL_pseudo_fail": [
+   "B-USALPHA",
+   "B-VIETNAM",
+   "K-ASIAX",
+   "KKP GIMPACT-H",
+   "KKP SEMICON-H",
+   "KT-EUROTECH-A",
+   "LHCYBER-A",
+   "LHEUROPE-A",
+   "LHHEALTH-A",
+   "LHSEMICON-A",
+   "LHVN-A",
+   "M-EDGE",
+   "M-META",
+   "MCHEVO",
+   "ONE-APACESG",
+   "TCHT5M4",
+   "TISCOEU-A",
+   "TISCOUS-A",
+   "TLUSNDQ-H-A",
+   "TNEXTGEN-A"
+  ]
+ },
+ "O": {
+  "units": 13,
+  "SEL": 12,
+  "EVAL": 12,
+  "EVAL52": 13,
+  "STAB": 12,
+  "dedup_keep": 13,
+  "dropped": [],
+  "pca_bal": 7,
+  "pca_unb": 13,
+  "pca_bal_list_spliced": [
+   "I-GOLD*"
+  ],
+  "no_train": 0,
+  "no_test": 0,
+  "SEL_pseudo_ok": 12,
+  "SEL_pseudo_fail": []
+ },
+ "nw_mismatch_universe_vs_panel": {
+  "ABAGS": [
+   260,
+   268
+  ],
+  "ABAPAC": [
+   260,
+   268
+  ],
+  "ABCA-A": [
+   133,
+   141
+  ],
+  "ABEG": [
+   260,
+   268
+  ],
+  "ABGEM": [
+   260,
+   268
+  ],
+  "ABIG": [
+   260,
+   268
+  ],
+  "ABJO": [
+   260,
+   268
+  ],
+  "ABWOOF": [
+   260,
+   268
+  ],
+  "AFMOAT-HA": [
+   190,
+   196
+  ],
+  "ASP-X": [
+   260,
+   264
+  ],
+  "ASP-DIGIBLOC": [
+   204,
+   208
+  ],
+  "ASP-DISRUPT": [
+   260,
+   264
+  ],
+  "ASP-EUG": [
+   256,
+   260
+  ],
+  "ASP-EVOCHINA": [
+   260,
+   264
+  ],
+  "ASP-IHEALTH": [
+   260,
+   264
+  ],
+  "ASP-INDIA-A": [
+   57,
+   61
+  ],
+  "ASP-NGF": [
+   260,
+   263
+  ],
+  "ASP-S&P500-A": [
+   57,
+   61
+  ],
+  "ASP-USSMALL-A": [
+   57,
+   60
+  ],
+  "B-ASIA": [
+   260,
+   263
+  ],
+  "B-BHARATA": [
+   260,
+   263
+  ],
+  "B-CHINE-EQ": [
+   260,
+   263
+  ],
+  "B-FINTECH": [
+   236,
+   239
+  ],
+  "B-FUTURE": [
+   260,
+   263
+  ],
+  "B-GLOB-INFRA": [
+   197,
+   200
+  ],
+  "B-GLOBAL": [
+   260,
+   263
+  ],
+  "B-GTO": [
+   253,
+   256
+  ],
+  "B-INNOTECH": [
+   260,
+   263
+  ],
+  "B-NIPPON": [
+   260,
+   263
+  ],
+  "B-PREMIUM": [
+   148,
+   151
+  ],
+  "B-SIP": [
+   250,
+   253
+  ],
+  "B-USALPHA": [
+   226,
+   229
+  ],
+  "B-VIETNAM": [
+   217,
+   220
+  ],
+  "BCARE": [
+   260,
+   263
+  ],
+  "DAOL-CHIG": [
+   171,
+   180
+  ],
+  "DAOL-CYBER": [
+   171,
+   180
+  ],
+  "DAOL-EVOSEMI": [
+   171,
+   180
+  ],
+  "DAOL-GEQUITY": [
+   171,
+   180
+  ],
+  "DAOL-GOLD": [
+   171,
+   180
+  ],
+  "EHD": [
+   260,
+   291
+  ],
+  "ES-GCG-A": [
+   108,
+   121
+  ],
+  "ES-GDIV": [
+   152,
+   158
+  ],
+  "ES-GINFRA-A": [
+   108,
+   121
+  ],
+  "ES-GINNO-A": [
+   108,
+   121
+  ],
+  "ES-INDONESIA": [
+   176,
+   189
+  ],
+  "ES-LOVE": [
+   148,
+   161
+  ],
+  "ES-USTECH": [
+   172,
+   185
+  ],
+  "FCSCBSETE": [
+   248,
+   251
+  ],
+  "GC": [
+   260,
+   291
+  ],
+  "JSM": [
+   260,
+   291
+  ],
+  "K-AEC": [
+   259,
+   262
+  ],
+  "K-ASIA": [
+   260,
+   263
+  ],
+  "K-ASIAX": [
+   232,
+   235
+  ],
+  "K-ATECH": [
+   247,
+   250
+  ],
+  "K-CHANGE-A(A)": [
+   250,
+   254
+  ],
+  "K-CHINA-A(A)": [
+   242,
+   245
+  ],
+  "K-CHX": [
+   259,
+   262
+  ],
+  "K-EUROPE-A(D)": [
+   186,
+   189
+  ],
+  "K-EUSMALL": [
+   260,
+   263
+  ],
+  "K-EUX": [
+   260,
+   263
+  ],
+  "K-GHEALTH": [
+   260,
+   263
+  ],
+  "K-GHEALTH(UH)": [
+   250,
+   253
+  ],
+  "K-GINFRA-A(D)": [
+   162,
+   165
+  ],
+  "K-GLOBE": [
+   260,
+   263
+  ],
+  "K-GPROP-A(A)": [
+   246,
+   249
+  ],
+  "K-INDIA-A(A)": [
+   101,
+   104
+  ],
+  "K-INDX": [
+   260,
+   263
+  ],
+  "K-JP-A(D)": [
+   153,
+   156
+  ],
+  "K-JPX-A(A)": [
+   162,
+   165
+  ],
+  "K-PLANET-A(A)": [
+   139,
+   142
+  ],
+  "K-SEMQ": [
+   260,
+   263
+  ],
+  "K-US500X-A(A)": [
+   163,
+   166
+  ],
+  "K-USA-A(A)": [
+   250,
+   253
+  ],
+  "K-USXNDQ-A(A)": [
+   250,
+   253
+  ],
+  "K-VIETNAM": [
+   259,
+   262
+  ],
+  "K-WORLDX": [
+   260,
+   263
+  ],
+  "KKP CHINA-H": [
+   147,
+   151
+  ],
+  "KKP G-THEME-H": [
+   254,
+   258
+  ],
+  "KKP GHC": [
+   234,
+   235
+  ],
+  "KKP GIMPACT-H": [
+   229,
+   233
+  ],
+  "KKP GINFRAEQ-H": [
+   260,
+   264
+  ],
+  "KKP GNP": [
+   260,
+   264
+  ],
+  "KKP NDQ100-H": [
+   203,
+   208
+  ],
+  "KKP PGE-H": [
+   260,
+   265
+  ],
+  "KKP SEMICON-H": [
+   233,
+   239
+  ],
+  "KKP TECH-H": [
+   260,
+   264
+  ],
+  "KT-AASIA-A": [
+   260,
+   291
+  ],
+  "KT-ASEAN-A": [
+   260,
+   291
+  ],
+  "KT-ASIAG-A": [
+   252,
+   283
+  ],
+  "KT-Ashares-A": [
+   260,
+   291
+  ],
+  "KT-CHINA-A": [
+   260,
+   291
+  ],
+  "KT-CLIMATE-A": [
+   248,
+   279
+  ],
+  "KT-EMEQ-A": [
+   260,
+   291
+  ],
+  "KT-EUROSM": [
+   121,
+   152
+  ],
+  "KT-EUROTECH-A": [
+   224,
+   230
+  ],
+  "KT-FINANCE-A": [
+   167,
+   198
+  ],
+  "KT-GEQ-A": [
+   236,
+   267
+  ],
+  "KT-GESG-A": [
+   204,
+   235
+  ],
+  "KT-HEALTHCARE-A": [
+   260,
+   291
+  ],
+  "KT-INDIA-A": [
+   260,
+   291
+  ],
+  "KT-JAPANSM-A": [
+   121,
+   152
+  ],
+  "KT-LUXURY-A": [
+   189,
+   220
+  ],
+  "KT-MFE-A": [
+   260,
+   289
+  ],
+  "KT-MINING": [
+   260,
+   291
+  ],
+  "KT-PROPERTY-A": [
+   157,
+   188
+  ],
+  "KT-US-A": [
+   260,
+   291
+  ],
+  "KT-VIETNAM-A": [
+   180,
+   211
+  ],
+  "KT-WEQ-A": [
+   167,
+   198
+  ],
+  "KT-WTAI-A": [
+   260,
+   291
+  ],
+  "LHCHINA-A": [
+   260,
+   265
+  ],
+  "LHCYBER-A": [
+   229,
+   234
+  ],
+  "LHDIGITAL-A": [
+   260,
+   265
+  ],
+  "LHESPORT-A": [
+   260,
+   265
+  ],
+  "LHEUROPE-A": [
+   217,
+   222
+  ],
+  "LHGEQ-A": [
+   260,
+   265
+  ],
+  "LHGEQP-A": [
+   183,
+   188
+  ],
+  "LHGLIFEE-A": [
+   260,
+   265
+  ],
+  "LHHEALTH-A": [
+   221,
+   226
+  ],
+  "LHINNO-A": [
+   257,
+   262
+  ],
+  "LHROBOTE-A": [
+   260,
+   266
+  ],
+  "LHSEMICON-A": [
+   234,
+   239
+  ],
+  "LHVN-A": [
+   213,
+   219
+  ],
+  "M-ASIA": [
+   160,
+   167
+  ],
+  "M-EDGE": [
+   213,
+   230
+  ],
+  "M-EM": [
+   257,
+   274
+  ],
+  "M-META": [
+   209,
+   226
+  ],
+  "MATECH-A": [
+   258,
+   270
+  ],
+  "MCHEVO": [
+   228,
+   244
+  ],
+  "MCHINAGA": [
+   260,
+   276
+  ],
+  "MCHINAGD": [
+   260,
+   268
+  ],
+  "MEGA10-A": [
+   139,
+   145
+  ],
+  "MEURO-G": [
+   118,
+   135
+  ],
+  "MFTECH": [
+   252,
+   269
+  ],
+  "MGAG": [
+   260,
+   268
+  ],
+  "MGAI": [
+   180,
+   197
+  ],
+  "MGAPVD": [
+   260,
+   267
+  ],
+  "MGFGA": [
+   260,
+   273
+  ],
+  "MGFGD": [
+   260,
+   266
+  ],
+  "MGFPVD": [
+   260,
+   265
+  ],
+  "MGTECH": [
+   260,
+   277
+  ],
+  "MHEALTHG": [
+   173,
+   190
+  ],
+  "MRENEW-A": [
+   258,
+   275
+  ],
+  "MVIET": [
+   195,
+   209
+  ],
+  "ONE-ALLCHINA-RA": [
+   260,
+   270
+  ],
+  "ONE-APACESG": [
+   229,
+   239
+  ],
+  "ONE-DISC-RA": [
+   260,
+   270
+  ],
+  "ONE-EUROEQ": [
+   260,
+   279
+  ],
+  "ONE-GECOM": [
+   260,
+   279
+  ],
+  "ONE-GLOBFIN-IA": [
+   260,
+   270
+  ],
+  "ONE-METAVERSE": [
+   200,
+   219
+  ],
+  "ONE-UGG-RA": [
+   260,
+   279
+  ],
+  "ONE-UJE-RA": [
+   241,
+   251
+  ],
+  "ONE-VIETNAM-RA": [
+   260,
+   279
+  ],
+  "P-CGREEN": [
+   243,
+   248
+  ],
+  "PRINCIPAL APDI-A": [
+   195,
+   218
+  ],
+  "PRINCIPAL CHEQ-A": [
+   260,
+   291
+  ],
+  "PRINCIPAL CHTECH-A": [
+   240,
+   256
+  ],
+  "PRINCIPAL EUEQ-A": [
+   194,
+   209
+  ],
+  "PRINCIPAL GCLEAN-A": [
+   248,
+   271
+  ],
+  "PRINCIPAL GCLOUD-A": [
+   260,
+   291
+  ],
+  "PRINCIPAL GEF-A": [
+   260,
+   272
+  ],
+  "PRINCIPAL GHEALTH-A": [
+   256,
+   260
+  ],
+  "PRINCIPAL GIF": [
+   260,
+   291
+  ],
+  "PRINCIPAL GINNO-A": [
+   260,
+   278
+  ],
+  "PRINCIPAL GOPP-A": [
+   260,
+   291
+  ],
+  "PRINCIPAL JEQ-A": [
+   195,
+   204
+  ],
+  "PRINCIPAL VNEQ-A": [
+   259,
+   285
+  ],
+  "PWIN": [
+   260,
+   265
+  ],
+  "TBIOTECH": [
+   260,
+   263
+  ],
+  "TBRAND": [
+   202,
+   205
+  ],
+  "TCHCON": [
+   254,
+   257
+  ],
+  "TCHSTARP": [
+   260,
+   263
+  ],
+  "TCHT5M4": [
+   232,
+   235
+  ],
+  "TCHTECH-A": [
+   260,
+   263
+  ],
+  "TCLOUD": [
+   260,
+   263
+  ],
+  "TCYBER": [
+   206,
+   209
+  ],
+  "TGENOME": [
+   258,
+   261
+  ],
+  "TGHDIGI": [
+   260,
+   263
+  ],
+  "TGHIDIV": [
+   165,
+   168
+  ],
+  "TGHSTARP": [
+   260,
+   263
+  ],
+  "TISCOAP": [
+   259,
+   262
+  ],
+  "TISCOCH": [
+   259,
+   262
+  ],
+  "TISCOCHA-A": [
+   259,
+   262
+  ],
+  "TISCOEU-A": [
+   215,
+   218
+  ],
+  "TISCOJP": [
+   259,
+   262
+  ],
+  "TISCOUS-A": [
+   215,
+   218
+  ],
+  "TISTECH-A": [
+   260,
+   263
+  ],
+  "TLUSNDQ-H-A": [
+   194,
+   200
+  ],
+  "TNEWENGY": [
+   249,
+   252
+  ],
+  "TNEXTGEN-A": [
+   215,
+   218
+  ],
+  "TSTAR-UH": [
+   260,
+   263
+  ],
+  "TSTARP": [
+   260,
+   263
+  ],
+  "TUSEQ-UH": [
+   260,
+   263
+  ],
+  "TUSFIN-A": [
+   260,
+   263
+  ],
+  "TUSTECH-A": [
+   170,
+   173
+  ],
+  "TVIETNAM": [
+   187,
+   189
+  ],
+  "UCHI": [
+   253,
+   284
+  ],
+  "UCHINA": [
+   260,
+   291
+  ],
+  "UCI": [
+   260,
+   291
+  ],
+  "UES": [
+   260,
+   291
+  ],
+  "UEV": [
+   251,
+   282
+  ],
+  "UGD": [
+   260,
+   291
+  ],
+  "UGFT": [
+   143,
+   174
+  ],
+  "UGH": [
+   260,
+   291
+  ],
+  "UGQG": [
+   260,
+   291
+  ],
+  "UINFRA-N": [
+   180,
+   211
+  ],
+  "UNI": [
+   260,
+   291
+  ],
+  "UOBSA": [
+   260,
+   291
+  ],
+  "UOBSGC": [
+   260,
+   291
+  ],
+  "UOBSHC": [
+   260,
+   291
+  ],
+  "UOBSJSM": [
+   260,
+   291
+  ],
+  "USUS": [
+   260,
+   291
+  ],
+  "BGOLD": [
+   259,
+   262
+  ],
+  "DAOL-USREIT": [
+   171,
+   180
+  ],
+  "IGOLD-G": [
+   108,
+   126
+  ],
+  "IREITG": [
+   260,
+   266
+  ],
+  "K-GOLD-A(A)": [
+   248,
+   251
+  ],
+  "KT-GOLD": [
+   259,
+   290
+  ],
+  "LHPROPG-A": [
+   260,
+   266
+  ],
+  "ONEPROP-SG": [
+   260,
+   270
+  ],
+  "PRINCIPAL GREITs": [
+   260,
+   266
+  ],
+  "PRINCIPAL iGOLD-A": [
+   259,
+   262
+  ],
+  "TGOLD": [
+   259,
+   262
+  ],
+  "TUSREIT": [
+   260,
+   263
+  ],
+  "UOBSG-N": [
+   260,
+   291
+  ]
+ },
+ "spliced": {
+  "I-GOLD*": {
+   "n_tr": 155,
+   "n_te": 104,
+   "n_h1": 129,
+   "n_h2": 130,
+   "n_tr_raw": 156
+  },
+  "ES-GINFRA*": {
+   "n_tr": 155,
+   "n_te": 104,
+   "n_h1": 129,
+   "n_h2": 130,
+   "n_tr_raw": 156
+  },
+  "ES-GCG*": {
+   "n_tr": 155,
+   "n_te": 104,
+   "n_h1": 129,
+   "n_h2": 130,
+   "n_tr_raw": 156
+  },
+  "ES-GINNO*": {
+   "n_tr": 155,
+   "n_te": 104,
+   "n_h1": 129,
+   "n_h2": 130,
+   "n_tr_raw": 156
+  }
+ },
+ "dup_with_spliced": [
+  [
+   "ES-GINFRA*",
+   "KKP GINFRAEQ-H",
+   0.9913063947054764
+  ]
+ ],
+ "nw_spliced": {
+  "I-GOLD*": 278,
+  "ES-GINFRA*": 273,
+  "ES-GCG*": 273,
+  "ES-GINNO*": 273
+ },
+ "nw_KKP_GINFRAEQ": 260
+}

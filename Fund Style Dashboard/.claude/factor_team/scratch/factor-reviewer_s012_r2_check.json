@@ -1,0 +1,118 @@
+{
+ "E-X1_max_abs_dphi_vs_new_file": 5.551115123125783e-16,
+ "E-X2_groupfunds_max_abs_dphi_vs_new_file": 6.661338147750939e-16,
+ "E-X1_sum_phi_vs_fund_level_r2_max_abs": 2.7755575615628914e-16,
+ "O-X_max_abs_dphi_vs_new_file": 5.551115123125783e-16,
+ "paired_lens": [
+  {
+   "question": "Q-E1 E-X2 − E-PCA-a1",
+   "subset": "EVAL ทั้งหมด",
+   "n": 160,
+   "diff_of_medians_locked": 0.0077,
+   "median_of_fund_diffs": -0.0268,
+   "ci_lo": -0.0679,
+   "ci_hi": 0.0115,
+   "frac_worse": 0.5688,
+   "frac_improved": 0.4312
+  },
+  {
+   "question": "Q-E1 E-X2 − E-PCA-a1",
+   "subset": "มี factor กลุ่ม",
+   "n": 112,
+   "diff_of_medians_locked": 0.0429,
+   "median_of_fund_diffs": 0.0128,
+   "ci_lo": -0.025,
+   "ci_hi": 0.0871,
+   "frac_worse": 0.4554,
+   "frac_improved": 0.5446
+  },
+  {
+   "question": "Q-E1 E-X2 − E-PCA-a1",
+   "subset": "ไม่มี factor กลุ่ม",
+   "n": 48,
+   "diff_of_medians_locked": -0.105,
+   "median_of_fund_diffs": -0.0895,
+   "ci_lo": -0.1168,
+   "ci_hi": -0.055,
+   "frac_worse": 0.8333,
+   "frac_improved": 0.1667
+  },
+  {
+   "question": "Q-E1 E-X2 − E-PCA-a1",
+   "subset": "ในชุด PCA(97)",
+   "n": 95,
+   "diff_of_medians_locked": 0.0227,
+   "median_of_fund_diffs": -0.0353,
+   "ci_lo": -0.0687,
+   "ci_hi": -0.0029,
+   "frac_worse": 0.6211,
+   "frac_improved": 0.3789
+  },
+  {
+   "question": "Q-E1 E-X2 − E-PCA-a1",
+   "subset": "นอกชุด PCA(97)",
+   "n": 65,
+   "diff_of_medians_locked": -0.0174,
+   "median_of_fund_diffs": 0.0075,
+   "ci_lo": -0.0717,
+   "ci_hi": 0.028,
+   "frac_worse": 0.4923,
+   "frac_improved": 0.5077
+  },
+  {
+   "question": "Q-E2 E-X1 − ③a",
+   "subset": "EVAL ทั้งหมด",
+   "n": 160,
+   "diff_of_medians_locked": 0.0816,
+   "median_of_fund_diffs": 0.0275,
+   "ci_lo": 0.0135,
+   "ci_hi": 0.0405,
+   "frac_worse": 0.3062,
+   "frac_improved": 0.6938
+  },
+  {
+   "question": "Q-E2 E-X1 − ③a",
+   "subset": "มี factor กลุ่ม",
+   "n": 112,
+   "diff_of_medians_locked": 0.0425,
+   "median_of_fund_diffs": 0.0275,
+   "ci_lo": 0.0135,
+   "ci_hi": 0.0592,
+   "frac_worse": 0.2768,
+   "frac_improved": 0.7232
+  },
+  {
+   "question": "Q-E2 E-X1 − ③a",
+   "subset": "ไม่มี factor กลุ่ม",
+   "n": 48,
+   "diff_of_medians_locked": 0.0537,
+   "median_of_fund_diffs": 0.0261,
+   "ci_lo": -0.0007,
+   "ci_hi": 0.047,
+   "frac_worse": 0.375,
+   "frac_improved": 0.625
+  },
+  {
+   "question": "Q-E2 E-X1 − ③a",
+   "subset": "ในชุด PCA(97)",
+   "n": 95,
+   "diff_of_medians_locked": 0.0463,
+   "median_of_fund_diffs": 0.0273,
+   "ci_lo": 0.0104,
+   "ci_hi": 0.0579,
+   "frac_worse": 0.3158,
+   "frac_improved": 0.6842
+  },
+  {
+   "question": "Q-E2 E-X1 − ③a",
+   "subset": "นอกชุด PCA(97)",
+   "n": 65,
+   "diff_of_medians_locked": 0.0942,
+   "median_of_fund_diffs": 0.0307,
+   "ci_lo": 0.0139,
+   "ci_hi": 0.0504,
+   "frac_worse": 0.2923,
+   "frac_improved": 0.7077
+  }
+ ]
+}

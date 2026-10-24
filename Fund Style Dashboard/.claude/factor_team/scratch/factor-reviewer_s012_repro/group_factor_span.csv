@@ -1,0 +1,12 @@
+group_factor,factor,in_span_of_X1,raw_China_All_in_span
+e_ARKK,e_ARKK,False,
+e_ASIA,e_ASIA,False,
+e_CHINA(grp),e_CHINAg,False,False
+e_EUROPE,e_EUROPE,False,
+e_HC,e_HC,False,
+e_IGF,e_IGF,False,
+e_INDIA,e_INDIA,False,
+e_IT,e_IT,False,
+e_JAPAN,e_JAPAN,False,
+e_USA,e_USA,False,
+e_VIETNAM,e_VIETNAM,False,

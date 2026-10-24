@@ -1,0 +1,5 @@
+unit,old,new,week,n_old_rows,n_new_rows,n_overlap_rows,old_ret_at_week,new_ret_at_week,old_rows_after_week,new_rows_before_week,n_train_dimson,n_test,label
+I-GOLD*,I-GOLD,IGOLD-G,2023-12-08,153,108,1,-0.0004795505835868408,-0.0034738326889448556,0,0,155,104,ต่อรหัสโดยกติกาของ designer (ญ) · ต่อใน run ไม่แก้ panel L0 · S013 §2 สัปดาห์ซ้อนใช้รหัสใหม่
+ES-GCG*,TMB-ES-GCG,ES-GCG-A,2023-12-08,153,108,1,-0.0004795505835868408,-0.0009968609600521372,0,0,155,104,ต่อรหัสโดยกติกาของ designer (ญ) · ต่อใน run ไม่แก้ panel L0 · S013 §2 สัปดาห์ซ้อนใช้รหัสใหม่
+ES-GINNO*,TMB-ES-GINNO,ES-GINNO-A,2023-12-08,153,108,1,-0.0004795505835868408,0.014783358397882918,0,0,155,104,ต่อรหัสโดยกติกาของ designer (ญ) · ต่อใน run ไม่แก้ panel L0 · S013 §2 สัปดาห์ซ้อนใช้รหัสใหม่
+ES-GINFRA*,TMBGINFRA,ES-GINFRA-A,2023-12-08,153,108,1,-0.0004795505835868408,0.009834243055769631,0,0,155,104,ต่อรหัสโดยกติกาของ designer (ญ) · ต่อใน run ไม่แก้ panel L0 · S013 §2 สัปดาห์ซ้อนใช้รหัสใหม่

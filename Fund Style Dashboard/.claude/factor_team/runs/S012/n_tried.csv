@@ -1,0 +1,21 @@
+side,kind,item,n
+E,factor ร่วม (pool),stepwise จริง: Σ candidate ที่ประเมินทุกรอบ,30
+E,factor ร่วม (pool),placebo 26/52: Σ candidate ที่ประเมินทุกรอบ,22
+E,ภาคผนวก A1,stepwise pool style ETF (จริง),27
+E,ภาคผนวก A1,placebo A1 26/52,20
+E,ภาคผนวก A2,AQR 2 factor (N/A ไม่ได้รัน),0
+E,factor กลุ่ม,factor กลุ่มที่ fit (11 + e_AH ถ้าใช้ · นับ e_CHINAg/e_AH ที่ระบบสร้าง),11
+E,residual PC,k_res ที่เลือก (kmax 3),3
+E,PC ของ E-PCA,k* × 2 (a1 · a2),6
+E,ตัวเทียบ M1,ดัชนี P4 ของ M1,6
+E,แถวแข่ง,E-PCA-a1 · E-PCA-a2 · E-X0 · E-X1 · E-X2 · E-H,6
+E,ตัวเทียบ,①a · ①c · ③a · M1,4
+O,factor ชุด O,MKT · GOLD_XS · REIT_e · FX · TERM,5
+O,O-X′,GLD_THB · REET_THB,2
+O,O-tilt,VNQ−REET · CLRSI−REET,2
+O,O-PCA,OPC1 · OPC2,2
+E,ภาคผนวก A1,แถว E-X1(A1) ที่ fit/คะแนน,1
+E,ภาคผนวก A3,แถวรายเดือนที่คำนวณ (E-PCA-a1 · a2 · E-X0 · E-X1 · ③a),5
+O,ภาคผนวก A3,แถวรายเดือนที่คำนวณ (O-X ทอง · REIT),2
+E,ภาคผนวก A5,ชุดย่อยของตารางคะแนน (ไม่ใช่ factor/โมเดลใหม่ · นับเพิ่มจากชุดหลัก EVAL),5
+O,ภาคผนวก,แถว O-PCA (1) + แถว O-tilt (รายกอง 3 กอง),4

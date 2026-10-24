@@ -1,0 +1,865 @@
+{
+ "sha256": {
+  "aum_fam": "e442f6ae8f09ff01fb23a3b25aa89e2b98da8af9134143f0a873913e7ef2db46",
+  "universe": "fdfb7830df78ce032465ac9d8cddc2c98f9aa86cfa0f3925fdb83026aa3f7252",
+  "dup_pairs": "b1f0f0c745947fa70803a4f40526c0a1967c72925be985a2bedc1057d8b8aef3",
+  "panel_weekly": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b",
+  "fundprofile": "9516281426fc854c8f3a0833f119cad0ce581adb39450732e579084cb4cedfaf",
+  "group_map_csv": "898a86867b3f832060f7620d039fd95338d24e1bb71f531d76bb58004223fceb"
+ },
+ "U": {
+  "E": 218,
+  "O": 14,
+  "F_in_U": 0
+ },
+ "E_counts": {
+  "fit": 166,
+  "eval": 163,
+  "stab": 138,
+  "balanced": 100,
+  "unbal52": 199,
+  "no_train": 4,
+  "no_test": 3,
+  "any_post_2025": 212,
+  "dedup_keep": 202,
+  "pca_balanced": 95,
+  "pca_unbal52": 186,
+  "fund_class_dup_groups": {
+   "MCHINA": [
+    "MCHINAGA",
+    "MCHINAGD"
+   ],
+   "MGA": [
+    "MGAG",
+    "MGAI",
+    "MGAPVD"
+   ],
+   "MGF": [
+    "MGFGA",
+    "MGFGD",
+    "MGFPVD"
+   ]
+  }
+ },
+ "O_counts": {
+  "fit": 13,
+  "eval": 13,
+  "stab": 11,
+  "dedup_keep": 14,
+  "keepO": [
+   "BGOLD",
+   "DAOL-USREIT",
+   "I-GOLD",
+   "IGOLD-G",
+   "IREITG",
+   "K-GOLD-A(A)",
+   "KT-GOLD",
+   "LHPROPG-A",
+   "ONEPROP-SG",
+   "PRINCIPAL GREITs",
+   "PRINCIPAL iGOLD-A",
+   "TGOLD",
+   "TUSREIT",
+   "UOBSG-N"
+  ],
+  "groups": {
+   "REIT": 6,
+   "ทอง": 7
+  },
+  "subgroups": {
+   "REIT-Global": 3,
+   "REIT-Singapore": 1,
+   "REIT-US": 2,
+   "ทอง": 7
+  },
+  "igold": {
+   "I-GOLD": {
+    "first": "2021-01-08",
+    "last": "2023-12-08",
+    "n": 153
+   },
+   "IGOLD-G": {
+    "first": "2023-12-08",
+    "last": "2026-07-31",
+    "n": 126
+   },
+   "overlap_weeks": 1,
+   "gap_weeks_between": 0,
+   "spliced": {
+    "n_tr": 155,
+    "n_te": 104,
+    "n_h1": 129,
+    "n_h2": 130
+   }
+  }
+ },
+ "dup_pairs_in_U": 20,
+ "dup_pairs_in_U_list": [
+  [
+   "MGFGA",
+   "MGFPVD"
+  ],
+  [
+   "UGH",
+   "UOBSHC"
+  ],
+  [
+   "JSM",
+   "UOBSJSM"
+  ],
+  [
+   "TCHT5M4",
+   "TISCOCH"
+  ],
+  [
+   "K-EUSMALL",
+   "KT-EUROSM"
+  ],
+  [
+   "K-WORLDX",
+   "KKP PGE-H"
+  ],
+  [
+   "KKP SEMICON-H",
+   "LHSEMICON-A"
+  ],
+  [
+   "K-EUX",
+   "TISCOEU-A"
+  ],
+  [
+   "ASP-JHC",
+   "B-NIPPON"
+  ],
+  [
+   "KKP NDQ100-H",
+   "TLUSNDQ-H-A"
+  ],
+  [
+   "KKP PGE-H",
+   "LHGEQP-A"
+  ],
+  [
+   "MCHINAGA",
+   "MCHINAGD"
+  ],
+  [
+   "K-WORLDX",
+   "LHGEQP-A"
+  ],
+  [
+   "ES-GINFRA-A",
+   "KKP GINFRAEQ-H"
+  ],
+  [
+   "LHGEQP-A",
+   "MGAI"
+  ],
+  [
+   "K-WORLDX",
+   "KT-GEQ-A"
+  ],
+  [
+   "KT-GEQ-A",
+   "LHGEQP-A"
+  ],
+  [
+   "KKP PGE-H",
+   "MGAI"
+  ],
+  [
+   "ASP-S&P500-A",
+   "TISCOUS-A"
+  ],
+  [
+   "KKP PGE-H",
+   "KT-GEQ-A"
+  ]
+ ],
+ "E_groups_before_fallback": {
+  "USA": {
+   "n_U": 16,
+   "n_fit": 9,
+   "n_eval": 9,
+   "n_rows": 16
+  },
+  "ASIA": {
+   "n_U": 13,
+   "n_fit": 11,
+   "n_eval": 11,
+   "n_rows": 13
+  },
+  "CHINA": {
+   "n_U": 27,
+   "n_fit": 24,
+   "n_eval": 24,
+   "n_rows": 28
+  },
+  "EUROPE": {
+   "n_U": 14,
+   "n_fit": 10,
+   "n_eval": 10,
+   "n_rows": 14
+  },
+  "EM": {
+   "n_U": 4,
+   "n_fit": 4,
+   "n_eval": 4,
+   "n_rows": 4
+  },
+  "INDIA": {
+   "n_U": 6,
+   "n_fit": 4,
+   "n_eval": 4,
+   "n_rows": 6
+  },
+  "JAPAN": {
+   "n_U": 12,
+   "n_fit": 8,
+   "n_eval": 7,
+   "n_rows": 12
+  },
+  "GLOBAL": {
+   "n_U": 25,
+   "n_fit": 21,
+   "n_eval": 21,
+   "n_rows": 30
+  },
+  "NONE": {
+   "n_U": 15,
+   "n_fit": 10,
+   "n_eval": 10,
+   "n_rows": 15
+  },
+  "TECH": {
+   "n_U": 15,
+   "n_fit": 12,
+   "n_eval": 12,
+   "n_rows": 15
+  },
+  "INNOV": {
+   "n_U": 11,
+   "n_fit": 10,
+   "n_eval": 10,
+   "n_rows": 12
+  },
+  "HEALTH": {
+   "n_U": 15,
+   "n_fit": 14,
+   "n_eval": 14,
+   "n_rows": 15
+  },
+  "CONSUMER": {
+   "n_U": 5,
+   "n_fit": 2,
+   "n_eval": 1,
+   "n_rows": 5
+  },
+  "VIETNAM": {
+   "n_U": 9,
+   "n_fit": 6,
+   "n_eval": 5,
+   "n_rows": 9
+  },
+  "INFRA": {
+   "n_U": 6,
+   "n_fit": 3,
+   "n_eval": 3,
+   "n_rows": 7
+  },
+  "METAL": {
+   "n_U": 2,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 2
+  },
+  "STYLE": {
+   "n_U": 4,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 4
+  },
+  "TH": {
+   "n_U": 1,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 1
+  },
+  "ASEAN": {
+   "n_U": 2,
+   "n_fit": 2,
+   "n_eval": 2,
+   "n_rows": 2
+  },
+  "PROP": {
+   "n_U": 2,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 2
+  },
+  "CLEAN": {
+   "n_U": 4,
+   "n_fit": 4,
+   "n_eval": 4,
+   "n_rows": 4
+  },
+  "FIN": {
+   "n_U": 2,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 2
+  }
+ },
+ "E_groups": {
+  "USA": {
+   "n_U": 16,
+   "n_fit": 9,
+   "n_eval": 9,
+   "n_rows": 16
+  },
+  "ASIA": {
+   "n_U": 15,
+   "n_fit": 13,
+   "n_eval": 13,
+   "n_rows": 15
+  },
+  "CHINA": {
+   "n_U": 27,
+   "n_fit": 24,
+   "n_eval": 24,
+   "n_rows": 28
+  },
+  "EUROPE": {
+   "n_U": 14,
+   "n_fit": 10,
+   "n_eval": 10,
+   "n_rows": 14
+  },
+  "EM": {
+   "n_U": 4,
+   "n_fit": 4,
+   "n_eval": 4,
+   "n_rows": 4
+  },
+  "INDIA": {
+   "n_U": 6,
+   "n_fit": 4,
+   "n_eval": 4,
+   "n_rows": 6
+  },
+  "JAPAN": {
+   "n_U": 12,
+   "n_fit": 8,
+   "n_eval": 7,
+   "n_rows": 12
+  },
+  "GLOBAL": {
+   "n_U": 25,
+   "n_fit": 21,
+   "n_eval": 21,
+   "n_rows": 30
+  },
+  "NONE": {
+   "n_U": 15,
+   "n_fit": 10,
+   "n_eval": 10,
+   "n_rows": 15
+  },
+  "TECH": {
+   "n_U": 15,
+   "n_fit": 12,
+   "n_eval": 12,
+   "n_rows": 15
+  },
+  "INNOV": {
+   "n_U": 11,
+   "n_fit": 10,
+   "n_eval": 10,
+   "n_rows": 12
+  },
+  "HEALTH": {
+   "n_U": 15,
+   "n_fit": 14,
+   "n_eval": 14,
+   "n_rows": 15
+  },
+  "CONSUMER": {
+   "n_U": 5,
+   "n_fit": 2,
+   "n_eval": 1,
+   "n_rows": 5
+  },
+  "VIETNAM": {
+   "n_U": 9,
+   "n_fit": 6,
+   "n_eval": 5,
+   "n_rows": 9
+  },
+  "INFRA": {
+   "n_U": 6,
+   "n_fit": 3,
+   "n_eval": 3,
+   "n_rows": 7
+  },
+  "METAL": {
+   "n_U": 2,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 2
+  },
+  "STYLE": {
+   "n_U": 4,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 4
+  },
+  "TH": {
+   "n_U": 1,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 1
+  },
+  "PROP": {
+   "n_U": 2,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 2
+  },
+  "CLEAN": {
+   "n_U": 4,
+   "n_fit": 4,
+   "n_eval": 4,
+   "n_rows": 4
+  },
+  "FIN": {
+   "n_U": 2,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 2
+  }
+ },
+ "E_groups_nosyn": {
+  "STYLE": {
+   "n_U": 6,
+   "n_fit": 2,
+   "n_eval": 2,
+   "n_rows": 6
+  },
+  "ASIA": {
+   "n_U": 15,
+   "n_fit": 13,
+   "n_eval": 13,
+   "n_rows": 15
+  },
+  "CHINA": {
+   "n_U": 26,
+   "n_fit": 23,
+   "n_eval": 23,
+   "n_rows": 27
+  },
+  "EUROPE": {
+   "n_U": 14,
+   "n_fit": 10,
+   "n_eval": 10,
+   "n_rows": 14
+  },
+  "EM": {
+   "n_U": 4,
+   "n_fit": 4,
+   "n_eval": 4,
+   "n_rows": 4
+  },
+  "INDIA": {
+   "n_U": 5,
+   "n_fit": 3,
+   "n_eval": 3,
+   "n_rows": 5
+  },
+  "JAPAN": {
+   "n_U": 10,
+   "n_fit": 6,
+   "n_eval": 5,
+   "n_rows": 10
+  },
+  "GLOBAL": {
+   "n_U": 25,
+   "n_fit": 21,
+   "n_eval": 21,
+   "n_rows": 30
+  },
+  "USA": {
+   "n_U": 13,
+   "n_fit": 8,
+   "n_eval": 8,
+   "n_rows": 13
+  },
+  "NONE": {
+   "n_U": 20,
+   "n_fit": 14,
+   "n_eval": 14,
+   "n_rows": 20
+  },
+  "TECH": {
+   "n_U": 15,
+   "n_fit": 12,
+   "n_eval": 12,
+   "n_rows": 15
+  },
+  "INNOV": {
+   "n_U": 11,
+   "n_fit": 10,
+   "n_eval": 10,
+   "n_rows": 12
+  },
+  "HEALTH": {
+   "n_U": 15,
+   "n_fit": 14,
+   "n_eval": 14,
+   "n_rows": 15
+  },
+  "CONSUMER": {
+   "n_U": 5,
+   "n_fit": 2,
+   "n_eval": 1,
+   "n_rows": 5
+  },
+  "VIETNAM": {
+   "n_U": 9,
+   "n_fit": 6,
+   "n_eval": 5,
+   "n_rows": 9
+  },
+  "INFRA": {
+   "n_U": 6,
+   "n_fit": 3,
+   "n_eval": 3,
+   "n_rows": 7
+  },
+  "METAL": {
+   "n_U": 2,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 2
+  },
+  "TH": {
+   "n_U": 1,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 1
+  },
+  "PROP": {
+   "n_U": 2,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 2
+  },
+  "CLEAN": {
+   "n_U": 4,
+   "n_fit": 4,
+   "n_eval": 4,
+   "n_rows": 4
+  },
+  "FIN": {
+   "n_U": 2,
+   "n_fit": 1,
+   "n_eval": 1,
+   "n_rows": 2
+  }
+ },
+ "sub_groups": {
+  "SEMI": {
+   "parent": "TECH",
+   "n_U": 3,
+   "codes": [
+    "DAOL-EVOSEMI",
+    "KKP SEMICON-H",
+    "LHSEMICON-A"
+   ],
+   "column": "SOXX_THB"
+  },
+  "BIOTECH": {
+   "parent": "HEALTH",
+   "n_U": 2,
+   "codes": [
+    "TBIOTECH",
+    "TGENOME"
+   ],
+   "column": "IBB_THB"
+  },
+  "CHINA_A": {
+   "parent": "CHINA",
+   "n_U": 4,
+   "codes": [
+    "ABCA-A",
+    "KT-Ashares-A",
+    "TISCOCHA-A",
+    "UCI"
+   ],
+   "column": "MSCI_CHINA_A_SHARES"
+  },
+  "CHINA_TECH": {
+   "parent": "CHINA",
+   "n_U": 2,
+   "codes": [
+    "PRINCIPAL CHTECH-A",
+    "TCHTECH-A"
+   ],
+   "column": "KWEB_THB"
+  }
+ },
+ "alt_nosyn_counts": {
+  "ไม่มี": 76,
+  "e_CHINA(grp)": 27,
+  "e_ASIA": 15,
+  "e_IT": 15,
+  "e_HC": 15,
+  "e_EUROPE": 14,
+  "e_USA": 13,
+  "e_ARKK": 12,
+  "e_JAPAN": 10,
+  "e_VIETNAM": 9,
+  "e_IGF": 7,
+  "e_INDIA": 5
+ },
+ "E_group_factor_counts": {
+  "e_ARKK": 12,
+  "e_ASIA": 15,
+  "e_CHINA(grp)": 28,
+  "e_EUROPE": 14,
+  "e_HC": 15,
+  "e_IGF": 7,
+  "e_INDIA": 6,
+  "e_IT": 15,
+  "e_JAPAN": 12,
+  "e_USA": 16,
+  "e_VIETNAM": 9,
+  "ไม่มี": 69
+ },
+ "E_group_factor_counts_eval": {
+  "e_ARKK": 11,
+  "e_ASIA": 13,
+  "e_CHINA(grp)": 25,
+  "e_EUROPE": 10,
+  "e_HC": 14,
+  "e_IGF": 4,
+  "e_INDIA": 4,
+  "e_IT": 12,
+  "e_JAPAN": 7,
+  "e_USA": 9,
+  "e_VIETNAM": 5,
+  "ไม่มี": 49
+ },
+ "E_group_factor_counts_fit": {
+  "e_ARKK": 11,
+  "e_ASIA": 13,
+  "e_CHINA(grp)": 25,
+  "e_EUROPE": 10,
+  "e_HC": 14,
+  "e_IGF": 4,
+  "e_INDIA": 4,
+  "e_IT": 12,
+  "e_JAPAN": 8,
+  "e_USA": 9,
+  "e_VIETNAM": 6,
+  "ไม่มี": 50
+ },
+ "fif_not_Y": [],
+ "div_Y": {
+  "E": [
+   "B-CHINE-EQ",
+   "B-FUTURE",
+   "B-USALPHA",
+   "ES-GDIV",
+   "K-ASIA",
+   "K-EUROPE-A(D)",
+   "K-GHEALTH",
+   "K-GHEALTH(UH)",
+   "K-GINFRA-A(D)",
+   "K-GLOBE",
+   "K-JP-A(D)",
+   "KKP GHC",
+   "MCHINAGD",
+   "MGAG",
+   "MGAPVD",
+   "MGFGD"
+  ],
+  "O": [
+   "IREITG",
+   "PRINCIPAL GREITs"
+  ]
+ },
+ "M1_coverage": {
+  "primary_col": "index",
+  "n_E_with_L2_primary": 146,
+  "n_E_primary_in_P4": 28,
+  "n_E_eval": 163
+ },
+ "splices": {
+  "I-GOLD*": {
+   "old": "I-GOLD",
+   "new": "IGOLD-G",
+   "overlap": 1,
+   "n_tr": 155,
+   "n_te": 104,
+   "n_h1": 129,
+   "n_h2": 130
+  },
+  "ES-GINFRA*": {
+   "old": "TMBGINFRA",
+   "new": "ES-GINFRA-A",
+   "overlap": 1,
+   "n_tr": 155,
+   "n_te": 104,
+   "n_h1": 129,
+   "n_h2": 130
+  },
+  "ES-GCG*": {
+   "old": "TMB-ES-GCG",
+   "new": "ES-GCG-A",
+   "overlap": 1,
+   "n_tr": 155,
+   "n_te": 104,
+   "n_h1": 129,
+   "n_h2": 130
+  },
+  "ES-GINNO*": {
+   "old": "TMB-ES-GINNO",
+   "new": "ES-GINNO-A",
+   "overlap": 1,
+   "n_tr": 155,
+   "n_te": 104,
+   "n_h1": 129,
+   "n_h2": 130
+  }
+ },
+ "O_fx_flag": {
+  "BGOLD": "Y",
+  "DAOL-USREIT": "Y",
+  "I-GOLD": "Y",
+  "IGOLD-G": "Y",
+  "IREITG": "Y",
+  "K-GOLD-A(A)": "N",
+  "KT-GOLD": "Y",
+  "LHPROPG-A": "Y",
+  "ONEPROP-SG": "Y",
+  "PRINCIPAL GREITs": "Y",
+  "PRINCIPAL iGOLD-A": "N",
+  "TGOLD": "Y",
+  "TUSREIT": "Y",
+  "UOBSG-N": "Y"
+ },
+ "not_fit_E": [
+  "ABCA-A",
+  "AFMOAT-HA",
+  "ASP-DIGIBLOC",
+  "ASP-INDIA-A",
+  "ASP-S&P500-A",
+  "ASP-USSMALL-A",
+  "B-GLOB-INFRA",
+  "B-PREMIUM",
+  "DAOL-CHIG",
+  "DAOL-CYBER",
+  "DAOL-EVOSEMI",
+  "DAOL-GEQUITY",
+  "DAOL-GOLD",
+  "ES-GDIV",
+  "ES-INDONESIA",
+  "ES-LOVE",
+  "ES-USTECH",
+  "K-EUROPE-A(D)",
+  "K-GINFRA-A(D)",
+  "K-INDIA-A(A)",
+  "K-JP-A(D)",
+  "K-JPX-A(A)",
+  "K-PLANET-A(A)",
+  "K-US500X-A(A)",
+  "KKP CHINA-H",
+  "KKP NDQ100-H",
+  "KT-EUROSM",
+  "KT-FINANCE-A",
+  "KT-GESG-A",
+  "KT-JAPANSM-A",
+  "KT-LUXURY-A",
+  "KT-PROPERTY-A",
+  "KT-VIETNAM-A",
+  "KT-WEQ-A",
+  "LHGEQP-A",
+  "M-ASIA",
+  "MEGA10-A",
+  "MEURO-G",
+  "MGAI",
+  "MHEALTHG",
+  "MVIET",
+  "ONE-METAVERSE",
+  "PRINCIPAL APDI-A",
+  "PRINCIPAL EUEQ-A",
+  "PRINCIPAL JEQ-A",
+  "TBRAND",
+  "TCYBER",
+  "TGHIDIV",
+  "TUSTECH-A",
+  "TVIETNAM",
+  "UGFT",
+  "UINFRA-N"
+ ],
+ "not_eval_E": [
+  "ABCA-A",
+  "AFMOAT-HA",
+  "ASP-DIGIBLOC",
+  "ASP-INDIA-A",
+  "ASP-JHC",
+  "ASP-S&P500-A",
+  "ASP-TOPBRAND",
+  "ASP-USSMALL-A",
+  "ASP-VIET",
+  "B-GLOB-INFRA",
+  "B-PREMIUM",
+  "DAOL-CHIG",
+  "DAOL-CYBER",
+  "DAOL-EVOSEMI",
+  "DAOL-GEQUITY",
+  "DAOL-GOLD",
+  "ES-GDIV",
+  "ES-INDONESIA",
+  "ES-LOVE",
+  "ES-USTECH",
+  "K-EUROPE-A(D)",
+  "K-GINFRA-A(D)",
+  "K-INDIA-A(A)",
+  "K-JP-A(D)",
+  "K-JPX-A(A)",
+  "K-PLANET-A(A)",
+  "K-US500X-A(A)",
+  "KKP CHINA-H",
+  "KKP NDQ100-H",
+  "KT-EUROSM",
+  "KT-FINANCE-A",
+  "KT-GESG-A",
+  "KT-JAPANSM-A",
+  "KT-LUXURY-A",
+  "KT-PROPERTY-A",
+  "KT-VIETNAM-A",
+  "KT-WEQ-A",
+  "LHGEQP-A",
+  "M-ASIA",
+  "MEGA10-A",
+  "MEURO-G",
+  "MGAI",
+  "MHEALTHG",
+  "MVIET",
+  "ONE-METAVERSE",
+  "PRINCIPAL APDI-A",
+  "PRINCIPAL EUEQ-A",
+  "PRINCIPAL JEQ-A",
+  "TBRAND",
+  "TCYBER",
+  "TGHIDIV",
+  "TUSTECH-A",
+  "TVIETNAM",
+  "UGFT",
+  "UINFRA-N"
+ ],
+ "not_eval_O": [
+  "DAOL-USREIT"
+ ]
+}

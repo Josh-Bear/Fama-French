@@ -6,3 +6,9 @@ scratch/factor-data-engineer_nav.parquet
 
 # .gitignore ของโปรเจกต์ข้าม *.log — แต่ run.log / log ของทีมคือหลักฐาน hash ของข้อมูลและ lib จึงต้อง commit
 !*.log
+
+# F5-EO: AQR xlsx ต้นฉบับใหญ่ (~89 MB) — ดึงใหม่ได้ด้วย data/external/fetch_eo.py aqr
+data/external/raw_eo/AQR_*.xlsx
+# F5-EO: parquet มีคอลัมน์ AQR 9 ตัว (Terms ของ AQR ห้าม copy/distribute · BRIEF 117/119) — ไม่ commit · สร้างใหม่ได้ด้วย data/build_eo.py · งานถัดไปลบคอลัมน์ AQR แล้วค่อย commit
+data/factors_eo_weekly.parquet
+data/factors_eo_monthly.parquet

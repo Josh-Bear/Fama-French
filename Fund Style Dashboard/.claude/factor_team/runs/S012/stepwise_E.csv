@@ -1,0 +1,4 @@
+tag,round,best,best_score,second,second_score,tau,n_core_before,g1_cap_ok,g2_score_ok,g3_pseudo_ok,g3_median,g3_n,action,n_selected
+real,1,FX,-13.100542395370894,CMA,-7.232510104958351,-2.0,1,True,True,True,0.08619916896248958,108,added,1
+real,2,CMA,-3.5668985333470573,EMDM,-2.311281582366746,-2.0,2,True,True,True,0.009485603711613999,108,added,2
+real,3,EMDM,-1.8808046943973977,SMB,1.3322383157826607,-2.0,3,True,False,True,0.03779088848728218,108,stop_tau,2

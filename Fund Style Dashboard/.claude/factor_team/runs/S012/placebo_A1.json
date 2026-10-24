@@ -1,0 +1,22 @@
+{
+ "n_candidates_evaluated": 20,
+ "selected": [
+  "FX",
+  "EMDM"
+ ],
+ "shifts": {
+  "26": {
+   "best_score_round1": 5.349064573477449,
+   "n_selected": 0,
+   "rounds": 1,
+   "selected": []
+  },
+  "52": {
+   "best_score_round1": 7.547828869327532,
+   "n_selected": 0,
+   "rounds": 1,
+   "selected": []
+  }
+ },
+ "tau": -2.0
+}

@@ -1,0 +1,344 @@
+{
+ "created": "2026-10-20",
+ "script": "build_eo.py",
+ "pandas": "3.0.5",
+ "numpy": "2.5.2",
+ "python": "3.12.4",
+ "criteria": {
+  "anchors": "weekly W-FRI 2021-01-01→2026-07-31 · monthly month-end 2020-12-31→2026-07-31 (เหมือน build_l0.py)",
+  "asof_tolerance_calendar_days": 10,
+  "daily_factor": "cum index (1+r) เริ่ม 2020-10-01 แล้ว asof ที่ anchor · anchor เลยข้อมูลวันสุดท้าย = NaN",
+  "kf_units": "% → สัดส่วน (÷100) · -99.99 = ขาด",
+  "usd_to_thb": "ราคา × USDTHB (MACRO_FACTOR.csv) แล้วหาผลตอบแทน · REIT เอเชีย × JPYTHB/SGDTHB",
+  "yahoo_drop_date_ge": "2026-10-20",
+  "aum": {
+   "asof": "2023-12-31",
+   "min_baht": 100000000.0,
+   "stale_days": 90,
+   "age_asof": "2025-12-31",
+   "age_min_days": 730,
+   "age_def": "min(Registration_date ≤ 2025-12-31, NAV แรก) ของทุก class ใน family",
+   "family_map": "build_l0.family_of(fixed=True) + share_class_groups.csv"
+  },
+  "aqr_series": {
+   "USA": "USA",
+   "Global": "GLOBAL",
+   "Global Ex USA": "GLOBALXUS"
+  },
+  "flags": {
+   "weekly_abs_ret": 0.2,
+   "monthly_abs_ret": 0.3,
+   "z_abn": 6.0
+  },
+  "main_period": [
+   "2021-01-01",
+   "2025-12-31"
+  ]
+ },
+ "counts": {
+  "weekly_cols": 76,
+  "monthly_cols": 88,
+  "U_E": 218,
+  "U_O": 14
+ },
+ "inputs": [
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/AQR_Betting-Against-Beta-Equity-Factors-Daily.xlsx",
+   "sha256": "c34f1ac4130f69dd73440dd62a53caf22df47bc7cc50f5cf544f8e522c28a8c6",
+   "bytes": 31458570
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/AQR_Quality-Minus-Junk-Factors-Daily.xlsx",
+   "sha256": "6e0d68577fcd87e182c51902cd35d4dd7252d211d0f62327a87a1c7d9456de7e",
+   "bytes": 31884896
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/AQR_The-Devil-in-HMLs-Details-Factors-Daily.xlsx",
+   "sha256": "14d274a113a3ac0802fc501f4fe06798127d1eaef1d0e1a7aae9d515d5ccd760",
+   "bytes": 26114387
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/JKP_DEVELOPED_THEMES_DAILY.zip",
+   "sha256": "8db62c48399c55779758c0e66205f1a1129bcd67c374a08fbc5285fb8244e75a",
+   "bytes": 1904284
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/JKP_EMERGING_THEMES_DAILY.zip",
+   "sha256": "032fb61b7e01cb4abcd03ac642ea445f3934b3d41866bde29bd3bbea92fa2a30",
+   "bytes": 1963057
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/KF_Developed_5_Factors_CSV.zip",
+   "sha256": "11c299a69b299ada4bd2e68d4c6393347a70e3bf474c967fe96bff469baa5e2e",
+   "bytes": 6802
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/KF_Developed_5_Factors_Daily_CSV.zip",
+   "sha256": "d380a0e73a680f31cbbad1760ed64cfa762a2efd27869756ed6c4688cccb87f9",
+   "bytes": 86809
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/KF_Developed_Mom_Factor_CSV.zip",
+   "sha256": "f2217d81ca76d749d1ee84dd8de80ec70db341c583b7c94a1960e3b807fa7931",
+   "bytes": 2264
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/KF_Developed_Mom_Factor_Daily_CSV.zip",
+   "sha256": "5a9ed87d648e4730fd9bbecaf83662fd333f5ea800091043b8cf5b7266b44373",
+   "bytes": 30597
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/KF_Emerging_5_Factors_CSV.zip",
+   "sha256": "303b5afb42232683f48f80178206a5cb99b1b755e4dc0493f9ec9b26dd74d103",
+   "bytes": 6978
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/KF_Emerging_MOM_Factor_CSV.zip",
+   "sha256": "5316f98a394947be155ba97f860366a14b214140d37b75c7eb93ad08bda92735",
+   "bytes": 2272
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/KF_Europe_5_Factors_Daily_CSV.zip",
+   "sha256": "d8c7d685917923160c2cc42609296775e3abdc3ba892bd0ca0d0c0c594ac7482",
+   "bytes": 88773
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/KF_Europe_Mom_Factor_Daily_CSV.zip",
+   "sha256": "735c247ecf004135cd53ded618ddb3174bc786ad82c2a999a340455f4a38daeb",
+   "bytes": 30815
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/KF_Japan_5_Factors_Daily_CSV.zip",
+   "sha256": "350b1eec802d2a24a861fa901f9cc0793ac55bca47ea7ef816514f7dc3140c0d",
+   "bytes": 91298
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/KF_Japan_Mom_Factor_Daily_CSV.zip",
+   "sha256": "841a361f662cb2bd0604a3bb79f6d5e626f2993cae3f205c2e357a417c1acaf9",
+   "bytes": 30965
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/KF_North_America_5_Factors_Daily_CSV.zip",
+   "sha256": "4bf4609f291754a77d9b65266263557e25faef721a736acbf86adcafa61da70b",
+   "bytes": 90618
+  },
+  {
+   "file": ".claude/factor_team/data/external/raw_eo/KF_North_America_Mom_Factor_Daily_CSV.zip",
+   "sha256": "c5e28759a38079c3d1f17158cafd771e37c61c1622fbab728f5e8e4d075bebe0",
+   "bytes": 31245
+  },
+  {
+   "file": ".claude/factor_team/data/external/EO_ALT_ETF.csv",
+   "sha256": "6e7f1c1eb9676af52380ac5a03c34d75b933874043e84e8aaaf771342ef2ee31",
+   "rows": 1497,
+   "date_min": "2020-11-02",
+   "date_max": "2026-10-19"
+  },
+  {
+   "file": ".claude/factor_team/data/external/US_DOLLAR_REALRATE_FRED.csv",
+   "sha256": "eab7e93599705fb4b211e2bb500836b9ea73a1f1aa554d6e4d5fe7855f99471d",
+   "rows": 1555,
+   "date_min": "2020-11-02",
+   "date_max": "2026-10-16"
+  },
+  {
+   "file": ".claude/factor_team/data/external/ASIA_REIT_LOCAL.csv",
+   "sha256": "225debe3f940382c32685fe402405a30258bc62a07465f5cc2b5dae196339ed0",
+   "rows": 1555,
+   "date_min": "2020-11-02",
+   "date_max": "2026-10-20"
+  },
+  {
+   "file": "base_data/MACRO_FACTOR.csv",
+   "sha256": "5b96807d808a8cf917d55b05c9afa9b724382a8d862f8fd078af28969b72682c",
+   "rows": 1528,
+   "date_min": "2020-11-02",
+   "date_max": "2026-09-15"
+  },
+  {
+   "file": "base_data/FundProfile.csv",
+   "sha256": "9516281426fc854c8f3a0833f119cad0ce581adb39450732e579084cb4cedfaf",
+   "rows": 3982,
+   "date_min": null,
+   "date_max": null
+  },
+  {
+   "file": "base_data/nav_history_db.csv",
+   "sha256": "97f2a7a070327ae5550dd9628b4cf970cf3775634abe48536d5bfc4eb3d97d45",
+   "rows": 3068584,
+   "date_min": "2005-11-11",
+   "date_max": "2026-10-06"
+  },
+  {
+   "file": "base_data/share_class_groups.csv",
+   "sha256": "f70505bc0b806a36178fa6acb8e9c1d0d053c02c7d1af20a76acfb09e945cf0b",
+   "rows": 70,
+   "date_min": null,
+   "date_max": null
+  },
+  {
+   "file": ".claude/factor_team/data/universe.csv",
+   "sha256": "fdfb7830df78ce032465ac9d8cddc2c98f9aa86cfa0f3925fdb83026aa3f7252",
+   "rows": 715,
+   "date_min": null,
+   "date_max": null
+  },
+  {
+   "file": ".claude/factor_team/data/build_l0.py",
+   "sha256": "5773c34abaf023518882dfb0833bc8907dee406cb8014d98350d70795da64e0d",
+   "date_min": null,
+   "date_max": null
+  },
+  {
+   "file": ".claude/factor_team/data/build_eo.py",
+   "sha256": "fe945968d0656baa43de1a343fa24fcd63b334f8b5619d7ec0ebfed714c5d346",
+   "date_min": null,
+   "date_max": null
+  }
+ ],
+ "outputs": [
+  {
+   "file": ".claude/factor_team/data/factors_eo_weekly.parquet",
+   "sha256": "87b793508d83d2a4235eb07f1ff584cd32493375d5f73f8c6711f172f2a0bfca",
+   "rows": 291,
+   "date_min": "2021-01-08",
+   "date_max": "2026-07-31",
+   "columns": 76
+  },
+  {
+   "file": ".claude/factor_team/data/factors_eo_monthly.parquet",
+   "sha256": "c13c36e7dd2b039116131092b757160ae83460478829af3b7234afdd67bef82f",
+   "rows": 67,
+   "date_min": "2021-01-31",
+   "date_max": "2026-07-31",
+   "columns": 88
+  },
+  {
+   "file": ".claude/factor_team/data/aum_fam.parquet",
+   "sha256": "e442f6ae8f09ff01fb23a3b25aa89e2b98da8af9134143f0a873913e7ef2db46",
+   "rows": 575,
+   "date_min": null,
+   "date_max": null,
+   "columns": 19
+  },
+  {
+   "file": ".claude/factor_team/data/factor_groups_eo.csv",
+   "sha256": "4d92320c6dd765e951c1fc2f540e15830e74f2951847505c0cab6360cde12e56"
+  },
+  {
+   "file": ".claude/factor_team/data/eo_row_flags.csv",
+   "sha256": "c046501112b1e1e45b3959f4a19e5605c44af8cb7b02ad808f3f568c5fe8632a"
+  },
+  {
+   "file": ".claude/factor_team/data/QA_EO.md",
+   "sha256": "64e12139e6d4f184c3141340d174e4b1ffe8ffc41bc82dadd40fef7625b2c906"
+  }
+ ],
+ "l0_untouched_check": [
+  {
+   "manifest": "manifest.json",
+   "file": ".claude/factor_team/data/panel_weekly.parquet",
+   "sha256_manifest": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b",
+   "sha256_now": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b",
+   "match": true
+  },
+  {
+   "manifest": "manifest.json",
+   "file": ".claude/factor_team/data/panel_monthly.parquet",
+   "sha256_manifest": "e8e8cb5d5f04fba9bb35558ef7c3d8195c656334119e56f82775cc1ae21ccaed",
+   "sha256_now": "e8e8cb5d5f04fba9bb35558ef7c3d8195c656334119e56f82775cc1ae21ccaed",
+   "match": true
+  },
+  {
+   "manifest": "manifest.json",
+   "file": ".claude/factor_team/data/aum_weekly.parquet",
+   "sha256_manifest": "48c34c73ae22ebffc6112f93e03f729223a496297bb65c324b693b817a723d26",
+   "sha256_now": "48c34c73ae22ebffc6112f93e03f729223a496297bb65c324b693b817a723d26",
+   "match": true
+  },
+  {
+   "manifest": "manifest.json",
+   "file": ".claude/factor_team/data/factors_weekly.parquet",
+   "sha256_manifest": "115b87139d2bec0fd57a77a1593c46d36bb23f3f35f83236cdb07be642af47a8",
+   "sha256_now": "115b87139d2bec0fd57a77a1593c46d36bb23f3f35f83236cdb07be642af47a8",
+   "match": true
+  },
+  {
+   "manifest": "manifest.json",
+   "file": ".claude/factor_team/data/factors_monthly.parquet",
+   "sha256_manifest": "f7c4248b4fa889853024449e72ae8909cf1f8d3226a54eebc37448a2a485bb72",
+   "sha256_now": "f7c4248b4fa889853024449e72ae8909cf1f8d3226a54eebc37448a2a485bb72",
+   "match": true
+  },
+  {
+   "manifest": "manifest.json",
+   "file": ".claude/factor_team/data/universe.csv",
+   "sha256_manifest": "fdfb7830df78ce032465ac9d8cddc2c98f9aa86cfa0f3925fdb83026aa3f7252",
+   "sha256_now": "fdfb7830df78ce032465ac9d8cddc2c98f9aa86cfa0f3925fdb83026aa3f7252",
+   "match": true
+  },
+  {
+   "manifest": "manifest.json",
+   "file": ".claude/factor_team/data/factor_groups.csv",
+   "sha256_manifest": "42bf1cfb270721ae6112799ab795ebc4c91212e7584d5cdfee23b9b70b1b1731",
+   "sha256_now": "42bf1cfb270721ae6112799ab795ebc4c91212e7584d5cdfee23b9b70b1b1731",
+   "match": true
+  },
+  {
+   "manifest": "manifest.json",
+   "file": ".claude/factor_team/data/coverage_weekly.csv",
+   "sha256_manifest": "c9cbb4cfa5d13dc4b3612fa8ad70738de1676ca3ec4a32b506c0961751fb330d",
+   "sha256_now": "c9cbb4cfa5d13dc4b3612fa8ad70738de1676ca3ec4a32b506c0961751fb330d",
+   "match": true
+  },
+  {
+   "manifest": "manifest.json",
+   "file": ".claude/factor_team/data/spike_fixes.csv",
+   "sha256_manifest": "0104435314bc36376b0c191276e58f3ca4a30ef6ef46c9f031589ef3c0108cf7",
+   "sha256_now": "0104435314bc36376b0c191276e58f3ca4a30ef6ef46c9f031589ef3c0108cf7",
+   "match": true
+  },
+  {
+   "manifest": "manifest.json",
+   "file": ".claude/factor_team/data/spike_candidates_Frule.csv",
+   "sha256_manifest": "8658f051777bd3e14dcf8df514bc0815b86f871b1dac803d1c7cf123b279402c",
+   "sha256_now": "8658f051777bd3e14dcf8df514bc0815b86f871b1dac803d1c7cf123b279402c",
+   "match": true
+  },
+  {
+   "manifest": "manifest.json",
+   "file": ".claude/factor_team/data/dup_pairs.csv",
+   "sha256_manifest": "b1f0f0c745947fa70803a4f40526c0a1967c72925be985a2bedc1057d8b8aef3",
+   "sha256_now": "b1f0f0c745947fa70803a4f40526c0a1967c72925be985a2bedc1057d8b8aef3",
+   "match": true
+  },
+  {
+   "manifest": "manifest.json",
+   "file": ".claude/factor_team/data/QA_L0.md",
+   "sha256_manifest": "493c46d5d1541fa82baa12d4a685c7ca67b41167bb632e769d1990c88c0f3a5d",
+   "sha256_now": "493c46d5d1541fa82baa12d4a685c7ca67b41167bb632e769d1990c88c0f3a5d",
+   "match": true
+  },
+  {
+   "manifest": "manifest_ext.json",
+   "file": ".claude/factor_team/data/factors_ext_weekly.parquet",
+   "sha256_manifest": "3105b6e7fe32ffd3648e8feac8dbd03a8db22b7e8eb245c5faf462b14da5e296",
+   "sha256_now": "3105b6e7fe32ffd3648e8feac8dbd03a8db22b7e8eb245c5faf462b14da5e296",
+   "match": true
+  },
+  {
+   "manifest": "manifest_ext.json",
+   "file": ".claude/factor_team/data/factors_ext_monthly.parquet",
+   "sha256_manifest": "ce53d371ae847ee8d8dcd2d33a7b0f30f5db01bb993bef8599598e05af4db792",
+   "sha256_now": "ce53d371ae847ee8d8dcd2d33a7b0f30f5db01bb993bef8599598e05af4db792",
+   "match": true
+  },
+  {
+   "manifest": "manifest_ext.json",
+   "file": ".claude/factor_team/data/QA_L0_ext.md",
+   "sha256_manifest": "29d304fda340e3ce9006e38bb87ad1381095ffe25ef8cc46ac9b6a3d550faecb",
+   "sha256_now": "29d304fda340e3ce9006e38bb87ad1381095ffe25ef8cc46ac9b6a3d550faecb",
+   "match": true
+  }
+ ]
+}
