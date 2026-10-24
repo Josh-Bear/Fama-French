@@ -1,0 +1,216 @@
+unit,policy,n_weeks_main,n_train_raw,n_train_dimson,n_test,sel,eval,eval52,stab,dedup_keep,pca_balanced,pca_unbal52,fri_share_gap,fri_share_pre,grp_A,grp_A_strict,mid_025_075,group_name,name_en,fund_class
+B-VIETNAM,E,217,113,113,104,True,True,True,False,True,False,True,0.009345794393,0.9009009009,True,True,False,VIETNAM,Bualuang Vietnam Equity Fund,B-VIETNAM
+FCSCBSETE,E,248,144,144,104,True,True,True,True,True,False,True,0.009345794393,0.9084507042,True,True,False,TH,SCB SET INDEX FUND,FCSCBSETE
+TCHT5M4,E,232,128,128,104,True,True,True,False,False,False,False,0.009345794393,0.8968253968,True,True,False,CHINA,TISCO China Equity Trigger 5M Fund 4,TCHT5M4
+TISCOCH,E,259,155,155,104,True,True,True,True,True,False,True,0.009345794393,0.9019607843,True,True,False,CHINA,TISCO China H-Shares Equity Fund,TISCOCH
+TISCOCHA-A,E,259,155,155,104,True,True,True,True,True,False,True,0.009345794393,0.9019607843,True,True,False,CHINA,TISCO China A-Shares Equity Fund,TISCOCHA
+TISCOJP,E,259,155,155,104,True,True,True,True,True,False,True,0.009345794393,0.9019607843,True,True,False,JAPAN,TISCO Japan Equity Fund,TISCOJP
+K-CHX,E,259,155,155,104,True,True,True,True,True,False,True,0.04672897196,0.7777777778,True,True,False,CHINA,K Chinese Equity Index Fund,K-CHX
+K-VIETNAM,E,259,155,155,104,True,True,True,True,True,False,True,0.05607476636,0.8300653595,True,True,False,VIETNAM,K Vietnam Equity Fund,K-VIETNAM
+K-AEC,E,259,155,155,104,True,True,True,True,True,False,True,0.07476635514,0.8431372549,True,True,False,ASIA,K ASEAN Economic Community Equity Fund,K-AEC
+K-JPX-A(A),E,162,58,58,104,False,False,True,False,True,False,True,0.1121495327,0.8571428571,True,False,False,JAPAN,K Japanese Equity Index Fund,K-JPX
+KT-VIETNAM-A,E,180,76,76,104,False,False,True,False,True,False,True,0.1214953271,0.8648648649,True,False,False,VIETNAM,KTAM Vietnam Equity Fund Class A,KT-VIETNAM
+PRINCIPAL VNEQ-A,E,259,155,155,104,True,True,True,True,True,False,True,0.1214953271,0.8169934641,True,False,False,VIETNAM,Principal Vietnam Equity Fund,PRINCIPAL VNEQ
+KT-MFE-A,E,260,156,155,104,True,True,True,True,True,True,True,0.5140186916,0.5751633987,False,False,True,NONE,KTAM Multi Manager Flexible Equity Fund - Class A,KT-MFE
+KT-EMEQ-A,E,260,156,155,104,True,True,True,True,True,True,True,0.5887850467,0.5882352941,False,False,True,EM,KTAM Emerging Markets Equity Fund - Class A,KT-EMEQ
+MATECH-A,E,258,154,154,104,True,True,True,True,True,False,True,0.738317757,0.7302631579,False,False,True,ASIA,MFC Asia Technology Fund,M-ATECH
+GC,E,260,156,155,104,True,True,True,True,True,True,True,0.7663551402,0.8169934641,False,False,False,CHINA,Greater China Fund,GC
+MCHINAGA,E,260,156,155,104,True,True,True,True,True,True,True,0.7757009346,0.7777777778,False,False,False,CHINA,MFC China Equity Fund,MCHINA
+MCHINAGD,E,260,156,155,104,True,True,True,True,False,False,False,0.7757009346,0.7777777778,False,False,False,CHINA,MFC China Equity Fund,MCHINA
+UCHI,E,253,149,149,104,True,True,True,True,True,False,True,0.7757009346,0.7823129252,False,False,False,CHINA,United China Healthcare Innovation Fund,UCHI
+KT-Ashares-A,E,260,156,155,104,True,True,True,True,True,True,True,0.785046729,0.7712418301,False,False,False,CHINA,KTAM China A Shares Equity Fund Class A,KT-Ashares
+KT-LUXURY-A,E,189,85,85,104,False,False,True,False,True,False,True,0.7943925234,0.843373494,False,False,False,CONSUMER,KTAM Luxury Fund Class A,KT-LUXURY
+MCHEVO,E,228,124,124,104,True,True,True,False,True,False,True,0.7943925234,0.7786885246,False,False,False,CHINA,MFC China Evolution Fund,MCHEVO
+UCHINA,E,260,156,155,104,True,True,True,True,True,True,True,0.7943925234,0.8039215686,False,False,False,CHINA,United All China Equity Fund,UCHINA-M
+UCI,E,260,156,155,104,True,True,True,True,True,True,True,0.8130841121,0.7973856209,False,False,False,CHINA,United China A-Shares Innovation Fund,UCI-M
+UOBSGC,E,260,156,155,104,True,True,True,True,True,True,True,0.8224299065,0.7843137255,False,False,False,CHINA,UOB Smart Greater China,UOBSGC
+ABCA-A,E,133,29,29,104,False,False,False,False,True,False,False,0.8317757009,0.8148148148,False,False,False,CHINA,abrdn China A Share Sustainable Equity Fund,ABCA
+UINFRA-N,E,180,76,76,104,False,False,True,False,True,False,True,0.8317757009,0.7972972973,False,False,False,INFRA,United Global Sustainable Infrastructure Equity Fund,UINFRA
+KT-CHINA-A,E,260,156,155,104,True,True,True,True,True,True,True,0.8411214953,0.7973856209,False,False,False,CHINA,KTAM China Equity Fund - Class A,KT-CHINA
+MVIET,E,195,91,91,104,False,False,True,False,True,False,True,0.8504672897,0.7752808989,False,False,False,VIETNAM,MFC Vietnam Opportunities Fund,MVIET
+K-INDIA-A(A),E,101,0,0,101,False,False,False,False,True,False,False,0.8529411765,,False,False,False,INDIA,K India Equity Fund,K-INDIA
+ABIG,E,260,156,155,104,True,True,True,True,True,True,True,0.8598130841,0.8366013072,False,False,False,INDIA,abrdn India Growth Fund,ABIG
+K-EUSMALL,E,260,156,155,104,True,True,True,True,True,True,True,0.8598130841,0.8431372549,False,False,False,EUROPE,K European Small Cap Equity Fund,K-EUSMALL
+K-JP-A(D),E,153,49,49,104,False,False,False,False,True,False,False,0.8598130841,0.7872340426,False,False,False,JAPAN,K Japan Equity Fund,K-JP
+KT-ASEAN-A,E,260,156,155,104,True,True,True,True,True,True,True,0.8598130841,0.8300653595,False,False,False,ASIA,KTAM ASEAN Equity Fund - Class A,KT-ASEAN
+KT-ASIAG-A,E,252,148,148,104,True,True,True,True,True,False,True,0.8598130841,0.8287671233,False,False,False,ASIA,KTAM Asia Growth Equity Fund Class A,KT-ASIAG
+PRINCIPAL JEQ-A,E,195,91,91,104,False,False,True,False,True,False,True,0.8598130841,0.797752809,False,False,False,JAPAN,Principal Japanese Equity Fund,PRINCIPAL JEQ
+K-ATECH,E,247,143,143,104,True,True,True,True,True,False,True,0.8691588785,0.8226950355,False,False,False,ASIA,K Asia Technology Equity Fund,K-ATECH
+KT-EUROTECH-A,E,224,120,120,104,True,True,True,False,True,False,True,0.8691588785,0.813559322,False,False,False,EUROPE,KTAM European Technology Equity Fund Class A,KT-EUROTECH
+KT-HEALTHCARE-A,E,260,156,155,104,True,True,True,True,True,True,True,0.8691588785,0.8366013072,False,False,False,HEALTH,KTAM World Healthcare Fund  - Class A,KT-HEALTHCARE
+PRINCIPAL CHTECH-A,E,240,136,136,104,True,True,True,True,True,False,True,0.8691588785,0.8208955224,False,False,False,CHINA,Principal China Technology Fund,PRINCIPAL CHTECH
+UEV,E,251,147,147,104,True,True,True,True,True,False,True,0.8691588785,0.8482758621,False,False,False,TECH,United Battery and EV Technology Fund,UEV-M
+K-EUROPE-A(D),E,186,82,82,104,False,False,True,False,True,False,True,0.8785046729,0.8024691358,False,False,False,EUROPE,K European Equity Fund,K-EUROPE
+K-GHEALTH,E,260,156,155,104,True,True,True,True,True,True,True,0.8785046729,0.8300653595,False,False,False,HEALTH,K Global Healthcare Equity Fund,K-GHEALTH
+K-GHEALTH(UH),E,250,146,146,104,True,True,True,True,True,False,True,0.8785046729,0.8150684932,False,False,False,HEALTH,K Global Healthcare Equity Unhedged Fund,K-GHEALTH(UH)
+KKP CHINA-H,E,147,43,43,104,False,False,False,False,True,False,False,0.8785046729,0.8048780488,False,False,False,CHINA,KKP CHINA FUND - HEDGED,KKP CHINA-H FUND
+KT-EUROSM,E,121,17,17,104,False,False,False,False,False,False,False,0.8785046729,,False,False,False,EUROPE,KTAM European Small Cap Equity Fund,KT-EUROSM
+KT-FINANCE-A,E,167,63,63,104,False,False,True,False,True,False,True,0.8785046729,0.868852459,False,False,False,FIN,KTAM World Financial Services Fund-A,KT-FINANCE
+KT-INDIA-A,E,260,156,155,104,True,True,True,True,True,True,True,0.8785046729,0.8431372549,False,False,False,INDIA,KTAM India Equity Fund- Class A,KT-INDIA
+KT-JAPANSM-A,E,121,17,17,104,False,False,False,False,True,False,False,0.8785046729,,False,False,False,JAPAN,KTAM Japan Small Cap Equity Fund - Class A,KT-JAPANSM
+PRINCIPAL CHEQ-A,E,260,156,155,104,True,True,True,True,True,True,True,0.8785046729,0.8104575163,False,False,False,CHINA,Principal China Equity Fund,PRINCIPAL CHEQ
+PRINCIPAL GHEALTH-A,E,256,152,152,104,True,True,True,True,True,False,True,0.8785046729,0.84,False,False,False,HEALTH,Principal Global Health Innovation Fund,PRINCIPAL GHEALTH
+USUS,E,260,156,155,104,True,True,True,True,True,True,True,0.8785046729,0.8496732026,False,False,False,NONE,United Sustainable Equity Solution Fund,USUS-M
+ABGEM,E,260,156,155,104,True,True,True,True,True,True,True,0.8878504673,0.8692810458,False,False,False,EM,abrdn Global Emerging Growth Fund,ABGEM
+ABJO,E,260,156,155,104,True,True,True,True,True,True,True,0.8878504673,0.862745098,False,False,False,JAPAN,abrdn Japanese Sustainable Equity Fund,ABJO
+DAOL-CHIG,E,171,67,67,104,False,False,True,False,True,False,True,0.8878504673,0.8153846154,False,False,False,CHINA,WE CHINA GROWTH FUND,DAOL-CHIG
+K-CHINA-A(A),E,242,138,138,104,True,True,True,True,True,False,True,0.8878504673,0.8321167883,False,False,False,CHINA,K China Equity Fund,K-CHINA
+K-GPROP-A(A),E,246,142,142,104,True,True,True,True,True,False,True,0.8878504673,0.8368794326,False,False,False,PROP,K Global Property Equity Fund,K-GPROP
+M-ASIA,E,160,56,56,104,False,False,True,False,True,False,True,0.8878504673,0.8518518519,False,False,False,ASIA,MFC Asia Alpha Fund,M-ASIA
+PRINCIPAL GIF,E,260,156,155,104,True,True,True,True,True,True,True,0.8878504673,0.8300653595,False,False,False,INFRA,Principal Global Infrastructure Equity Fund,PRINCIPAL GIF
+PRINCIPAL GOPP-A,E,260,156,155,104,True,True,True,True,True,True,True,0.8878504673,0.8496732026,False,False,False,GLOBAL,Principal Global Opportunity Fund,PRINCIPAL GOPP
+ASP-JHC,E,176,152,152,24,True,False,False,False,False,False,False,0.8888888889,0.9,False,False,False,JAPAN,Asset Plus Japan High Conviction Fund,ASP-JHC
+ASP-TOPBRAND,E,180,156,155,24,True,False,False,False,True,True,True,0.8888888889,0.9019607843,False,False,False,CONSUMER,Asset Plus Top Brand Fund,ASP-TOPBRAND
+ASP-VIET,E,180,156,155,24,True,False,False,False,True,True,True,0.8888888889,0.9019607843,False,False,False,VIETNAM,Asset Plus Vietnam Growth Fund,ASP-VIET
+EHD,E,260,156,155,104,True,True,True,True,True,True,True,0.8971962617,0.8758169935,False,False,False,EUROPE,Euro High Dividend Fund,EHD
+K-PLANET-A(A),E,139,35,35,104,False,False,False,False,True,False,False,0.8971962617,0.8484848485,False,False,False,NONE,K Planetary Transition Fund,K-PLANET
+KKP GINFRAEQ-H,E,260,156,155,104,True,True,True,True,False,False,False,0.8971962617,0.862745098,False,False,False,INFRA,KKP GLOBAL INFRASTRUCTURE EQUITY FUND-HEDGED,KKP GINFRAEQ-H FUND
+KKP GNP,E,260,156,155,104,True,True,True,True,True,True,True,0.8971962617,0.8692810458,False,False,False,GLOBAL,KKP GLOBAL NEW PERSPECTIVE FUND,KKP GNP FUND
+KT-CLIMATE-A,E,248,144,144,104,True,True,True,True,True,False,True,0.8971962617,0.8521126761,False,False,False,CLEAN,KTAM Global Climate Change Equity Class A,KT-CLIMATE
+KT-GESG-A,E,204,100,100,104,False,False,True,False,True,False,True,0.8971962617,0.8367346939,False,False,False,GLOBAL,KTAM Global Sustainable Growth Equity Fund,KT-GESG
+KT-MINING,E,260,156,155,104,True,True,True,True,True,True,True,0.8971962617,0.8562091503,False,False,False,METAL,KTAM World Metals and Mining Fund,KT-MINING
+KT-US-A,E,260,156,155,104,True,True,True,True,True,True,True,0.8971962617,0.8562091503,False,False,False,USA,KTAM US Growth Equity Fund -  Class A,KT-US
+KT-WEQ-A,E,167,63,63,104,False,False,True,False,True,False,True,0.8971962617,0.8360655738,False,False,False,GLOBAL,KTAM World Equity Fund-A,KT-WEQ
+KT-WTAI-A,E,260,156,155,104,True,True,True,True,True,True,True,0.8971962617,0.8562091503,False,False,False,TECH,KTAM World Technology Artificial Intelligence Equity Fund - Class A,KT-WTAI
+M-EDGE,E,213,109,109,104,True,True,True,False,True,False,True,0.8971962617,0.8598130841,False,False,False,NONE,MFC Sustained Competitive Edge Fund,M-EDGE
+MEURO-G,E,118,14,14,104,False,False,False,False,True,False,False,0.8971962617,,False,False,False,EUROPE,MFC Continental European Equity Fund,MEURO
+MGFGA,E,260,156,155,104,True,True,True,True,True,True,True,0.8971962617,0.8692810458,False,False,False,GLOBAL,MFC Global Focus Fund,MGF
+MGFGD,E,260,156,155,104,True,True,True,True,True,True,True,0.8971962617,0.8692810458,False,False,False,GLOBAL,MFC Global Focus Fund,MGF
+MGFPVD,E,260,156,155,104,True,True,True,True,False,False,False,0.8971962617,0.8692810458,False,False,False,GLOBAL,MFC Global Focus Fund,MGF
+MGTECH,E,260,156,155,104,True,True,True,True,True,True,True,0.8971962617,0.8692810458,False,False,False,INNOV,MFC Next Generation Technology Fund,MGTECH
+MHEALTHG,E,173,69,69,104,False,False,True,False,True,False,True,0.8971962617,0.8805970149,False,False,False,HEALTH,MFC Health Innovation Fund,MHEALTH
+MRENEW-A,E,258,154,154,104,True,True,True,True,True,False,True,0.8971962617,0.8684210526,False,False,False,CLEAN,MFC Renewable Energy Fund,MRENEW
+PRINCIPAL APDI-A,E,195,91,91,104,False,False,True,False,True,False,True,0.8971962617,0.808988764,False,False,False,ASIA,Principal Asia Pacific Dynamic Income Equity Fund,PRINCIPAL APDI
+PRINCIPAL EUEQ-A,E,194,90,90,104,False,False,True,False,True,False,True,0.8971962617,0.8181818182,False,False,False,EUROPE,Principal European Equity Fund,PRINCIPAL EUEQ
+UES,E,260,156,155,104,True,True,True,True,True,True,True,0.8971962617,0.8758169935,False,False,False,EUROPE,United European Small Cap Fund,UES
+KKP GHC,E,234,156,155,78,True,True,True,True,True,True,True,0.9012345679,0.8758169935,False,False,False,HEALTH,KKP GLOBAL HEALTH CARE FUND,KKP GHC
+ABAGS,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,0.862745098,False,False,False,USA,abrdn American Growth - Smaller Companies Fund,ABAGS-M
+ABEG,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,0.8692810458,False,False,False,EUROPE,abrdn European Sustainable Equity Fund,ABEG
+ABWOOF,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,0.8692810458,False,False,False,GLOBAL,abrdn Global Sustainable Equity Fund,ABWOOF
+ES-GCG*,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,,False,False,False,GLOBAL,EASTSPRING Global Capital Growth Fund,ES-GCG
+ES-GINFRA*,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,,False,False,False,INFRA,EASTSPRING Global Infrastructure Equity Fund,ES-GINFRA
+ES-GINNO*,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,,False,False,False,INNOV,EASTSPRING Global Innovation Fund,ES-GINNO
+ES-LOVE,E,148,44,44,104,False,False,False,False,True,False,False,0.9065420561,0.8571428571,False,False,False,STYLE,EASTSPRING Global Low Volatility Equity Fund,ES-LOVE
+JSM,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,0.8300653595,False,False,False,JAPAN,Japan Small And Mid Cap Fund,JSM
+K-GINFRA-A(D),E,162,58,58,104,False,False,True,False,True,False,True,0.9065420561,0.8392857143,False,False,False,INFRA,K Global Infrastructure Equity Fund,K-GINFRA
+KT-AASIA-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,0.8692810458,False,False,False,ASIA,KTAM All Asia Pacific Equity Fund  - Class A,KT-AASIA
+KT-PROPERTY-A,E,157,53,53,104,False,False,True,False,True,False,True,0.9065420561,0.8823529412,False,False,False,PROP,KTAM World Property Fund Class A,KT-PROPERTY
+M-EM,E,257,153,153,104,True,True,True,True,True,False,True,0.9065420561,0.8543046358,False,False,False,EM,MFC Emerging Market Fund,M-EM
+MGAG,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,0.8692810458,False,False,False,GLOBAL,MFC Global Alpha Fund,MGA
+MGAI,E,180,76,76,104,False,False,True,False,False,False,False,0.9065420561,0.8648648649,False,False,False,GLOBAL,MFC Global Alpha Fund,MGA
+MGAPVD,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,0.8692810458,False,False,False,GLOBAL,MFC Global Alpha Fund,MGA
+PRINCIPAL GCLOUD-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,0.8431372549,False,False,False,TECH,Principal Global Cloud Computing Fund,PRINCIPAL GCLOUD
+PRINCIPAL GINNO-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,0.8366013072,False,False,False,INNOV,Principal Global Innovation Fund,PRINCIPAL GINNO
+UGQG,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,0.8431372549,False,False,False,STYLE,United Global Quality Growth Fund,UGQG-M
+UNI,E,260,156,155,104,True,True,True,True,True,True,True,0.9065420561,0.8431372549,False,False,False,INNOV,United Global Innovation Fund,UNI-M
+UOBSJSM,E,260,156,155,104,True,True,True,True,False,False,False,0.9065420561,0.8300653595,False,False,False,JAPAN,UOB Smart Japan Small And Mid Cap Fund,UOBSJSM
+ABAPAC,E,260,156,155,104,True,True,True,True,True,True,True,0.9158878505,0.862745098,False,False,False,ASIA,abrdn Asia Pacific Equity Fund,ABAPAC-M
+DAOL-GEQUITY,E,171,67,67,104,False,False,True,False,True,False,True,0.9158878505,0.8769230769,False,False,False,GLOBAL,DAOL GLOBAL EQUITY FUND,DAOL-GEQUITY
+K-CHANGE-A(A),E,250,146,146,104,True,True,True,True,True,False,True,0.9158878505,0.8493150685,False,False,False,NONE,K Positive Change Equity Fund,K-CHANGE
+K-INDX,E,260,156,155,104,True,True,True,True,True,True,True,0.9158878505,0.8692810458,False,False,False,INDIA,K Indian Equity Index Fund,K-INDX
+KKP GIMPACT-H,E,229,125,125,104,True,True,True,False,True,False,True,0.9158878505,0.8617886179,False,False,False,GLOBAL,KKP GLOBAL IMPACT FUND - HEDGED,KKP GIMPACT-H FUND
+MFTECH,E,252,148,148,104,True,True,True,True,True,False,True,0.9158878505,0.8767123288,False,False,False,INNOV,MFC Fintech Innovation Fund,MFTECH
+PRINCIPAL GCLEAN-A,E,248,144,144,104,True,True,True,True,True,False,True,0.9158878505,0.8450704225,False,False,False,CLEAN,Principal Global Clean Energy Fund,PRINCIPAL GCLEAN
+PRINCIPAL GEF-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9158878505,0.8431372549,False,False,False,GLOBAL,Principal Global Equity Fund,PRINCIPAL GEF
+UGFT,E,143,39,39,104,False,False,False,False,True,False,False,0.9158878505,0.8108108108,False,False,False,NONE,United CIO Growth Fund TH,UGFT-M
+DAOL-GOLD,E,171,67,67,104,False,False,True,False,True,False,True,0.9252336449,0.8615384615,False,False,False,METAL,DAOL GOLD AND SILVER EQUITY FUND,DAOL-GOLD
+ES-USTECH,E,172,68,68,104,False,False,True,False,True,False,True,0.9252336449,0.8484848485,False,False,False,USA,EASTSPRING US Information Technology Fund,ES-USTECH
+K-EUX,E,260,156,155,104,True,True,True,True,True,True,True,0.9252336449,0.8692810458,False,False,False,EUROPE,K European Equity Index Fund,K-EUX
+KKP G-THEME-H,E,254,150,150,104,True,True,True,True,True,False,True,0.9252336449,0.8716216216,False,False,False,GLOBAL,KKP GLOBAL THEMATIC OPPORTUNITIES FUND - HEDGED,KKP G-THEME-H FUND
+M-META,E,209,105,105,104,True,True,True,False,True,False,True,0.9252336449,0.8737864078,False,False,False,NONE,MFC Metaverse Equity Fund,M-META
+TVIETNAM,E,187,83,83,104,False,False,True,False,True,False,True,0.9252336449,0.8765432099,False,False,False,VIETNAM,TISCO Vietnam Equity Fund,TVIETNAM
+UGD,E,260,156,155,104,True,True,True,True,True,True,True,0.9252336449,0.862745098,False,False,False,GLOBAL,United Global Durable Equities Fund,UGD
+UGH,E,260,156,155,104,True,True,True,True,True,True,True,0.9252336449,0.862745098,False,False,False,HEALTH,United Global Healthcare Fund,UGH-M
+UOBSHC,E,260,156,155,104,True,True,True,True,False,False,False,0.9252336449,0.862745098,False,False,False,HEALTH,UOB Smart Global Healthcare Fund,UOBSHC-M
+DAOL-EVOSEMI,E,171,67,67,104,False,False,True,False,True,False,True,0.9345794393,0.8769230769,False,False,False,TECH,DAOL EVOLUTION OF SEMICONDUCTOR FUND,DAOL-EVOSEMI
+ES-GDIV,E,152,48,48,104,False,False,False,False,True,False,False,0.9345794393,0.847826087,False,False,False,STYLE,EASTSPRING Global Dividend Equity Fund,ES-GDIV
+K-ASIA,E,260,156,155,104,True,True,True,True,True,True,True,0.9345794393,0.8692810458,False,False,False,ASIA,K Asian Smaller Companies Equity Fund,K-ASIA
+K-ASIAX,E,232,128,128,104,True,True,True,False,True,False,True,0.9345794393,0.8503937008,False,False,False,ASIA,K Asia Equity Passive Fund,K-ASIAX
+K-GLOBE,E,260,156,155,104,True,True,True,True,True,True,True,0.9345794393,0.8692810458,False,False,False,GLOBAL,K Global Equity Fund,K-GLOBE
+K-SEMQ,E,260,156,155,104,True,True,True,True,True,True,True,0.9345794393,0.8692810458,False,False,False,EM,K Selective Emerging Markets Equity Fund,K-SEMQ
+K-US500X-A(A),E,163,59,59,104,False,False,True,False,True,False,True,0.9345794393,0.8771929825,False,False,False,USA,K US Equity Passive Fund,K-US500X
+K-USA-A(A),E,250,146,146,104,True,True,True,True,True,False,True,0.9345794393,0.8493150685,False,False,False,USA,K USA Equity Fund,K-USA
+K-USXNDQ-A(A),E,250,146,146,104,True,True,True,True,True,False,True,0.9345794393,0.8493150685,False,False,False,USA,K US Equity NDQ 100 Index Fund,K-USXNDQ
+K-WORLDX,E,260,156,155,104,True,True,True,True,True,True,True,0.9345794393,0.8692810458,False,False,False,GLOBAL,K Global Equity Passive Fund,K-WORLDX
+KKP NDQ100-H,E,203,99,99,104,False,False,True,False,True,False,True,0.9345794393,0.8865979381,False,False,False,USA,KKP NDQ100 FUND - HEDGED,KKP NDQ100-H FUND
+KKP PGE-H,E,260,156,155,104,True,True,True,True,False,False,False,0.9345794393,0.8758169935,False,False,False,GLOBAL,KKP PASSIVE GLOBAL EQUITY FUND-HEDGED,KKP PGE-H FUND
+KKP SEMICON-H,E,233,129,129,104,True,True,True,False,False,False,False,0.9345794393,0.874015748,False,False,False,TECH,KKP SEMICONDUCTOR FUND - HEDGED,KKP SEMICON-H FUND
+KKP TECH-H,E,260,156,155,104,True,True,True,True,True,True,True,0.9345794393,0.8758169935,False,False,False,TECH,KKP EXPANDED TECH FUND - HEDGED,KKP TECH-H FUND
+KT-GEQ-A,E,236,132,132,104,True,True,True,True,False,False,False,0.9345794393,0.8769230769,False,False,False,GLOBAL,KTAM Global Equity Passive Fund Class A,KT-GEQ
+PWIN,E,260,156,155,104,True,True,True,True,True,True,True,0.9345794393,0.8758169935,False,False,False,INNOV,PHILLIP WORLD INNOVATION FUND,PWIN
+UOBSA,E,260,156,155,104,True,True,True,True,True,True,True,0.9345794393,0.8692810458,False,False,False,ASIA,UOB Smart Asia Fund,UOBSA-M
+DAOL-CYBER,E,171,67,67,104,False,False,True,False,True,False,True,0.9439252336,0.8769230769,False,False,False,INNOV,DAOL NEXT GENERATION INTERNET FUND,DAOL-CYBER
+ES-INDONESIA,E,176,72,72,104,False,False,True,False,True,False,True,0.9439252336,0.8571428571,False,False,False,NONE,EASTSPRING Indonesia Active Equity Fund,ES-INDONESIA
+P-CGREEN,E,243,139,139,104,True,True,True,True,True,False,True,0.9439252336,0.8832116788,False,False,False,CHINA,Phillip China Green Energy and Environment,P-CGREEN
+TBIOTECH,E,260,156,155,104,True,True,True,True,True,True,True,0.9439252336,0.8823529412,False,False,False,HEALTH,TISCO Biotechnology Healthcare Fund,TBIOTECH
+TISTECH-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9439252336,0.8823529412,False,False,False,TECH,TISCO Global Technology Equity Fund,TISTECH
+TBRAND,E,202,98,98,104,False,False,True,False,True,False,True,0.953271028,0.8854166667,False,False,False,CONSUMER,TISCO World Brands Fund,TBRAND
+TGHDIGI,E,260,156,155,104,True,True,True,True,True,True,True,0.953271028,0.8954248366,False,False,False,HEALTH,TISCO Global Digital Health Equity Fund,TGHDIGI
+AFMOAT-HA,E,190,101,101,89,False,False,True,False,True,False,True,0.9555555556,0.8725490196,False,False,False,USA,AF US Wide MOAT Fund Hedged,AFMOAT-H
+MEGA10-A,E,139,50,50,89,False,False,False,False,True,False,False,0.9555555556,0.8823529412,False,False,False,NONE,MEGA 10 FUND,MEGA10
+TLUSNDQ-H-A,E,194,105,105,89,True,True,True,False,False,False,False,0.9555555556,0.8504672897,False,False,False,USA,TALIS US EQUITY NDQ-HEDGE,TLUSNDQ-H
+ASP-IHEALTH,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,HEALTH,Asset Plus Innovative Healthcare Fund,ASP-IHEALTH
+ASP-NGF,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,JAPAN,Asset Plus Nippon Growth Fund,ASP-NGF
+B-ASIA,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,ASIA,Bualuang Asia Equity Fund,B-ASIA
+B-BHARATA,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,INDIA,Bualuang Bharata Fund,B-BHARATA
+B-CHINE-EQ,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,CHINA,Bualuang China Equity Fund,B-CHINE-EQ
+B-FINTECH,E,236,132,132,104,True,True,True,True,True,False,True,0.9626168224,0.9,False,False,False,TECH,Bualuang FinTech Fund,B-FINTECH
+B-FUTURE,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,NONE,Bualuang Future Generation Equity Fund,B-FUTURE
+B-GLOB-INFRA,E,197,93,93,104,False,False,True,False,True,False,True,0.9626168224,0.9010989011,False,False,False,INFRA,Bualuang Global Infrastructure Equity Fund,B-GLOB-INFRA
+B-GLOBAL,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,GLOBAL,Bualuang Global Equity Fund,B-GLOBAL
+B-GTO,E,253,149,149,104,True,True,True,True,True,False,True,0.9626168224,0.9047619048,False,False,False,GLOBAL,Bualuang Global Thematic Opportunities Fund,B-GTO
+B-INNOTECH,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,INNOV,Bualuang Global Innovation & Technology Fund,B-INNOTECH
+B-NIPPON,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,JAPAN,Bualuang Nippon Equity Fund,B-NIPPON
+B-PREMIUM,E,148,44,44,104,False,False,False,False,True,False,False,0.9626168224,0.9047619048,False,False,False,CONSUMER,Bualuang Premium Brands Equity Fund,B-PREMIUM
+B-SIP,E,250,146,146,104,True,True,True,True,True,False,True,0.9626168224,0.9097222222,False,False,False,NONE,Bualuang Sustainable Investing Portfolio,B-SIP
+B-USALPHA,E,226,122,122,104,True,True,True,False,True,False,True,0.9626168224,0.8916666667,False,False,False,USA,Bualuang US Alpha Fund,B-USALPHA
+BCARE,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,HEALTH,Bualuang Global Health Care Fund,BCARE
+LHCHINA-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,CHINA,LH EQUITY CHINA OPPORTUNITY FUND,LHCHINA
+LHCYBER-A,E,229,125,125,104,True,True,True,False,True,False,True,0.9626168224,0.8943089431,False,False,False,TECH,LH GLOBAL CYBERSECURITY FUND,LHCYBER
+LHDIGITAL-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,TECH,LH DIGITAL ECONOMY FUND,LHDIGITAL
+LHESPORT-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,NONE,LH ESPORTS FUND,LHESPORT
+LHEUROPE-A,E,217,113,113,104,True,True,True,False,True,False,True,0.9626168224,0.9009009009,False,False,False,EUROPE,LH EUROPE FUND,LHEUROPE
+LHGEQ-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,GLOBAL,LH GLOBAL EQUITY FUND,LHGEQ
+LHGEQP-A,E,183,79,79,104,False,False,True,False,False,False,False,0.9626168224,0.9090909091,False,False,False,GLOBAL,LH Global Equity Passive Fund,LHGEQP
+LHGLIFEE-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,CONSUMER,LH Global Lifestyle Equity Fund,LHGLIFEE
+LHHEALTH-A,E,221,117,117,104,True,True,True,False,True,False,True,0.9626168224,0.8956521739,False,False,False,HEALTH,LH HEALTH INNOVATION FUND,LHHEALTH
+LHINNO-A,E,257,153,153,104,True,True,True,True,True,False,True,0.9626168224,0.9006622517,False,False,False,INNOV,LH INNOVATION FUND,LHINNO
+LHROBOTE-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,TECH,LH ROBOTICS-E FUND,LHROBOTE
+LHSEMICON-A,E,234,130,130,104,True,True,True,True,True,False,True,0.9626168224,0.8984375,False,False,False,TECH,LH SEMICONDUCTOR FUND,LHSEMICON
+LHVN-A,E,213,109,109,104,True,True,True,False,True,False,True,0.9626168224,0.8971962617,False,False,False,VIETNAM,LH VIETNAM FUND,LHVN
+ONE-ALLCHINA-RA,E,260,156,155,104,True,True,True,True,True,True,True,0.9626168224,0.9019607843,False,False,False,CHINA,ONE ALL CHINA EQUITY FUND,ONE-ALLCHINA
+ASP-DIGIBLOC,E,204,100,100,104,False,False,True,False,True,False,True,0.9719626168,0.9081632653,False,False,False,TECH,Asset Plus Digital Blockchain Fund,ASP-DIGIBLOC
+ASP-DISRUPT,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,INNOV,Asset Plus Disruptive Opportunities Fund,ASP-DISRUPT
+ASP-EUG,E,256,152,152,104,True,True,True,True,True,False,True,0.9719626168,0.9,False,False,False,EUROPE,Asset Plus Europe Growth Fund,ASP-EUG
+ASP-EVOCHINA,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,CHINA,Asset Plus Evolution China Equity Fund,ASP-EVOCHINA
+ASP-X,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,NONE,Asset Plus Extra Growth Fund,ASP-X
+ONE-APACESG,E,229,125,125,104,True,True,True,False,True,False,True,0.9719626168,0.8943089431,False,False,False,ASIA,ONE ASIA PACIFIC ESG FUND,ONE-APACESG
+ONE-DISC-RA,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,NONE,ONE DISCOVERY FUND,ONE-DISC
+ONE-EUROEQ,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,EUROPE,ONE EUROPEAN EQUITY FUND,ONE-EUROEQ
+ONE-GECOM,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,GLOBAL,ONE GLOBAL E-COMMERCE FUND,ONE-GECOM
+ONE-GLOBFIN-IA,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,FIN,ONE GLOBAL FINANCIAL FUND,ONE-GLOBFIN
+ONE-METAVERSE,E,200,96,96,104,False,False,True,False,True,False,True,0.9719626168,0.9042553191,False,False,False,NONE,ONE METAVERSE EQUITY FUND,ONE-METAVERSE
+ONE-UGG-RA,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,GLOBAL,ONE Ultimate Global Growth Fund,ONE-UGG
+ONE-UJE-RA,E,241,137,137,104,True,True,True,True,True,False,True,0.9719626168,0.9037037037,False,False,False,JAPAN,ONE ULTIMATE JAPAN EQUITY FUND,ONE-UJE
+ONE-VIETNAM-RA,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,VIETNAM,ONE VIETNAM EQUITY FUND,ONE-VIETNAM
+TCHCON,E,254,150,150,104,True,True,True,True,True,False,True,0.9719626168,0.8986486486,False,False,False,CHINA,TISCO China Consumer Fund,TCHCON
+TCHSTARP,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,CHINA,TISCO China Stars Plus Fund,TCHSTARP
+TCHTECH-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,CHINA,TISCO China Technology Equity Fund,TCHTECH
+TCLOUD,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,TECH,TISCO Cloud Computing Equity Fund,TCLOUD
+TCYBER,E,206,102,102,104,False,False,True,False,True,False,True,0.9719626168,0.91,False,False,False,TECH,TISCO Cyber Security Fund,TCYBER
+TGENOME,E,258,154,154,104,True,True,True,True,True,False,True,0.9719626168,0.9013157895,False,False,False,HEALTH,TISCO Genomic Revolution Fund,TGENOME
+TGHIDIV,E,165,61,61,104,False,False,True,False,True,False,True,0.9719626168,0.9322033898,False,False,False,STYLE,TISCO Global High Dividend Fund,TGHIDIV
+TGHSTARP,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,HEALTH,TISCO Global Healthcare Stars Plus Fund,TGHSTARP
+TISCOAP,E,259,155,155,104,True,True,True,True,True,False,True,0.9719626168,0.9019607843,False,False,False,ASIA,TISCO Asia Pacific ex Japan Fund,TISCOAP
+TISCOEU-A,E,215,111,111,104,True,True,True,False,False,False,False,0.9719626168,0.8990825688,False,False,False,EUROPE,TISCO Europe Equity Fund,TISCOEU
+TISCOUS-A,E,215,111,111,104,True,True,True,False,True,False,True,0.9719626168,0.8990825688,False,False,False,USA,TISCO US Equity Fund,TISCOUS
+TNEWENGY,E,249,145,145,104,True,True,True,True,True,False,True,0.9719626168,0.9090909091,False,False,False,CLEAN,TISCO New Energy Fund,TNEWENGY
+TNEXTGEN-A,E,215,111,111,104,True,True,True,False,True,False,True,0.9719626168,0.8990825688,False,False,False,INNOV,TISCO Next Generation Internet Fund,TNEXTGEN
+TSTAR-UH,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,GLOBAL,TISCO Global Stars Plus Fund - Unhedged,TSTAR-UH
+TSTARP,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,GLOBAL,TISCO Global Stars Plus Fund,TSTARP
+TUSEQ-UH,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,USA,TISCO US Equity Fund - Unhedged,TUSEQ-UH
+TUSFIN-A,E,260,156,155,104,True,True,True,True,True,True,True,0.9719626168,0.9019607843,False,False,False,USA,TISCO US Financial Fund,TUSFIN
+TUSTECH-A,E,170,66,66,104,False,False,True,False,True,False,True,0.9719626168,0.921875,False,False,False,USA,TISCO US Technology Fund,TUSTECH
+ASP-INDIA-A,E,57,0,0,57,False,False,False,False,True,False,False,0.9827586207,,False,False,False,INDIA,Asset Plus India Dynamic Equity Fund,ASP-INDIA
+ASP-S&P500-A,E,57,0,0,57,False,False,False,False,False,False,False,0.9827586207,,False,False,False,USA,Asset Plus S&P 500 Fund,ASP-S&P500
+ASP-USSMALL-A,E,57,0,0,57,False,False,False,False,True,False,False,0.9827586207,,False,False,False,USA,Asset Plus U.S. Small Cap Focus Fund,ASP-USSMALL

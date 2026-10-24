@@ -1,0 +1,22 @@
+/Users/doyinratnavardhana/Fama French/Fund Style Dashboard/.claude/factor_team/data/qa_gold.py:256: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  asof_d = pd.DatetimeIndex(np.where(ok, nd[np.clip(idx, 0, None)], np.datetime64("NaT")))
+/Users/doyinratnavardhana/Fama French/Fund Style Dashboard/.claude/factor_team/data/qa_gold.py:600: RuntimeWarning: Mean of empty slice
+  fri_share_by_fund = np.nanmean(np.where(valid, gm == 0, np.nan), axis=0)
+ok 19 files
+    n_specs_tried_total              freq                     spec  n_units  median_r2_oos_all7  median_r2_oos_ex_UOBSG  median_adj_r2_train_all7  min_r2_oos  max_r2_oos
+0                    16            weekly                   W_lag0        7            0.443848                0.438216                  0.575781    0.399504    0.907536
+1                    16            weekly          W_lag0+1 (S012)        7            0.479581                0.478193                  0.640624    0.457387    0.909798
+2                    16            weekly               W_lag0+1+2        7            0.483337                0.481735                  0.637298    0.458213    0.908648
+3                    16            weekly             W_lead-1+0+1        7            0.476793                0.476650                  0.637804    0.455439    0.916213
+4                    16            weekly             W_lead-1..+2        7            0.478824                0.478294                  0.634703    0.463926    0.914903
+5                    16            weekly  W_GOLD_XS only lag0+1+2        7            0.473169                0.472014                  0.599923    0.349820    0.712497
+6                    16            weekly         W_thuAnchor_lag0        7            0.712329                0.725981                  0.821183    0.410488    0.783493
+7                    16            weekly         W_wedAnchor_lag0        7            0.793196                0.808343                  0.607313    0.273317    0.886726
+8                    16            weekly       W_thuAnchor_lag0+1        7            0.703771                0.716049                  0.830313    0.419267    0.759211
+9                    16  2week_nonoverlap                2W_lag0_A        7            0.665138                0.661809                  0.779539    0.609938    0.953437
+10                   16  2week_nonoverlap              2W_lag0+1_A        7            0.683443                0.683281                  0.787174    0.640089    0.953727
+11                   16  2week_nonoverlap                2W_lag0_B        7            0.469134                0.468873                  0.751638    0.427643    0.923782
+12                   16  2week_nonoverlap              2W_lag0+1_B        7            0.575054                0.567071                  0.814767    0.517221    0.920347
+13                   16           monthly                   M_lag0        7            0.848579                0.845804                  0.853392    0.811329    0.919275
+14                   16           monthly          M_lag0+1 (S012)        7            0.841301                0.834535                  0.846320    0.773835    0.922449
+15                   16           monthly               M_lag0+1+2        7            0.776113                0.774539                  0.875840    0.734680    0.923399

@@ -1,0 +1,142 @@
+{
+ "created": "2026-10-24",
+ "script": "qa_friday_gap_E.py",
+ "script_sha256": "6e7560dc3d99c6c4660de83a6fb8528d459a3ac5f5f899632e70ab02e99ea2fe",
+ "pandas": "3.0.5",
+ "numpy": "2.5.2",
+ "python": "3.12.4",
+ "threshold_group_A": 0.25,
+ "threshold_strict": 0.1,
+ "inputs": [
+  {
+   "file": "base_data/nav_history_db.csv",
+   "sha256": "97f2a7a070327ae5550dd9628b4cf970cf3775634abe48536d5bfc4eb3d97d45"
+  },
+  {
+   "file": ".claude/factor_team/data/universe.csv",
+   "sha256": "fdfb7830df78ce032465ac9d8cddc2c98f9aa86cfa0f3925fdb83026aa3f7252"
+  },
+  {
+   "file": ".claude/factor_team/data/panel_weekly.parquet",
+   "sha256": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b"
+  },
+  {
+   "file": ".claude/factor_team/data/factors_weekly.parquet",
+   "sha256": "115b87139d2bec0fd57a77a1593c46d36bb23f3f35f83236cdb07be642af47a8"
+  },
+  {
+   "file": ".claude/factor_team/specs/S013_pca_sets.csv",
+   "sha256": "175023c5cf978c550b40397e608523577e376dcf63d3c43cde38b33ef4770bbf"
+  },
+  {
+   "file": ".claude/factor_team/specs/S012_group_map.csv",
+   "sha256": "898a86867b3f832060f7620d039fd95338d24e1bb71f531d76bb58004223fceb"
+  },
+  {
+   "file": ".claude/factor_team/runs/S012/fund_level_E.csv",
+   "sha256": "10574ff19235aaa4d33162fa12c4436157679457611e8d9f1e7ceea320da1251"
+  },
+  {
+   "file": ".claude/factor_team/runs/S012/eval_clusters.csv",
+   "sha256": "15015a63cb8768c46b2e3cfbe163ca76b34f89a06452338960e9a58ef0c2d4ea"
+  },
+  {
+   "file": ".claude/factor_team/runs/S012/criteria_8_1.csv",
+   "sha256": "c02a015d9f2122d8dde391db5b9f63388b9969d3d1457ddb61f0f21b3149b47d"
+  },
+  {
+   "file": ".claude/factor_team/runs/S012/qe_verdicts.csv",
+   "sha256": "34d958e80be4f32fb4e219fad6245d95db619866911142d273af229fc51b9843"
+  },
+  {
+   "file": ".claude/factor_team/runs/S012/hybrid_E.json",
+   "sha256": "4db6f14c9edf3235f3aef25f9c975fa89faf9940ec73444482b319100d0b3385"
+  },
+  {
+   "file": ".claude/factor_team/runs/S012/factors_S012_weekly.parquet",
+   "sha256": "73b58968b4905a375a10c961d19af0ca67b94702182aa3a598a86be5a54298c8"
+  },
+  {
+   "file": ".claude/factor_team/runs/S003/factors_S003_weekly.parquet",
+   "sha256": "be3ceb2e34b0df1f1a3db27d59e1a103cf5f5a5ca38f2e87f7c812c1c53944ac"
+  },
+  {
+   "file": ".claude/factor_team/runs/S003/fund_level.csv",
+   "sha256": "36b41161d6a13c1184a4052d9e799f660f431c2694dc57fafd747f8e695bf8cf"
+  },
+  {
+   "file": ".claude/factor_team/runs/S009/fund_level.csv",
+   "sha256": "7997e859df43d5790dd4146d04acf21f23109dfacbe6b7257b6d2dcd7b658394"
+  },
+  {
+   "file": ".claude/factor_team/runs/S009/alpha_bh_list.csv",
+   "sha256": "a8df9e2e622b2dc5180e4eb632ca947b9a90a1bce1082ef942a757cb24b05b58"
+  }
+ ],
+ "outputs": [
+  {
+   "file": ".claude/factor_team/data/qa_friday_gap_E_insample.csv",
+   "sha256": "dbea6146c6223f39c42568275b05c6471e3f57ff30e23d52957ff64ee811540b"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_friday_gap_E_matched_group.csv",
+   "sha256": "ed0a3bb65ea1292be921c361e9a604db22b8c9826bd43f82f71cabe44305e9aa"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_friday_gap_E_membership.csv",
+   "sha256": "bd544917f420663ba6124fea2353174f3a7b28cdc24bfee94d143848157ad005"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_friday_gap_E_phase1.csv",
+   "sha256": "8b05d5c713949ecafb14641206f02a37558018604439af55cfc59976ce3efd1d"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_friday_gap_E_qe.csv",
+   "sha256": "b2228f46ad34cfb6318ecd34e3ab1a1377be4b042879aac05ceef3168c083add"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_friday_gap_E_rows.csv",
+   "sha256": "c239608f71d7b311c0024b3f9b4a70a3c7a2d1e0dfa1f1b89cb936a67502657c"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_friday_gap_E_rows_ranksum.csv",
+   "sha256": "19eef068d2b8b89caf5df72d26b7f56c4be0f9bdb35a5f4f891697735cfcc61b"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_friday_gap_E_s009_alpha_list.csv",
+   "sha256": "902ac805ae34ccaefa175c8155d34e5c7187cfd0a877a6e3d28e2b325e5e83b8"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_friday_gap_E_scorecard.csv",
+   "sha256": "7296a5fee29a03e7fabcf3e4e74fca765f1c68f7b95af40f97e6ec1ed5edacf0"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_friday_gap_E_units.csv",
+   "sha256": "1756f83765dc2fe41654ceb4f90b2bd6dae4ceb9be1e7c8df88b601dd78ef6e9"
+  }
+ ],
+ "checks": {
+  "fri_share_hist_U_E": {
+   "(-0.001, 0.05]": 7,
+   "(0.05, 0.1]": 2,
+   "(0.1, 0.25]": 3,
+   "(0.25, 0.5]": 0,
+   "(0.5, 0.75]": 3,
+   "(0.75, 0.9]": 69,
+   "(0.9, 1.001]": 131
+  },
+  "n_A_in_U_E": 12,
+  "baseline_repro_E-PCA-a1_first60_max_abs_diff": 1.5265566588595902e-16,
+  "baseline_repro_E-X1_first60_max_abs_diff": 1.6653345369377348e-16,
+  "baseline_repro_①a_first60_max_abs_diff": 1.6653345369377348e-16,
+  "scorecard_all_matches_criteria_8_1": true,
+  "qe_all_matches_qe_verdicts": true,
+  "phase1": {
+   "n_E_panel_codes": 357,
+   "n_E_panel_codes_A": 24,
+   "n_S009_alpha_list": 22,
+   "n_S009_alpha_list_E": 12,
+   "n_S009_alpha_list_E_A": 0
+  }
+ }
+}

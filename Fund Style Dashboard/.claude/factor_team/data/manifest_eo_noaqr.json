@@ -1,0 +1,59 @@
+{
+ "created": "2026-10-24",
+ "script": "build_eo_noaqr.py",
+ "script_sha256": "0dd2ca79ac58b757176e6eff5ac1056b3d447ea37790782801d6a2e86c118ed4",
+ "pandas": "3.0.5",
+ "numpy": "2.5.2",
+ "python": "3.12.4",
+ "purpose": "BRIEF 120/119(3): สำเนา factors_eo_* ไม่มีคอลัมน์ AQR_* (commit ได้) · ไฟล์เดิมคงไว้ในเครื่องให้ S012 รันซ้ำได้",
+ "why_separate_manifest": "manifest_eo.json ถูกล็อก sha ใน lib/l1eo.py S013_PINS (281756a4…2681) · แก้แล้ว S012 รันซ้ำ (check_pins) ไม่ผ่าน → ใช้ไฟล์นี้แยก",
+ "inputs": [
+  {
+   "file": ".claude/factor_team/data/factors_eo_weekly.parquet",
+   "sha256": "87b793508d83d2a4235eb07f1ff584cd32493375d5f73f8c6711f172f2a0bfca"
+  },
+  {
+   "file": ".claude/factor_team/data/factors_eo_monthly.parquet",
+   "sha256": "c13c36e7dd2b039116131092b757160ae83460478829af3b7234afdd67bef82f"
+  },
+  {
+   "file": ".claude/factor_team/data/factor_groups_eo.csv",
+   "sha256": "4d92320c6dd765e951c1fc2f540e15830e74f2951847505c0cab6360cde12e56"
+  },
+  {
+   "file": ".claude/factor_team/data/manifest_eo.json",
+   "sha256": "281756a4787e4ade4b8474571e8c49a9dac4b11b995b21b74d9197334b052681"
+  }
+ ],
+ "outputs": [
+  {
+   "file": ".claude/factor_team/data/factors_eo_noaqr_weekly.parquet",
+   "sha256": "715b4b252235b49b155c9d53554c00380d4d4430eb5c2c2e25751a3678570b3a",
+   "rows": 291,
+   "columns": 67,
+   "date_min": "2021-01-08",
+   "date_max": "2026-07-31",
+   "dropped_columns": 9
+  },
+  {
+   "file": ".claude/factor_team/data/factors_eo_noaqr_monthly.parquet",
+   "sha256": "a7af66982ebcdd28f258fd6640fc99753391921b876730ca509ba062cd0febd4",
+   "rows": 67,
+   "columns": 79,
+   "date_min": "2021-01-31",
+   "date_max": "2026-07-31",
+   "dropped_columns": 9
+  },
+  {
+   "file": ".claude/factor_team/data/factor_groups_eo_noaqr.csv",
+   "sha256": "7bc451f64ce680d1bf43b86dd927f2eb334191310d7f2548f7fe9efbdeef8acd",
+   "rows": 79
+  }
+ ],
+ "checks": {
+  "remaining_columns_bit_equal_to_source": true,
+  "aqr_string_absent_in_outputs": true,
+  "weekly_columns": "76 → 67",
+  "monthly_columns": "88 → 79"
+ }
+}

@@ -1,0 +1,204 @@
+{
+ "created": "2026-10-24",
+ "script": "qa_gold.py",
+ "script_sha256": "fe576402b830e850b01bf1b89327f4c67f686d7adc80e5b5bf95b7b807289aa8",
+ "pandas": "3.0.5",
+ "numpy": "2.5.2",
+ "python": "3.12.4",
+ "inputs": [
+  {
+   "file": "base_data/nav_history_db.csv",
+   "sha256": "97f2a7a070327ae5550dd9628b4cf970cf3775634abe48536d5bfc4eb3d97d45"
+  },
+  {
+   "file": "base_data/MACRO_FACTOR.csv",
+   "sha256": "5b96807d808a8cf917d55b05c9afa9b724382a8d862f8fd078af28969b72682c"
+  },
+  {
+   "file": ".claude/factor_team/data/external/EO_ALT_ETF.csv",
+   "sha256": "6e7f1c1eb9676af52380ac5a03c34d75b933874043e84e8aaaf771342ef2ee31"
+  },
+  {
+   "file": ".claude/factor_team/data/factors_eo_noaqr_weekly.parquet",
+   "sha256": "715b4b252235b49b155c9d53554c00380d4d4430eb5c2c2e25751a3678570b3a"
+  },
+  {
+   "file": ".claude/factor_team/data/factors_eo_noaqr_monthly.parquet",
+   "sha256": "a7af66982ebcdd28f258fd6640fc99753391921b876730ca509ba062cd0febd4"
+  },
+  {
+   "file": ".claude/factor_team/data/panel_weekly.parquet",
+   "sha256": "95c16ee651d3a936788b7cb3c6372bbf5f1e84cb39daf5680343771dca24270b"
+  },
+  {
+   "file": ".claude/factor_team/data/panel_monthly.parquet",
+   "sha256": "e8e8cb5d5f04fba9bb35558ef7c3d8195c656334119e56f82775cc1ae21ccaed"
+  },
+  {
+   "file": ".claude/factor_team/data/factors_weekly.parquet",
+   "sha256": "115b87139d2bec0fd57a77a1593c46d36bb23f3f35f83236cdb07be642af47a8"
+  },
+  {
+   "file": ".claude/factor_team/data/factors_monthly.parquet",
+   "sha256": "f7c4248b4fa889853024449e72ae8909cf1f8d3226a54eebc37448a2a485bb72"
+  },
+  {
+   "file": ".claude/factor_team/runs/S012/fund_level_O.csv",
+   "sha256": "f836cc14e05814e12caffda40ff72c52a6814f0d0cb6815354bfe8e90e5e5066"
+  },
+  {
+   "file": ".claude/factor_team/runs/S012/monthly.csv",
+   "sha256": "ef2088704c07350b8f623808286cc59eb1301f210b8e67ad26b669d575d358a3"
+  }
+ ],
+ "outputs": [
+  {
+   "file": ".claude/factor_team/data/qa_gold_calendar.csv",
+   "sha256": "4d2d9ac3272c660ccf2a2be02a34342ec2d65f91fef718d68429e6ddb9899094"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_daily_bestlag.csv",
+   "sha256": "6723db4b7079dbebc7b14527096e14802a3f7a0a70477abadd2beeb8970fb525"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_daily_dimson.csv",
+   "sha256": "b36f373e21d7177119ebb1438af3313bcfff13e2e53ad9cd9fd73c73e2de8ffa"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_db_weekday.csv",
+   "sha256": "fad580e10d9b787274e4235f2522641e9db3f0a32a775669d939baefa0c39905"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_hedge.csv",
+   "sha256": "a544d3ce2512d08f9d0e7942c7a8005d5726b3fc4a98d5b3bb1eadf45be9e17a"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_holiday_effect.csv",
+   "sha256": "1f018a13a4d22d426d284520fdefca99b8fc5b694d70e999ba0001787618fe5e"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_l0_friday.csv",
+   "sha256": "a599a59053d4a17cd2a60647c9ef45c6a53507b1dca274513e174d173d6e2934"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_lagcorr_daily.csv",
+   "sha256": "840805b8fea959531be8a64b0b4c25899c1c0f8f9ca29d0e879a7e6d25714ae4"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_lagcorr_weekly.csv",
+   "sha256": "a1a2b0c1f662042a5addf16f727bea53c4137ba631eb1272bc31e1fd3e3b0754"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_nav_days.csv",
+   "sha256": "0839db09fb1b5e4847bacd32d3deabef231c5474ad178672df325053026dd631"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_nav_year.csv",
+   "sha256": "d441586ff5661563893ff132f278ec4a50f66578b63f1412d831bb745fefd93c"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_r2_specs.csv",
+   "sha256": "5122f72823512ef89683f65b4ad1d813a1463e6484b3ed2d2c354bda2535fe47"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_r2_specs_summary.csv",
+   "sha256": "c7d43a36d2756913f5b7f1170927707be78f127aa06a91034459982760f70a3d"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_s012spec_by_period.csv",
+   "sha256": "6871d95d78b344515c8ce8f5935ced8ce6e2f20d4400bf4f48fd8bdfa21a14b3"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_shift_by_period.csv",
+   "sha256": "eac2a8fe80e3ae2f9b8d5ceaa4602f4b5110ce6f70cf945b26f49cb8a8aa933a"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_shift_grid.csv",
+   "sha256": "f8128f5f9068ff30eb33188f25a1785aa6a100dbc94b293fbd2464fb5edf4897"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_summary.csv",
+   "sha256": "d88cfee0fe4f6f84d7615696ce4444798804790859685597a1453368c6e26c7c"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_synthetic.csv",
+   "sha256": "221fe2068b6b81021f19cfc44ac8a5ba9815adc6fc116b592217a92a5c86e9f3"
+  },
+  {
+   "file": ".claude/factor_team/data/qa_gold_weekly_asof.csv",
+   "sha256": "63a05ed2be6d202662b0c2c86a9ebd8aaacbb5c5192b1492923481fe82edfa9f"
+  }
+ ],
+ "checks": {
+  "baseline": {
+   "weekly_max_abs_diff_r2_oos": 1.1102230246251565e-16,
+   "weekly_max_abs_diff_adj_r2": 5.551115123125783e-17,
+   "weekly_median_r2_oos": 0.4795807047724425,
+   "monthly_median_r2_oos": 0.8413011122183192,
+   "monthly_median_s012": 0.8413011122183192,
+   "note": "ทำซ้ำ S012 O-X(ทอง) ได้ตรง (< 1e-9)"
+  },
+  "nav_load": {
+   "rows_filtered_raw": 21566,
+   "rows_after_drop_bad_nav": 21565,
+   "rows_after_dedupe": 21281,
+   "spike_points": 0,
+   "spike_points_gold_codes": 0
+  },
+  "calendar": {
+   "ref_funds": [
+    "BGOLD",
+    "TGOLD",
+    "PRINCIPAL iGOLD-A",
+    "K-GOLD-A(A)",
+    "KT-GOLD"
+   ],
+   "rule": "วัน Thai = วันจันทร์–ศุกร์ที่ ≥ 3 ใน 5 กองอ้างอิงมี NAVDate (+ วันศุกร์ 2023-12-11→2025-12-31 ที่ UOBSG-N มี NAVDate) · วัน NY = วันที่ GLD มีราคา (Yahoo)",
+   "n_thai_days": 1204,
+   "n_thai_holidays_est": 99,
+   "n_ny_closed": 48
+  },
+  "shift0_reproduces_baseline_factors": {
+   "max_abs_diff_GOLD_XS": 0.0,
+   "max_abs_diff_FX": 2.220446049250313e-16
+  },
+  "week_types": {
+   "none": 148,
+   "thai_holiday_other_day": 53,
+   "ny_closed_only": 35,
+   "friday_thai_holiday": 24
+  },
+  "db_friday_snapshot": {
+   "last_full_friday_asof_le_2023_12_31": "2023-12-08",
+   "n_full_fridays_2021_to_20231208": 138,
+   "fridays_after_20231208_with_rows": {
+    "2024-08-02": 3088
+   },
+   "friday_asof_rows_2024": 3088,
+   "friday_asof_rows_2025": 0,
+   "n_fridays_after_20231208_in_2021_2025": 1,
+   "note": "จำนวนแถวต่อวัน AsOfDate (ทุกกองในไฟล์) · วันศุกร์ที่ ≥ 1000 แถว = มี snapshot เต็ม · วันศุกร์ที่ไม่มีแถวเลยไม่ปรากฏใน dict"
+  },
+  "unit_groups": {
+   "rule": "A = NAV วันศุกร์ในช่วง 2023-12-11→2025-12-31 < 25% ของวันศุกร์ทำการไทย · B = ≥ 25%",
+   "groups": {
+    "BGOLD": "A_noFriNAV_in_gap",
+    "I-GOLD*": "B_hasFriNAV_in_gap",
+    "K-GOLD-A(A)": "A_noFriNAV_in_gap",
+    "KT-GOLD": "A_noFriNAV_in_gap",
+    "PRINCIPAL iGOLD-A": "A_noFriNAV_in_gap",
+    "TGOLD": "A_noFriNAV_in_gap",
+    "UOBSG-N": "B_hasFriNAV_in_gap"
+   },
+   "friday_share_in_gap": {
+    "BGOLD": 0.01,
+    "I-GOLD*": 0.714,
+    "K-GOLD-A(A)": 0.061,
+    "KT-GOLD": 0.153,
+    "PRINCIPAL iGOLD-A": 0.01,
+    "TGOLD": 0.01,
+    "UOBSG-N": 1.0
+   }
+  }
+ }
+}
