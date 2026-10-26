@@ -1,0 +1,11 @@
+[2026-10-24T21:30:18 +    0.0s] run.py sha256=a81a840219a22e71217145b3fd200d70f4b31df3ffc0d2964d5fcb2445cb2747 phase=full sim=False smoke=False
+[2026-10-24T21:30:18 +    0.0s] sha256 เต็ม 16 ไฟล์ตาม S014/S015 ตรง
+[2026-10-24T21:30:18 +    0.0s] lib เดิม 16 ไฟล์ตรง runs/S012 + port.py · decisions_pre_run.md sha 4b9c8448820e…
+[2026-10-24T21:30:18 +    0.3s] ตารางไตรมาส 15 แถว + ตาราง mapping/ธง 58 แถว ตรงตาราง S015 (designer) ทุกช่อง · 23 รหัส → 23 หน่วย
+[2026-10-24T21:30:18 +    0.4s] เขียน mapping_codes.csv · mapping.csv · quarters.csv · betas.csv · exposure.csv · concentration.csv · eg_coef.csv (β ณ t ด้วยข้อมูล ≤ t)
+[2026-10-24T21:30:18 +    0.4s] เริ่ม phase full: คำนวณไฟล์ phase pre ซ้ำแล้วตรวจตรงทุกบิตแล้ว → attribution
+[2026-10-24T21:30:18 +    0.4s] realized.weights ตรง holdings ทุกไตรมาส (ความคลาดเคลื่อนสูงสุด ≤ 1e-9)
+[2026-10-24T21:30:19 +    0.7s] attribution L1 รายสัปดาห์ 3 variant (main · P-A · P-B) · เอกลักษณ์ตรง ≤ 1.3e-17
+[2026-10-24T21:30:19 +    1.0s] ภาคผนวก P-A…P-E เสร็จ
+[2026-10-24T21:30:19 +    1.1s] ความคาดหมาย: ตรง 6/11 · ไม่นับข้อ 9: 5/10
+[2026-10-24T21:30:19 +    1.1s] เสร็จ · runtime 1.1s

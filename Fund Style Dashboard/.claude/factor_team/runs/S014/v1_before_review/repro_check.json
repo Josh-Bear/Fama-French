@@ -1,0 +1,100 @@
+{
+ "note": "รัน run.py (phase pre + full) ใหม่ลง scratch/factor-analyst_s014_repro2 แล้วเทียบ sha256 กับ runs/S014 (ยกเว้น log · run_meta · results.md ที่เทียบทั้งไฟล์แยก)",
+ "n_files": 18,
+ "all_identical": true,
+ "results_md_identical": true,
+ "extra_files": [],
+ "runtime_sec": 4.7,
+ "files": {
+  "appendix_PA.csv": {
+   "run1": "279ca43072b757187b93a6a4487f1e4984c347be38cd37914dc01a87f691b6ef",
+   "run2": "279ca43072b757187b93a6a4487f1e4984c347be38cd37914dc01a87f691b6ef",
+   "identical": true
+  },
+  "appendix_PB.csv": {
+   "run1": "5725f8d63ff1c7350c55910269c825a140e98adbd0720d264fa27df701020074",
+   "run2": "5725f8d63ff1c7350c55910269c825a140e98adbd0720d264fa27df701020074",
+   "identical": true
+  },
+  "appendix_PC.csv": {
+   "run1": "fdbfd7777bb09798e31d40f398541bbb52e00d4f7b19b87129902ee192b016ba",
+   "run2": "fdbfd7777bb09798e31d40f398541bbb52e00d4f7b19b87129902ee192b016ba",
+   "identical": true
+  },
+  "appendix_PD.csv": {
+   "run1": "63d7f84ebfd73241b2d7737153887eaa48e220dee8f852a281d0dfc19867ff11",
+   "run2": "63d7f84ebfd73241b2d7737153887eaa48e220dee8f852a281d0dfc19867ff11",
+   "identical": true
+  },
+  "appendix_PE.csv": {
+   "run1": "c20e9c2e222b16976673c0a8c49325e9dadc5580b02633e27f6997f899bfa1c8",
+   "run2": "c20e9c2e222b16976673c0a8c49325e9dadc5580b02633e27f6997f899bfa1c8",
+   "identical": true
+  },
+  "attribution_L2.csv": {
+   "run1": "a703899f4f6e1726b65322f7976b2c1942f0e16da670d1595090c028821cabe6",
+   "run2": "a703899f4f6e1726b65322f7976b2c1942f0e16da670d1595090c028821cabe6",
+   "identical": true
+  },
+  "attribution_q.csv": {
+   "run1": "4f2547ba64e82933e58f005d36571ab7f3a828ab279858f2c32c867fa190058f",
+   "run2": "4f2547ba64e82933e58f005d36571ab7f3a828ab279858f2c32c867fa190058f",
+   "identical": true
+  },
+  "attribution_summary.csv": {
+   "run1": "127253c50073f4bcea7d967b974aeeebf25f03b92bb6d81de346e016ae129a68",
+   "run2": "127253c50073f4bcea7d967b974aeeebf25f03b92bb6d81de346e016ae129a68",
+   "identical": true
+  },
+  "attribution_weekly.csv": {
+   "run1": "fc743731cc989349d60370093fc2b34959d49293d47112a9cc6bab3b506a0777",
+   "run2": "fc743731cc989349d60370093fc2b34959d49293d47112a9cc6bab3b506a0777",
+   "identical": true
+  },
+  "betas.csv": {
+   "run1": "7726afeb5440f5108482ef7abf03461f10c407aacd44f02df2f9c20f7efc1fba",
+   "run2": "7726afeb5440f5108482ef7abf03461f10c407aacd44f02df2f9c20f7efc1fba",
+   "identical": true
+  },
+  "concentration.csv": {
+   "run1": "2d4475f40141bf12a8e2e2fd22644a6b07492fa0167f535f3a5d9f736d0d505c",
+   "run2": "2d4475f40141bf12a8e2e2fd22644a6b07492fa0167f535f3a5d9f736d0d505c",
+   "identical": true
+  },
+  "eg_coef.csv": {
+   "run1": "922fe02eb33fcec3291815a2a20e5aa0c5dac08c71959c398e13b8960ea432e9",
+   "run2": "922fe02eb33fcec3291815a2a20e5aa0c5dac08c71959c398e13b8960ea432e9",
+   "identical": true
+  },
+  "expectations_vs_results.csv": {
+   "run1": "6bd31d595fb36ba34bb30b69a6877ab203003a800691522ea8558b5d1e4d7e8a",
+   "run2": "6bd31d595fb36ba34bb30b69a6877ab203003a800691522ea8558b5d1e4d7e8a",
+   "identical": true
+  },
+  "exposure.csv": {
+   "run1": "946e980751ebf460afc92fed66dadd6ca447366a6518050c63ebd0504ac4b781",
+   "run2": "946e980751ebf460afc92fed66dadd6ca447366a6518050c63ebd0504ac4b781",
+   "identical": true
+  },
+  "mapping.csv": {
+   "run1": "99f01eab175951aa43a377a04e914b16d697cfbfb601c87bd6d00b166a86a6f4",
+   "run2": "99f01eab175951aa43a377a04e914b16d697cfbfb601c87bd6d00b166a86a6f4",
+   "identical": true
+  },
+  "mapping_codes.csv": {
+   "run1": "4a4cc5159ac3d0bc2b85836b0586d6ac441e70f516e5b31b40d5ce1455246bda",
+   "run2": "4a4cc5159ac3d0bc2b85836b0586d6ac441e70f516e5b31b40d5ce1455246bda",
+   "identical": true
+  },
+  "quarters.csv": {
+   "run1": "3a4c7de8215f9be1fdb4693cf579bc7896454cf3dbc1573946be510a4c7085a9",
+   "run2": "3a4c7de8215f9be1fdb4693cf579bc7896454cf3dbc1573946be510a4c7085a9",
+   "identical": true
+  },
+  "reconcile.csv": {
+   "run1": "9104801e3eaab13368f7dbcbe360f23072bd873c717acb041d46da7044a7fb8b",
+   "run2": "9104801e3eaab13368f7dbcbe360f23072bd873c717acb041d46da7044a7fb8b",
+   "identical": true
+  }
+ }
+}

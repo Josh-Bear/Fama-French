@@ -1,0 +1,19 @@
+[2026-10-26T17:03:13 +    0.0s] run.py sha256=cadc5ab4d13b763338efe6c41bf13fac98b4985096f86ab9915afd5179d91692 phase=pre sim=False smoke=False
+[2026-10-26T17:03:13 +    0.0s] เก็บสำเนา run.py → run_pre.py
+[2026-10-26T17:03:13 +    0.0s] sha256 เต็ม 16 ไฟล์ตาม S014/S015 ตรง
+[2026-10-26T17:03:13 +    0.0s] lib เดิม 16 ไฟล์ตรง runs/S012 + port.py · decisions_pre_run.md sha 4b9c8448820e…
+[2026-10-26T17:03:14 +    0.4s] ตารางไตรมาส 15 แถว + ตาราง mapping/ธง 58 แถว ตรงตาราง S015 (designer) ทุกช่อง · 23 รหัส → 23 หน่วย
+[2026-10-26T17:03:14 +    0.7s] เขียน mapping_codes.csv · mapping.csv · quarters.csv · betas.csv · exposure.csv · concentration.csv · eg_coef.csv (β ณ t ด้วยข้อมูล ≤ t)
+[2026-10-26T17:03:14 +    0.7s] phase pre เสร็จ · ไม่ได้เปิดค่าผลตอบแทน realized / weekly ของ quant
+[2026-10-26T17:03:15 +    0.0s] run.py sha256=cadc5ab4d13b763338efe6c41bf13fac98b4985096f86ab9915afd5179d91692 phase=full sim=False smoke=False
+[2026-10-26T17:03:15 +    0.0s] sha256 เต็ม 16 ไฟล์ตาม S014/S015 ตรง
+[2026-10-26T17:03:15 +    0.0s] lib เดิม 16 ไฟล์ตรง runs/S012 + port.py · decisions_pre_run.md sha 4b9c8448820e…
+[2026-10-26T17:03:16 +    0.3s] ตารางไตรมาส 15 แถว + ตาราง mapping/ธง 58 แถว ตรงตาราง S015 (designer) ทุกช่อง · 23 รหัส → 23 หน่วย
+[2026-10-26T17:03:16 +    0.5s] เขียน mapping_codes.csv · mapping.csv · quarters.csv · betas.csv · exposure.csv · concentration.csv · eg_coef.csv (β ณ t ด้วยข้อมูล ≤ t)
+[2026-10-26T17:03:16 +    0.5s] เริ่ม phase full: คำนวณไฟล์ phase pre ซ้ำแล้วตรวจตรงทุกบิตแล้ว → attribution
+[2026-10-26T17:03:16 +    0.5s] realized.weights ตรง holdings ทุกไตรมาส (ความคลาดเคลื่อนสูงสุด ≤ 1e-9)
+[2026-10-26T17:03:16 +    0.8s] attribution L1 รายสัปดาห์ 3 variant (main · P-A · P-B) · เอกลักษณ์ตรง ≤ 1.3e-17
+[2026-10-26T17:03:17 +    1.2s] ภาคผนวก P-A…P-E เสร็จ
+[2026-10-26T17:03:17 +    1.2s] ความคาดหมาย: ตรง 6/11 · ไม่นับข้อ 9: 5/10
+[2026-10-26T17:03:17 +    1.3s] เสร็จ · runtime 1.3s
+{'max_abs_diff_vs_concentration_PA': 1.1102230246251565e-16, 'top_labels_equal': True, 'identical': True, 'AE_all_period_pp': {'main': 24.81170964848597, 'PA': 11.769109567835649}, 'run_py_sha256': 'cadc5ab4d13b763338efe6c41bf13fac98b4985096f86ab9915afd5179d91692', 'addendum_script_sha256': '5016f2fddb3716a93a2c77aa8e54671692afca215d4cbb79872f96e83b5090a5', 'port_py_sha256': '7005ca61e9b3ebb2e522b8dd81db04185d0d35b9c5454197b107a4e991a4b2f2'}

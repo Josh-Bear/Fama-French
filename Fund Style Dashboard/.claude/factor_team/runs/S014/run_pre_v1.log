@@ -1,0 +1,7 @@
+[2026-10-24T21:18:04 +    0.0s] run.py sha256=a81a840219a22e71217145b3fd200d70f4b31df3ffc0d2964d5fcb2445cb2747 phase=pre sim=False smoke=False
+[2026-10-24T21:18:04 +    0.0s] เก็บสำเนา run.py → run_pre.py
+[2026-10-24T21:18:04 +    0.0s] sha256 เต็ม 16 ไฟล์ตาม S014/S015 ตรง
+[2026-10-24T21:18:04 +    0.0s] lib เดิม 16 ไฟล์ตรง runs/S012 + port.py · decisions_pre_run.md sha 4b9c8448820e…
+[2026-10-24T21:18:04 +    0.3s] ตารางไตรมาส 15 แถว + ตาราง mapping/ธง 58 แถว ตรงตาราง S015 (designer) ทุกช่อง · 23 รหัส → 23 หน่วย
+[2026-10-24T21:18:05 +    0.4s] เขียน mapping_codes.csv · mapping.csv · quarters.csv · betas.csv · exposure.csv · concentration.csv · eg_coef.csv (β ณ t ด้วยข้อมูล ≤ t)
+[2026-10-24T21:18:05 +    0.4s] phase pre เสร็จ · ไม่ได้เปิดค่าผลตอบแทน realized / weekly ของ quant

@@ -1,0 +1,12 @@
+id,expectation,result,sub_ok,sub_flags,status,label
+1,mapping: 23 รหัส → 23 หน่วย · ตัวแทน family 3 (KKP GINFRAEQ-H-F · ONE-INDIAOPP-IA · PRINCIPAL GOPP-C) · นอก U 3 (LHJAPE-A · ONE-INDIAOPP-RA · SCBGOLDHP) · FX flag ต่าง 1 (PRINCIPAL GOPP-C) · ไม่มี fallback ของ β,"23 รหัส → 23 หน่วย · ตัวแทน ['KKP GINFRAEQ-H-F', 'ONE-INDIAOPP-IA', 'PRINCIPAL GOPP-C'] · นอก U ['LHJAPE-A', 'ONE-INDIAOPP-RA', 'SCBGOLDHP'] · FX ต่าง ['PRINCIPAL GOPP-C'] · fallback 0",5/5,1;1;1;1;1,ตรง,
+2,exposure MKT: corr ข้ามไตรมาสระหว่าง B_MKT กับ x_model ≥ 0.8 · B_MKT อยู่ในช่วง 0.15–1.0,corr 0.977 · B_MKT 0.110…0.944,1/2,1;0,บางส่วน,
+3,exposure GOLD_XS ≈ (1 − x) × 0.85–1.0 ทุกไตรมาสที่มีขาทอง (x = Σw ขา E) · ไตรมาส x = 1 → B_GOLD_XS = 0,ไตรมาสมีทอง 13: B/(1−x) 0.853…0.973 · ไตรมาส x = 1 (2): B_GOLD_XS 0.00e+00,2/2,1;1,ตรง,
+4,การกระจุก: ไตรมาสน้ำหนักทอง ≥ 0.5 → share GOLD_XS ≥ 50% ของ V · ไตรมาส x ≥ 0.75 → MKT ≥ 35% ของ V และ factor กลุ่มรวม 10–45%,ไตรมาสทอง ≥ 0.5: 8 · share GOLD_XS min 0.349 · ไตรมาส x ≥ 0.75: 5 · share MKT min 0.212 · กลุ่มรวม 0.060…0.147,0/3,0;0;0,ไม่ตรง,
+5,FX: B_FX อยู่ระหว่าง −0.8 ถึง +0.4 · ส่วนแบ่ง V ของ FX < 15% ทุกไตรมาส,B_FX -1.095…0.450 · share_FX -0.020…0.294,0/2,0;0,ไม่ตรง,
+6,ε ของพอร์ต: share_ε 5–30% ของ V ทุกไตรมาส · |ΣE_s ไตรมาส (L1 · ไม่รวม K)| ≤ 3% ใน ≥ 10 จาก 15 ไตรมาส,share_ε 0.114…0.304 · |ΣE| ≤ 3%: 13/15,1/2,0;1,บางส่วน,
+7,ส่วนต่าง panel vs ทางการ Δ_q = ret_gross − R_panel: |Δ| ≤ 1% ใน ≥ 12 จาก 15 ไตรมาส,|Δ| ≤ 1%: 6/15 · |Δ| สูงสุด 2.76%,0/1,0,ไม่ตรง,
+8,CMA: |ผลรวม contribution ทั้งช่วง| < 2% · ไม่เปลี่ยนข้อสรุปหลัก (P-B: factor ที่ |contribution| มากสุดเท่าเดิม),ΣC_CMA ทั้งช่วง +0.29 pp · top (ชุดหลัก) MKT · top (P-B) MKT,2/2,1;1,ตรง,
+9,ปี 2022: factor ที่ |contribution| (L1 · 39 สัปดาห์) มากสุดคือ GOLD_XS หรือ MKT (ไม่ใช่ factor กลุ่ม) · P-C: ΣAE ปี 2022 เป็นบวก,top 2022 = GOLD_XS (-5.35 pp) · ΣAE 2022 = +1.90 pp,2/2,1;1,ตรง,designer เห็นผลจริงไตรมาสแรกของ ERC แล้ว (ราว −8% ขณะถือทอง 75%) — ไม่อิสระบางส่วน
+10,P-A: DAOL-GOLD เพิ่ม GOLD_XS แล้ว adj R² เพิ่ม ≥ 0.15 · FCSCBSETE เพิ่ม TDEX แล้ว adj R² เพิ่ม ≥ 0.20 (median ข้ามไตรมาสที่ถือ),DAOL-GOLD Δadj R² median +0.214 (n=3 ไตรมาส) · FCSCBSETE +0.508 (n=3),2/2,1;1,ตรง,
+11,"P-D: corr(β ข้อ 3.2, β จากไฟล์ weekly 52 สัปดาห์ของ quant) ข้าม (t · holding · factor) ≥ 0.7",corr รวม 0.921 · จำนวนคู่ 199,1/1,1,ตรง,

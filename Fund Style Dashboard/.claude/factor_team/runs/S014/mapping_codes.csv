@@ -1,0 +1,24 @@
+FundCode,kind,unit,how,in_U,group_factor,group_source,group,class_diff,fx_flag_holding,fx_flag_unit,fx_flag_diff
+ASP-NGF,E,ASP-NGF,รหัสเดียวกัน,True,e_JAPAN,S012_group_map,JAPAN,False,Y,Y,False
+ASP-VIET,E,ASP-VIET,รหัสเดียวกัน,True,e_VIETNAM,S012_group_map,VIETNAM,False,Y,Y,False
+B-BHARATA,E,B-BHARATA,รหัสเดียวกัน,True,e_INDIA,S012_group_map,INDIA,False,Y,Y,False
+BGOLD,G,BGOLD,รหัสเดียวกัน,True,GOLD_XS + FX,ชุดทอง,GOLD,False,Y,Y,False
+DAOL-GOLD,E,DAOL-GOLD,รหัสเดียวกัน,True,ไม่มี,S012_group_map,-,False,Y,Y,False
+FCSCBSETE,E,FCSCBSETE,รหัสเดียวกัน,True,ไม่มี,S012_group_map,-,False,N,N,False
+K-EUX,E,K-EUX,รหัสเดียวกัน,True,e_EUROPE,S012_group_map,EUROPE,False,Y,Y,False
+K-GINFRA-A(D),E,K-GINFRA-A(D),รหัสเดียวกัน,True,e_IGF,S012_group_map,IGF,False,Y,Y,False
+K-GOLD-A(A),G,K-GOLD-A(A),รหัสเดียวกัน,True,GOLD_XS + FX,ชุดทอง,GOLD,False,N,N,False
+KKP GINFRAEQ-H-F,E,KKP GINFRAEQ-H,ตัวแทน family,True,e_IGF,S012_group_map,IGF,True,N,N,False
+KKP TECH-H,E,KKP TECH-H,รหัสเดียวกัน,True,e_IT,S012_group_map,IT,False,N,N,False
+KT-INDIA-A,E,KT-INDIA-A,รหัสเดียวกัน,True,e_INDIA,S012_group_map,INDIA,False,Y,Y,False
+LHJAPE-A,E,LHJAPE-A,รหัสเดียวกัน,False,e_JAPAN,กฎชื่อ 'JAPAN' → JAPAN,JAPAN,False,Y,Y,False
+ONE-INDIAOPP-IA,E,ONE-INDIAOPP-RA,ตัวแทน family,False,e_INDIA,กฎชื่อ 'INDIA' → INDIA,INDIA,True,Y,Y,False
+PRINCIPAL GOPP-C,E,PRINCIPAL GOPP-A,ตัวแทน family,True,ไม่มี,S012_group_map,-,True,N,Y,True
+SCBGOLDHP,G,SCBGOLDHP,รหัสเดียวกัน,False,GOLD_XS + FX,ชุดทอง,GOLD,False,Y,Y,False
+TBIOTECH,E,TBIOTECH,รหัสเดียวกัน,True,e_HC,S012_group_map,HC,False,Y,Y,False
+TISCOCH,E,TISCOCH,รหัสเดียวกัน,True,e_CHINA(grp),S012_group_map,CHINA,False,Y,Y,False
+TISCOJP,E,TISCOJP,รหัสเดียวกัน,True,e_JAPAN,S012_group_map,JAPAN,False,Y,Y,False
+TNEXTGEN-A,E,TNEXTGEN-A,รหัสเดียวกัน,True,e_ARKK,S012_group_map,ARKK,False,Y,Y,False
+TUSEQ-UH,E,TUSEQ-UH,รหัสเดียวกัน,True,e_USA,S012_group_map,USA,False,Y,Y,False
+TUSFIN-A,E,TUSFIN-A,รหัสเดียวกัน,True,e_USA,S012_group_map,USA,False,Y,Y,False
+UCI,E,UCI,รหัสเดียวกัน,True,e_CHINA(grp),S012_group_map,CHINA,False,Y,Y,False

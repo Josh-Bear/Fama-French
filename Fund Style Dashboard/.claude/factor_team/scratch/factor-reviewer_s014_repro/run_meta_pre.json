@@ -1,0 +1,33 @@
+{
+ "created": "2026-10-24T21:30:16",
+ "phase": "pre",
+ "run_py_sha256": "a81a840219a22e71217145b3fd200d70f4b31df3ffc0d2964d5fcb2445cb2747",
+ "seed": 20261015,
+ "sim": false,
+ "smoke": false,
+ "spec_files": [
+  "specs/S014_PORT_M052_attribution.md",
+  "specs/S015_PORT_addendum_to_S014.md"
+ ],
+ "lib_sha256": {
+  "external.py": "40fe064353d732cd8a3ed5671a55177c8d359f55bfac27f553334efbc2db1af2",
+  "forms.py": "7a1eae1fa0c374fcef35917e2482ff8d3e79e6ade4cf67ab7228f7424f048493",
+  "fundff.py": "6cfe0d717440235a67f12e631bfc52e288703256cc0eac32754bb46c4d3c1a77",
+  "hybrid.py": "a3ce7e40af87d39a6d8a5c5daafe74ab78877a0a2f4fd9b41106c4750e3d3768",
+  "io_l1.py": "613b12f757ab9ee23a768aef14dd3974f76e8a7e75780aac5894eabab7ce1210",
+  "l1eo.py": "4c828e3bbfb7cade9868f6a884d0169fa2094c6defc4fc2636d74697ab523170",
+  "l2.py": "930009d490aec9de26a94d4e75c2c5414c62e2c490b9d0a9be1f933d5e63694f",
+  "l3.py": "e7a5e997ccb28f7e6e21b23f85397eb277bd42988d4ea4f12da70fadcb73600f",
+  "l4.py": "7cb3ca35ae06408c12a98d6cd0eea948c754c6840c06e7cd32a3a865aeeb4898",
+  "nfactors.py": "4e1f6fe9ebaa7552792054e28cd862e1a21351e75e7e3adf05f420bc735849b9",
+  "p2.py": "a9c8edcfba98d1efdaf3c5c47810b2ff6c1529ff2b5ece915b8cda7511600469",
+  "pca.py": "7fe5c5e26262446ddad89dd179b0ea8fb38ad1d93e3d6df4b8ff12f4839cfd26",
+  "port.py": "7005ca61e9b3ebb2e522b8dd81db04185d0d35b9c5454197b107a4e991a4b2f2",
+  "regress.py": "6ea4c314feb6345e4e4becc9dec19b667f063fb8b5c3143fcb4f80d6cc3ca8c9",
+  "samples.py": "8a145a009729c8d118a9e54632a3789bc99f7db006bd4d164a5e3b76fdf04a0a",
+  "scorecard.py": "48f0e25b2e7457dd6ac5e03ca556123bdc7832266ef2e5816a4bc0930f4ff580",
+  "tests_stat.py": "4041444029b68cd35258c223de929c38c5cb4885188cc54de1e2c14f3513172d"
+ },
+ "decisions_sha256": "4b9c8448820e295dbeb9d55fb169e1e4164e449de354944d3e7360e93fdc2126",
+ "runtime_sec": 0.6
+}
